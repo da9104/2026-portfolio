@@ -1,0 +1,24 @@
+{
+  "name": "dami-kang-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive portfolio preserving the original reference layout, with content from the supplied index.html, portfolio-evidence.md, and commit-log.md. The original page is preserved in ../portfolio-original.html.",
+  "main": "index.js",
+  "scripts": {
+    "check": "node --check dist/script.js && node --check dist/i18n.js && node --check dist/animations.js && node --check dist/activity-chart.js && node --check dist/footer-physics.js",
+    "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
+    "build:readers": "node scripts/build-readers.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "gsap": "^3.15.1",
+    "matter-js": "^0.20.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "marked": "^18.2.0",
+    "sanitize-html": "^2.18.2"
+  }
+}
