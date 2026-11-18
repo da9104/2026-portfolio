@@ -1,0 +1,2992 @@
+# Commit log: `dami-krafton` in Krafton-Playground
+
+2,824 unique commits across 27 repositories, collected 14 November 2026. Times are author dates as recorded by GitHub (KST). See [portfolio-evidence.md](portfolio-evidence.md) for method and limits.
+
+## Contents
+
+- [ops-mrso-console](#ops-mrso-console) (1,329)
+- [notetaker-landing](#notetaker-landing) (619)
+- [ops-content-hub](#ops-content-hub) (287)
+- [ops-ax-101](#ops-ax-101) (213)
+- [vibecoding-01](#vibecoding-01) (81)
+- [ops-meeting-notes](#ops-meeting-notes) (60)
+- [kimpo-hackathon](#kimpo-hackathon) (55)
+- [ops-meeting-notes-mobile](#ops-meeting-notes-mobile) (48)
+- [ops-daily-report](#ops-daily-report) (35)
+- [ops-mrso-console-dev](#ops-mrso-console-dev) (17)
+- [wiki-fact-checker](#wiki-fact-checker) (16)
+- [clovanote-mcp](#clovanote-mcp) (13)
+- [vibecode-landing](#vibecode-landing) (12)
+- [clovanote-mcp-mini](#clovanote-mcp-mini) (9)
+- [ops-hands-session](#ops-hands-session) (5)
+- [ops-echo](#ops-echo) (4)
+- [ops-firecrawl](#ops-firecrawl) (3)
+- [hackathon-prep](#hackathon-prep) (3)
+- [ppt-deep-analyze](#ppt-deep-analyze) (2)
+- [sp-workspace](#sp-workspace) (2)
+- [hackathon-kimpo](#hackathon-kimpo) (2)
+- [ops-whisper-worker](#ops-whisper-worker) (2)
+- [test-vibecoding-01](#test-vibecoding-01) (2)
+- [Trends-hub-agent](#trends-hub-agent) (2)
+- [onboarding-test-02](#onboarding-test-02) (1)
+- [test-mini-ops-app](#test-mini-ops-app) (1)
+- [test-vibecoding-02](#test-vibecoding-02) (1)
+
+## ops-mrso-console
+
+1,329 commits. Newest first.
+
+- 2026-11-14 20:32 [`65b508b`](https://github.com/krafton-playground/ops-mrso-console/commit/65b508b05d3e7679ac4af3f9918cecacf2459fde) Merge pull request #338 from krafton-playground/fix/operator-overview-v2-prod-e2e
+- 2026-11-14 20:20 [`4221f06`](https://github.com/krafton-playground/ops-mrso-console/commit/4221f06cfc39c8a111a2041044a8315dc1eff218) Merge remote-tracking branch 'origin/main' into fix/operator-overview-v2-prod-e2e
+- 2026-11-14 20:19 [`9427d23`](https://github.com/krafton-playground/ops-mrso-console/commit/9427d2306ee277277dca5da0911269ce7bc3c40c) Merge pull request #339 from krafton-playground/feat/mcp-install-redesign
+- 2026-11-14 20:16 [`15f878a`](https://github.com/krafton-playground/ops-mrso-console/commit/15f878ac67321ddaf838d50165e0d6863c335ec0) feat(mcp): redesign MCP 설치 page, one step one action, with Storybook states
+- 2026-11-14 20:08 [`f0678c7`](https://github.com/krafton-playground/ops-mrso-console/commit/f0678c7207d84a42a38a45beb5c42615fb96b887) Merge remote-tracking branch 'origin/main' into fix/operator-overview-v2-prod-e2e
+- 2026-11-14 20:08 [`cc08655`](https://github.com/krafton-playground/ops-mrso-console/commit/cc08655f5a9807810a1527b3d758dccf4c0ef043) fix(overview): PROD end-to-end fixes and role pills for admin-side people
+- 2026-11-14 20:04 [`d5ad7fb`](https://github.com/krafton-playground/ops-mrso-console/commit/d5ad7fb6bd29eb90894dae276629d571e2255e56) Merge pull request #326 from krafton-playground/fix/f1-model-outcome-unknown-clear
+- 2026-11-14 19:49 [`f250ca9`](https://github.com/krafton-playground/ops-mrso-console/commit/f250ca92d2a89d57cf17181004d24fc867c34d08) Merge pull request #333 from krafton-playground/fix/native-target-evidence
+- 2026-11-14 19:36 [`660d729`](https://github.com/krafton-playground/ops-mrso-console/commit/660d729c539a12f772359a648fb8d700b20eb60f) Merge pull request #331 from krafton-playground/fix/publish-confirm-canonical-hash
+- 2026-11-14 18:55 [`f8946c7`](https://github.com/krafton-playground/ops-mrso-console/commit/f8946c7c2b3d168fc710d34975530499ec483818) Merge pull request #337 from krafton-playground/feat/operator-overview-v2
+- 2026-11-14 18:54 [`4ade541`](https://github.com/krafton-playground/ops-mrso-console/commit/4ade54136f7bdfd890092888c2415186fd5f2ef2) feat(overview): operator 개요 v2, 위키 초안 board and 기각→삭제 wording
+- 2026-11-13 16:31 [`e0de0ff`](https://github.com/krafton-playground/ops-mrso-console/commit/e0de0ff605e96ccd489330c80c83bb5f388fad0e) Merge pull request #336 from krafton-playground/feat/mcp-candidate-review
+- 2026-11-13 16:23 [`67d1a13`](https://github.com/krafton-playground/ops-mrso-console/commit/67d1a134862cd7eadc46789f4c92d47e889c2647) feat(mcp): let a Project ADMIN decide new-name candidates
+- 2026-11-13 15:30 [`bd1c459`](https://github.com/krafton-playground/ops-mrso-console/commit/bd1c459d63500b4ff5304863eb336afd88545855) Merge pull request #332 from krafton-playground/feat/unattended-setup-wizard
+- 2026-11-13 15:29 [`a2c5897`](https://github.com/krafton-playground/ops-mrso-console/commit/a2c5897dc5b8ab7a4a11bee715145b347f87905c) Merge remote-tracking branch 'origin/main' into feat/unattended-setup-wizard
+- 2026-11-13 14:52 [`f317b14`](https://github.com/krafton-playground/ops-mrso-console/commit/f317b148ab2e432c68e748e8a1db1f02aaf222b4) Merge pull request #334 from krafton-playground/feat/mcp-collection-runs
+- 2026-11-13 14:49 [`e42babd`](https://github.com/krafton-playground/ops-mrso-console/commit/e42babd8f7a6e1edb5d08799c86f5736abe517e3) test(mcp): isolated end-to-end run of the collection-run tools (33/33)
+- 2026-11-13 14:42 [`1ec1819`](https://github.com/krafton-playground/ops-mrso-console/commit/1ec1819fbeefedaed354ddefdfedcb3448b9e9c5) feat(mcp): let a Project ADMIN queue and start a collection run
+- 2026-11-13 14:40 [`9f5fb63`](https://github.com/krafton-playground/ops-mrso-console/commit/9f5fb6316c79ef600b21cc8c4274ed179a716015) fix(projects): keep native drafts when a review card's evidence is not an exact quote
+- 2026-11-13 14:36 [`d0a7f67`](https://github.com/krafton-playground/ops-mrso-console/commit/d0a7f67c87a352d6700162cec52c76a682d31271) feat(projects): Project ADMIN can enable global admission policy inside one-click (enable only, audited)
+- 2026-11-13 14:31 [`dc3a993`](https://github.com/krafton-playground/ops-mrso-console/commit/dc3a993745ad8ee60e952f4bff5326d83e3778eb) feat(projects): unattended-operation setup wizard, no ID/key entry, auto runner registration and readiness alert at Project creation
+- 2026-11-13 12:48 [`15c832e`](https://github.com/krafton-playground/ops-mrso-console/commit/15c832ed0cba78e30260e5e0da4a8315287d060c) Merge pull request #329 from krafton-playground/fix/settings-drawer-header-leak
+- 2026-11-13 12:24 [`5958f9d`](https://github.com/krafton-playground/ops-mrso-console/commit/5958f9d6d17856596927efccad6c1b9c5cb1483b) Merge pull request #330 from krafton-playground/fix/add-scope-inline
+- 2026-11-13 12:20 [`cefc5f2`](https://github.com/krafton-playground/ops-mrso-console/commit/cefc5f21319b6041bc655a68793bb75ed4d143a4) fix(publication): confirm Confluence-normalized writes and link citations
+- 2026-11-13 12:18 [`2c14b6d`](https://github.com/krafton-playground/ops-mrso-console/commit/2c14b6db4353adac9649cfb7a73e89d7a33a4d53) fix(watches): open 수집 범위 추가 settings in place instead of navigating to /admin
+- 2026-11-13 12:15 [`8506c2f`](https://github.com/krafton-playground/ops-mrso-console/commit/8506c2fec943ad7cc890475ceacb21c6356d2a0c) fix(projects): keep page header styles out of the wiki settings drawer
+- 2026-11-13 12:13 [`1371bb6`](https://github.com/krafton-playground/ops-mrso-console/commit/1371bb6c75465ff659b936cab155454d9c8ebb10) Merge pull request #328 from krafton-playground/feat/glossary-manage-redesign
+- 2026-11-13 11:36 [`f13cc2a`](https://github.com/krafton-playground/ops-mrso-console/commit/f13cc2a278ea0c805502e5485fb11339c37c2369) feat(registry): redesign 공통 글로서리 관리 with filters and inline name/alias editing
+- 2026-11-13 10:37 [`b5e3f33`](https://github.com/krafton-playground/ops-mrso-console/commit/b5e3f33baafadabe12a3191732f5964d7631feb7) Merge pull request #327 from krafton-playground/feat/github-saved-files-s3-off
+- 2026-11-13 10:36 [`0cea976`](https://github.com/krafton-playground/ops-mrso-console/commit/0cea9767fff4f29adddcd55cf660241ffd473d0c) Merge remote-tracking branch 'origin/main' into feat/github-saved-files-s3-off
+- 2026-11-13 10:30 [`bc231f8`](https://github.com/krafton-playground/ops-mrso-console/commit/bc231f8a03397e86431240ae36a55a3d25888d2e) feat(storage): S3 off switch; GitHub data repo for 저장 파일 and wiki data export
+- 2026-11-13 10:07 [`0a9ed2b`](https://github.com/krafton-playground/ops-mrso-console/commit/0a9ed2ba6fdb9e7aabeafe4bbc5e2c24f4d922ef) Merge pull request #325 from krafton-playground/feat/publish-then-github-modal
+- 2026-11-13 10:01 [`4d731b3`](https://github.com/krafton-playground/ops-mrso-console/commit/4d731b30a27fcf771838331f1a78398ca9b5c5fc) fix(publication): preselect the only target; offer GitHub export after Confluence publish
+- 2026-11-13 10:01 [`1de5a3c`](https://github.com/krafton-playground/ops-mrso-console/commit/1de5a3c0495fa80c70ff06f0e4c03a06f4278ce4) test(projects): keep the no-leak assertion clear of the platform secret scan
+- 2026-11-13 10:00 [`9e16a9a`](https://github.com/krafton-playground/ops-mrso-console/commit/9e16a9a21af5895a2412db41eccc7a0952fc0de9) fix(projects): review fixes for unknown model outcome release (F1)
+- 2026-11-13 09:53 [`0b8a043`](https://github.com/krafton-playground/ops-mrso-console/commit/0b8a04350c3f839167812e06e31b37f91b1ef906) Merge pull request #324 from krafton-playground/feat/sidebar-source-collect-admin
+- 2026-11-13 09:52 [`0703382`](https://github.com/krafton-playground/ops-mrso-console/commit/07033825e09ee5634c5dd34a8cf3806f14d980b7) fix(projects): audited per-START release for an unknown model outcome (F1)
+- 2026-11-13 09:47 [`85afab5`](https://github.com/krafton-playground/ops-mrso-console/commit/85afab5f1c1052ae7d1ba4afd2786e798fdeafc8) feat(watches): a HUB org that already has a team goes to that team; pickable Projects first
+- 2026-11-13 09:44 [`a716123`](https://github.com/krafton-playground/ops-mrso-console/commit/a716123860394b8ef0b83ef3cb7a08352d480692) feat(console): 소스 수집 under 관리자 설정; HUB pick sets team and 부서 together
+- 2026-11-13 07:52 [`54d90bf`](https://github.com/krafton-playground/ops-mrso-console/commit/54d90bfa3ff5ca7c3ef120b1ae40ff301af1630d) Merge pull request #323 from krafton-playground/fix/project-incident-no-backlog
+- 2026-11-13 07:52 [`b251b8b`](https://github.com/krafton-playground/ops-mrso-console/commit/b251b8b7a1112a467270736d6f4939405cde5fe3) fix(notifications): review fixes for Project incident no-backlog
+- 2026-11-13 07:47 [`1edda8d`](https://github.com/krafton-playground/ops-mrso-console/commit/1edda8db75e5f47b93d127f69320c0590ea4cec0) fix(notifications): never queue Project incident Slack alerts while Slack is off
+- 2026-11-13 05:47 [`8a30de9`](https://github.com/krafton-playground/ops-mrso-console/commit/8a30de91d1863e7b0816c0283a30a85f3c6e9c81) Merge pull request #322 from krafton-playground/feat/mcp-admin-reads
+- 2026-11-12 23:57 [`4ce2afb`](https://github.com/krafton-playground/ops-mrso-console/commit/4ce2afbf43aafd3da010ccdbccdf06517095ce20) feat(mcp): Project ADMIN reads for sources, collection runs and candidates; list logic moved to services
+- 2026-11-12 22:52 [`4fed99e`](https://github.com/krafton-playground/ops-mrso-console/commit/4fed99ef77e2143edd56d5a5c2019be29deeb3a8) Merge pull request #321 from krafton-playground/fix/collection-new-candidate-summary
+- 2026-11-12 22:52 [`8c40673`](https://github.com/krafton-playground/ops-mrso-console/commit/8c40673418ece994b367467c24cc2f416bf05b95) fix(projects): show the new-candidate line on PROD runs
+- 2026-11-12 22:35 [`012f71e`](https://github.com/krafton-playground/ops-mrso-console/commit/012f71e7f68baeadee354bf6aaa2415c9d0c2bf8) Merge pull request #319 from krafton-playground/fix/add-source-review
+- 2026-11-12 22:24 [`753442f`](https://github.com/krafton-playground/ops-mrso-console/commit/753442f98d868d04ed618f3af757619d46bb56a4) Merge main into fix/add-source-review
+- 2026-11-12 22:22 [`534aa9d`](https://github.com/krafton-playground/ops-mrso-console/commit/534aa9dcfddf1023e1622076f86873c94279ea6f) Merge pull request #320 from krafton-playground/fix/watch-update-registers-root
+- 2026-11-12 22:21 [`0f3fb30`](https://github.com/krafton-playground/ops-mrso-console/commit/0f3fb30b7fda6ca27ad1ce309aa550ff5276be64) Merge pull request #317 from krafton-playground/feat/add-source-new-team
+- 2026-11-12 22:19 [`e4171a7`](https://github.com/krafton-playground/ops-mrso-console/commit/e4171a7d51e7725a6d5bc926f539a2ca9bd4873e) fix(watches): let an edit give a watch a new start page (mrshare-mr)
+- 2026-11-12 22:09 [`a4ad255`](https://github.com/krafton-playground/ops-mrso-console/commit/a4ad255a5ea2a3d29f1396a5a97a047ba489e7e4) Merge origin/main into feat/add-source-new-team
+- 2026-11-12 22:09 [`b319eef`](https://github.com/krafton-playground/ops-mrso-console/commit/b319eef2083e9ef46e2bd09c2657c26654f60d8e) fix(watches): new-team retry by provenance only; distinct request ids; mrsoLinked from the server (review M1)
+- 2026-11-12 22:08 [`88429d7`](https://github.com/krafton-playground/ops-mrso-console/commit/88429d7a7c3dd2c8a1c8be385e55158dc0126563) Merge pull request #318 from krafton-playground/fix/watch-discovery-persist-timeout
+- 2026-11-12 22:07 [`98c4e60`](https://github.com/krafton-playground/ops-mrso-console/commit/98c4e6015097aa9d2d44fab44c6d7e38927c2064) fix(export): read the active generation through the shared helper (unbreak main)
+- 2026-11-12 22:06 [`79082cd`](https://github.com/krafton-playground/ops-mrso-console/commit/79082cd20259e0ab808831a3ccb677e96fccee65) Merge main into fix/watch-discovery-persist-timeout
+- 2026-11-12 22:05 [`013eba2`](https://github.com/krafton-playground/ops-mrso-console/commit/013eba2f1ded1e946b4a8e3d8b84affa1bed41eb) chore: keep main's api-inventory ordering (no route change)
+- 2026-11-12 22:05 [`3ba6533`](https://github.com/krafton-playground/ops-mrso-console/commit/3ba6533033aa9fba096cf4dbc9ddc92ac189a946) fix(watches): review fixes for one-page add source (H1, H2, M2, L2, L4, L5)
+- 2026-11-12 22:04 [`1a7e8c9`](https://github.com/krafton-playground/ops-mrso-console/commit/1a7e8c919860a1d2247ab1bb5a7b2e5b16a0a539) fix(watches): stop s2-monthly discovery timing out when it saves (P2028)
+- 2026-11-12 22:03 [`eb2be17`](https://github.com/krafton-playground/ops-mrso-console/commit/eb2be1781dd6fb4a5577af883ffb205014d124cb) Merge origin/main into feat/add-source-new-team
+- 2026-11-12 22:02 [`0f0e3e6`](https://github.com/krafton-playground/ops-mrso-console/commit/0f0e3e6c5aa85b7669a2b8a1d343444d8193e4f9) Merge pull request #316 from krafton-playground/feat/export-run-reports
+- 2026-11-12 21:45 [`f7cf8ab`](https://github.com/krafton-playground/ops-mrso-console/commit/f7cf8ab23df2297923664e623729b2fedb1eb485) Merge pull request #315 from krafton-playground/feat/export-root-proposals
+- 2026-11-12 21:45 [`c13b28e`](https://github.com/krafton-playground/ops-mrso-console/commit/c13b28ee565cc073195cd25aa34b257e637cf84f) feat(watches): a brand-new team starts from 「소스 수집」 — 새 팀 · Project inline
+- 2026-11-12 21:04 [`324b45c`](https://github.com/krafton-playground/ops-mrso-console/commit/324b45cde99301b1b5ef7ec84d5843fad5ea8b55) feat(export): write unattended run reports to runs/ on the data repo (default off)
+- 2026-11-12 20:30 [`7dc102b`](https://github.com/krafton-playground/ops-mrso-console/commit/7dc102b2de3aa4a1e4b4381d2e532c3cf4b4ef31) feat(export): write legacy approved exports to root proposals/ (KS_OperationDiv-data layout)
+- 2026-11-12 18:02 [`ad12ce2`](https://github.com/krafton-playground/ops-mrso-console/commit/ad12ce228c47523b1ca988e5c5fc4d25a714c552) Merge pull request #314 from krafton-playground/feat/mcp-admin-tools
+- 2026-11-12 18:01 [`a5e31b2`](https://github.com/krafton-playground/ops-mrso-console/commit/a5e31b2f1f53bf45f7c23d842e1013c2c22c5104) Merge pull request #312 from krafton-playground/feat/in-app-nudge-notice
+- 2026-11-12 18:00 [`9b0a997`](https://github.com/krafton-playground/ops-mrso-console/commit/9b0a997497018ec259c0213de8a147c885e4af7b) Merge main into feat/mcp-admin-tools: both tool descriptions, catalog size 98
+- 2026-11-12 17:59 [`4a30f76`](https://github.com/krafton-playground/ops-mrso-console/commit/4a30f76bb17e3b1d33f481a3766e5fab13a33009) Merge pull request #311 from krafton-playground/fix/registry-duplicate-validation
+- 2026-11-12 17:58 [`6d5b14a`](https://github.com/krafton-playground/ops-mrso-console/commit/6d5b14a391f2ffd6e173b507a6445c5b7c357339) Merge main into feat/in-app-nudge-notice (keep both DESIGN.md sections)
+- 2026-11-12 17:58 [`f8be91f`](https://github.com/krafton-playground/ops-mrso-console/commit/f8be91fc8d66debfc0e4e78ca53f5e59b85f4053) Merge pull request #310 from krafton-playground/feat/one-page-add-source
+- 2026-11-12 17:56 [`f90f014`](https://github.com/krafton-playground/ops-mrso-console/commit/f90f0147c5c3978701ccaf30b631db8f12f34bdb) Merge pull request #309 from krafton-playground/feat/owner-cleanup-worker-and-page-settings
+- 2026-11-12 17:56 [`15d2e60`](https://github.com/krafton-playground/ops-mrso-console/commit/15d2e60ea2f879095ef2fe102841c8cff70b60ec) Merge main into feat/in-app-nudge-notice (keep both DESIGN.md sections)
+- 2026-11-12 17:55 [`d763b89`](https://github.com/krafton-playground/ops-mrso-console/commit/d763b89e540e433f4b117d68d123b9690368ad5b) Merge main into feat/owner-cleanup-worker-and-page-settings
+- 2026-11-12 17:55 [`cb92e36`](https://github.com/krafton-playground/ops-mrso-console/commit/cb92e3681484337914c2541b75ae12fd45254d23) Merge pull request #305 from krafton-playground/feat/candidate-bulk-dedupe
+- 2026-11-12 17:54 [`b639175`](https://github.com/krafton-playground/ops-mrso-console/commit/b6391751077400d745feed8e5b0c759f703ab132) Merge main into feat/candidate-bulk-dedupe
+- 2026-11-12 17:52 [`b1d9b1b`](https://github.com/krafton-playground/ops-mrso-console/commit/b1d9b1bdabc44b6964b186f7a582317d838162e2) Merge pull request #304 from krafton-playground/feat/one-click-source-runtime
+- 2026-11-12 17:43 [`fbe228e`](https://github.com/krafton-playground/ops-mrso-console/commit/fbe228e488805aeac22dda3bc554e2b9ceb24dc5) Merge main into feat/owner-cleanup-worker-and-page-settings
+- 2026-11-12 17:41 [`047f450`](https://github.com/krafton-playground/ops-mrso-console/commit/047f450e12f3cd8a98b12c931e7b5d1aaddc7aab) Merge pull request #307 from krafton-playground/fix/project-candidate-rerun-dedupe
+- 2026-11-12 17:33 [`0bdf5a6`](https://github.com/krafton-playground/ops-mrso-console/commit/0bdf5a638b6da3fff95bc69e4119c09d5f6c5ec5) Merge main into feat/mcp-admin-tools: keep both tool sets, use main's member revoke tools
+- 2026-11-12 17:28 [`36aa615`](https://github.com/krafton-playground/ops-mrso-console/commit/36aa615af3a95459abb4d59e9051712b7dd8db94) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into feat/owner-cleanup-worker-and-page-settings
+- 2026-11-12 17:28 [`5ca7462`](https://github.com/krafton-playground/ops-mrso-console/commit/5ca746226521efe2e43f7a80c14a5b72807f7bd3) fix: guard re-adding released worker targets, discard lock order, legacy job payload shapes
+- 2026-11-12 17:27 [`3d2e65f`](https://github.com/krafton-playground/ops-mrso-console/commit/3d2e65f50e17a445ced449cfc8c5db0d38242f2c) Merge pull request #313 from krafton-playground/feat/mcp-removal-parity
+- 2026-11-12 17:24 [`6f89544`](https://github.com/krafton-playground/ops-mrso-console/commit/6f8954488d07a4210441dac0faaf97f81a3744b3) fix(mcp): security review follow-ups for removal tools
+- 2026-11-12 17:24 [`3e0c35b`](https://github.com/krafton-playground/ops-mrso-console/commit/3e0c35b9f16f85984d8ee3b0dfe85e6d7010e027) fix(notices): batch the read re-check, per-page badge, close-time cleanup
+- 2026-11-12 17:20 [`35f1603`](https://github.com/krafton-playground/ops-mrso-console/commit/35f160364887a3fde864674c2073ce806d5a0579) test: expect cleanup order, canTransferOwner and provisioning releasedTargets
+- 2026-11-12 17:18 [`a85405b`](https://github.com/krafton-playground/ops-mrso-console/commit/a85405bcd647f3a82da08bd7293c11c7568688b1) fix(registry): narrow loose key, same-kind manual id slugs, alias overrides
+- 2026-11-12 17:15 [`82ed984`](https://github.com/krafton-playground/ops-mrso-console/commit/82ed9845ea2aa50bb4816d674738e9cfd2efd80b) fix(projects): review fixes for candidate rerun dedupe (#307)
+- 2026-11-12 17:13 [`07fcdcf`](https://github.com/krafton-playground/ops-mrso-console/commit/07fcdcfb0b83702b81a368686982706439d3f07b) Merge remote-tracking branch 'origin/main' into feat/in-app-nudge-notice
+- 2026-11-12 17:11 [`e575ec9`](https://github.com/krafton-playground/ops-mrso-console/commit/e575ec954107aed8d506e0d7ec8e2406a4f4f4df) Merge remote-tracking branch 'origin/main' into fix/registry-duplicate-validation
+- 2026-11-12 17:09 [`60424b5`](https://github.com/krafton-playground/ops-mrso-console/commit/60424b59298f136e6ca7a8b80ca9b29038462a09) fix(mcp): approved-scope revoke naming and schema parity for removal tools
+- 2026-11-12 17:09 [`4518359`](https://github.com/krafton-playground/ops-mrso-console/commit/45183591ac9a71fb14018e7dd9e5ec80e2514f1f) feat(queue): in-console 「다시 알림」 notice for nudged cards (works without Slack)
+- 2026-11-12 17:05 [`a410791`](https://github.com/krafton-playground/ops-mrso-console/commit/a410791187a439ce4b32bdf0a160fc8ef8803ca5) fix(registry): catch spelling-variant duplicates and offer alias on clash
+- 2026-11-12 17:05 [`f3e89e1`](https://github.com/krafton-playground/ops-mrso-console/commit/f3e89e1c1f744195d4447257ca13d84e40681895) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into feat/owner-cleanup-worker-and-page-settings
+- 2026-11-12 17:02 [`4893fb7`](https://github.com/krafton-playground/ops-mrso-console/commit/4893fb76dcc19e1f726700047b236ff402244ec8) fix: review follow-ups for leftover cleanup (worker definition guard, retired marker, activation guard)
+- 2026-11-12 16:37 [`39eb771`](https://github.com/krafton-playground/ops-mrso-console/commit/39eb771908677a91c3d2bf447116c499ea48dad3) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into feat/one-click-source-runtime
+- 2026-11-12 16:37 [`2f43c95`](https://github.com/krafton-playground/ops-mrso-console/commit/2f43c95f19db7c311c1cdb9410c3849a95d1fd17) Merge origin/main into fix/project-candidate-rerun-dedupe
+- 2026-11-12 16:32 [`5fd54e4`](https://github.com/krafton-playground/ops-mrso-console/commit/5fd54e41284c034089e3ef35c261450a48229273) Merge pull request #308 from krafton-playground/feat/schedules-by-workspace
+- 2026-11-12 16:27 [`685f587`](https://github.com/krafton-playground/ops-mrso-console/commit/685f58775a8181f40b4cbb4391c967c701017684) feat(mcp): Project ADMIN management tools (members, registry read, incidents); mrso-project skill
+- 2026-11-12 16:25 [`9874499`](https://github.com/krafton-playground/ops-mrso-console/commit/98744990b41d888699c127ec25678b4dcf69ca81) feat(mcp): removal parity tools for console delete/remove/retire/revoke actions
+- 2026-11-12 16:20 [`7f02539`](https://github.com/krafton-playground/ops-mrso-console/commit/7f0253991631d43a5907026021fd801c462a24d4) feat(watches): add a source on one page — Project route, inline weekly schedule, honest 켜기
+- 2026-11-12 16:18 [`c712c24`](https://github.com/krafton-playground/ops-mrso-console/commit/c712c24da89e9bee09870897b662da6250bf3ce7) Merge pull request #295 from krafton-playground/feat/sidebar-source-collect
+- 2026-11-12 16:18 [`da9c55f`](https://github.com/krafton-playground/ops-mrso-console/commit/da9c55f6fbae9a9f93e4c691a7753e35a1e93ebf) fix(schedules): review follow-up and design-system alignment
+- 2026-11-12 16:09 [`a59b404`](https://github.com/krafton-playground/ops-mrso-console/commit/a59b4044ae337844d8cf31753db025e9c354794b) feat: OWNER/OPERATOR cleanup of worker assignments and page settings, one-dialog candidate discard, MCP tools
+- 2026-11-12 16:04 [`5c776e9`](https://github.com/krafton-playground/ops-mrso-console/commit/5c776e940dc70c3333115f1e387c73f033d6aa72) Merge pull request #303 from krafton-playground/fix/operator-session-banner-dismiss
+- 2026-11-12 15:53 [`5c3625d`](https://github.com/krafton-playground/ops-mrso-console/commit/5c3625dc5320cd5837486a6237feaf869909b540) Merge main into feat/one-click-source-runtime
+- 2026-11-12 15:52 [`201ab89`](https://github.com/krafton-playground/ops-mrso-console/commit/201ab896411ead1b36d587e9b3d98c8f03c531f4) feat(schedules): show 주간 일정 by Workspace
+- 2026-11-12 15:51 [`685d357`](https://github.com/krafton-playground/ops-mrso-console/commit/685d357924ca6c971e3fdff6e5ea7e4d19419e4a) Merge origin/main into fix/project-candidate-rerun-dedupe
+- 2026-11-12 15:50 [`11d2c75`](https://github.com/krafton-playground/ops-mrso-console/commit/11d2c75d571c4f6c01aafdd3cefd4d1b080db158) Merge pull request #306 from krafton-playground/feat/approval-chip-remaining
+- 2026-11-12 15:46 [`aae6d59`](https://github.com/krafton-playground/ops-mrso-console/commit/aae6d5974b89a836036fff28de7f439ebec68b40) fix(projects): stop reruns from duplicating source candidates
+- 2026-11-12 15:45 [`2e9abb2`](https://github.com/krafton-playground/ops-mrso-console/commit/2e9abb226e5e6ef1f35bd8317ffb27945a661aea) feat(projects): ✨ AI 추천 chip on the 실행 용량 and 서비스 계정 확인 근거 fields
+- 2026-11-12 15:42 [`f18564d`](https://github.com/krafton-playground/ops-mrso-console/commit/f18564d566cd7f40ddfc729cd806c7b2c0ecaca7) Merge pull request #302 from krafton-playground/fix/related-answer-matching
+- 2026-11-12 15:42 [`fbac6b3`](https://github.com/krafton-playground/ops-mrso-console/commit/fbac6b305e4c00ceaca58d7bd1a64e249ebf01d0) Merge pull request #301 from krafton-playground/feat/mcp-skills-member
+- 2026-11-12 15:35 [`299eb74`](https://github.com/krafton-playground/ops-mrso-console/commit/299eb74b460fd37612e569152560c9fe8e9e0672) chore(prisma): give the one-click runtime migration its own timestamp after rebase
+- 2026-11-12 15:34 [`a9940d3`](https://github.com/krafton-playground/ops-mrso-console/commit/a9940d3d348a9b50c4b3d3394a2da8ffc3eb3419) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into fix/related-answer-matching
+- 2026-11-12 15:34 [`ca2aa90`](https://github.com/krafton-playground/ops-mrso-console/commit/ca2aa9051e7a3e8cf8be8c57f84030119e199def) fix(inbox): find the earlier answer for reworded questions without attaching another topic's answer
+- 2026-11-12 15:32 [`a7023af`](https://github.com/krafton-playground/ops-mrso-console/commit/a7023af26ff8398386ac94910b6442d78956a26b) fix(console): keep the ended 수집 담당자 session banner visible and add a close (X) button
+- 2026-11-12 15:27 [`07a9136`](https://github.com/krafton-playground/ops-mrso-console/commit/07a9136eeae8aecda85e20202ea65421e400a96a) feat(projects): polish 후보 한 번에 결정 panel
+- 2026-11-12 15:26 [`1ade131`](https://github.com/krafton-playground/ops-mrso-console/commit/1ade1318afe28aea4eb8afdf63c4450feea14df6) feat(projects): polish the 「무인 수집」 card and the one-time capacity preset (UI only)
+- 2026-11-12 15:15 [`6256774`](https://github.com/krafton-playground/ops-mrso-console/commit/625677416bd7ed7f94ed9c92cf6b19690189798a) Merge pull request #293 from krafton-playground/fix/project-collection-background
+- 2026-11-12 15:04 [`2223942`](https://github.com/krafton-playground/ops-mrso-console/commit/2223942d97b40b0d9c5b4ae090ebb722e2e8ab48) test(storybook): add stories for stories/project-runtime-enable.stories.tsx
+- 2026-11-12 15:04 [`41c5a6b`](https://github.com/krafton-playground/ops-mrso-console/commit/41c5a6b2d55a1dfaeda96e02f8fbaf7615a8bf0d) test(storybook): add stories for stories/project-candidate-bulk.stories.tsx
+- 2026-11-12 15:02 [`8657c73`](https://github.com/krafton-playground/ops-mrso-console/commit/8657c73f7a85c090b63e2334fdd378d6a62be31d) Merge pull request #300 from krafton-playground/feat/export-readable-names
+- 2026-11-12 15:01 [`2c1e628`](https://github.com/krafton-playground/ops-mrso-console/commit/2c1e628f0cd2314aaa21826acbe21a41ef1c756e) Merge remote-tracking branch 'origin/main' into feat/export-readable-names
+- 2026-11-12 15:00 [`d89b364`](https://github.com/krafton-playground/ops-mrso-console/commit/d89b364d39d4f66a642756e936348d42a60e3004) feat(plugin): mrso-review skill for Project members and ADMINs; plugin 0.2.0
+- 2026-11-12 14:59 [`22491b0`](https://github.com/krafton-playground/ops-mrso-console/commit/22491b0b1906c85f28b571121cfa037868aa09cb) Merge main into fix/project-collection-background (keep #292 candidate paging and #293 scan polling)
+- 2026-11-12 14:58 [`d5d9e76`](https://github.com/krafton-playground/ops-mrso-console/commit/d5d9e7685a1bae3a4ed69522932f0d5c2f61d75d) fix(projects): one-click runtime review fixes (MRSO gate, unselected schedules, consent)
+- 2026-11-12 14:57 [`92c244c`](https://github.com/krafton-playground/ops-mrso-console/commit/92c244cf19205507e1aea486818ef6d3823acd78) Merge pull request #297 from krafton-playground/feat/github-export-slack-notify
+- 2026-11-12 14:57 [`718d91a`](https://github.com/krafton-playground/ops-mrso-console/commit/718d91a3d7019419e67d88f91045a54396379bed) Merge pull request #299 from krafton-playground/feat/approval-ai-suggest
+- 2026-11-12 14:56 [`5e5002a`](https://github.com/krafton-playground/ops-mrso-console/commit/5e5002a9eb55642dffe763b1b0c19fe7facf8fcd) Merge pull request #292 from krafton-playground/fix/project-candidates-paging
+- 2026-11-12 14:56 [`eb176a6`](https://github.com/krafton-playground/ops-mrso-console/commit/eb176a6ae05221b1ba8cf979c4e09af177344d50) feat(github-export): name legacy exports like KS_OperationDiv-data (&lt;date>_&lt;kind>-&lt;slug>_&lt;DEPT>.md + .json)
+- 2026-11-12 14:56 [`425a752`](https://github.com/krafton-playground/ops-mrso-console/commit/425a75287a01bfc98fa5c8883a56d3a3a0e03ac8) Merge pull request #294 from krafton-playground/fix/workspace-form-team-key
+- 2026-11-12 14:56 [`0879061`](https://github.com/krafton-playground/ops-mrso-console/commit/08790616c97aee42f34f9341887ef3973ea3b1e2) Merge pull request #298 from krafton-playground/feat/mcp-member-tools
+- 2026-11-12 14:55 [`1116080`](https://github.com/krafton-playground/ops-mrso-console/commit/1116080e0760c84efed5b5f1e8cb9653bc7046c5) feat(projects): ✨ AI 추천 chip on every Project 확인 근거 field
+- 2026-11-12 14:51 [`dbb65c7`](https://github.com/krafton-playground/ops-mrso-console/commit/dbb65c7884fb0a18d81f6a340af837df3e2c30f4) fix(projects): bound bulk candidate review time and stop wrong-group merges
+- 2026-11-12 14:46 [`45c20dd`](https://github.com/krafton-playground/ops-mrso-console/commit/45c20dd8d5381a954e3f0addf93bc494a7282a2c) Merge pull request #296 from krafton-playground/fix/registry-discard-and-server-checks
+- 2026-11-12 14:44 [`d32e718`](https://github.com/krafton-playground/ops-mrso-console/commit/d32e7186569a5de4704e32ba94e892ae3d2fcc64) feat(projects): one-click 「무인 수집 켜기 / 끄기」 for Project source runtime
+- 2026-11-12 14:42 [`b6c056a`](https://github.com/krafton-playground/ops-mrso-console/commit/b6c056a7da5166b383c35abedea94b72f8ddbb2a) fix(projects): resolve the candidate cursor in PostgreSQL at full precision
+- 2026-11-12 14:38 [`1b85b05`](https://github.com/krafton-playground/ops-mrso-console/commit/1b85b05b240c4d089f0077aa683044a407e005a4) feat(projects): bulk candidate decisions, duplicate groups and noise suspicion
+- 2026-11-12 14:37 [`13ae671`](https://github.com/krafton-playground/ops-mrso-console/commit/13ae671d74e34afdc7f1ed47ea1a45d9930142a6) feat(github-export): notify Slack when a legacy GitHub export finishes or fails
+- 2026-11-12 14:36 [`ec3ff61`](https://github.com/krafton-playground/ops-mrso-console/commit/ec3ff618a087db16a9466ab443f0fe720a1d19c7) fix(registry): explain discarded-id clashes in the form, path-aware id scan
+- 2026-11-12 14:34 [`f1a0b9e`](https://github.com/krafton-playground/ops-mrso-console/commit/f1a0b9e16e21d20e358dc3d5acf214535a6fb234) feat(mcp): MEMBER review tools (wiki_member_*), and no Project token for service-global owners
+- 2026-11-12 14:27 [`e990993`](https://github.com/krafton-playground/ops-mrso-console/commit/e99099382c1a76898d1190429a978832934327b2) fix(projects): cap background collection runs, keep the list read resilient, retry the post-run reload
+- 2026-11-12 14:21 [`c409480`](https://github.com/krafton-playground/ops-mrso-console/commit/c40948081fa74710d6cf353ad03b9dd84ab436cf) feat(registry): 후보 버리기 + server checks main's form path lacks
+- 2026-11-12 14:15 [`ac60df8`](https://github.com/krafton-playground/ops-mrso-console/commit/ac60df8f437c3805703980e78476ab9cbe65cef6) feat(console): rename the 수집 대상 menu and page to 소스 수집
+- 2026-11-12 14:12 [`d117d5f`](https://github.com/krafton-playground/ops-mrso-console/commit/d117d5fc62d8b97d25c2b4906f81a9264f36e04c) fix(workspace): keep typed team fields on key collision; name restricted Confluence pages
+- 2026-11-12 14:11 [`a7d2848`](https://github.com/krafton-playground/ops-mrso-console/commit/a7d284833fef78e3c046c92847b380c5744581ec) Merge pull request #290 from krafton-playground/fix/review-registry-list-checks
+- 2026-11-12 14:10 [`daa57d9`](https://github.com/krafton-playground/ops-mrso-console/commit/daa57d9d44115a950a4ba874cd495f3dc87e6d88) Merge pull request #291 from krafton-playground/feat/collection-key-suggest
+- 2026-11-12 14:09 [`7c7bc3f`](https://github.com/krafton-playground/ops-mrso-console/commit/7c7bc3f90d52e12f2a2361516db5c1ba546860b8) Merge main into fix/review-registry-list-checks
+- 2026-11-12 14:08 [`2bcc5eb`](https://github.com/krafton-playground/ops-mrso-console/commit/2bcc5eb73979dfd69580fbce610860de21aadaf2) fix(projects): run manual collection in the background and auto-reconcile expired leases
+- 2026-11-12 14:07 [`bac7c70`](https://github.com/krafton-playground/ops-mrso-console/commit/bac7c701ea6c45f68a18aa94eaeb407e39b436ab) fix(projects): page entity candidates pending-first with true readable counts
+- 2026-11-12 14:04 [`99ea1e9`](https://github.com/krafton-playground/ops-mrso-console/commit/99ea1e94844ce6172847f40fb5e1c3bad21d879c) feat(console): unify every suggest button as ✨ AI 추천
+- 2026-11-12 13:58 [`99ca684`](https://github.com/krafton-playground/ops-mrso-console/commit/99ca68448741ee81b5493a954ac9906f13ddcb3b) Merge remote-tracking branch 'origin/main' into feat/collection-key-suggest
+- 2026-11-12 13:57 [`6d829e9`](https://github.com/krafton-playground/ops-mrso-console/commit/6d829e9ccbe204baf3f940d8f2f9416462d57da1) fix(inbox): pick the related earlier answer by question similarity and show the earlier question
+- 2026-11-12 13:57 [`912408f`](https://github.com/krafton-playground/ops-mrso-console/commit/912408fd182d2d3f6d2580e41fe0e58ee86a50a4) Merge pull request #287 from krafton-playground/fix/cards-watches-404
+- 2026-11-12 13:52 [`287d94c`](https://github.com/krafton-playground/ops-mrso-console/commit/287d94c51e2b9a9dd0230beecb39cc129101fc8d) fix(projects): keep the collection form fields aligned; suggest button on its own row
+- 2026-11-12 13:52 [`2c1ceb8`](https://github.com/krafton-playground/ops-mrso-console/commit/2c1ceb8806f64549e44d86ff33b9fabcd8d475ec) feat(console): show 다시 알림 time and Slack delivery status on open cards (#285)
+- 2026-11-12 13:50 [`cdbeb89`](https://github.com/krafton-playground/ops-mrso-console/commit/cdbeb8939937cb292b3757e8d7ff0bb6a83ee9be) Merge pull request #286 from krafton-playground/feat/account-mcp-tokens
+- 2026-11-12 13:18 [`6fc302a`](https://github.com/krafton-playground/ops-mrso-console/commit/6fc302a1b3ddf84a192f6260bdae89a9f2dc3f66) feat(projects): pre-fill the manual collection key so a collection starts in one click
+- 2026-11-12 13:08 [`4e876b0`](https://github.com/krafton-playground/ops-mrso-console/commit/4e876b015669a78af1ec2345d43e35e15dc2916b) Merge remote-tracking branch 'origin/fix/queue-filter-and-repeat-questions' into fix/review-registry-list-checks
+- 2026-11-12 13:08 [`dbb3873`](https://github.com/krafton-playground/ops-mrso-console/commit/dbb38730ade93e1a5421ccf7b185da549a1c9d40) fix(review): put bulk approve after the sections, link citations, name drafts and tidy the registry form
+- 2026-11-12 13:07 [`5c98e73`](https://github.com/krafton-playground/ops-mrso-console/commit/5c98e73391386376efaffae3f966b745b10c90cf) fix(console): scope and reason for dismissed names, one person-guess rule, hub depth wording
+- 2026-11-12 12:55 [`8a7e77c`](https://github.com/krafton-playground/ops-mrso-console/commit/8a7e77c8538f0cf3501b2521c201e93c8b206a1c) fix(console): person-only HUB lookup, dismissed names stay quiet, readable watch rows, Korean 404
+- 2026-11-12 12:53 [`c9c99a0`](https://github.com/krafton-playground/ops-mrso-console/commit/c9c99a08613b98c6dc99c783565ed06d85f783c7) fix(account): show a load error instead of hiding the MCP section; respect the token-auth switch
+- 2026-11-12 12:49 [`b4cebac`](https://github.com/krafton-playground/ops-mrso-console/commit/b4cebac5331c67275b3c704e7ed444c5dee1cec6) feat(account): own MCP connections on the account page (list, revoke, how to connect)
+- 2026-11-12 12:28 [`0eaa76d`](https://github.com/krafton-playground/ops-mrso-console/commit/0eaa76dcc21547f424d8835c4e5fb2990588d735) test(stories): add inbox, team task and server-filtered queue page previews
+- 2026-11-12 12:28 [`5d8fa08`](https://github.com/krafton-playground/ops-mrso-console/commit/5d8fa084a14f85fcd2774f70557af6c60a11a209) Merge pull request #283 from krafton-playground/fix/queue-filter-and-repeat-questions
+- 2026-11-12 12:28 [`233764c`](https://github.com/krafton-playground/ops-mrso-console/commit/233764cb086b5927fdd343edc597e614dce85fa3) Merge pull request #282 from krafton-playground/feat/mcp-project-tokens
+- 2026-11-12 12:28 [`bf31d59`](https://github.com/krafton-playground/ops-mrso-console/commit/bf31d593a10337c22d1be4f6979bbedd818fc6c0) Merge pull request #278 from krafton-playground/fix/coalesce-publication-failed-dm
+- 2026-11-12 12:20 [`036c64c`](https://github.com/krafton-playground/ops-mrso-console/commit/036c64c2aa0a78b182856d8a7c891d1c0c79734f) Merge pull request #284 from krafton-playground/fix/main-notification-tests
+- 2026-11-12 12:18 [`c75febc`](https://github.com/krafton-playground/ops-mrso-console/commit/c75febcc07baa0239307ec861f2e019818f319c2) fix(notifications): unbreak main — month argument in notification read tests, month arrow font size on the type scale
+- 2026-11-12 12:17 [`70d75e2`](https://github.com/krafton-playground/ops-mrso-console/commit/70d75e299bda8d0a3f708238365d16fa7c09f955) Merge pull request #281 from krafton-playground/fix/slack-off-no-backlog
+- 2026-11-12 11:53 [`36cc3f5`](https://github.com/krafton-playground/ops-mrso-console/commit/36cc3f53f5cd5f883fa11a2e790622571f7915e8) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into fix/slack-off-no-backlog
+- 2026-11-12 11:51 [`98a164a`](https://github.com/krafton-playground/ops-mrso-console/commit/98a164aba2723846ed07755cb9777ab7c476a2c2) fix(inbox): filter the queue on the server, give the inbox its tools and stop re-asking answered questions
+- 2026-11-12 11:50 [`60e67bb`](https://github.com/krafton-playground/ops-mrso-console/commit/60e67bb5a38dba78b6972c039be0e94b84775278) Merge pull request #280 from krafton-playground/claude/slack-cancel-pending-button
+- 2026-11-12 11:50 [`9d7f6ad`](https://github.com/krafton-playground/ops-mrso-console/commit/9d7f6ad7006472eda756628638109b81d3cc5957) feat(mcp): Project-audience tokens for Project ADMIN/MEMBER, off by default (MCP_PROJECT_TOKENS)
+- 2026-11-12 11:41 [`adc221b`](https://github.com/krafton-playground/ops-mrso-console/commit/adc221ba1ae775c7e26a2aec80dc119a79921dfe) fix(notifications): never queue Slack messages while Slack is off
+- 2026-11-12 11:34 [`df67945`](https://github.com/krafton-playground/ops-mrso-console/commit/df679453a446170e598e8b31b0aef75baf2c8994) Merge pull request #279 from krafton-playground/feat/notification-history-month
+- 2026-11-12 11:33 [`db357df`](https://github.com/krafton-playground/ops-mrso-console/commit/db357df0ff5bf6fc22e6a5d4cbcaa586427bea5a) feat(notifications): add a 대기 알림 모두 취소 button that cancels waiting Slack DMs
+- 2026-11-12 11:33 [`6978fa9`](https://github.com/krafton-playground/ops-mrso-console/commit/6978fa973227738c611affe1196b40fcc2e6aa98) style(notifications): keep period control, search and refresh on one row
+- 2026-11-12 11:31 [`0c9af92`](https://github.com/krafton-playground/ops-mrso-console/commit/0c9af92bd5f6e6f9ff2b31c5ce7fe7ff5aa37cb2) feat(notifications): redesign 처리 내역 period control as segmented toggle + month stepper
+- 2026-11-12 11:21 [`bcee850`](https://github.com/krafton-playground/ops-mrso-console/commit/bcee850aa096a5ff6b9d607b2e9ba74e8020f166) feat(notifications): month-by-month 처리 내역 navigation
+- 2026-11-12 11:19 [`486c823`](https://github.com/krafton-playground/ops-mrso-console/commit/486c823b600766460749af5ce2088acdfad9a4bb) fix(notifications): coalesce repeated PUBLICATION_FAILED DMs like job failures
+- 2026-11-12 11:18 [`0ba9dcc`](https://github.com/krafton-playground/ops-mrso-console/commit/0ba9dcc84309f1d63bfbdc9d316e233e88e5a5f7) Merge pull request #277 from krafton-playground/fix/project-dismiss-reason
+- 2026-11-12 11:11 [`11c0c54`](https://github.com/krafton-playground/ops-mrso-console/commit/11c0c54f9898b1a463e4f3cc879f9d1fcc7061a5) Merge pull request #276 from krafton-playground/feat/mcp-three-tier
+- 2026-11-12 11:08 [`c6da85e`](https://github.com/krafton-playground/ops-mrso-console/commit/c6da85e446122523c179739bd0bf691bce4483a8) feat(mcp): three access layers (global / Project ADMIN / Project MEMBER) checked on every call
+- 2026-11-12 09:57 [`500cac2`](https://github.com/krafton-playground/ops-mrso-console/commit/500cac20ca7cd4c815f42cf5daded37e72a0caf1) Merge pull request #275 from krafton-playground/fix/api-inventory-sync
+- 2026-11-12 09:43 [`483ee71`](https://github.com/krafton-playground/ops-mrso-console/commit/483ee719aa0107528d15ac35295c149735ed4e49) fix(storybook): add the four publication routes to the API inventory so the main build passes
+- 2026-11-12 09:42 [`cc0aeb1`](https://github.com/krafton-playground/ops-mrso-console/commit/cc0aeb10620915e802740ca78d5dbf94b3ed86d9) Merge pull request #273 from krafton-playground/claude/qa-workspace-defects
+- 2026-11-12 07:21 [`3130f5d`](https://github.com/krafton-playground/ops-mrso-console/commit/3130f5deb36de7dd7c701f6456e72ec8bbd9412a) Merge pull request #272 from krafton-playground/chore/storybook-routes-sync
+- 2026-11-12 07:19 [`4cee0e0`](https://github.com/krafton-playground/ops-mrso-console/commit/4cee0e09d865e9d6497616184f5ece74a042b659) Merge pull request #274 from krafton-playground/feat/candidate-placement
+- 2026-11-12 07:18 [`3494cf0`](https://github.com/krafton-playground/ops-mrso-console/commit/3494cf001aa70fd7adc80db39c83cc688b11fec2) feat(projects): model-suggested Studio/Project placement for discovered candidates, applied only on human approval
+- 2026-11-12 07:11 [`eb7865a`](https://github.com/krafton-playground/ops-mrso-console/commit/eb7865a5d2c0d40b97c272bd13c1b49cf0b49b7f) fix(projects): stop empty container pages failing runs, start the alert sender, and correct release-gate false positives
+- 2026-11-12 00:12 [`2a06d25`](https://github.com/krafton-playground/ops-mrso-console/commit/2a06d25bc7eb28abd9b94a795416685a52e75b94) Merge pull request #271 from krafton-playground/fix/mirror-apply-background
+- 2026-11-12 00:11 [`e2376a6`](https://github.com/krafton-playground/ops-mrso-console/commit/e2376a6ef15bd49da35e8fce261b882ae65acdef) fix(github-export): run the console mirror apply after the response
+- 2026-11-11 20:28 [`d95e691`](https://github.com/krafton-playground/ops-mrso-console/commit/d95e691fcf016a0b7684399652680e3b8748896d) Merge pull request #270 from krafton-playground/feat/mirror-imported-publication-proof
+- 2026-11-11 20:26 [`33b6764`](https://github.com/krafton-playground/ops-mrso-console/commit/33b67648f9d0d95ddc1298f5aae284bb674709f3) docs(runbook): mirror apply contract, OPERATOR-only reads, caches and NULL remote columns
+- 2026-11-11 20:26 [`612d1e0`](https://github.com/krafton-playground/ops-mrso-console/commit/612d1e0d0e852e30058585e4dd65cabb3a1ca9d7) fix(github-export): partial live apply, OPERATOR-only reads, bounded and cached reads
+- 2026-11-11 20:26 [`7f7dc20`](https://github.com/krafton-playground/ops-mrso-console/commit/7f7dc2045a576a1993c4ee1ec42bcfc6d67ee417) test(github-export): cover partial live applies, OPERATOR-only reads and bounded reads
+- 2026-11-11 20:10 [`15117ca`](https://github.com/krafton-playground/ops-mrso-console/commit/15117caa4cf697750b2ea72db7eb9cf31dbb3eb1) docs(runbook): document both mirror proof kinds and the PROD live-snapshot backfill
+- 2026-11-11 20:10 [`495ecd6`](https://github.com/krafton-playground/ops-mrso-console/commit/495ecd6ec0cfd377a544144bdf68588c4ef6be35) test(github-export): characterize and integrate the LIVE_PAGE_SNAPSHOT mirror proof
+- 2026-11-11 20:10 [`5af7591`](https://github.com/krafton-playground/ops-mrso-console/commit/5af7591aaef813e8311af9f9bddb0853e4cf2d20) feat(github-export): mirror pages published by the old pipeline from the live page
+- 2026-11-11 20:10 [`d3e55f5`](https://github.com/krafton-playground/ops-mrso-console/commit/d3e55f54ecec464451df69719d4b6f8d86049d5b) feat(github-export): record the mirror proof kind on LegacyWikiMirror
+- 2026-11-11 19:30 [`cf8baed`](https://github.com/krafton-playground/ops-mrso-console/commit/cf8baed433d348f96453ca2fdcc581a2bca9edd8) Merge pull request #269 from krafton-playground/test/queue-undo-e2e
+- 2026-11-11 19:17 [`c15d645`](https://github.com/krafton-playground/ops-mrso-console/commit/c15d645c0e15a98146e0dccae9a65b280f1dd9b0) Merge pull request #267 from krafton-playground/feat/legacy-github-mirror-backfill
+- 2026-11-11 19:17 [`f773236`](https://github.com/krafton-playground/ops-mrso-console/commit/f77323613bd799bb18cf5f50809c4c5ebf86b957) Merge branch 'main' into feat/legacy-github-mirror-backfill
+- 2026-11-11 19:05 [`0be912c`](https://github.com/krafton-playground/ops-mrso-console/commit/0be912c339246b6c015f92cf979036a936b86583) Merge pull request #268 from krafton-playground/fix/business-policy-test-single-attempt
+- 2026-11-11 19:05 [`726f6a8`](https://github.com/krafton-playground/ops-mrso-console/commit/726f6a8b784b1c1c0bb0764a9f067293e04fa26e) test(console): browser E2E for the 처리 되돌리기 confirm modal and real undo effects
+- 2026-11-11 19:04 [`7171884`](https://github.com/krafton-playground/ops-mrso-console/commit/71718843f738a90f2ad7491268ce6335ad3bb2b6) test(notifications): align business-policy expectations with the single-attempt Slack ceiling
+- 2026-11-11 18:32 [`a7c0e19`](https://github.com/krafton-playground/ops-mrso-console/commit/a7c0e19850a0a056fd3f2ca9a132cefaf28f0a75) feat(admin): show 용어 grouped by studio and project
+- 2026-11-11 18:29 [`a89f4f2`](https://github.com/krafton-playground/ops-mrso-console/commit/a89f4f29482f6434ee3ebead2dee4cc5d94bb2d6) feat(admin): redesign 용어 (glossary) tab on /admin/studios
+- 2026-11-11 18:24 [`ed96e90`](https://github.com/krafton-playground/ops-mrso-console/commit/ed96e9097a82bd59b19701b96f7d5380abcb3fb0) Merge pull request #265 from krafton-playground/feat/legacy-github-export
+- 2026-11-11 18:13 [`1929d04`](https://github.com/krafton-playground/ops-mrso-console/commit/1929d04d05671da971d6d1ff25cd3d290abea9dc) feat(projects): require and persist a classified reason when rejecting (기각) candidates and confirmation cards
+- 2026-11-11 18:10 [`1cc3fae`](https://github.com/krafton-playground/ops-mrso-console/commit/1cc3faee81b846bb4a3b5fcb7a77f71b0530386d) fix(github-export): exhaust and alert stuck ongoing-mirror requests, bound retries and budget
+- 2026-11-11 17:56 [`5ff6ce0`](https://github.com/krafton-playground/ops-mrso-console/commit/5ff6ce0a0280d5e9f322a80681f1b9b0fb09e1d0) fix(github-export): revision-safe batched mirror, durable ongoing-mirror retries, active generation only
+- 2026-11-11 17:56 [`99a392d`](https://github.com/krafton-playground/ops-mrso-console/commit/99a392d09bc26e0c1db0351380592b46311e8342) fix(github-export): confirm exportTree commits by ancestry and expose commitContaining
+- 2026-11-11 17:56 [`ec2ac30`](https://github.com/krafton-playground/ops-mrso-console/commit/ec2ac30433b083e6e78ae821249dfaeb339e0bac) docs(console): script attestation, mirror labels and runbook for the review fixes
+- 2026-11-11 17:35 [`d70d3c9`](https://github.com/krafton-playground/ops-mrso-console/commit/d70d3c9181cf2379bac00c748cbb8f606cc1ced2) fix(github-export): align the mirror with the review-fixed export base
+- 2026-11-11 17:30 [`ca93edc`](https://github.com/krafton-playground/ops-mrso-console/commit/ca93edc88fa7b90a01a21b2e45e10d20c19ccb8c) feat(console): GitHub 미러 card, backfill script and runbook for the legacy wiki mirror
+- 2026-11-11 17:30 [`576d830`](https://github.com/krafton-playground/ops-mrso-console/commit/576d8302c8dc254b2ecb6e6585fec6fa27b84827) feat(github-export): legacy wiki mirror service, routes and ongoing mirror after exports (G003)
+- 2026-11-11 17:30 [`9bcbca6`](https://github.com/krafton-playground/ops-mrso-console/commit/9bcbca6b3b6b83657b7c7050289405f7a4f6dbdb) feat(github-export): LegacyWikiMirror table for the published-page mirror
+- 2026-11-11 17:30 [`5508fd8`](https://github.com/krafton-playground/ops-mrso-console/commit/5508fd87ca958e1d2842f18d7ad291a28cc12582) feat(github-export): batched tree commits and mirror prefix in the transport
+- 2026-11-11 17:18 [`371fb29`](https://github.com/krafton-playground/ops-mrso-console/commit/371fb295099b768f750e1c2d47e3f1646a0d15f7) fix(github-export): legacy export review findings (published status, pinned hash source, replay order, worker fairness)
+- 2026-11-11 17:10 [`54784aa`](https://github.com/krafton-playground/ops-mrso-console/commit/54784aa1e6d94b98e8e3108a67577d291c0411a1) Merge pull request #264 from krafton-playground/fix/slack-no-retry
+- 2026-11-11 17:10 [`dbb25ab`](https://github.com/krafton-playground/ops-mrso-console/commit/dbb25abe085ea8d50273f902c84e5b4328c12da4) fix(storybook): render route stories, add glossary/people tabs and API endpoint catalogue
+- 2026-11-11 17:09 [`ccbcd37`](https://github.com/krafton-playground/ops-mrso-console/commit/ccbcd37aef199c2f84b4c117dc5e7e35d2eecd71) Merge pull request #266 from krafton-playground/fix/confirm-resolved-row-undo
+- 2026-11-11 17:09 [`3e48ba4`](https://github.com/krafton-playground/ops-mrso-console/commit/3e48ba4a3225c9e874fa4b39ad3bd20d202b6fa1) fix(console): confirm modal for the resolved-row 되돌리기 undo
+- 2026-11-11 16:58 [`efe390f`](https://github.com/krafton-playground/ops-mrso-console/commit/efe390f82820c991c23dad2e0027f9f6d8827ab6) Merge pull request #262 from krafton-playground/feat/publication-baseline-capture
+- 2026-11-11 16:52 [`914a30a`](https://github.com/krafton-playground/ops-mrso-console/commit/914a30a07ec4ee1b415315f223dada133aebc489) feat(github-export): legacy-generation export entry point (G002)
+- 2026-11-11 16:52 [`be18bd6`](https://github.com/krafton-playground/ops-mrso-console/commit/be18bd6dd214176a96426de8a138d75f3551b7fb) test(github-export): legacy export characterization and integration coverage
+- 2026-11-11 16:43 [`c8f9eb5`](https://github.com/krafton-playground/ops-mrso-console/commit/c8f9eb506207cb134e9060bf60fecc97173bc196) Merge pull request #263 from krafton-playground/feat/confirm-modal-destructive-actions
+- 2026-11-11 16:43 [`a427329`](https://github.com/krafton-playground/ops-mrso-console/commit/a4273295b9263100b3aeab52e7f69cafc011c0d0) feat(console): confirm modal before delete/rollback/undo/release actions
+- 2026-11-11 16:35 [`fa43016`](https://github.com/krafton-playground/ops-mrso-console/commit/fa43016aa7e5e0668f7ac4cc588daac886668cc9) fix(notifications): send Slack once without retry and coalesce repeated job-failure DMs
+- 2026-11-11 16:32 [`f92844d`](https://github.com/krafton-playground/ops-mrso-console/commit/f92844d41bf9de9ba2397a190fb88e48c352f87a) feat(publication): human-reviewed baseline capture for legacy-imported pages
+- 2026-11-11 16:14 [`8b3f320`](https://github.com/krafton-playground/ops-mrso-console/commit/8b3f3208a75a4a3505823cb030bc160491fc01e6) Merge pull request #261 from krafton-playground/claude/mcp-install-codex-skills
+- 2026-11-11 16:14 [`152d8ff`](https://github.com/krafton-playground/ops-mrso-console/commit/152d8ffeb48f14973719ffaab4c1e83d6dff08c2) Merge pull request #260 from krafton-playground/feat/mcp-github-export-and-project-publication
+- 2026-11-11 16:13 [`f060c72`](https://github.com/krafton-playground/ops-mrso-console/commit/f060c72d12d3bb8219f66d6556c4297c6db719ca) Merge pull request #259 from krafton-playground/fix/publish-e2e-hardening
+- 2026-11-11 16:13 [`f3ed0c5`](https://github.com/krafton-playground/ops-mrso-console/commit/f3ed0c5ea98cffcf5802b288eab043034f691454) Merge pull request #256 from krafton-playground/fix/publication-stale-guidance
+- 2026-11-11 16:02 [`436c594`](https://github.com/krafton-playground/ops-mrso-console/commit/436c594e4d53eb05350005ecff46081886c0ad20) feat(mcp): add Codex skill install commands to the MCP install tab
+- 2026-11-11 15:12 [`61fc59b`](https://github.com/krafton-playground/ops-mrso-console/commit/61fc59b5b351bd125810f0f770d4268893a1408f) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into feat/mcp-github-export-and-project-publication
+- 2026-11-11 15:11 [`8c52401`](https://github.com/krafton-playground/ops-mrso-console/commit/8c524017662324478f2f21e38bae25efa119558d) Merge pull request #257 from krafton-playground/claude/mcp-install-operate-only
+- 2026-11-11 15:10 [`e18b758`](https://github.com/krafton-playground/ops-mrso-console/commit/e18b75801dc877c4513e10f8f1fce0605557248b) test(mcp): use a neutral fixture string instead of a token-prefixed literal
+- 2026-11-11 14:54 [`76a1938`](https://github.com/krafton-playground/ops-mrso-console/commit/76a19383a9a24ea2ad134d400124554a383a91c9) feat(mcp): one-click MCP install with OAuth connect, like One MCP
+- 2026-11-11 14:31 [`f4ddef3`](https://github.com/krafton-playground/ops-mrso-console/commit/f4ddef3c4d4ec48714a3dd75437037e9f7570fd2) feat(mcp): add Project GitHub export and Project publication tools
+- 2026-11-11 14:24 [`2489529`](https://github.com/krafton-playground/ops-mrso-console/commit/2489529e700344a37f58c12ad9e03ded599b7dc2) fix(publication): classify transient DB failures, widen detail read budget, harden switch-off test
+- 2026-11-11 14:14 [`b354e37`](https://github.com/krafton-playground/ops-mrso-console/commit/b354e374153befc95edfd03d224c33e60cb354df) copy: show '처리하는 중...' while login request is pending
+- 2026-11-11 14:07 [`51a42d7`](https://github.com/krafton-playground/ops-mrso-console/commit/51a42d7a48bacac0c38bf7e49e6cf3e21cd40836) Merge pull request #258 from krafton-playground/fix/watch-visibility-uncollected-excludes
+- 2026-11-11 14:01 [`ca374c3`](https://github.com/krafton-playground/ops-mrso-console/commit/ca374c315e5fa8b4fc9b14796cc1c3cf9bac743a) fix(watches): stop hiding watches whose excluded pages were never collected
+- 2026-11-11 14:00 [`0bd1093`](https://github.com/krafton-playground/ops-mrso-console/commit/0bd109338123d6157e9477fca424a7cafd776e1b) feat(mcp): MCP 설치 always mints an 실행 포함 token
+- 2026-11-11 13:51 [`e940b97`](https://github.com/krafton-playground/ops-mrso-console/commit/e940b9726e6d75910f7bd7fdc890594ac204b7b9) fix(publication): reload approval context and guide the user after a stale 409
+- 2026-11-11 13:40 [`788bb82`](https://github.com/krafton-playground/ops-mrso-console/commit/788bb826784c23164d82b5358355dc129d834194) Merge pull request #255 from krafton-playground/claude/admin-mcp-tab
+- 2026-11-11 13:38 [`9e82d80`](https://github.com/krafton-playground/ops-mrso-console/commit/9e82d80fa0b551cb83bb6c7ef5d958d53dbd1db6) feat(admin): show MCP 설치 as a tab of 접근 관리
+- 2026-11-11 13:27 [`8840bd9`](https://github.com/krafton-playground/ops-mrso-console/commit/8840bd93543294f34a542ae74b01c8691764b3c7) copy: rename '내 로그인 기록하기' button to '내 로그인 요청하기'
+- 2026-11-11 13:23 [`38f8979`](https://github.com/krafton-playground/ops-mrso-console/commit/38f89799577bfa4e2fcad4673d562ba40a1c2c30) Merge pull request #254 from krafton-playground/fix/nudge-slack-dm
+- 2026-11-11 13:03 [`24c043c`](https://github.com/krafton-playground/ops-mrso-console/commit/24c043cb9b8b2771b6d7cb3c6b3e820383321979) fix(queue): 다시 알리기 sends a Slack DM to the card's 담당자
+- 2026-11-11 12:46 [`6eeddfe`](https://github.com/krafton-playground/ops-mrso-console/commit/6eeddfe471060722dbb9f0b1ecd1e15ce1c3205b) Merge pull request #253 from krafton-playground/claude/breadcrumb-links
+- 2026-11-11 12:32 [`cb9a00d`](https://github.com/krafton-playground/ops-mrso-console/commit/cb9a00d5bc317e7baf43adcf65f9ec95b2d895eb) Merge pull request #252 from krafton-playground/claude/legacy-mrso-progress-bar
+- 2026-11-11 12:32 [`5a2fb3e`](https://github.com/krafton-playground/ops-mrso-console/commit/5a2fb3eb81704ec8f596ae6350bd8a0c06032ea4) test(projects): import ProjectWorkflow statically in the legacy journey page test
+- 2026-11-11 12:25 [`19b6cd2`](https://github.com/krafton-playground/ops-mrso-console/commit/19b6cd2ce85d07dc5418729e5b73b2da433e8d7f) feat(ui): name the /runtime tab in the breadcrumb (runs/legacy)
+- 2026-11-11 11:36 [`fd5221b`](https://github.com/krafton-playground/ops-mrso-console/commit/fd5221b44ba687129796293f4631217628b47665) Merge pull request #251 from krafton-playground/claude/runtime-runs-tab
+- 2026-11-11 11:22 [`5bcc83b`](https://github.com/krafton-playground/ops-mrso-console/commit/5bcc83bad6f302adacdaae182af314ec2d61415c) Merge pull request #250 from krafton-playground/claude/queue-redesign
+- 2026-11-11 11:15 [`db0fc74`](https://github.com/krafton-playground/ops-mrso-console/commit/db0fc7404e9392941d23521e2ed6e7ae95c11338) fix(projects): show live MRSO progress on mapped Project rows and pages
+- 2026-11-11 11:14 [`2af6543`](https://github.com/krafton-playground/ops-mrso-console/commit/2af654385bd8b070ddfe7dbe84cf9269482acb14) feat(ui): link every breadcrumb via a shared Breadcrumbs primitive
+- 2026-11-11 11:11 [`81fbc61`](https://github.com/krafton-playground/ops-mrso-console/commit/81fbc613a1d8b32315e668d18f84e96b5e268217) feat(runtime): move 운영/실행 기록 into a 무인 운영 page tab
+- 2026-11-11 10:41 [`ffcef5f`](https://github.com/krafton-playground/ops-mrso-console/commit/ffcef5f6c85ab33145f9e6324f570680b05317a2) test(queue): answer the story's conflict cards with 「A가 맞음」「B가 맞음」
+- 2026-11-11 09:55 [`e8842db`](https://github.com/krafton-playground/ops-mrso-console/commit/e8842db6ddb58368a08ac9ece6dbc2657eceed15) Merge pull request #249 from krafton-playground/fix/github-export-commit-link
+- 2026-11-11 09:55 [`926eec9`](https://github.com/krafton-playground/ops-mrso-console/commit/926eec984abfc616fe1ac9bbc35d8ce5dcf8c81d) Merge pull request #248 from krafton-playground/claude/ab-answer-buttons
+- 2026-11-11 09:54 [`c1120b9`](https://github.com/krafton-playground/ops-mrso-console/commit/c1120b9b85f82b7bce4feb4fbdf18496f473ee5c) Merge pull request #246 from krafton-playground/feat/operator-mcp
+- 2026-11-11 09:46 [`074a44c`](https://github.com/krafton-playground/ops-mrso-console/commit/074a44c549f69c7e6de24f685e8f68464e3a2089) Merge pull request #247 from krafton-playground/claude/worker-publish-grant
+- 2026-11-11 09:46 [`a5ad072`](https://github.com/krafton-playground/ops-mrso-console/commit/a5ad07253c2a271d8db95d0c30c82ec6f878fd4d) docs: add operator MCP and skill install steps to README, record lessons
+- 2026-11-11 09:44 [`c7f1d1b`](https://github.com/krafton-playground/ops-mrso-console/commit/c7f1d1bddaefd6ef6779c97bede32815f7f2b483) fix(github-export): link commits to the export's own repository
+- 2026-11-11 09:42 [`e8c8978`](https://github.com/krafton-playground/ops-mrso-console/commit/e8c89780a1f29a4d0b4d52b8b88eedb9ec2838a5) feat(review): answer conflict cards with 「A가 맞음」「B가 맞음」
+- 2026-11-10 21:58 [`e2ce08f`](https://github.com/krafton-playground/ops-mrso-console/commit/e2ce08fabaac81157c10701eea020abe4422ab49) fix(publication): grant the worker PUBLISH and alert when a publish is refused
+- 2026-11-10 21:57 [`cf7ee92`](https://github.com/krafton-playground/ops-mrso-console/commit/cf7ee920286cac3adeebab4ca8ea9b0c0f9cc66b) feat(mcp): operator MCP tools, personal tokens, install page and skills
+- 2026-11-10 17:45 [`8915380`](https://github.com/krafton-playground/ops-mrso-console/commit/891538099af7268de3da4d39f3a0542fb7f4d587) Merge pull request #245 from krafton-playground/claude/redeploy-8ceacd54
+- 2026-11-10 17:29 [`0db563d`](https://github.com/krafton-playground/ops-mrso-console/commit/0db563dea70aa465a9cbd701eff70218a571f9fc) Merge pull request #244 from krafton-playground/claude/inbox-read-latency
+- 2026-11-10 17:14 [`a9aee9c`](https://github.com/krafton-playground/ops-mrso-console/commit/a9aee9cffecb556f9c2e683a9df56895ca6dc019) chore: redeploy main so #241 and #242 land after the superseded #239 deploy
+- 2026-11-10 16:42 [`49e13aa`](https://github.com/krafton-playground/ops-mrso-console/commit/49e13aa5e96b0292663a07ce0087443eb90cee97) perf(inbox): load only closed items a person resolved for 할 일
+- 2026-11-10 16:42 [`8ceacd5`](https://github.com/krafton-playground/ops-mrso-console/commit/8ceacd5403a528b927b526ec70591d276f050303) Merge pull request #242 from krafton-playground/claude/setup-start-choice
+- 2026-11-10 16:41 [`8d1c7eb`](https://github.com/krafton-playground/ops-mrso-console/commit/8d1c7eb63515818d2805a6cfb6c996a560568c81) Merge pull request #241 from krafton-playground/claude/runtime-switch-ai-reason
+- 2026-11-10 16:41 [`8cbd254`](https://github.com/krafton-playground/ops-mrso-console/commit/8cbd254d2309c2b6cb3b814b63a1aa3ea43af6d5) Merge pull request #239 from krafton-playground/claude/publish-owner-fallback
+- 2026-11-10 16:41 [`bb1b4b3`](https://github.com/krafton-playground/ops-mrso-console/commit/bb1b4b32111caf226558b9d5d38905a86d2c9442) Merge pull request #238 from krafton-playground/claude/ai-revision-instruction-wording
+- 2026-11-10 16:41 [`79c7303`](https://github.com/krafton-playground/ops-mrso-console/commit/79c7303662c80339d7f823aa3146e1c5427ffe7b) Merge pull request #235 from krafton-playground/fix/registry-dropdown-live-only
+- 2026-11-10 16:30 [`4a649a1`](https://github.com/krafton-playground/ops-mrso-console/commit/4a649a115af35948cc90e619f119409e473cda03) Merge pull request #243 from krafton-playground/claude/summary-save-open-empty
+- 2026-11-10 16:28 [`ddde36f`](https://github.com/krafton-playground/ops-mrso-console/commit/ddde36f3823b51cffb1f6842ec395cfda8b06f64) feat(queue): move to the next item after an answer and simplify the 확인 대기 layout
+- 2026-11-10 16:23 [`eddf8cb`](https://github.com/krafton-playground/ops-mrso-console/commit/eddf8cbb5e9e0bc73bf93eb6489298de6aab85d4) fix(workspace): open 변경 요약 저장 by default and explain an empty onlyMissing result
+- 2026-11-10 16:07 [`d55efad`](https://github.com/krafton-playground/ops-mrso-console/commit/d55efad1643c158d786827bebd4e062aea5ef091) feat(setup): hide 「기존 MRSO 데이터로 시작」 everywhere
+- 2026-11-10 16:07 [`990e2a4`](https://github.com/krafton-playground/ops-mrso-console/commit/990e2a406cf6768f76cf2f7ceb7049cd7c7b57f1) feat(runtime): approve 외부 수집 inline and add AI 추천 to 확인 근거
+- 2026-11-10 15:47 [`0c1e9da`](https://github.com/krafton-playground/ops-mrso-console/commit/0c1e9da790c9ce977bc4c4f02fcfa70ea17ca28b) Merge pull request #240 from krafton-playground/claude/summary-save-panel
+- 2026-11-10 15:47 [`b941185`](https://github.com/krafton-playground/ops-mrso-console/commit/b941185605466bb7fb0098026131ec390396f0b5) feat(workspace): redesign the batch change-summary panel as 변경 요약 저장
+- 2026-11-10 15:43 [`1cce10a`](https://github.com/krafton-playground/ops-mrso-console/commit/1cce10a6340f69840ce3fd931c23295acf8397a8) Merge pull request #236 from krafton-playground/claude/qa-defects-2026-11-09
+- 2026-11-10 15:42 [`9b5ff1b`](https://github.com/krafton-playground/ops-mrso-console/commit/9b5ff1b277116ca8d5a122cac704c0355e101359) Merge pull request #234 from krafton-playground/claude/publication-worker-subject
+- 2026-11-10 15:35 [`deb45a5`](https://github.com/krafton-playground/ops-mrso-console/commit/deb45a5ae4dd94add18e400d0f253bf515197d00) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into claude/publication-worker-subject
+- 2026-11-10 15:34 [`83bd080`](https://github.com/krafton-playground/ops-mrso-console/commit/83bd08003ee5bd56807fcebf6a43871043b39dc8) fix(publication): unblock the publish gate and fall back to the OWNER credential
+- 2026-11-10 15:33 [`a1dcab1`](https://github.com/krafton-playground/ops-mrso-console/commit/a1dcab165632697b25abfb5f485b892a215a4f98) Merge origin/main (#237 navigation latency) into claude/qa-defects-2026-11-09
+- 2026-11-10 15:29 [`03a8fd5`](https://github.com/krafton-playground/ops-mrso-console/commit/03a8fd580ceefaabe52b9a048902652eccf5bf4a) Merge pull request #237 from krafton-playground/claude/navigation-latency
+- 2026-11-10 15:20 [`7111995`](https://github.com/krafton-playground/ops-mrso-console/commit/7111995a5fc03bfd6b04b3ce827c3aff6e470774) fix(publication): never cancel an approval because the worker itself lacks PUBLISH
+- 2026-11-10 14:57 [`f8d409f`](https://github.com/krafton-playground/ops-mrso-console/commit/f8d409f8d69f5e2ec83e24380d3004941a0e618b) fix(review): label section rewrite instruction as AI 수정 지시
+- 2026-11-10 14:41 [`9310bf0`](https://github.com/krafton-playground/ops-mrso-console/commit/9310bf09040b53c1df0a559b6e4bf05c6d4afd1b) fix(registry): list only the live generation in the registry dropdown
+- 2026-11-10 14:21 [`663a3e5`](https://github.com/krafton-playground/ops-mrso-console/commit/663a3e5ca533ef81961e58fa09d78579c7852ee0) fix(publication-worker): run as the shared worker subject and log why startup failed
+- 2026-11-10 14:03 [`5a19e54`](https://github.com/krafton-playground/ops-mrso-console/commit/5a19e54bc78a731f76669bdbeaa362965aeecb5c) fix(latency): keep observation ordering, read timeout and tab consistency
+- 2026-11-10 13:53 [`5e4590f`](https://github.com/krafton-playground/ops-mrso-console/commit/5e4590f61a5c6f72466e9eb5ebc215217e78632a) perf(registry,watches): read the first payload with the page and mount long lists in batches
+- 2026-11-10 13:50 [`444a973`](https://github.com/krafton-playground/ops-mrso-console/commit/444a9739f0a20e3bfc97270be54643b924984d55) perf(proposals): page the 위키 초안 list on the server
+- 2026-11-10 13:46 [`865f278`](https://github.com/krafton-playground/ops-mrso-console/commit/865f2784ce1e6896989f8f78f7a7d017e76510aa) Merge remote-tracking branch 'origin/main' into claude/qa-defects-2026-11-09
+- 2026-11-10 13:45 [`20781be`](https://github.com/krafton-playground/ops-mrso-console/commit/20781bea1ba2e3dce7ede2d79dcf1c832b6a3ac6) perf(workspace): read the first admin payload with the page
+- 2026-11-10 13:42 [`229304f`](https://github.com/krafton-playground/ops-mrso-console/commit/229304f8932af541d18708d027b3a6caa51efced) perf(runtime): load the legacy operation tab only when it is opened
+- 2026-11-10 13:42 [`287b2e8`](https://github.com/krafton-playground/ops-mrso-console/commit/287b2e8189163bce754665f2c40fe311f0e76ba0) perf(admin-read): read per-request lookups once and batch watch visibility
+- 2026-11-10 13:35 [`dcdfcd9`](https://github.com/krafton-playground/ops-mrso-console/commit/dcdfcd9f761482151659cab4cec68b9c62a4f63a) Merge pull request #233 from krafton-playground/claude/confluence-publish-wording
+- 2026-11-10 13:30 [`6521a3c`](https://github.com/krafton-playground/ops-mrso-console/commit/6521a3c5b0cc6952e34992181bd44405fb484a19) fix(wording): rename 외부 발행 to Confluence 발행 across the console
+- 2026-11-10 13:27 [`af0134d`](https://github.com/krafton-playground/ops-mrso-console/commit/af0134dc8baa4bef0de19a8f9f1f343a2c5d21cf) perf(workspace): cut sidebar navigation latency and batch growth-bound reads
+- 2026-11-10 13:14 [`345c16c`](https://github.com/krafton-playground/ops-mrso-console/commit/345c16c00ec7617c09b515f61596bd9ac64e3759) Merge pull request #232 from krafton-playground/claude/nudge-button-assignee-name
+- 2026-11-10 13:13 [`015c3b8`](https://github.com/krafton-playground/ops-mrso-console/commit/015c3b8957ab0fdb31dd06463e25fd41d64918b4) feat(queue): 「다시 알리기」 버튼에 담당자 이름 표시
+- 2026-11-10 13:04 [`d5844f6`](https://github.com/krafton-playground/ops-mrso-console/commit/d5844f696318b978ea846f8e21f385dda0af7aad) Merge pull request #231 from krafton-playground/claude/hub-slack-dm-pending-assign
+- 2026-11-10 11:28 [`8717f0b`](https://github.com/krafton-playground/ops-mrso-console/commit/8717f0bc43cc5020c0fd206651df0b1909bfe95a) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into claude/hub-slack-dm-pending-assign
+- 2026-11-10 11:27 [`2f324d4`](https://github.com/krafton-playground/ops-mrso-console/commit/2f324d44b5ebbfbf1c0dba79b2edddf65e42d30f) Merge pull request #227 from krafton-playground/claude/wiki-data-export-snapshots
+- 2026-11-10 11:27 [`e3de5e1`](https://github.com/krafton-playground/ops-mrso-console/commit/e3de5e19d43e3cde03dd2eaae0c28775afd8deb2) Merge pull request #229 from krafton-playground/claude/fix-correction-create-top-tier
+- 2026-11-10 11:20 [`f501fb7`](https://github.com/krafton-playground/ops-mrso-console/commit/f501fb7957bb4605ba08cc5c4d1b6b954a1731e6) Merge remote-tracking branch 'origin/main' into claude/hub-slack-dm-pending-assign
+- 2026-11-10 11:20 [`4ffae53`](https://github.com/krafton-playground/ops-mrso-console/commit/4ffae53497b6880366d169c8b9ed93517c67bc7c) Merge pull request #230 from krafton-playground/claude/storage-tree-sequential-studio-load
+- 2026-11-10 11:18 [`641b957`](https://github.com/krafton-playground/ops-mrso-console/commit/641b9573a6a0d6a5e42ebfb0556a7b9f36216c5e) test(할 일): give the inbox assertion a real Entity payload
+- 2026-11-10 11:15 [`6ed0d77`](https://github.com/krafton-playground/ops-mrso-console/commit/6ed0d77c020f7b5f53596a5f8ab685f6f48d95dd) fix(할 일): invite confirm states the grant; unassigned fold only for routed kinds
+- 2026-11-10 11:15 [`96bba14`](https://github.com/krafton-playground/ops-mrso-console/commit/96bba1407a3af4ac5f89244f33ad584f9df38ff3) docs(할 일): 맡겨 두기 동의 범위·재시도·DM 제한 리뷰 반영 기록
+- 2026-11-10 11:15 [`b5bd5e6`](https://github.com/krafton-playground/ops-mrso-console/commit/b5bd5e6fda1f6e438d2d439225f27e4866a54b62) fix(할 일): bind invite consent, retry not-yet-eligible logins, throttle DMs per recipient
+- 2026-11-10 11:08 [`878e8e1`](https://github.com/krafton-playground/ops-mrso-console/commit/878e8e1e316fed85d9e6004c49f78d40c2cb10e2) fix(admin): 「모두 펼치기」의 Studio 스페이스 읽기를 한 번에 하나씩
+- 2026-11-10 10:58 [`c2559b6`](https://github.com/krafton-playground/ops-mrso-console/commit/c2559b6a7a86dbcfa564722b2066818d740c1691) fix(정정 요청): OWNER·OPERATOR 계정의 정정 요청 접수 404 해결
+- 2026-11-10 10:57 [`dad04e7`](https://github.com/krafton-playground/ops-mrso-console/commit/dad04e788fbbbf62186ea68e91cfedaa48ff677e) Merge pull request #228 from krafton-playground/claude/division-promotion-error-message
+- 2026-11-10 10:53 [`c928351`](https://github.com/krafton-playground/ops-mrso-console/commit/c928351877a71b565cbcc3d6844c59aecbc6348b) feat(wiki-data-export): export MRSO published pages by hash; 15-minute changelog overlap
+- 2026-11-10 10:50 [`32db1b9`](https://github.com/krafton-playground/ops-mrso-console/commit/32db1b9f2ab548a40997741234c03c57a2dcb1b5) fix(발행된 위키): 통합 기준 확인 실패를 권한 문제로 잘못 안내하지 않기
+- 2026-11-10 10:46 [`685418b`](https://github.com/krafton-playground/ops-mrso-console/commit/685418b464ba7a7c3cc1f8b252ff0f689a91959e) fix(할 일): show an explicit assignee only while they still qualify as a current candidate
+- 2026-11-10 10:39 [`3e8ac7c`](https://github.com/krafton-playground/ops-mrso-console/commit/3e8ac7c1561b37c02bff03944a7f389ddd8633b0) feat(wiki-data-export): dated snapshots with a manifest, the KS backup "commit" (P2)
+- 2026-11-10 10:34 [`b24ed9e`](https://github.com/krafton-playground/ops-mrso-console/commit/b24ed9e453f6bef5b8509cca4401af4748a8db6c) fix(할 일): show the explicit assignee instead of 「담당 없음」 after assigning
+- 2026-11-10 10:33 [`2225aae`](https://github.com/krafton-playground/ops-mrso-console/commit/2225aae88d94423ce94d85552f52431c0919e19c) docs(할 일): HUB 맡겨 두기(Slack DM)와 담당 없음 카드 펼침 — 설계·검증 기록
+- 2026-11-10 10:32 [`176405e`](https://github.com/krafton-playground/ops-mrso-console/commit/176405e3cd1936ab612dc4e67c6d1395411986b5) Merge pull request #226 from krafton-playground/claude/fix-new-entity-draft-compare
+- 2026-11-10 10:31 [`e7dc5bd`](https://github.com/krafton-playground/ops-mrso-console/commit/e7dc5bd26c9b7eff1ae28f42bcce0a09bc2d4697) Merge pull request #224 from krafton-playground/claude/storage-tree-prod-fixes
+- 2026-11-10 10:11 [`8164b6c`](https://github.com/krafton-playground/ops-mrso-console/commit/8164b6c07a604a726dbb951b4369951966f625d3) Merge pull request #223 from krafton-playground/claude/wiki-artifact-s3-archive
+- 2026-11-10 09:59 [`54dddc0`](https://github.com/krafton-playground/ops-mrso-console/commit/54dddc0c6425b974f2935b53b4b1c46957c64855) feat(할 일): show 담당자 정하기 unfolded on 「담당 없음」 cards
+- 2026-11-10 09:58 [`1b5ca61`](https://github.com/krafton-playground/ops-mrso-console/commit/1b5ca61766fa5168a6245bddbb041bb1c122549e) fix(할 일): classify QueueAssigneeInvite for generation purge; no new ActiveGeneration lookup
+- 2026-11-10 09:54 [`c3605e8`](https://github.com/krafton-playground/ops-mrso-console/commit/c3605e844441ef92a3fbbf73fbc0708196a7b526) Merge branch 'main' of https://github.com/krafton-playground/ops-mrso-console into claude/storage-tree-prod-fixes
+- 2026-11-10 09:51 [`1bbe1a0`](https://github.com/krafton-playground/ops-mrso-console/commit/1bbe1a0a30cc42010654b527a7e04a25fcef9517) Merge pull request #220 from krafton-playground/claude/practical-review-prod-fixes
+- 2026-11-10 09:48 [`bca33b0`](https://github.com/krafton-playground/ops-mrso-console/commit/bca33b044c855f26fed5bcd1b68718b70b41fbce) Merge pull request #225 from krafton-playground/claude/editor-toolbar-icon-size
+- 2026-11-10 09:48 [`679ab46`](https://github.com/krafton-playground/ops-mrso-console/commit/679ab4618783480149d803d54358be9603716b2f) test(design): stories and 390px checks for 「Slack으로 알리고 맡겨 두기」
+- 2026-11-10 09:47 [`0dc84ce`](https://github.com/krafton-playground/ops-mrso-console/commit/0dc84ce28428e5fb05ec84a216be2f0455baf4e8) fix(/team): 새 이름 카드에서 열 수 없는 「초안 비교」 숨기기
+- 2026-11-10 09:46 [`5db68e5`](https://github.com/krafton-playground/ops-mrso-console/commit/5db68e5691d1663180cbb355c6aa28b2104a3681) feat(할 일): Slack DM + pending assignment for HUB needs-login matches
+- 2026-11-10 09:41 [`bb8951d`](https://github.com/krafton-playground/ops-mrso-console/commit/bb8951d088d5c24c63530f570cb9ddd3f9eec364) fix(편집기): keep section editor toolbar and mode switch at one control size
+- 2026-11-10 09:30 [`06ccf5d`](https://github.com/krafton-playground/ops-mrso-console/commit/06ccf5d24356e9b1574b45c0810a0814adc9f7b8) Merge remote-tracking branch 'origin/main' into claude/practical-review-prod-fixes
+- 2026-11-10 09:23 [`d91b2b7`](https://github.com/krafton-playground/ops-mrso-console/commit/d91b2b7c8919a847e191b61122720e766d988522) Merge remote-tracking branch 'origin/main' into claude/storage-tree-prod-fixes
+- 2026-11-10 09:23 [`f7a6b67`](https://github.com/krafton-playground/ops-mrso-console/commit/f7a6b679f78dd3b73fd4429051ef152b976c734d) fix(admin): 저장 파일 트리 PROD 결함 3건 수정 — Studio 자체 파일, 버튼 글자색, 배지 줄바꿈
+- 2026-11-10 09:22 [`d975288`](https://github.com/krafton-playground/ops-mrso-console/commit/d975288c8a29f38a7708405c5a265829274077d1) feat(wiki-data-export): copy wiki data to S3 in the KS_OperationDiv-data layout (P1)
+- 2026-11-10 09:16 [`ad0207d`](https://github.com/krafton-playground/ops-mrso-console/commit/ad0207da827d9e1f6d6b09949f55aa09e4f706a4) Merge pull request #222 from krafton-playground/claude/assignee-e2e-report
+- 2026-11-10 00:32 [`3c87627`](https://github.com/krafton-playground/ops-mrso-console/commit/3c87627731ec360d4b609438cc2ef8ff76379a5b) docs(LESSON): /admin 저장 파일 트리 PROD e2e 결함 3건 기록
+- 2026-11-10 00:30 [`cb4433c`](https://github.com/krafton-playground/ops-mrso-console/commit/cb4433c3c11e86f885b746a61888f0ff79d9a760) docs(할 일): PR #219 PROD e2e report, local save e2e script, LESSON errors
+- 2026-11-10 00:10 [`32041a2`](https://github.com/krafton-playground/ops-mrso-console/commit/32041a28df4dfd6d365d044a40d977811bc6337f) Merge pull request #219 from krafton-playground/claude/assignee-choice-cards
+- 2026-11-10 00:10 [`7d7d651`](https://github.com/krafton-playground/ops-mrso-console/commit/7d7d6511f6205ed8de95e6671666cf71575388e8) Merge origin/main (#221 storage tree) into claude/assignee-choice-cards
+- 2026-11-10 00:05 [`053e00d`](https://github.com/krafton-playground/ops-mrso-console/commit/053e00d505187300cbd088b2622984e51733caf2) feat(저장 파일): /admin 저장 파일 탭을 파일 시스템 트리로 (#221)
+- 2026-11-09 23:52 [`e0d5207`](https://github.com/krafton-playground/ops-mrso-console/commit/e0d5207b94414c220aa7d2ce8c57c3fbe89e87cf) docs(LESSON): record PR #219 review fixes and integration runner pitfalls
+- 2026-11-09 22:22 [`4da440c`](https://github.com/krafton-playground/ops-mrso-console/commit/4da440cf93ad3d352ee1d44f1b2c4513fabbd4f0) test(할 일): use a global OPERATOR for the no-owner fallback test
+- 2026-11-09 22:13 [`1316290`](https://github.com/krafton-playground/ops-mrso-console/commit/13162903e45be1bda4936fd30bc0de8884f536cb) test(할 일): remove the singleton global OWNER grant after the no-owner fallback test
+- 2026-11-09 22:02 [`0afed86`](https://github.com/krafton-playground/ops-mrso-console/commit/0afed86a191d0273d8a1164e5318cea88b6a82c5) fix(할 일): bind 담당자 추가 consent to the shown grant; HUB match beyond the SSO cap
+- 2026-11-09 21:45 [`96454eb`](https://github.com/krafton-playground/ops-mrso-console/commit/96454ebbd1e3ca4ec34057fa4f64881b5f9547a8) fix: PROD 실데이터 E2E 결함 F1–F6 수정 (생성 때 변경 요약, HUB 전 인물 점선, 선택지 근거, 근거 글자 중복, Studio 경로, 경고 아이콘 중복)
+- 2026-11-09 21:14 [`4036fd5`](https://github.com/krafton-playground/ops-mrso-console/commit/4036fd5ca16105186ef8150f656e1d69b351eb8d) docs(lesson): 변환기 변경이 불변 snapshot 검사를 깨는 H1 기록
+- 2026-11-09 21:12 [`dfc9a43`](https://github.com/krafton-playground/ops-mrso-console/commit/dfc9a43e30f66b393ccd1ab9287514590c95b4bf) test(design): 원본 위치 안내 표시·숨김과 KST 수집 로그인 배너 스토리 추가
+- 2026-11-09 21:06 [`d9072c5`](https://github.com/krafton-playground/ops-mrso-console/commit/d9072c5e8697c71cca3a289c468672d1e318e63e) fix(converter): 표 행을 원문 순서대로 보여줌
+- 2026-11-09 21:05 [`f84557c`](https://github.com/krafton-playground/ops-mrso-console/commit/f84557cd694346daf9bbe625d12965f2634feac9) fix(converter): 링크된 페이지 제목을 한 번만 디코드함
+- 2026-11-09 21:03 [`973608c`](https://github.com/krafton-playground/ops-mrso-console/commit/973608cb5d29a0bd4099b0192f21792d815bc862) fix(watches): 원본 위치 안내 플래그를 열람 범위와 상관없이 보이는 수집 대상에서만 계산
+- 2026-11-09 21:00 [`f5c567b`](https://github.com/krafton-playground/ops-mrso-console/commit/f5c567b0fdf6d1153d831097c12e836c097ee77b) fix(converter): 코드 안 백틱보다 긴 fence를 써서 코드 블록이 일찍 닫히지 않게 함
+- 2026-11-09 20:59 [`da1424b`](https://github.com/krafton-playground/ops-mrso-console/commit/da1424b05690436034c97eadd8beb0b6500b3544) fix(converter): task-list 옆에 형제로 놓인 하위 할 일 목록을 잃지 않고 들여써서 보여줌
+- 2026-11-09 20:59 [`8d024d7`](https://github.com/krafton-playground/ops-mrso-console/commit/8d024d74059bb3be3208eaaf18fefd14e36c9879) fix(discovery): 같은 Confluence 버전은 저장된 snapshot을 그대로 써서 변환기 변경으로 발견이 실패하지 않게 함
+- 2026-11-09 20:44 [`611c235`](https://github.com/krafton-playground/ops-mrso-console/commit/611c23523f181149a84a0223cbdcda7da94fb9cd) Merge remote-tracking branch 'origin/main' into claude/assignee-choice-cards
+- 2026-11-09 20:42 [`a8c9b61`](https://github.com/krafton-playground/ops-mrso-console/commit/a8c9b61a766ee964e8862840f39ed94bac2505ba) docs(report): 담당자 정하기 작업 인계 문서
+- 2026-11-09 20:41 [`a3f59c5`](https://github.com/krafton-playground/ops-mrso-console/commit/a3f59c5b076b9e3d8efa919ac6e610c39d5a9208) feat(할 일): 담당자 정하기를 선택 카드로, 담당자가 없으면 로그인한 사람·HUB에서 찾아 맡기기
+- 2026-11-09 20:31 [`98e1fc3`](https://github.com/krafton-playground/ops-mrso-console/commit/98e1fc36e8da82da048712eb6d93ad49cc826fc8) Merge pull request #214 from krafton-playground/codex/slack-attempts-two
+- 2026-11-09 20:30 [`0f7e15c`](https://github.com/krafton-playground/ops-mrso-console/commit/0f7e15cd7dc28505f188e88cd1fb484a3302b2af) Merge pull request #217 from krafton-playground/claude/watch-hub-dept
+- 2026-11-09 20:24 [`3635363`](https://github.com/krafton-playground/ops-mrso-console/commit/36353635b257b842fb8a98e8b9ee3f79e9f2f97a) Merge pull request #218 from krafton-playground/claude/remove-queue-sidebar
+- 2026-11-09 20:23 [`9ef0233`](https://github.com/krafton-playground/ops-mrso-console/commit/9ef0233822a8101cc235cc511b3e8febe03e973c) fix(sidebar): remove 확인 대기 from the sidebar
+- 2026-11-09 20:14 [`7417060`](https://github.com/krafton-playground/ops-mrso-console/commit/7417060363649c14dcc5cb2c457b3434cf605e6e) fix(projects): 업무 알림 정책 화면에 실제로 적용되는 시도 횟수를 보여 줘요
+- 2026-11-09 20:14 [`da64fc4`](https://github.com/krafton-playground/ops-mrso-console/commit/da64fc44762173b9ecd9411103e4218f726936bf) fix(projects): 「재시도 횟수」 라벨을 전체 시도 횟수 뜻에 맞게 고쳐요
+- 2026-11-09 20:13 [`cfc7d6b`](https://github.com/krafton-playground/ops-mrso-console/commit/cfc7d6b447321993fdbab9566de57624a00b3e3b) fix(notifications): 시도 상한으로 멈춘 MRSO 초안 알림도 검토 알림을 만들어요
+- 2026-11-09 20:07 [`8a13392`](https://github.com/krafton-playground/ops-mrso-console/commit/8a133922339e1c7fbf7141ed4b08f3de34ef66cf) feat(HUB): 부서를 모르면 LLM이 제안하고 HUB가 확인 — 클릭 한 번으로 부서 등록·연결
+- 2026-11-09 19:52 [`0caab1b`](https://github.com/krafton-playground/ops-mrso-console/commit/0caab1b6faefb32b1e3e2876e53e03c2698f2478) Merge pull request #215 from krafton-playground/claude/watch-new-dept-root
+- 2026-11-09 19:51 [`bae3bf2`](https://github.com/krafton-playground/ops-mrso-console/commit/bae3bf264a60b9ea5b33672cbe2bfd4ee85d635f) docs(lesson): QA 결함 수정(D1·D3·변환기) 기록
+- 2026-11-09 19:50 [`7795491`](https://github.com/krafton-playground/ops-mrso-console/commit/7795491f7260f1df115bd8c0367c5c6d83919454) docs: Confluence 폴더 아래 페이지 tree 수집 후속 과제 기록
+- 2026-11-09 19:49 [`c798c32`](https://github.com/krafton-playground/ops-mrso-console/commit/c798c323d908ee6db89120bca409374008ff2747) fix(converter): Confluence 본문 변환 누락·중복 7건 수정
+- 2026-11-09 19:45 [`b10eff2`](https://github.com/krafton-playground/ops-mrso-console/commit/b10eff25c476b31aecf172724550729943bc0199) fix(operator-session): 수집 로그인 배너 대비를 AA로 올리고 시각을 KST로 표시
+- 2026-11-09 19:42 [`f0692fc`](https://github.com/krafton-playground/ops-mrso-console/commit/f0692fcbeb966dd9e5db484da53afc989de25ba9) fix(watches): 원본 위치 안내를 실제로 위치가 없는 수집 대상이 있을 때만 표시
+- 2026-11-09 19:32 [`f953e0f`](https://github.com/krafton-playground/ops-mrso-console/commit/f953e0f1cd9d074894abc9411552a9c876b7ce0c) Merge pull request #216 from krafton-playground/claude/practical-review
+- 2026-11-09 18:45 [`a6f1a3e`](https://github.com/krafton-playground/ops-mrso-console/commit/a6f1a3e09b976dc95e430a0bdcdff304f36393f8) fix(HUB)·test(e2e): 새 이름 카드는 그 이름의 HUB 후보만, 초안 제목은 Project 이름; 실제 DB 브라우저 E2E 추가
+- 2026-11-09 18:32 [`b543302`](https://github.com/krafton-playground/ops-mrso-console/commit/b543302da166e11c5de90d56f8aa7d2e7ee6d7ab) fix(watches): 새 부서도 딸깍 등록 — 시작 페이지 루트 등록 + 서버가 레거시 규칙 결정
+- 2026-11-09 18:18 [`a5b9890`](https://github.com/krafton-playground/ops-mrso-console/commit/a5b989083e4795db374eab941211a0816f9f3c29) fix: 코드 리뷰 반영 — 지난 HUB 결과 지우기, 등록을 바꾼 새 이름 답은 되돌리기 숨기기, 직전 발행본 읽기 범위 좁히기
+- 2026-11-09 18:08 [`010972b`](https://github.com/krafton-playground/ops-mrso-console/commit/010972b24cb7c0569662c9f31bf651bed575af1d) docs: 승인된 시안 값(토큰·배지·버튼·카드)과 통합에서 배운 것 기록
+- 2026-11-09 18:05 [`fbf7b98`](https://github.com/krafton-playground/ops-mrso-console/commit/fbf7b9858c8460f0a31a602d70d2b07670d56885) fix(할 일): 시안 머리말 문구, 새 이름 카드의 항목 제외를 답변 상자 안으로
+- 2026-11-09 17:57 [`5db6685`](https://github.com/krafton-playground/ops-mrso-console/commit/5db6685aea185113d23568a02333bdd889068f2a) test(design): 할 일 A/B 타일·새 이름 선택 카드·HUB 미리 고르기 브라우저 확인; 근거 비교 카드는 답변 카드 종류에서 접기
+- 2026-11-09 17:53 [`0495a8a`](https://github.com/krafton-playground/ops-mrso-console/commit/0495a8ab1262b88932080254ac594aa6db17ea47) fix(HUB): 보안 검토 반영 — 새 이름 카드 HUB 응답은 이름만, 출처 섹션은 외부 모델에 보내지 않기
+- 2026-11-09 17:48 [`df9eb66`](https://github.com/krafton-playground/ops-mrso-console/commit/df9eb663284da99c9575cbe49fdb57f9cf2c8521) feat(/team): 팀원 답변도 선택 카드로 고르고 「답변 확정」
+- 2026-11-09 17:45 [`a67e277`](https://github.com/krafton-playground/ops-mrso-console/commit/a67e277875231b583995e650ba34cc84aa5dad68) feat(할 일·위키 초안): 승인된 시안대로 카드·묶음·경로·배지 맞추기
+- 2026-11-09 17:43 [`187ec92`](https://github.com/krafton-playground/ops-mrso-console/commit/187ec923918e7032d6ad619a25a590e93470cb21) Merge pull request #213 from krafton-playground/claude/mrso-legacy-files-read
+- 2026-11-09 17:41 [`4f85513`](https://github.com/krafton-playground/ops-mrso-console/commit/4f85513bd623657fcaa3d8d3676811680e9e5927) Merge remote-tracking branch 'origin/main' into claude/mrso-legacy-files-read
+- 2026-11-09 17:36 [`62f78b4`](https://github.com/krafton-playground/ops-mrso-console/commit/62f78b4a3c09d279a5a66c2ad8ed42e3bcf0c0af) feat(할 일): 처음 보는 이름 카드를 할 일에서 바로 답하기 (기존 등록 경로 재사용)
+- 2026-11-09 17:31 [`bd9567c`](https://github.com/krafton-playground/ops-mrso-console/commit/bd9567c325af9abac0bbb05a05f7c33fa1b278d5) feat(HUB): 처음 보는 이름(new_entity) 카드도 HUB 인물 후보를 읽기 전용으로 보기
+- 2026-11-09 17:29 [`6a71b96`](https://github.com/krafton-playground/ops-mrso-console/commit/6a71b964d02532aa1c0050d54ed0b52048291867) feat(할 일): 선택지 키가 a/b이고 근거가 2개일 때만 A·B 타일과 「근거 A와 같아요」 보이기
+- 2026-11-09 17:28 [`4657743`](https://github.com/krafton-playground/ops-mrso-console/commit/4657743925bd5002a10f9c4667cdf92e2c5acfff) fix(할 일): 되돌린 확인 항목을 다시 답할 수 있게 하기
+- 2026-11-09 16:58 [`8643a4d`](https://github.com/krafton-playground/ops-mrso-console/commit/8643a4dc43e7b369825f7dd261e68951a0f3ec46) Merge remote-tracking branch 'local/answer' into claude/practical-review
+- 2026-11-09 16:58 [`eb0ba11`](https://github.com/krafton-playground/ops-mrso-console/commit/eb0ba11cc1d6979f061d95928016e7a79f86647c) Merge remote-tracking branch 'local/draft' into claude/practical-review
+- 2026-11-09 16:34 [`0e5b29d`](https://github.com/krafton-playground/ops-mrso-console/commit/0e5b29dbb31517e2fa6dd06c2c44a57a65c6148d) docs: record integrated two-attempt migration and regression checks
+- 2026-11-09 16:30 [`cc62f3c`](https://github.com/krafton-playground/ops-mrso-console/commit/cc62f3ca68ccbea356bc5ad79cbe16e2e18d9e39) feat(할 일): 확인 항목 답을 선택 카드로 고르고 한 번에 확정
+- 2026-11-09 16:28 [`c5979e5`](https://github.com/krafton-playground/ops-mrso-console/commit/c5979e5f77afc7b5c0000642166c99843750ca26) feat: 위키 초안 상세를 승인된 시안(한 화면에 모두 + 이번 변경 요약)으로 바꿔요
+- 2026-11-09 16:21 [`b4bd55a`](https://github.com/krafton-playground/ops-mrso-console/commit/b4bd55a6ebf3d696700790ffdf000a1abaaf4983) feat(sidebar): 글로서리 메뉴를 「스튜디오·프로젝트」로, 확인 대기·운영/실행 기록을 관리자 설정으로 이동
+- 2026-11-09 16:19 [`ab2dc97`](https://github.com/krafton-playground/ops-mrso-console/commit/ab2dc97d0fc8ecf4668a46896c65e676b132fd4f) fix(notifications): cap automatic Slack delivery at two total attempts
+- 2026-11-09 16:19 [`fd132ab`](https://github.com/krafton-playground/ops-mrso-console/commit/fd132ab8e9e2391be8e2d24261cd01dd16171ba5) Merge remote-tracking branch 'origin/main' into codex/slack-attempts-two
+- 2026-11-09 16:16 [`8062d1d`](https://github.com/krafton-playground/ops-mrso-console/commit/8062d1d8e26425557432c79f2ef5e9074dfff892) fix(storage-browser): MRSO 레거시 매핑 Project의 저장 파일을 세 번째 읽기 경로로 보여 줌
+- 2026-11-09 16:12 [`4ae3f8b`](https://github.com/krafton-playground/ops-mrso-console/commit/4ae3f8ba77c1a996ec1c3985d10f5654f98b65a7) Merge pull request #212 from krafton-playground/claude/bughunt-fixes-2026-11-09
+- 2026-11-09 15:53 [`90a8094`](https://github.com/krafton-playground/ops-mrso-console/commit/90a8094886b3fefcfbdc7d822a6425e73fa8760d) docs(report): 버그 점검 18건 수정 결과 보고서와 재실행 근거
+- 2026-11-09 15:20 [`975a81c`](https://github.com/krafton-playground/ops-mrso-console/commit/975a81c98b0f45b6356d496a0e6f444d96ed196e) test(harness): UltraQA·parity 선택자를 Workspace 카드 구조에 맞추기 (B18)
+- 2026-11-09 14:54 [`caefd47`](https://github.com/krafton-playground/ops-mrso-console/commit/caefd4775cfff4bb72e7f065830edf4e0b56eac8) Merge pull request #202 from krafton-playground/codex/slack-missing-account-owner-alert
+- 2026-11-09 14:53 [`45c10f6`](https://github.com/krafton-playground/ops-mrso-console/commit/45c10f6f8c5b97dcda24d972d5be80db403c78eb) test(notifications): expose protected immutable receipts for full workflow E2E
+- 2026-11-09 14:42 [`3c30d7f`](https://github.com/krafton-playground/ops-mrso-console/commit/3c30d7f4c803f5f61f4dc528072320e55432b875) Merge remote-tracking branch 'origin/main' into codex/slack-missing-account-owner-alert
+- 2026-11-09 14:34 [`c36164c`](https://github.com/krafton-playground/ops-mrso-console/commit/c36164c9e7d404d8ca4646fca5ecad67479bc29e) feat(runtime): /runtime Workspace별 운영 현황을 Workspace마다 별도 카드로 나누기 (B18)
+- 2026-11-09 14:30 [`8c1b125`](https://github.com/krafton-playground/ops-mrso-console/commit/8c1b1255ceafe7064b1608ba8638a4400435fcfb) docs(lesson): 버그 점검 17건 수정에서 배운 것 기록
+- 2026-11-09 14:29 [`0bb8d47`](https://github.com/krafton-playground/ops-mrso-console/commit/0bb8d47c93d462ff49d691c5a533c327259522b8) Merge pull request #211 from krafton-playground/claude/runtime-weekly-status-evidence
+- 2026-11-09 14:27 [`337eac4`](https://github.com/krafton-playground/ops-mrso-console/commit/337eac45f1d004fdb81e10f6eb0a2caed888ec06) fix(projects): /runtime 권한(#169)은 그대로 두고, 열 수 없는 사람에게 「무인 운영」 링크를 주지 않기 (B4)
+- 2026-11-09 14:12 [`f1f6b65`](https://github.com/krafton-playground/ops-mrso-console/commit/f1f6b65dc1130f8c757fc257f21d0bbd9972d0c4) fix(projects): 검색 중에도 종료·병합 창이 열린 Workspace 카드와 행을 남기기 (B6)
+- 2026-11-09 14:07 [`962c26e`](https://github.com/krafton-playground/ops-mrso-console/commit/962c26e63b0914f5a8d94b2931ee1a95f02136a3) test(harness): parity·lifecycle E2E를 수정된 동작에 맞추고 통합 fixture를 공유 DB와 분리
+- 2026-11-09 14:07 [`da31d3c`](https://github.com/krafton-playground/ops-mrso-console/commit/da31d3c6940abeab8af13136c680e9a01da5af93) fix(schedules): 종료·병합 행 켜기 거절을 409 LEGACY_TERMINATED / LEGACY_MERGED로 알리기 (B2)
+- 2026-11-09 13:50 [`a3e593c`](https://github.com/krafton-playground/ops-mrso-console/commit/a3e593c6b0404b80b930243bbd0648e99ab21b87) test(stories): 버그 점검 수정 상태를 /runtime 스토리로 추가 (B5, B7, B8)
+- 2026-11-09 13:43 [`1f4eed6`](https://github.com/krafton-playground/ops-mrso-console/commit/1f4eed6c6b301404d1ee3b68f1cfc340d1a0d0b7) fix(design): /runtime 보조 글자를 DESIGN.md 토큰으로 바꿔 WCAG AA 대비 확보 (B14)
+- 2026-11-09 13:41 [`8d917eb`](https://github.com/krafton-playground/ops-mrso-console/commit/8d917ebefb91389dc060d05f8e0d5bcc8eabfa94) fix(ui): 작업 중 로그인이 만료되면 「다시 시도」 대신 다시 로그인하라고 안내 (B13)
+- 2026-11-09 13:39 [`201c830`](https://github.com/krafton-playground/ops-mrso-console/commit/201c830faa152c9a35786fa74922e7dfdac25da1) fix(copy): 알림 제목과 빈 Workspace 안내의 합니다체를 해요체로 (B11)
+- 2026-11-09 13:37 [`ada0bdc`](https://github.com/krafton-playground/ops-mrso-console/commit/ada0bdc84b2b870534f87825af6a0bcd38bfee05) fix(copy): 종료·병합 창과 안내에 남은 revision·레지스트리·엔티티·「일정」 화면을 바로잡기 (B10)
+- 2026-11-09 13:35 [`474c4a3`](https://github.com/krafton-playground/ops-mrso-console/commit/474c4a3278a77d7c0b88bdcf644606217fd72124) fix(copy): 콘솔에서 종료한 Project를 「기존 MRSO에서 종료됨」으로 보이지 않게 (B12)
+- 2026-11-09 13:32 [`7351677`](https://github.com/krafton-playground/ops-mrso-console/commit/735167776aee142cc45ec71c055988d6c9154c3c) fix(runtime): Workspace KPI와 주간 일정 안내가 서로 어긋나 보이지 않게 (B8)
+- 2026-11-09 13:30 [`1514bc8`](https://github.com/krafton-playground/ops-mrso-console/commit/1514bc879ad78b98f7d1453fc0e365db0e377e93) fix(runtime): 필터·검색에 가려진 선택 행에는 일괄 켜기·끄기를 하지 않게 (B7)
+- 2026-11-09 13:29 [`7a538be`](https://github.com/krafton-playground/ops-mrso-console/commit/7a538be7e5594c22636d06264d660301064a3d27) fix(projects): 종료·병합 창과 결과 안내가 필터·검색에서 벗어나도 사라지지 않게 (B6)
+- 2026-11-09 13:26 [`94859ae`](https://github.com/krafton-playground/ops-mrso-console/commit/94859ae02920d4144227c75b7b1f01bc3262e14b) fix(projects): Project ADMIN의 Workspace 메뉴와 「무인 운영」 링크가 오류·거절 화면으로 가지 않게 (B4)
+- 2026-11-09 13:21 [`f61af67`](https://github.com/krafton-playground/ops-mrso-console/commit/f61af679c488a465bafe2099be1ef277405c56af) fix(mapping): 새로 연결할 항목이 없으면 미리보기가 applicable:false를 돌려주게 (B17)
+- 2026-11-09 13:19 [`fa85b01`](https://github.com/krafton-playground/ops-mrso-console/commit/fa85b0119738a917629a1d92a62184df0d13b8df) fix(lifecycle): 되돌리기 직후 점검이 같은 종료 제안을 다시 만들지 않게 (B16)
+- 2026-11-09 13:17 [`5fa4086`](https://github.com/krafton-playground/ops-mrso-console/commit/5fa408644e3f2bda5f777bea3a9f88d6d9f96806) Merge pull request #210 from krafton-playground/codex/unresolved-empty-count
+- 2026-11-09 13:17 [`e984336`](https://github.com/krafton-playground/ops-mrso-console/commit/e984336cc2496b4d9ddfcb25184523081c08884a) test(runtime): 통합 테스트에서 개요 실행기에 collectionSession(#207)이 남는지 확인
+- 2026-11-09 13:16 [`c3fcfb1`](https://github.com/krafton-playground/ops-mrso-console/commit/c3fcfb1f3b52c72b0d7698d4a214e7bf52bc8d1a) Merge pull request #208 from krafton-playground/codex/runtime-diagnostics-wizard
+- 2026-11-09 13:16 [`6ee377d`](https://github.com/krafton-playground/ops-mrso-console/commit/6ee377d644b4b5b65c648d1a01e0223e49da026c) fix(lifecycle): Project ADMIN에게 다른 사람의 내부 subject id를 보내지 않게 (B15)
+- 2026-11-09 13:16 [`e085162`](https://github.com/krafton-playground/ops-mrso-console/commit/e085162f14f51ffe8e88848c3fb7a010f137c4e5) fix(review): count an empty unresolved list as zero
+- 2026-11-09 13:15 [`c17f3d1`](https://github.com/krafton-playground/ops-mrso-console/commit/c17f3d1b39be43d012fde56ef1823d76d4b3b638) fix(lifecycle): 종료 재생이 다시 켜진 주간 일정을 alreadyOff로 보고하지 않게 (B9)
+- 2026-11-09 13:13 [`f461f2d`](https://github.com/krafton-playground/ops-mrso-console/commit/f461f2dbb7dafe51e7ef6788fb12c8781dad5475) fix(schedules): /schedules가 종료·병합 Project의 주간 일정을 다시 켜지 않게 (B2)
+- 2026-11-09 13:09 [`9f0dc61`](https://github.com/krafton-playground/ops-mrso-console/commit/9f0dc61edaf830bd98b7dc8f1bc63f003d4f8066) Merge latest main and retain both reviewed design sections
+- 2026-11-09 13:07 [`215c648`](https://github.com/krafton-playground/ops-mrso-console/commit/215c648436be7bd18fa6751e4a66d8c9cf6cbe4e) fix(runtime): /runtime Project 상한을 Workspace마다 적용해 다른 Workspace가 0/0이 되지 않게 (B5)
+- 2026-11-09 13:03 [`ee19e50`](https://github.com/krafton-playground/ops-mrso-console/commit/ee19e50fd1c41c0c87bea4a5706119ac846d5e9b) fix(runtime): bulk 주간 일정 끄기가 동시성 충돌로 일부 행을 켜진 채 두지 않게 (B1, B3)
+- 2026-11-09 13:01 [`1c21aff`](https://github.com/krafton-playground/ops-mrso-console/commit/1c21aff3414b3eed402e846da44b1747c81946f2) refactor(runtime): 리베이스 충돌 해결한 실행기 읽기의 collectionSession을 인자로 넘김 (prefer-const)
+- 2026-11-09 13:00 [`8cd008f`](https://github.com/krafton-playground/ops-mrso-console/commit/8cd008f5f6269145b9758968310e38c147be27e3) fix(runtime): Workspace 개요가 실행기를 다시 만들 때 collectionSession(#207)을 버리지 않게 함
+- 2026-11-09 12:58 [`5e23e10`](https://github.com/krafton-playground/ops-mrso-console/commit/5e23e10771eedacb4a36d1bb2e80c2ae1996b4e5) test(runtime): #207 실행기 테스트를 리베이스된 실행기 읽기·행 모양에 맞춤
+- 2026-11-09 12:52 [`d4422ea`](https://github.com/krafton-playground/ops-mrso-console/commit/d4422ea553356a66457bf050066fbc49369a242c) Merge pull request #209 from krafton-playground/codex/unresolved-issue-list
+- 2026-11-09 12:47 [`2de4f06`](https://github.com/krafton-playground/ops-mrso-console/commit/2de4f064af319e31f2c89e66c9a7e115b6cde349) feat(review): replace unresolved wizard with audited inline issue list
+- 2026-11-09 12:36 [`68bdab3`](https://github.com/krafton-playground/ops-mrso-console/commit/68bdab3e2fb1bb9cd5dee85e6da7dce3d2187993) docs(runtime): record wizard safety and verification
+- 2026-11-09 12:30 [`c011160`](https://github.com/krafton-playground/ops-mrso-console/commit/c0111602901882c232a65310f5336694dd79dee5) docs(lesson): 주간 운영 재작업에서 배운 점 (결정 목록 대조, 자른 목록, DST, aria-disabled 클릭, P2034 로그)
+- 2026-11-09 12:26 [`bbf7b91`](https://github.com/krafton-playground/ops-mrso-console/commit/bbf7b91d49277c6977112e32c7a5805d37caaade) fix(runtime): reject malformed previews and keep unavailable counts explicit
+- 2026-11-09 12:12 [`e031b36`](https://github.com/krafton-playground/ops-mrso-console/commit/e031b36d56b98284eeb1da97ef9110cfa115d1b3) test(runtime): 리허설 스크립트에 M2 놓친 슬롯 단계, 끄기 뒤 읽기, 잠긴 켜기 거부 검사 추가 (테스터 관찰 a)
+- 2026-11-09 12:12 [`332edd5`](https://github.com/krafton-playground/ops-mrso-console/commit/332edd514af07b42cde6627eb483674d73cd0475) feat(runtime): guide diagnostics through preview-and-confirm wizard
+- 2026-11-09 12:10 [`fa228e7`](https://github.com/krafton-playground/ops-mrso-console/commit/fa228e738641c7c4faac668b2e8c3bf32abe2b87) fix(runtime): 받아야 할 주간 시각·유예를 일정 행의 시간대로, DST에도 맞게 계산 (L6)
+- 2026-11-09 12:09 [`e6fca8e`](https://github.com/krafton-playground/ops-mrso-console/commit/e6fca8e801966712b4aceb62511d6dec69a9ce40) Merge pull request #207 from krafton-playground/claude/runtime-runner-state
+- 2026-11-09 12:07 [`1b0c071`](https://github.com/krafton-playground/ops-mrso-console/commit/1b0c071355ba2d8ca83125904a0643d5ab6be351) fix(runtime): ⋯ 카드 요소 id를 Workspace id + Project id로 겹치지 않게 (L5)
+- 2026-11-09 12:06 [`7214057`](https://github.com/krafton-playground/ops-mrso-console/commit/7214057cc8be381d5636b96731aaec4c4dc00832) fix(runtime): 「저장했어요」 알림을 미리 있는 aria-live=polite 영역에 넣어 읽히게 (L4)
+- 2026-11-09 12:05 [`56b58b9`](https://github.com/krafton-playground/ops-mrso-console/commit/56b58b947224f4011f9154b4b51d1bfbe64d247f) docs(design): /runtime 표 열 6개와 스위치 위치(⋯ 카드)를 새 화면에 맞춤 (L3)
+- 2026-11-09 12:04 [`88b165a`](https://github.com/krafton-playground/ops-mrso-console/commit/88b165aa1d261cf345a294392635e7c7d2116c1b) fix(runtime): 다음 실행 시각은 선택된 세대의 주간 행에서만 (L2)
+- 2026-11-09 12:03 [`a6e04c6`](https://github.com/krafton-playground/ops-mrso-console/commit/a6e04c6bbadedfe70731355ff0613ea57b3de8b1) fix(schedules): 주간 운영 근거 읽기에서 부서 범위를 LIMIT 200 전에 거름 (L1)
+- 2026-11-09 12:02 [`a3fe5d8`](https://github.com/krafton-playground/ops-mrso-console/commit/a3fe5d887334cf53c4b624a9b84e1438b15c8323) fix(runtime): 주간 운영 배지를 Project의 모든 주간 행으로 계산 (M1)
+- 2026-11-09 12:00 [`c2a1615`](https://github.com/krafton-playground/ops-mrso-console/commit/c2a16155e0b1b882dc2d93f732560297570ab729) fix(runtime): 일괄 바에 「개별 일정」 버튼, Project 하나만 골랐을 때만 쓸 수 있게 (H2)
+- 2026-11-09 11:59 [`d4d0181`](https://github.com/krafton-playground/ops-mrso-console/commit/d4d0181a409aea66d58a949741a36b43e41338e5) fix(runtime): 매핑 행 ⋯ 링크를 「기존 MRSO 항목 보기 →」로, 「Project 실행 연결 (선택) →」은 /projects/&lt;id>가 열리는 행에만 (H1)
+- 2026-11-09 11:38 [`9ca0c2c`](https://github.com/krafton-playground/ops-mrso-console/commit/9ca0c2cc1df03373805279eec1d793ad36f1644c) fix(runtime): 수집 담당자 로그인 확인 만료를 실행기 대기로 보지 않음
+- 2026-11-09 11:34 [`89ca4d8`](https://github.com/krafton-playground/ops-mrso-console/commit/89ca4d8794dc9fc4778a6cf95934d2290685e7d3) Merge pull request #206 from krafton-playground/claude/admin-files-tab-revive
+- 2026-11-09 11:24 [`bfe9a92`](https://github.com/krafton-playground/ops-mrso-console/commit/bfe9a923fef59e213c4d0a3c0a08f47e0caa2be0) docs(design): /admin 저장 파일 탭과 파일 탐색기 규칙 기록
+- 2026-11-09 11:24 [`b0cea9e`](https://github.com/krafton-playground/ops-mrso-console/commit/b0cea9e48ceaa6b62608865d20d297e861e61921) test(files): UI E2E 보기 전환 이름을 읽기 보기/원본 보기로 맞추고 LESSON 기록
+- 2026-11-09 11:18 [`7833ccd`](https://github.com/krafton-playground/ops-mrso-console/commit/7833ccd545e1c650ba2b56598bf3d717a8db867a) fix(files): /admin 저장 파일 탭을 main 트리 이후 화면에 맞추고 시안대로 정리
+- 2026-11-09 11:10 [`978f310`](https://github.com/krafton-playground/ops-mrso-console/commit/978f3103f59299de5fb2c7fcf1f83fc2082083a5) merge: origin/main을 codex/admin-files-tab에 병합 (저장 파일 CSS 충돌 해결)
+- 2026-11-09 11:07 [`89e35f2`](https://github.com/krafton-playground/ops-mrso-console/commit/89e35f24fb1193f789bdd3db959d526e59ed7c0d) Merge pull request #205 from krafton-playground/claude/hotfix-runtime-page-tab
+- 2026-11-09 11:00 [`0575655`](https://github.com/krafton-playground/ops-mrso-console/commit/0575655fb4603e811b2c0ea0b7a4b124b98c1428) fix(runtime): /runtime 서버 페이지가 클라이언트 함수를 부르던 오류 수정 (PROD digest 158574809)
+- 2026-11-09 11:00 [`a31c71e`](https://github.com/krafton-playground/ops-mrso-console/commit/a31c71e4b238f95cd24a9cf315f4a632c10a3974) test(runtime): S23 픽스처 사용자에게 세대 MEMBER 역할을 줘서 /runtime을 열 수 있게 함
+- 2026-11-09 10:51 [`225bf20`](https://github.com/krafton-playground/ops-mrso-console/commit/225bf208d85bcc7766126f723abf5e5b4845c6bf) Merge pull request #203 from krafton-playground/claude/tab-border-consistency
+- 2026-11-09 10:44 [`cad9f00`](https://github.com/krafton-playground/ops-mrso-console/commit/cad9f001a91e7adb2a2db800efc343b624174ce5) test(runtime): 주간 운영 ⋯ 스위치·배지 일치 검사, 리허설 하네스, 문서 (F4)
+- 2026-11-09 10:33 [`a210c13`](https://github.com/krafton-playground/ops-mrso-console/commit/a210c13dd65385b261e5036d9a609e1b86fcc80e) Merge pull request #204 from krafton-playground/claude/runtime-page-props-fix
+- 2026-11-09 10:33 [`fac5c6f`](https://github.com/krafton-playground/ops-mrso-console/commit/fac5c6f8cdf37fba032d5b5a019d1e5e54edf323) fix(runtime): Next 빌드가 거부하는 선택형 page props 기본값 제거 (#201 배포 실패)
+- 2026-11-09 10:30 [`29ad331`](https://github.com/krafton-playground/ops-mrso-console/commit/29ad331db21273df62ec5f9974cb7a4662c27f7b) feat(runtime): 주간 운영 스위치를 ⋯ 설정 카드로 옮기고 행에서 스위치 칸을 뺌 (F2)
+- 2026-11-09 10:30 [`f0cce5c`](https://github.com/krafton-playground/ops-mrso-console/commit/f0cce5c88cd409093165fed0a49cfa3b2e178adb) feat(schedules): 대상별 일정에 무인 운영과 같은 주간 운영 배지·사실 줄 (F3)
+- 2026-11-09 10:27 [`4494443`](https://github.com/krafton-playground/ops-mrso-console/commit/4494443e5b69346846ec1cf68c6a06ce931baa65) fix(ui): /runtime 탭 메뉴 테두리를 공통 탭 규칙에 맞춤
+- 2026-11-09 10:19 [`a0b1a28`](https://github.com/krafton-playground/ops-mrso-console/commit/a0b1a289afd0b189d0956b3b2e62e758c1c9e933) docs: record integrated Slack alert release checks and live delivery prerequisites
+- 2026-11-09 10:18 [`5f6fd5e`](https://github.com/krafton-playground/ops-mrso-console/commit/5f6fd5e2499ad05a6d27fe7ff75b7d202f253c19) Merge pull request #201 from krafton-playground/claude/runtime-tabs-workspace-default
+- 2026-11-09 10:17 [`4d4771d`](https://github.com/krafton-playground/ops-mrso-console/commit/4d4771d173ff1776ba8b487b91524f176538fe42) feat(runtime): 주간 운영 상태를 행별 실행 근거로 계산하고 스위치 권한을 /schedules와 맞춤 (F1)
+- 2026-11-09 10:16 [`2ea17c9`](https://github.com/krafton-playground/ops-mrso-console/commit/2ea17c9e10c0fc6719d00f5f4e36a6c715712b5b) Merge remote-tracking branch 'origin/main' into codex/slack-missing-account-owner-alert
+- 2026-11-09 10:16 [`f114b7c`](https://github.com/krafton-playground/ops-mrso-console/commit/f114b7c96e37c34244df9335eb538b0fb7f6e835) fix(notifications): alert global OWNER and OPERATOR on missing Slack accounts
+- 2026-11-09 10:12 [`40eb431`](https://github.com/krafton-playground/ops-mrso-console/commit/40eb431d3b219025b9bcf2dcc75a929b9e5343cc) feat(runtime): 무인 운영 화면을 「Workspace별 운영 현황 / 기존 MRSO 운영」 탭으로 나누기
+- 2026-11-09 10:01 [`f58ffd2`](https://github.com/krafton-playground/ops-mrso-console/commit/f58ffd2d62f7ab078776a28363e78f71a7ba7781) Merge pull request #194 from krafton-playground/claude/lifecycle-safety-fix
+- 2026-11-09 09:46 [`6613f07`](https://github.com/krafton-playground/ops-mrso-console/commit/6613f07be39d6662c36b8dab6c47c8b900db3e80) test(e2e): lifecycle E2E를 #197 트리·#198 문구에 맞추고 최종 빌드 검증 보고서 갱신
+- 2026-11-09 09:42 [`ee36342`](https://github.com/krafton-playground/ops-mrso-console/commit/ee3634225ad74afcc3caa4bdae8f43343c6570eb) Merge pull request #200 from krafton-playground/claude/proposals-bounded-read
+- 2026-11-09 09:42 [`d80ff78`](https://github.com/krafton-playground/ops-mrso-console/commit/d80ff78484d578a8897d0441e759f0609b439e15) Merge pull request #199 from krafton-playground/claude/worker-startup-diagnostics
+- 2026-11-08 22:52 [`a857931`](https://github.com/krafton-playground/ops-mrso-console/commit/a85793179fbf2452ee1d040996c634a45f03405d) perf(admin-read): 리뷰 반영, 기존 미리보기 읽기 재사용·50개 단위·범위/가리기/누락 테스트
+- 2026-11-08 22:52 [`c3e62f6`](https://github.com/krafton-playground/ops-mrso-console/commit/c3e62f606d32f656fa8cdee2f3086c0b87845f3a) fix(worker): 등록·상태 트랜잭션 시간 한도 15초, P2028도 시작 단계에서 재시도, 종료 중엔 재시도 안 함
+- 2026-11-08 22:46 [`7ef0d60`](https://github.com/krafton-playground/ops-mrso-console/commit/7ef0d606c4cdd5d558aa9499d5e0b27881b463e7) fix(lifecycle): Project ADMIN은 주간 일정을 끌 수 없다고 처리 전에 안내, 서랍 문구를 UX 가이드에 맞춤
+- 2026-11-08 22:41 [`b7ac2c0`](https://github.com/krafton-playground/ops-mrso-console/commit/b7ac2c0681aae0a486bcaad59bb4f3bedbd3a676) perf(admin-read): 위키 초안 목록(/proposals)의 초안·확인 항목을 묶어서 읽기
+- 2026-11-08 22:35 [`1235a1b`](https://github.com/krafton-playground/ops-mrso-console/commit/1235a1b265a355945ff424f3fa128e4c46b063c8) fix(worker): 배포 겹침의 등록 충돌은 프로세스 안에서 재시도하고, 멈춘 이유 코드를 남긴다
+- 2026-11-08 22:24 [`8d65f7f`](https://github.com/krafton-playground/ops-mrso-console/commit/8d65f7fc7b94cca2b9d89a71dd1866fd5ca91c99) Merge pull request #193 from krafton-playground/claude/runtime-switch-mapped
+- 2026-11-08 22:13 [`bf1d799`](https://github.com/krafton-playground/ops-mrso-console/commit/bf1d799c75916ce7b4dee9d0eec9df3581244102) fix(runtime): 일정 없는 행은 「일정 없음」으로, #198 용어집에 맞춰 /runtime·연결 패널 문구 정리
+- 2026-11-08 22:01 [`e621c83`](https://github.com/krafton-playground/ops-mrso-console/commit/e621c83d820bfa91c011185721192bfcd6325801) test(runtime): 보고서 기준 main 표기 갱신
+- 2026-11-08 21:49 [`f7b5854`](https://github.com/krafton-playground/ops-mrso-console/commit/f7b5854eee5ef37396388b4b690957ca0e16f17c) test(runtime): 보고서에 After declutter 절 추가
+- 2026-11-08 21:33 [`84d3bc5`](https://github.com/krafton-playground/ops-mrso-console/commit/84d3bc58967ce33a53c58cabee6c3f39f8b932d4) docs(runtime): 행 정리 DESIGN·LESSON, 스토리 RF3 데이터 · KPI 줄바꿈 수정
+- 2026-11-08 21:32 [`79f0b27`](https://github.com/krafton-playground/ops-mrso-console/commit/79f0b27f034fda23cb70c74c080deb349288e8eb) Merge pull request #198 from krafton-playground/claude/korean-ux-writing-2
+- 2026-11-08 21:24 [`5d5c840`](https://github.com/krafton-playground/ops-mrso-console/commit/5d5c840f4e35fd5b89a5db36ef0732dd315f6fdc) fix(runtime): 실행기 대기 이유는 행에 첫 번째만, 전체는 Workspace KPI에 · Studio 묶음 머리 왼쪽 정렬
+- 2026-11-08 21:17 [`181c2b5`](https://github.com/krafton-playground/ops-mrso-console/commit/181c2b5bed91a1cb4231c981d36b766e1f8be052) feat(runtime): 무인 운영 행 정리(승인된 시안) — 5가지만 남기고 나머지는 ⋯ 자세히로
+- 2026-11-08 21:17 [`2ec016e`](https://github.com/krafton-playground/ops-mrso-console/commit/2ec016eb956fe50837796668a105fe8e0e023fe1) test(runtime): 행 정리 화면에 맞춘 하네스 — ⋯ 자세히·RF3·일괄 바·해요체·390 검사
+- 2026-11-08 20:51 [`1ea3c2b`](https://github.com/krafton-playground/ops-mrso-console/commit/1ea3c2b7043f153038dd2f6bd930d2743e687fb1) copy(ui): 새 Project 디렉터리 트리(#197) 문구를 같은 용어로 맞춤
+- 2026-11-08 20:06 [`56469c4`](https://github.com/krafton-playground/ops-mrso-console/commit/56469c4b6d360f0068932177df3a477927098c42) copy(ui): 제목과 뜻이 겹치는 영문 eyebrow 7개 제거
+- 2026-11-08 20:01 [`f46e781`](https://github.com/krafton-playground/ops-mrso-console/commit/f46e78156ec0f2cc1c920f83e035e9b77b95af38) copy(ui): 알림 「억제」를 「제한」으로
+- 2026-11-08 19:57 [`2fbb378`](https://github.com/krafton-playground/ops-mrso-console/commit/2fbb3782196c89c2c18bac7c10f243200630cad0) Merge pull request #197 from krafton-playground/claude/workspace-studio-tree
+- 2026-11-08 19:46 [`c2a2dcf`](https://github.com/krafton-playground/ops-mrso-console/commit/c2a2dcfe84803b4929dd5e7383a8ab0494e2673a) copy(ui): Registry 화면 이름은 「글로서리」로 유지
+- 2026-11-08 19:41 [`feca0e6`](https://github.com/krafton-playground/ops-mrso-console/commit/feca0e62a1885a0a1657a159840630f4adec23b6) copy(ui): 번역투·기술 용어를 자연스러운 한국어로 2차 정리
+- 2026-11-08 19:36 [`d4cb77c`](https://github.com/krafton-playground/ops-mrso-console/commit/d4cb77ccdc619bcbcd0b73e95aae4386398d10ad) Merge pull request #196 from krafton-playground/claude/publication-intent-strict
+- 2026-11-08 19:22 [`9ea6651`](https://github.com/krafton-playground/ops-mrso-console/commit/9ea66510dc6f2b80db84f8368143033ecb0d612d) feat(directory): 볼 수 없는 Studio는 이름만 보여 주기 (결정 ③)
+- 2026-11-08 18:41 [`afad440`](https://github.com/krafton-playground/ops-mrso-console/commit/afad440a75e8c13113a8c5b890ff6693dddcedf2) docs(design): 시안 위치 설명 정리
+- 2026-11-08 18:35 [`8e2851b`](https://github.com/krafton-playground/ops-mrso-console/commit/8e2851b0e83727668e3cfe290a0c5d7ccd38cea3) test(directory): 로컬 /admin 트리 검증 스크립트 보강, MEMBER 비활성 이유 문구
+- 2026-11-08 18:27 [`a22770b`](https://github.com/krafton-playground/ops-mrso-console/commit/a22770bae821fc7072ad8991e413762c398f6b1b) docs: Studio → Project 트리 DESIGN·LESSON 기록과 로컬 /admin 검증 스크립트
+- 2026-11-08 18:25 [`77b430b`](https://github.com/krafton-playground/ops-mrso-console/commit/77b430bdf41f203873b1f02e3d30f9199a87b954) docs(report): 발행 준비 strictTransaction 수정의 red/green 증거와 검증 보고서
+- 2026-11-08 18:22 [`f1bd9af`](https://github.com/krafton-playground/ops-mrso-console/commit/f1bd9af92cf5f1d9da44ed006b3b0bfc662352bf) fix(directory): 트리 행 문구·색·좁은 화면 정리
+- 2026-11-08 18:19 [`164aa33`](https://github.com/krafton-playground/ops-mrso-console/commit/164aa33dda97fd526dcc61fd7bf045690ed5a5ad) fix(db): 지연 제약 실패를 성공으로 답하지 않도록 strictTransaction 추가 (#194와 동일)
+- 2026-11-08 18:19 [`bd9c9b4`](https://github.com/krafton-playground/ops-mrso-console/commit/bd9c9b4b2d612f443c1901b2d7a7de13d55eb3fa) fix(publication): 발행 준비가 커밋에서 거절되면 PREPARED 대신 NOT_ELIGIBLE로 실패
+- 2026-11-08 18:19 [`2338b24`](https://github.com/krafton-playground/ops-mrso-console/commit/2338b2450ebe25263c49ff2364d48b85460fc590) Merge pull request #195 from krafton-playground/claude/korean-ux-writing
+- 2026-11-08 18:14 [`14f9f4a`](https://github.com/krafton-playground/ops-mrso-console/commit/14f9f4a81af2687ced388178e349de4929d4aa00) feat(directory): Workspace · Projects를 Studio → Project 트리로 바꾸고 카드/목록 전환 제거
+- 2026-11-08 18:09 [`36d535b`](https://github.com/krafton-playground/ops-mrso-console/commit/36d535b2f007ae11a55acd4a43e97919c44a4d0c) copy(ui): 화면 한국어 문구를 해요체·쉬운 말로 정리 (토스 8원칙)
+- 2026-11-08 16:32 [`8c0b2be`](https://github.com/krafton-playground/ops-mrso-console/commit/8c0b2be8d1d9115998c785ee76f3e69af87b4559) docs(report): 종료·병합 안전 수정 검증 보고서와 EXPLAIN·스크린샷 스크립트
+- 2026-11-08 16:17 [`fa9923e`](https://github.com/krafton-playground/ops-mrso-console/commit/fa9923ee6891f87c18b9dd701dad57542d2a822b) fix(lifecycle): 주간 일정 끄기 단계를 커밋 뒤 상태로 다시 확인
+- 2026-11-08 16:04 [`06c759a`](https://github.com/krafton-playground/ops-mrso-console/commit/06c759a8ef0e45a09bd9d404f9ef08e1b571e815) Merge pull request #192 from krafton-playground/claude/map-mrso-page-targets
+- 2026-11-08 16:01 [`d9a38a3`](https://github.com/krafton-playground/ops-mrso-console/commit/d9a38a3a58021b36d75b1ddecf7e360c0015195e) docs: #190 lifecycle 마이그레이션 롤백 순서(코드 먼저)와 함수 5개 정정
+- 2026-11-08 15:57 [`1769324`](https://github.com/krafton-playground/ops-mrso-console/commit/176932440a34caebfb981e640cdcfd468d1f7598) fix(lifecycle): 종료·병합 처리 시 Project의 공통 주간 일정을 감사 명령으로 끔
+- 2026-11-08 15:57 [`57980ae`](https://github.com/krafton-playground/ops-mrso-console/commit/57980aececfccd8ec35a846ec8cc29f5adb32a5e) fix(scheduler): 종료·병합된 매핑 Project의 주간 일정은 실패가 아닌 진단으로 건너뜀
+- 2026-11-08 15:49 [`068acb6`](https://github.com/krafton-playground/ops-mrso-console/commit/068acb6a28e6b68bc6bdb1ad38bc0f11275f4863) test(runtime): PROD 비교 형식을 리허설 단계로 옮기고 양방향 스위치·Studio 그룹 일괄 검사
+- 2026-11-08 15:46 [`f75fba4`](https://github.com/krafton-playground/ops-mrso-console/commit/f75fba44531b5cf753fc996c709bd36c3ceb69fb) fix(db): 지연 제약 실패를 성공으로 답하지 않도록 strictTransaction 추가
+- 2026-11-08 15:36 [`d406d41`](https://github.com/krafton-playground/ops-mrso-console/commit/d406d41b86d2284adce7934bd00ba4f13cdfd6b9) fix(runtime): 좁은 화면에서도 왼쪽 칸에 무인 운영 상태 표시, 실행기 칸 중복 이유 제거
+- 2026-11-08 15:28 [`3d2a0ea`](https://github.com/krafton-playground/ops-mrso-console/commit/3d2a0eafa1b97963b1711e522361dc59bfb1f453) docs(runtime): 기존 MRSO 주간 실행 상태·스위치 스토리와 DESIGN·LESSON
+- 2026-11-08 15:24 [`0251126`](https://github.com/krafton-playground/ops-mrso-console/commit/0251126eb8fc77a70f24cc8da107860bc9c5fd3e) feat(runtime): 매핑만 된 기존 MRSO Project의 무인 운영 스위치를 실제 주간 실행(/schedules 행)에 연결
+- 2026-11-08 15:14 [`1a0441e`](https://github.com/krafton-playground/ops-mrso-console/commit/1a0441e8ee4d6875cdb22babc3c9a6d663685c54) test(mapping): 리허설을 PROD 순서(#191 매핑 → #190 → #192)로 돌리고 저장형 종료·병합 유지 검사
+- 2026-11-08 15:05 [`4a633fb`](https://github.com/krafton-playground/ops-mrso-console/commit/4a633fbbfb682d113692753b692669ea6a3f3d29) docs(mapping): 매핑 패널 스토리와 DESIGN·LESSON 기록
+- 2026-11-08 15:05 [`847edc9`](https://github.com/krafton-playground/ops-mrso-console/commit/847edc948e16d7dbf83fa6e773fdf3add94afe90) test(mapping): 리허설 보고서 생성기
+- 2026-11-08 15:02 [`859fe24`](https://github.com/krafton-playground/ops-mrso-console/commit/859fe247a1e5ec01f65db3b1adb227e06d11af8e) Merge pull request #190 from krafton-playground/claude/legacy-lifecycle
+- 2026-11-08 13:03 [`0f1c778`](https://github.com/krafton-playground/ops-mrso-console/commit/0f1c77862efb9e28a4662d598efb837b8d7f83e2) feat(mapping): MRSO 페이지가 있는 엔터티도 매핑하고 나중에 연결된 스튜디오로 자식 자동 소속
+- 2026-11-08 13:03 [`cbfd260`](https://github.com/krafton-playground/ops-mrso-console/commit/cbfd260679b6302b807aa2cecb16a873c91bfc23) test(mapping): 실데이터 리허설 — 옛 규칙 매핑 → guard 마이그레이션 → 콘솔 매핑 재실행
+- 2026-11-08 13:03 [`b030423`](https://github.com/krafton-playground/ops-mrso-console/commit/b0304232b0f251010aa5dac80a370b0ef5b9bbd3) feat(db): 기존 MRSO 매핑 guard를 MRSO 부서 페이지 기준까지 허용
+- 2026-11-08 12:02 [`e6df495`](https://github.com/krafton-playground/ops-mrso-console/commit/e6df495138b0130253aaf88e3ca40043c6167827) test(runtime): #191 공통 주간 일정·LEGACY_NOT_WIRED 와 저장형 종료·병합 공존 통합 테스트
+- 2026-11-08 11:58 [`f536d3c`](https://github.com/krafton-playground/ops-mrso-console/commit/f536d3c60ec2ba3b79c55d115dbaafc99bbbf66b) Merge pull request #191 from krafton-playground/claude/schedule-runtime-parity
+- 2026-11-07 23:27 [`5069463`](https://github.com/krafton-playground/ops-mrso-console/commit/5069463fc092764a5fe2c126573cc9835e3be629) test(runtime): 실데이터 /schedules ↔ /runtime 일치 UltraQA 하네스
+- 2026-11-07 23:04 [`2a870b3`](https://github.com/krafton-playground/ops-mrso-console/commit/2a870b3d9a26eeddde9279aa2d699b37f645d5e5) fix(inbox): 제안 승인 후 카드가 빠질 때 패널에 결과를 안내
+- 2026-11-07 23:04 [`741782f`](https://github.com/krafton-playground/ops-mrso-console/commit/741782fd7b131db428a0ad2c895464184133de74) test(ultraqa): 종료·병합 동적 E2E·동결 백업 리허설·보고서 생성 추가
+- 2026-11-07 22:42 [`f86182c`](https://github.com/krafton-playground/ops-mrso-console/commit/f86182cd1807ee5a51bea13a50a181dcfa84938a) docs(design): 종료·병합 서랍·제안 Storybook 이야기와 DESIGN/LESSON 기록
+- 2026-11-07 22:39 [`366b5b3`](https://github.com/krafton-playground/ops-mrso-console/commit/366b5b383a0e23045407277e454d02f4e8d55cc9) fix(runtime): /runtime 공통 주간 일정을 /schedules와 같은 Schedule 행으로 표시
+- 2026-11-07 22:39 [`39fedbd`](https://github.com/krafton-playground/ops-mrso-console/commit/39fedbd10fe09fac0642cb95907794b4a0bd1309) feat(projects): 무인 종료·병합 제안 — 할 일에서 승인(감사 명령 실행) 또는 무시
+- 2026-11-07 22:39 [`ee34743`](https://github.com/krafton-playground/ops-mrso-console/commit/ee347432e035a6c2c9c880fde9d553de82319f02) feat(projects): 관리자 종료 처리·병합 처리·되돌리기 (확인 근거·requestId·revision CAS·감사 이력)
+- 2026-11-07 22:36 [`149fb9f`](https://github.com/krafton-playground/ops-mrso-console/commit/149fb9f3c49681ac8f0f0c8cd5fbd9510d2ee8bd) test(runtime): /schedules와 /runtime 공통 주간 일정 불일치 원인 진단 테스트
+- 2026-11-07 22:22 [`260f129`](https://github.com/krafton-playground/ops-mrso-console/commit/260f1295f1db0bd3bf82a37f34d928203a0685d8) feat(runtime): 종료·병합된 Project 는 무인 운영 dispatcher 가 건너뜀
+- 2026-11-07 22:22 [`d475406`](https://github.com/krafton-playground/ops-mrso-console/commit/d4754061c1b1abe1a6bcc05cdda4292a524ba9f5) feat(projects): 종료·병합 읽기 계층이 저장 행을 우선하고 payload 로 대체
+- 2026-11-07 22:20 [`7556910`](https://github.com/krafton-playground/ops-mrso-console/commit/75569104219cb941cd8c5223d333ff9ad7d0be69) feat(db): 기존 MRSO Project 종료·병합 저장 테이블과 멱등 backfill 추가
+- 2026-11-07 21:40 [`49bceb5`](https://github.com/krafton-playground/ops-mrso-console/commit/49bceb57c20cdb9822d637f826bb59854ab3e23c) Merge pull request #189 from krafton-playground/claude/runtime-flex-schedules
+- 2026-11-07 21:38 [`1c41ad4`](https://github.com/krafton-playground/ops-mrso-console/commit/1c41ad4c7e3a92155dec2556632e620b5468f6fa) test(runtime): UltraQA L3/L6/L7 기대값을 수정 반영 — 개별 일정 LEGACY 코드, 후속은 /projects 링크 없음
+- 2026-11-07 21:32 [`9bb5e52`](https://github.com/krafton-playground/ops-mrso-console/commit/9bb5e529556ef4ead5b9a078bb81e9dfbeaf589e) fix(runtime): 병합 후속 링크를 디렉터리 규칙으로 맞추고 종료·병합 개별 일정 저장을 LEGACY 코드로 거부
+- 2026-11-07 21:25 [`d5fb065`](https://github.com/krafton-playground/ops-mrso-console/commit/d5fb065b553225cffdd754af7f60e9e6585058c2) test(runtime): UltraQA 하네스 dc0be33 재검증 — 오래된 기대값 수정, 종료·병합 시나리오 추가
+- 2026-11-07 21:09 [`dc0be33`](https://github.com/krafton-playground/ops-mrso-console/commit/dc0be33362aeacad4967e48e1e5093a36e1edde6) feat(runtime): 기존 MRSO에서 종료·병합된 Project를 종료 묶음과 배지로 표시
+- 2026-11-07 20:09 [`f806de5`](https://github.com/krafton-playground/ops-mrso-console/commit/f806de50001c14a1163922148091547012254f70) fix(runtime): 무인 운영 리뷰 수정 — 공유 일정 경고, 정확 집계, 영수증 우선 재시도
+- 2026-11-07 19:50 [`141c8bd`](https://github.com/krafton-playground/ops-mrso-console/commit/141c8bdfa34f55632700a64fad07271d17093338) docs(reports): GitHub 내보내기 데이터 저장소 전환 분석·절차 보고서
+- 2026-11-07 19:49 [`8023dc8`](https://github.com/krafton-playground/ops-mrso-console/commit/8023dc89e45f446a400d18dd9849b92889d24f69) test(runtime): 무인 운영 일괄 켜기/끄기·개별 일정 UltraQA 하네스 추가
+- 2026-11-07 19:48 [`b54ad73`](https://github.com/krafton-playground/ops-mrso-console/commit/b54ad73e4758dba45ee0f1c3573d20d95a84b16a) feat(github-export): 내보내기 대상 저장소·브랜치·경로를 환경변수로 설정
+- 2026-11-07 19:18 [`3977497`](https://github.com/krafton-playground/ops-mrso-console/commit/3977497a669dd4c96812130be009bea4c00f3f4e) feat(runtime): 무인 운영 일괄 켜기/끄기, Studio별 묶음, Project 개별 일정 설정
+- 2026-11-07 19:18 [`783b773`](https://github.com/krafton-playground/ops-mrso-console/commit/783b773ceb5f0923451b22e0953255c70cb02d4d) fix(projects): 카드 보기 진행 막대가 보이지 않던 문제 수정
+- 2026-11-07 18:59 [`e486bfa`](https://github.com/krafton-playground/ops-mrso-console/commit/e486bfa9734a2224bc7bd7da020b24affb33bea2) Merge pull request #188 from krafton-playground/claude/docs-studio-project-model
+- 2026-11-07 18:53 [`a167e40`](https://github.com/krafton-playground/ops-mrso-console/commit/a167e4003058562e9bac978f6ef49f2f80ff901e) docs: Workspace → Studio → Project 계층과 Studio studioId 규칙 기록
+- 2026-11-07 12:32 [`e637fd8`](https://github.com/krafton-playground/ops-mrso-console/commit/e637fd85885fc644acdc010cbc86457f6083bc95) Merge pull request #187 from krafton-playground/claude/fix-migration-schema-drift
+- 2026-11-07 12:26 [`17ba63c`](https://github.com/krafton-playground/ops-mrso-console/commit/17ba63c7e5558c3f97088d237bec6dd856ac8fef) fix(db): schema.prisma를 기존 마이그레이션과 일치시켜 드리프트 해소
+- 2026-11-07 10:34 [`65a6cc5`](https://github.com/krafton-playground/ops-mrso-console/commit/65a6cc5d367153cef2944673d24ac0c4b184809b) feat: deterministic Storybook catalogue and shared design contract (#186)
+- 2026-11-07 09:54 [`46dcebf`](https://github.com/krafton-playground/ops-mrso-console/commit/46dcebffa75afaf31bd13fabe16c6b47c1f8e433) fix(files): keep original preview on the right and harden inert rendering
+- 2026-11-07 00:52 [`a40ce1c`](https://github.com/krafton-playground/ops-mrso-console/commit/a40ce1c54de08a55f9fd8e9e1165417ec852c256) feat(files): 원본 보기를 파일 목록 아래 전체 폭 읽기 영역으로 재구성
+- 2026-11-07 00:39 [`58bb340`](https://github.com/krafton-playground/ops-mrso-console/commit/58bb340f674e6413de65ba52374d01cf3ad40f3b) feat(files): 저장 파일 탭을 Project 카드 디자인으로 맞추고 원본을 Confluence 모양으로 표시
+- 2026-11-07 00:18 [`44a2c9e`](https://github.com/krafton-playground/ops-mrso-console/commit/44a2c9e47aecc1cdca424852f089a76c4a43b124) feat(admin): /admin에 저장 파일 탭 추가
+- 2026-11-06 18:25 [`1079bea`](https://github.com/krafton-playground/ops-mrso-console/commit/1079beaa0e0f91aedb37d83f184e464760830d41) Merge pull request #183 from krafton-playground/codex/prod-storage-browser
+- 2026-11-06 18:14 [`5a00747`](https://github.com/krafton-playground/ops-mrso-console/commit/5a00747584d2458e294cd63f802ed768beb9b3c2) docs: PROD dummy 페이지 수집 및 저장 검증 기준 기록
+- 2026-11-06 18:13 [`c42877e`](https://github.com/krafton-playground/ops-mrso-console/commit/c42877ec83f9b6582e580fe4275f557049c35a04) Merge remote-tracking branch 'origin/main' into codex/prod-storage-browser
+- 2026-11-06 18:13 [`653247c`](https://github.com/krafton-playground/ops-mrso-console/commit/653247c9204b7ba387bf719e8403bb656c51528d) Merge pull request #182 from krafton-playground/codex/review-choice-cards
+- 2026-11-06 18:13 [`721c425`](https://github.com/krafton-playground/ops-mrso-console/commit/721c4255a57da9fadd943f49c76a4b84fca2d9fd) Merge pull request #181 from krafton-playground/codex/runtime-table-first
+- 2026-11-06 18:12 [`845fb9a`](https://github.com/krafton-playground/ops-mrso-console/commit/845fb9a38456bd1eaea04000250a44740a21b549) fix(runtime): 무인 운영에서 Workspace별 설정 현황 표를 맨 위에, 기존 MRSO 운영을 그 아래에 표시
+- 2026-11-06 18:12 [`f802fc4`](https://github.com/krafton-playground/ops-mrso-console/commit/f802fc448ec6c73ab28f34b34acb255a86c78ac6) feat: 검토 선택 카드와 강조된 다음 섹션 버튼
+- 2026-11-06 17:44 [`5f9515d`](https://github.com/krafton-playground/ops-mrso-console/commit/5f9515d882f68acc3b21f0b6df1b4bd7e81f21c6) Merge pull request #180 from krafton-playground/codex/proposal-review-inline-wizard
+- 2026-11-06 17:43 [`8ece45b`](https://github.com/krafton-playground/ops-mrso-console/commit/8ece45b5d518a8e716a390e9bf5890a3547499a4) feat: 목업과 동일한 단계형 초안 검토 및 기각 바로 표시
+- 2026-11-06 17:43 [`a121af2`](https://github.com/krafton-playground/ops-mrso-console/commit/a121af2e6729e38de9c960569743d6d32d1183cf) fix: 저장 파일 cursor 전용 secret 분리
+- 2026-11-06 17:29 [`a65ec54`](https://github.com/krafton-playground/ops-mrso-console/commit/a65ec54afcfecccf5d4845076b6e6dd209f386d5) Merge pull request #179 from krafton-playground/codex/runtime-legacy-plus-workspaces
+- 2026-11-06 17:29 [`788fe8b`](https://github.com/krafton-playground/ops-mrso-console/commit/788fe8bafbd392c90545308029c552408f2ae7ef) fix(runtime): 무인 운영에 기존 MRSO 운영(위)과 Workspace별 설정 현황 표(아래)를 함께 표시
+- 2026-11-06 17:25 [`920cb6c`](https://github.com/krafton-playground/ops-mrso-console/commit/920cb6cb0086f68bc7bdd24e67077b71f83cb6f9) feat: DEV PostgreSQL S3 저장 파일 탐색기 추가
+- 2026-11-06 17:21 [`2703560`](https://github.com/krafton-playground/ops-mrso-console/commit/27035602d9689dc986f630e69884e6482878d9ae) Merge pull request #178 from krafton-playground/codex/registry-native-generation-selection
+- 2026-11-06 17:20 [`c5b4dae`](https://github.com/krafton-playground/ops-mrso-console/commit/c5b4daeefe7586932a62a9cfae7122c6390168de) fix: 글로서리에서 프로젝트 UUID 세대 선택 허용
+- 2026-11-06 17:05 [`87b6fc8`](https://github.com/krafton-playground/ops-mrso-console/commit/87b6fc88522bc5fc1b3c94cca61144cfea253459) Merge pull request #177 from krafton-playground/codex/workspace-selector-current-names
+- 2026-11-06 17:05 [`baf8b68`](https://github.com/krafton-playground/ops-mrso-console/commit/baf8b68840b7c4172f384f6a20e95992fac0c4b2) fix: 삭제된 세대를 숨기고 현재 워크스페이스 이름 표시
+- 2026-11-06 16:49 [`9a9482e`](https://github.com/krafton-playground/ops-mrso-console/commit/9a9482e28df6f59ac6ce0a80a9b1bfcc5c67f265) Merge pull request #172 from krafton-playground/codex/wiki-review-suggestion-pipeline
+- 2026-11-06 16:48 [`bb4c340`](https://github.com/krafton-playground/ops-mrso-console/commit/bb4c340bdcb49724c7f5826dd3d8a95cb7a70c1a) docs: 개요와 초안 검토 통합 검증 기록
+- 2026-11-06 16:43 [`70a338a`](https://github.com/krafton-playground/ops-mrso-console/commit/70a338a8e7b63505aa2083fd977423daf53adc4d) fix: 녹색 포커스 표시 대비 보강
+- 2026-11-06 16:42 [`20695ef`](https://github.com/krafton-playground/ops-mrso-console/commit/20695ef6fe776d55c1ac8920d7ce107c177c9b84) fix: 초안 검토 위치를 갱신 후에도 유지
+- 2026-11-06 16:39 [`b7d9ee2`](https://github.com/krafton-playground/ops-mrso-console/commit/b7d9ee232fbd5b8fab90869707dd7b9b0bd663e8) feat: 개요와 초안 검토를 녹색 집중형 UI로 통합
+- 2026-11-06 16:39 [`e2b4100`](https://github.com/krafton-playground/ops-mrso-console/commit/e2b4100ef86391b5e0cfb4c8830740ce8f32fb51) Merge remote-tracking branch 'origin/main' into codex/overview-review-green-integration
+- 2026-11-06 16:25 [`2d8ae4c`](https://github.com/krafton-playground/ops-mrso-console/commit/2d8ae4ce10fa69e57c88b1d488efb60949d716c6) Merge pull request #176 from krafton-playground/codex/github-kp-network-fix
+- 2026-11-06 16:24 [`9abe5fd`](https://github.com/krafton-playground/ops-mrso-console/commit/9abe5fd3ae27f55e17b6547269e75f58cbcbc8fa) feat: add bounded GitHub network diagnostics
+- 2026-11-06 16:16 [`87404b1`](https://github.com/krafton-playground/ops-mrso-console/commit/87404b122a451ccbdc2090d002464fa17e60074b) Merge pull request #168 from krafton-playground/codex/runtime-matrix-default-8
+- 2026-11-06 14:48 [`394d370`](https://github.com/krafton-playground/ops-mrso-console/commit/394d370c5999e6487fe6cd33bffa11504274ec22) Merge pull request #175 from krafton-playground/codex/member-picker-layout-fix
+- 2026-11-06 14:48 [`12427cb`](https://github.com/krafton-playground/ops-mrso-console/commit/12427cb66cfea2d6d7009a79e4da6f0be4f08fcd) fix: SSO 사용자 선택 라디오 레이아웃 정리
+- 2026-11-06 14:33 [`b0fd78d`](https://github.com/krafton-playground/ops-mrso-console/commit/b0fd78df579d3cf8f0be294c1d99be29e4e6346f) Merge pull request #174 from krafton-playground/codex/project-sso-member-picker
+- 2026-11-06 14:33 [`ed6ad55`](https://github.com/krafton-playground/ops-mrso-console/commit/ed6ad55ad2b9dc12fd5e50f9f3d21c87f68d92c6) feat: add SSO member picker
+- 2026-11-06 14:32 [`5e6550b`](https://github.com/krafton-playground/ops-mrso-console/commit/5e6550b235e588db3cf01fedf6f1b8aa4c6e6529) docs: 운영 GitHub 요청 timeout과 QA 정리 기록
+- 2026-11-06 14:18 [`db5a6ca`](https://github.com/krafton-playground/ops-mrso-console/commit/db5a6ca9da828fe156540a4324016fb455633e1d) Merge pull request #173 from krafton-playground/codex/github-export-transport-diagnostics
+- 2026-11-06 14:17 [`603f70d`](https://github.com/krafton-playground/ops-mrso-console/commit/603f70d0bb64d044460c7d2844689731842b805e) docs: 실제 무인 수집과 AWS S3 검증 결과 기록
+- 2026-11-06 14:17 [`093c0a0`](https://github.com/krafton-playground/ops-mrso-console/commit/093c0a09927d57cfbeb678f2b1ab5844df344374) fix: add safe GitHub transport diagnostics
+- 2026-11-06 14:02 [`ad58e9e`](https://github.com/krafton-playground/ops-mrso-console/commit/ad58e9e0240f0a70029688508d5ea832aeded798) feat: 위키 초안 검토 파이프라인과 비차단 HUB 인물 제안
+- 2026-11-06 13:57 [`9ebeeef`](https://github.com/krafton-playground/ops-mrso-console/commit/9ebeeefe6b1de41ea894248143475b01b397305a) Merge pull request #171 from krafton-playground/codex/github-export-live-controls
+- 2026-11-06 13:56 [`641a3f2`](https://github.com/krafton-playground/ops-mrso-console/commit/641a3f2ed9d8d91c4a011e7c90eadeb48a3d9d2a) fix: 저장 승인 화면의 요청 재사용과 결과 검증 보강
+- 2026-11-06 13:49 [`8e706f5`](https://github.com/krafton-playground/ops-mrso-console/commit/8e706f58ca58d3a559b4d0c36dfa2df0481cce10) feat(storage): add snapshot offload approval panel
+- 2026-11-06 13:44 [`1917187`](https://github.com/krafton-playground/ops-mrso-console/commit/19171873b02a6405f558e8624e065c43b32d2f67) Merge pull request #170 from krafton-playground/codex/github-approved-exports
+- 2026-11-06 13:44 [`d2b6b2b`](https://github.com/krafton-playground/ops-mrso-console/commit/d2b6b2b17258633a70d22a88d76941c2588cff66) feat: 승인 Markdown의 GitHub 브랜치 내보내기 추가
+- 2026-11-06 13:29 [`62d39e7`](https://github.com/krafton-playground/ops-mrso-console/commit/62d39e7cd2776d4295cc454a597193ff0fd966cf) Merge pull request #169 from krafton-playground/codex/runtime-schedule-consistency
+- 2026-11-06 13:28 [`ab8fd84`](https://github.com/krafton-playground/ops-mrso-console/commit/ab8fd846db56f51173810f33141d033872cbae54) fix(runtime): align MRSO weekly schedules with legacy operations
+- 2026-11-06 13:10 [`e4f68ee`](https://github.com/krafton-playground/ops-mrso-console/commit/e4f68ee9099e14802d86696fb826149c3f1430db) feat(runtime): Workspace마다 기본 8개 표시, 나머지는 설정 필요 N개 토글
+- 2026-11-06 12:08 [`9bd9705`](https://github.com/krafton-playground/ops-mrso-console/commit/9bd97058bcff62533aaf2846ef736050b6cbe11e) Merge pull request #167 from krafton-playground/codex/runtime-workspace-matrix
+- 2026-11-06 11:58 [`0b0baef`](https://github.com/krafton-playground/ops-mrso-console/commit/0b0baefe827c27c3c544178af1a661de51468b79) fix(runtime): stale 관찰에서 readiness 집계·접기 숨김, Workspace별 tbody, E2E 근거
+- 2026-11-06 11:47 [`24bf03c`](https://github.com/krafton-playground/ops-mrso-console/commit/24bf03c691cbc1b79a9b2cd68a97fbabadff9e43) feat(runtime): 무인 운영을 Workspace별 설정 현황 표로 재구성
+- 2026-11-06 11:30 [`3916f05`](https://github.com/krafton-playground/ops-mrso-console/commit/3916f057175c53f5c7fc5fd35527b286093db609) feat: Workspace 복구 가능한 삭제와 삭제 이력 탭 추가 (#165)
+- 2026-11-06 11:13 [`17ac1c5`](https://github.com/krafton-playground/ops-mrso-console/commit/17ac1c5405e57d2545618bc3e99b28bec3de6be5) 위키 인물 후보에 HUB 신원 확인과 담당 승인 게이트 추가 (#166)
+- 2026-11-06 10:16 [`0111863`](https://github.com/krafton-playground/ops-mrso-console/commit/0111863b923c508b65c9bcc831287bbbf4979950) Use optional Studio / Project dropdowns in source editing (#164)
+- 2026-11-06 08:38 [`b94418b`](https://github.com/krafton-playground/ops-mrso-console/commit/b94418b08e747a6fe18a44e3313e875d8df0156e) Merge pull request #163 from krafton-playground/codex/studio-parent-foreign-key
+- 2026-11-06 08:38 [`e7b3d03`](https://github.com/krafton-playground/ops-mrso-console/commit/e7b3d031a45073732ba420e93db14b08a3be5d1c) Add production rollout and E2E checklist
+- 2026-11-06 08:35 [`7e1e567`](https://github.com/krafton-playground/ops-mrso-console/commit/7e1e56750e4f6affb199c0acdecaea1d7dc22205) Allow source collection without a Studio assignment
+- 2026-11-06 08:20 [`e45d829`](https://github.com/krafton-playground/ops-mrso-console/commit/e45d829d6b049c99eda07a8230b73763c4d55b5f) Record DEV Studio migration and collection verification
+- 2026-11-06 07:58 [`78269cd`](https://github.com/krafton-playground/ops-mrso-console/commit/78269cd57d0d4b71544ead20427119ee8c7772bf) Select Studio first with optional Project in source collection
+- 2026-11-06 07:48 [`67c3037`](https://github.com/krafton-playground/ops-mrso-console/commit/67c3037eb7c41114ab645920661a121650f6a9c8) Make Studio the authoritative parent of Projects
+- 2026-11-05 20:22 [`ab1f8dd`](https://github.com/krafton-playground/ops-mrso-console/commit/ab1f8dd4d967c85e308ab7b7eb4586e5379c714d) Merge pull request #162 from krafton-playground/codex/pr153-build-typecheck-heap
+- 2026-11-05 20:22 [`12967bd`](https://github.com/krafton-playground/ops-mrso-console/commit/12967bd866b3f2b3fee7738ab9b1c9843ab47253) fix(build): apply heap allowance to typecheck gate
+- 2026-11-05 20:13 [`2cba906`](https://github.com/krafton-playground/ops-mrso-console/commit/2cba906a4610a412c2d45535c186c58b8a45bb45) Merge pull request #153 from krafton-playground/codex/unattended-multi-workspace-pr
+- 2026-11-05 20:13 [`6d9bf45`](https://github.com/krafton-playground/ops-mrso-console/commit/6d9bf45ea856d371daa4735e6211c61236f25842) fix(runtime): warn on missing worker health and verify PR 153
+- 2026-11-05 19:57 [`6e9ddbf`](https://github.com/krafton-playground/ops-mrso-console/commit/6e9ddbff417585a62eca88300a58cbb1410c2f79) Merge remote-tracking branch 'origin/main' into qa/pr153-merge-verification
+- 2026-11-05 16:44 [`b0e6ff0`](https://github.com/krafton-playground/ops-mrso-console/commit/b0e6ff0bd16e8f9ab8e029ff06106cd49d52346e) Merge pull request #160 from krafton-playground/qa/mrso-team-hub-id-integration
+- 2026-11-05 16:33 [`daabfe1`](https://github.com/krafton-playground/ops-mrso-console/commit/daabfe1a0bb0a11977579983506408854591208a) 개선: 명시적 동의로 데이터 세대 강제 소프트 삭제 허용 (#161)
+- 2026-11-05 16:21 [`4ebe8c3`](https://github.com/krafton-playground/ops-mrso-console/commit/4ebe8c3fde37dec851b18873d0ae2bf68721f01f) Merge pull request #159 from krafton-playground/codex/legacy-studio-assignment-editing
+- 2026-11-05 16:20 [`02a260c`](https://github.com/krafton-playground/ops-mrso-console/commit/02a260cad9632ff72d127ab95ffa93633e378641) feat(access): edit member HUB HR affiliation independently of permissions
+- 2026-11-05 16:15 [`c2e96e0`](https://github.com/krafton-playground/ops-mrso-console/commit/c2e96e0a962a9b9e43f8c5938875e27768256cc6) Merge pull request #158 from krafton-playground/codex/collapsible-table-toolbar
+- 2026-11-05 16:14 [`6d18bea`](https://github.com/krafton-playground/ops-mrso-console/commit/6d18bea619147deeaf1d6f61e5c0a0384a4bb11a) feat(ui): collapse table tools behind toolbar toggle
+- 2026-11-05 16:04 [`91259ca`](https://github.com/krafton-playground/ops-mrso-console/commit/91259ca8c6284884a5bd9d48da431a706a17d527) Merge remote-tracking branch 'devrepo/main' into codex/mrso-legacy-project-backfill
+- 2026-11-05 16:04 [`bb978e6`](https://github.com/krafton-playground/ops-mrso-console/commit/bb978e69d33a27451166a261a2ec53866968fee2) feat: add audited legacy studio assignment editing
+- 2026-11-05 16:04 [`c3f8690`](https://github.com/krafton-playground/ops-mrso-console/commit/c3f8690ce86d2587263e78c1063028f53eb9395d) Merge remote-tracking branch 'origin/main' into codex/mrso-legacy-project-backfill
+- 2026-11-05 15:54 [`dec9555`](https://github.com/krafton-playground/ops-mrso-console/commit/dec9555cdf149263b7eda3c549d362a3e2ac8803) Merge pull request #157 from krafton-playground/codex/watch-range-add-card
+- 2026-11-05 15:51 [`2e116d7`](https://github.com/krafton-playground/ops-mrso-console/commit/2e116d731c6c06e0d3dd0043ab7feab692d55b81) feat(ui): enable editor tables and code and inline collection range setup
+- 2026-11-05 15:51 [`e93e301`](https://github.com/krafton-playground/ops-mrso-console/commit/e93e3014c9b568bcf0c69ae3d25f5713dc908276) docs: publish measured capacity and live EKS verification limits
+- 2026-11-05 15:44 [`94609be`](https://github.com/krafton-playground/ops-mrso-console/commit/94609bea6bffa4cd99f0671cdb2cfee642d64de6) test: derive CPU utilization denominator from cgroup quota
+- 2026-11-05 15:43 [`3d5ad35`](https://github.com/krafton-playground/ops-mrso-console/commit/3d5ad359341d2106652043aec22e0103a0505deb) Merge remote-tracking branch 'origin/main' into codex/unattended-multi-workspace-pr
+- 2026-11-05 15:43 [`a841c1f`](https://github.com/krafton-playground/ops-mrso-console/commit/a841c1fb787572e7546d10f4516dfcfa6af877a1) fix(workers): defer rolled-back claims and diagnose source version conflicts
+- 2026-11-05 15:27 [`66ba0fc`](https://github.com/krafton-playground/ops-mrso-console/commit/66ba0fc96fb86354f7935bf57ba1ec66adc267db) Merge pull request #156 from krafton-playground/qa/minor-ui-tweaks
+- 2026-11-05 15:26 [`651cfed`](https://github.com/krafton-playground/ops-mrso-console/commit/651cfed8af9edb015405a11f06951658b8ace396) Merge pull request #2 from krafton-playground/codex/mrso-legacy-project-backfill
+- 2026-11-05 15:25 [`0c0dff9`](https://github.com/krafton-playground/ops-mrso-console/commit/0c0dff94e26dafa96ec6f78773b123f5878bf79f) fix: make backup verification optional for DEV imports
+- 2026-11-05 15:25 [`3fcad29`](https://github.com/krafton-playground/ops-mrso-console/commit/3fcad292aa0f93e9dd92f01c6debdccc8d57eadb) Merge main legacy catalog coverage with global identity uniqueness
+- 2026-11-05 15:24 [`c9facbc`](https://github.com/krafton-playground/ops-mrso-console/commit/c9facbc96462afd2a58fde5f4897c693431c60de) Merge main with the already integrated HUB changes
+- 2026-11-05 15:24 [`97f8230`](https://github.com/krafton-playground/ops-mrso-console/commit/97f8230a8a0f6b9cd0e57fd761aac849188b2162) Merge pull request #155 from krafton-playground/codex/wizard-existing-team-catalog
+- 2026-11-05 15:22 [`4b923c9`](https://github.com/krafton-playground/ops-mrso-console/commit/4b923c9fd610144b2d45ce0af0ebf4bf2e3cd328) fix(admin): include active legacy teams in wizard suggestions
+- 2026-11-05 15:20 [`49c52a9`](https://github.com/krafton-playground/ops-mrso-console/commit/49c52a93e98faf884ea57511dfd32d5174d183e1) Validate unique team identities and redesign HUB department panel
+- 2026-11-05 15:19 [`5f16550`](https://github.com/krafton-playground/ops-mrso-console/commit/5f1655001be93bdba4825ce167897c3956904ccf) feat: add guarded legacy MRSO Project metadata backfill
+- 2026-11-05 15:05 [`294d819`](https://github.com/krafton-playground/ops-mrso-console/commit/294d81985c396da8f68088530718f9654e6d58ee) Record combined HUB and team autocomplete verification
+- 2026-11-05 15:05 [`035906f`](https://github.com/krafton-playground/ops-mrso-console/commit/035906f2009bf20063850bde044bc4193d582fc8) Merge pull request #154 from krafton-playground/codex/wizard-hub-team-identity
+- 2026-11-05 15:03 [`e656b70`](https://github.com/krafton-playground/ops-mrso-console/commit/e656b7048cae4036d0c85b7c67c66a80a6bcc3af) Merge pull request #1 from krafton-playground/codex/prod-sync-20261105
+- 2026-11-05 15:01 [`5db269b`](https://github.com/krafton-playground/ops-mrso-console/commit/5db269b7de5bc3723c7aae37c4ab70dee9473863) Fix draft pills and add team identity autocomplete
+- 2026-11-05 15:01 [`453f79c`](https://github.com/krafton-playground/ops-mrso-console/commit/453f79c4638c8e7f43ef4b059f47f59d8244e939) Add HUB organization linking to workspace creation wizard
+- 2026-11-05 15:01 [`5eb2eac`](https://github.com/krafton-playground/ops-mrso-console/commit/5eb2eac783778c0e4cc19658c200f94602def626) Add HUB organization linking to workspace creation wizard
+- 2026-11-05 14:15 [`447ad7e`](https://github.com/krafton-playground/ops-mrso-console/commit/447ad7e44fc6664deb825e07acb8971c1f6ee4b3) docs: add HTML unattended QA and capacity report
+- 2026-11-05 14:10 [`af8dbde`](https://github.com/krafton-playground/ops-mrso-console/commit/af8dbde01b953a842c5ffe9653f38143605a3562) fix(runtime): scope unattended operations by workspace
+- 2026-11-05 13:33 [`a764d9c`](https://github.com/krafton-playground/ops-mrso-console/commit/a764d9cea167f051b8a61932d0442e251ad49ce6) Merge pull request #152 from krafton-playground/codex/entity-structure-redesign
+- 2026-11-05 13:31 [`8155c03`](https://github.com/krafton-playground/ops-mrso-console/commit/8155c03dadbbd69dc973672c7901081b8e13baa8) Log safe HUB search outcomes in browser console
+- 2026-11-05 13:29 [`9b4603b`](https://github.com/krafton-playground/ops-mrso-console/commit/9b4603b3e6160672b82c9372db4c8930233ca560) Redesign structure settings and reuse HUB department creation
+- 2026-11-05 13:13 [`d2228f2`](https://github.com/krafton-playground/ops-mrso-console/commit/d2228f2c39b8dcf0dc092cbfff4bb7367210129c) Merge pull request #151 from krafton-playground/codex/org-suggestions
+- 2026-11-05 13:10 [`0232fcf`](https://github.com/krafton-playground/ops-mrso-console/commit/0232fcfb34acb951cbff91014a80a26f0b116256) Merge pull request #150 from krafton-playground/codex/restore-operation-team-switch
+- 2026-11-05 13:08 [`965158b`](https://github.com/krafton-playground/ops-mrso-console/commit/965158b54c9541c2032871b0c4e019c21c6c80df) feat: redesign HUB organization picker with accessible light and dark themes
+- 2026-11-05 13:07 [`00b7e35`](https://github.com/krafton-playground/ops-mrso-console/commit/00b7e3589c0ad0745a924eb750356262877e3be0) fix: restore role-aware operations and team switch
+- 2026-11-05 11:37 [`237a603`](https://github.com/krafton-playground/ops-mrso-console/commit/237a6034482d300d18972accf3cf1250c19baed6) feat: suggest HUB organizations when linking projects
+- 2026-11-05 11:32 [`77e6ebf`](https://github.com/krafton-playground/ops-mrso-console/commit/77e6ebf87231225ad99c1e967c766c73940e98ea) Merge pull request #149 from krafton-playground/codex/member-project-table-layout
+- 2026-11-05 11:30 [`6185d89`](https://github.com/krafton-playground/ops-mrso-console/commit/6185d8999575a2e2671e7b55939a4c3bec36fbdc) fix: reserve readable member project status and action columns
+- 2026-11-05 11:15 [`e964b64`](https://github.com/krafton-playground/ops-mrso-console/commit/e964b646b458b1cf77f5470a04735ec991018ab4) Merge pull request #148 from krafton-playground/codex/my-project-menu-label
+- 2026-11-05 11:14 [`46357db`](https://github.com/krafton-playground/ops-mrso-console/commit/46357dbff1813458e70c3920de79399399ab5e6a) fix: name project navigation 내 프로젝트
+- 2026-11-05 11:10 [`74b9d39`](https://github.com/krafton-playground/ops-mrso-console/commit/74b9d39ce84ec3a999ff8a940da27bb034cfae0a) Merge pull request #147 from krafton-playground/codex/member-project-navigation
+- 2026-11-05 11:07 [`86ea31d`](https://github.com/krafton-playground/ops-mrso-console/commit/86ea31d881d78db7b736b8966b5f6d5d6b79fa9b) fix: separate member project work and manager review perspectives
+- 2026-11-05 11:07 [`dcded15`](https://github.com/krafton-playground/ops-mrso-console/commit/dcded15c47a1e87b5905589ba114bccd8eb5411b) Merge remote-tracking branch 'origin/main' into codex/member-project-navigation
+- 2026-11-05 11:03 [`108b7fa`](https://github.com/krafton-playground/ops-mrso-console/commit/108b7fa1be4d78140f9ca211909f0e63ec5b5851) Merge pull request #146 from krafton-playground/codex/qa-build-refactor
+- 2026-11-05 11:00 [`d769927`](https://github.com/krafton-playground/ops-mrso-console/commit/d769927e031d6167fb434e009c80813fd71da686) Merge remote-tracking branch 'origin/main' into codex/qa-build-refactor
+- 2026-11-05 10:56 [`31b6247`](https://github.com/krafton-playground/ops-mrso-console/commit/31b6247995f96f7521cccd630516ef10d71a898f) build: remove duplicate Docker lint pass and record QA timings
+- 2026-11-05 10:54 [`a7ffc11`](https://github.com/krafton-playground/ops-mrso-console/commit/a7ffc115cc15caaa48b063c9dd44c4671afbd2ec) refactor: decouple legacy import client helpers from console
+- 2026-11-05 10:53 [`ba53f8c`](https://github.com/krafton-playground/ops-mrso-console/commit/ba53f8c9d046c2c328a33ee6e06a2d78bc12107f) Merge pull request #145 from krafton-playground/codex/workspace-slug-recommendation
+- 2026-11-05 10:53 [`3654615`](https://github.com/krafton-playground/ops-mrso-console/commit/365461522f7fa0888ba8f95d1b82cce4ca001b58) Add workspace slug recommendation and clarify published wiki label
+- 2026-11-05 10:22 [`443ff43`](https://github.com/krafton-playground/ops-mrso-console/commit/443ff4390830ce8a3d17cd743c829eab9380d395) Merge pull request #144 from krafton-playground/codex/proposal-quill-editor
+- 2026-11-05 10:22 [`f8884fd`](https://github.com/krafton-playground/ops-mrso-console/commit/f8884fd228c38af03e796fcf17b0498cd079a573) Merge remote-tracking branch 'origin/main' into codex/proposal-quill-editor
+- 2026-11-05 10:22 [`b522a6b`](https://github.com/krafton-playground/ops-mrso-console/commit/b522a6b9e7dad9ff881f9400354dbb800baeb8b4) Merge pull request #143 from krafton-playground/codex/glossary-korean-label
+- 2026-11-05 10:21 [`836ebf2`](https://github.com/krafton-playground/ops-mrso-console/commit/836ebf28c404047b62204f265467c4aecd8fdf43) Merge remote-tracking branch 'origin/codex/glossary-korean-label' into codex/proposal-quill-editor
+- 2026-11-05 10:21 [`bc51e6e`](https://github.com/krafton-playground/ops-mrso-console/commit/bc51e6ef546af9db5de31c5ec0df666c88141bfd) Record validation against current production main
+- 2026-11-05 10:20 [`b3310ae`](https://github.com/krafton-playground/ops-mrso-console/commit/b3310aea19d4efff9e85a062b9f6b4f9e9a833f5) Merge remote-tracking branch 'origin/main' into codex/proposal-quill-editor
+- 2026-11-05 10:20 [`5e151e9`](https://github.com/krafton-playground/ops-mrso-console/commit/5e151e9ff0b2aaae40ba6bbdd47e845c39b83a26) Add Markdown Quill editor and overview rejection history
+- 2026-11-05 10:18 [`b675f81`](https://github.com/krafton-playground/ops-mrso-console/commit/b675f81b5bc187f0d99b77d25e7194c29bfa9e29) fix(ui): rename registry page to 글로서리
+- 2026-11-05 10:15 [`7d824e3`](https://github.com/krafton-playground/ops-mrso-console/commit/7d824e3607cdf7240e69a154737c624ba72c5699) Merge pull request #142 from krafton-playground/codex/prod-multi-workspace-20261105
+- 2026-11-05 10:15 [`c20a20d`](https://github.com/krafton-playground/ops-mrso-console/commit/c20a20d904a178fdbb8b60dfd6574a3711a7d97a) docs: normalize rollout checklist whitespace
+- 2026-11-05 10:15 [`e7d97c9`](https://github.com/krafton-playground/ops-mrso-console/commit/e7d97c908e0c33bd5209a9308d85259492f575b8) docs: record multi-workspace production rollout evidence
+- 2026-11-05 10:12 [`65c580e`](https://github.com/krafton-playground/ops-mrso-console/commit/65c580e69f78e302475ba450132a23f828e14773) fix(workspaces): fence PROD MRSO backfill and surface failures
+- 2026-11-05 10:00 [`f96642f`](https://github.com/krafton-playground/ops-mrso-console/commit/f96642f68e78a58aaa8a8956cb0a1120e4648e66) fix(workspaces): PROD backfill은 선택된 ACTIVE MRSO 세대만 + PROD에서 MRSO 사본 상태 숨김 (리뷰 반영)
+- 2026-11-05 07:10 [`26fed10`](https://github.com/krafton-playground/ops-mrso-console/commit/26fed108e56b13104e8910b4c1db1730574e4b01) docs(lesson): 앱 세션 해결 판정 정정 — 쿠키 이름으로 확인, 여전히 꺼짐
+- 2026-11-05 07:09 [`1195394`](https://github.com/krafton-playground/ops-mrso-console/commit/1195394a51ffa2eac77f2de94d5b8f998f178b1e) feat(workspaces): PROD multi-workspace 명시적 opt-in (MULTI_GENERATION_ENABLED) + 부팅 진단
+- 2026-11-05 06:57 [`fa89834`](https://github.com/krafton-playground/ops-mrso-console/commit/fa898342313dcf5e980fa3c87d0bbd2f13e5e50f) Merge remote-tracking branch 'origin/main' into unpause-empty-workspace
+- 2026-11-04 20:49 [`c38a419`](https://github.com/krafton-playground/ops-mrso-console/commit/c38a41993af6ccb2a3d8fd02db0f649c0b40eb97) Merge pull request #141 from krafton-playground/fix/generation-delete-user-data-preview
+- 2026-11-04 20:35 [`6f06591`](https://github.com/krafton-playground/ops-mrso-console/commit/6f0659108aceb2647f044265d2a10a52057f3910) fix(generations): delete preview reports the user-data guard; proper 409 message
+- 2026-11-04 17:24 [`e03e3b0`](https://github.com/krafton-playground/ops-mrso-console/commit/e03e3b04f8330005a4dfa0de75518ca95f596032) fix(runtime): 임시 테스트에서 로그인 만료(401)를 「결과 불명」 대신 재로그인 안내로 표시 + LESSON
+- 2026-11-04 16:50 [`7f08d05`](https://github.com/krafton-playground/ops-mrso-console/commit/7f08d059560204469871a1faf7a9e193384b811c) Merge pull request #140 from krafton-playground/codex/mrso-workspace-v0-parity
+- 2026-11-04 16:25 [`e261393`](https://github.com/krafton-playground/ops-mrso-console/commit/e26139319928bfbdb750931550373be57091e6bb) fix(projects): 리뷰 반영 — 늦은 추천 결과 무시, 레거시 조회 축소, 단계 제한·재실행 해시 정리 + LESSON
+- 2026-11-04 14:40 [`216b005`](https://github.com/krafton-playground/ops-mrso-console/commit/216b005f4e393ec3282b4067f1601b82006ca863) feat(projects): Project kind·소속(parent), 목록 보기, slug·종류·소속 「✨ 추천」
+- 2026-11-04 10:52 [`c653637`](https://github.com/krafton-playground/ops-mrso-console/commit/c6536371b861ebe7e60af43763f120320322b28a) feat(workspaces): 빈 워크스페이스 시작 일시 중지 해제 (EMPTY_WORKSPACE_SETUP_PAUSED=false)
+- 2026-11-04 09:38 [`5839524`](https://github.com/krafton-playground/ops-mrso-console/commit/5839524a6e0723954c39dcbc6fc1461a71ac5ecc) Merge pull request #139: PROD 병합 — Workspace · Project 고도화 + core 사용자 데이터 보호 (870e679)
+- 2026-11-03 23:43 [`870e679`](https://github.com/krafton-playground/ops-mrso-console/commit/870e6791e9b1ee6136966ec3017cd7ddb798a3c6) fix(projects): Project 2xx 응답 검증과 삭제된 generation 아래 생성 거절
+- 2026-11-03 23:33 [`d814a96`](https://github.com/krafton-playground/ops-mrso-console/commit/d814a96cc1d9a2e96aff797fbeb6349d25887c41) fix(projects): /v 호환 slug pattern과 접근 가능한 인라인 오류
+- 2026-11-03 23:18 [`aa759e4`](https://github.com/krafton-playground/ops-mrso-console/commit/aa759e4d8db057c7b5afece108858e319aeb7bbe) merge: bring working-branch workspace directory commits (1468669) into PROD candidate b1ea06a
+- 2026-11-03 21:15 [`b1ea06a`](https://github.com/krafton-playground/ops-mrso-console/commit/b1ea06a7312e6752d6565c84fb0c1af39a01b359) test: preserve fixture ownership and exercise backup recipient authority
+- 2026-11-03 20:14 [`1468669`](https://github.com/krafton-playground/ops-mrso-console/commit/1468669c1f1298cbc538d320e09fcc9b36a7d4ec) test(workspaces): PostgreSQL 권한과 DB 연결 검증 보강
+- 2026-11-03 20:01 [`cd53573`](https://github.com/krafton-playground/ops-mrso-console/commit/cd53573c3bdad7a8b326b67e0a20233edb11984b) feat(workspaces): 동일 카드 UI와 DB 기반 MRSO 조회 연결
+- 2026-11-03 19:17 [`d8e1564`](https://github.com/krafton-playground/ops-mrso-console/commit/d8e15645ee435bf5b8c222cbffcde2f216494fc3) test: align isolated PG fixtures with durable output and supervisor policies
+- 2026-11-03 17:47 [`22630d2`](https://github.com/krafton-playground/ops-mrso-console/commit/22630d26113a16b85f822a0a414e464bb180bbd0) fix: preserve core user data during generation and registry operations
+- 2026-11-03 16:45 [`423a219`](https://github.com/krafton-playground/ops-mrso-console/commit/423a219ac64230d81d0d885013d6915612477f63) docs: handover for the PROD merge (state, rules, remaining steps)
+- 2026-11-03 16:44 [`981470b`](https://github.com/krafton-playground/ops-mrso-console/commit/981470bad979a334d829e8e6fdacfde0cee209ef) fix(merge): restore PROD admin-view features lost in the Parity merge; align two stale tests
+- 2026-11-03 16:33 [`b6eb4fb`](https://github.com/krafton-playground/ops-mrso-console/commit/b6eb4fbe6b32dc6b8b097988344e65a28153fe64) merge: fix/activated-legacy-workspace-card (ef79408) whole — one MRSO card per copy (DEV/PARITY)
+- 2026-11-03 16:19 [`8afc4f7`](https://github.com/krafton-playground/ops-mrso-console/commit/8afc4f7bd5ec99ae24594d004007a9e2a949d7a8) merge: fix/temp-test-add-department (f9fa5e7) whole
+- 2026-11-03 16:19 [`92d50e8`](https://github.com/krafton-playground/ops-mrso-console/commit/92d50e8a105da42b71cd16ad60a14fea4ea96fbf) merge: feat/worker-switch (b6e9d8c) whole — 「워커 켜기」/「주간 자동 실행」 DB switches (DEV/PARITY only)
+- 2026-11-03 16:05 [`05c8cd8`](https://github.com/krafton-playground/ops-mrso-console/commit/05c8cd85759c4b654a8ec8445de3cfd514c1b19b) merge: fix/watch-root-department (195e31d) whole — discovery adopts the watch department
+- 2026-11-03 16:04 [`4ebe11b`](https://github.com/krafton-playground/ops-mrso-console/commit/4ebe11bcfaeae546b4329c3ffb06c33d94624bea) merge: fix/port-prod-schedule-pretest (e1813f2) whole
+- 2026-11-03 15:42 [`40b84f0`](https://github.com/krafton-playground/ops-mrso-console/commit/40b84f099e57f26a40eb421061a847ebfc831ae7) merge: working branch codex/mrso-workspace-v0-parity 5b3a852 (other session, dev 74c8f05) whole
+- 2026-11-03 15:41 [`30e4922`](https://github.com/krafton-playground/ops-mrso-console/commit/30e4922b2f4adbdf5e7c7d9821326412a5013cfc) merge: Parity main 5574c11 (dev 74c8f05, B1/B2) into the PROD merge
+- 2026-11-03 15:09 [`5b3a852`](https://github.com/krafton-playground/ops-mrso-console/commit/5b3a85227e998cab9e7834cad156dc34e4efd2c8) merge: bring Dev/Parity product code (dev main 74c8f05) into the working branch
+- 2026-11-03 15:00 [`af330f2`](https://github.com/krafton-playground/ops-mrso-console/commit/af330f2e6f90b4efe2c96b9fc4327baf61d096ac) merge: working branch codex/mrso-workspace-v0-parity (0f9f114) whole
+- 2026-11-03 14:57 [`103905e`](https://github.com/krafton-playground/ops-mrso-console/commit/103905eb5a65ab3710c9403b9ed30102e4d5b0f4) fix(merge): de-duplicate watch-management methods after the port merge
+- 2026-11-03 14:55 [`5cbd5c3`](https://github.com/krafton-playground/ops-mrso-console/commit/5cbd5c3d7985459b52a3fc6dbedc4e667ccf1acb) merge: reviewed PROD-port branch fix/port-prod-watch-wizard (511e390) whole
+- 2026-11-03 14:53 [`9b5b2d1`](https://github.com/krafton-playground/ops-mrso-console/commit/9b5b2d1872672c451ca74755a889481bf864daba) merge: Parity main (baf083a) into PROD main (8bb0a94)
+- 2026-11-03 11:44 [`e7eff89`](https://github.com/krafton-playground/ops-mrso-console/commit/e7eff898b8e4d37dad3b3cf79b98c9bdea245676) fix(projects): PROD keeps the pre-link generation labels; no raw generation id or key reaches clients
+- 2026-11-03 11:39 [`195e31d`](https://github.com/krafton-playground/ops-mrso-console/commit/195e31de72f0eb827377074c38107a1bb13f6c0e) fix(discovery): adopt the watch department for department-less imported pages
+- 2026-11-03 10:33 [`b9c5193`](https://github.com/krafton-playground/ops-mrso-console/commit/b9c5193686b00aa61146b29c5f47f567d98aa405) test(projects): drop two unused bindings in the linked Workspace create PG test
+- 2026-11-03 10:29 [`74c8f05`](https://github.com/krafton-playground/ops-mrso-console/commit/74c8f0587effdf8dc253ca4872b0eadd0400cea3) fix(provisioning): give a department-less watch start page its watch department
+- 2026-11-03 10:29 [`9264696`](https://github.com/krafton-playground/ops-mrso-console/commit/9264696ad100082164886bac99a2a72a04db1979) fix(provisioning): give a department-less watch start page its watch department
+- 2026-11-03 10:29 [`baf083a`](https://github.com/krafton-playground/ops-mrso-console/commit/baf083a5d881a7cbee1928d44a30da14b172b986) fix(provisioning): give a department-less watch start page its watch department
+- 2026-11-03 10:29 [`67e83f4`](https://github.com/krafton-playground/ops-mrso-console/commit/67e83f40ddc2730566d0c3da1259d5fa729e5634) test(projects): real-PG tests for the linked 새 Workspace 만들기 and the 빈 워크스페이스 시작 entry authority
+- 2026-11-03 09:57 [`ef79408`](https://github.com/krafton-playground/ops-mrso-console/commit/ef794084c2bc2450ee9d96cc02691e63390777e7) fix(workspaces): one 「MRSO」 card per MRSO copy and one MRSO copy per server (DEV/PARITY)
+- 2026-11-03 09:50 [`2dbef00`](https://github.com/krafton-playground/ops-mrso-console/commit/2dbef00c0bf28808fa65922d3ca4b616d8965775) feat(projects): show the Workspace's linked data generation and start it from the wizard
+- 2026-11-03 09:42 [`94ba709`](https://github.com/krafton-playground/ops-mrso-console/commit/94ba709f472b085d56a39242bb388ae8f8cdc36d) test(projects): typed transaction double in the linked Workspace create test
+- 2026-11-03 09:42 [`87de632`](https://github.com/krafton-playground/ops-mrso-console/commit/87de6320c588fe77f5d2f1e89f86513bb68a5c5b) feat(projects): 새 Workspace 만들기 initializes its linked data generation when multi-generation is on
+- 2026-11-02 21:22 [`37e286d`](https://github.com/krafton-playground/ops-mrso-console/commit/37e286d2b280314b157c6faa1874721d2b7c852e) test(integration): #125 이후 낡은 bulk 일정 기대값 갱신 (PROD 4b65c16의 worker-provisioning 부분)
+- 2026-11-02 21:22 [`e1813f2`](https://github.com/krafton-playground/ops-mrso-console/commit/e1813f29411f65dd96c8e08c8514f7a74c1388e5) fix(schedules): 부서 ADMIN 조회 범위를 정책 full-read와 분리, 실제 Postgres 통합 테스트 추가
+- 2026-11-02 21:18 [`b6e9d8c`](https://github.com/krafton-playground/ops-mrso-console/commit/b6e9d8c1b45b0d88b6389fa0eaab68f22515228f) fix(runtime): review fixes for the 「워커 켜기」 / 「주간 자동 실행」 switches
+- 2026-11-02 21:13 [`f9fa5e7`](https://github.com/krafton-playground/ops-mrso-console/commit/f9fa5e7606f4a03b4739d5e7d2b3d4f7314c82e8) fix(runtime): 임시 테스트 대상 부서 도출 리뷰 반영
+- 2026-11-02 21:08 [`50f1365`](https://github.com/krafton-playground/ops-mrso-console/commit/50f13653954b033f99efb443d8ab28bdee884a48) fix(schedules): 부서 ADMIN 범위 리뷰 반영 — 전역 정보 제외, 존재 오라클 제거, 정식 일정 id, 조회 전 필터
+- 2026-11-02 21:08 [`d2d731d`](https://github.com/krafton-playground/ops-mrso-console/commit/d2d731dc13692c5f85ab46bb7fd486ac7fee5f08) fix(runtime): 부서 ADMIN용 /runtime 보기, 사전 테스트가 화면을 떠나면 남은 묶음을 멈추도록
+- 2026-11-02 21:05 [`511e390`](https://github.com/krafton-playground/ops-mrso-console/commit/511e3909f831d349e9a3e88377db90d525901f02) fix(watches): PROD 수집 대상 마법사 이식을 이 브랜치 규칙에 맞춤
+- 2026-11-02 20:58 [`9d5f8c5`](https://github.com/krafton-playground/ops-mrso-console/commit/9d5f8c584cb8956d3f05cde5664e5133c3df2e1f) 수집 대상 관리 도구를 카드 밖으로 (8a755b5 중 수집 대상 부분만)
+- 2026-11-02 20:53 [`0ee8c97`](https://github.com/krafton-playground/ops-mrso-console/commit/0ee8c97a3518ddeca01013aba175207fc2bb2cdf) chore(migrations): order the temporary-target department migration after 20261102060000_runtime_switch
+- 2026-11-02 20:50 [`0502787`](https://github.com/krafton-playground/ops-mrso-console/commit/0502787eda003618ae8dfb66ab6c69960c1edbc5) feat(runtime): one-click 「워커 켜기」 and 「주간 자동 실행」 console switches on DEV/PARITY
+- 2026-11-02 20:45 [`dbcb6d7`](https://github.com/krafton-playground/ops-mrso-console/commit/dbcb6d742d010a888c22e82ac7512972099ff36b) fix(schedules): fda8b4e 문구를 이 브랜치의 「무인운영」 이름으로, S0 선택자 인벤토리 갱신
+- 2026-11-02 20:40 [`5b81131`](https://github.com/krafton-playground/ops-mrso-console/commit/5b811319b4ab38625549fec20634ccfdc3818c16) fix(schedules): 주간 일정 ADMIN 권한을 소속 부서로 한정, /schedules가 ADMIN에게도 열리도록
+- 2026-11-02 20:34 [`0691902`](https://github.com/krafton-playground/ops-mrso-console/commit/0691902c05c1a99b725bc529db4180b459243469) chore(parity): sync dev main f7d2159 into parity
+- 2026-11-02 20:32 [`35d59b6`](https://github.com/krafton-playground/ops-mrso-console/commit/35d59b634b57c11e26126ccc5700c1ca41d8e426) fix(runtime): 일정 사전 테스트 모달·백그라운드 패널을 PROD(main 8bb0a94)와 동일하게 이식
+- 2026-11-02 20:22 [`f7d2159`](https://github.com/krafton-playground/ops-mrso-console/commit/f7d215997cb99b22bcabc3d09a723baf79f685ec) feat(projects): 「✨ 추천」 on 확인 근거 in the 새 Workspace · Project 만들기 wizard
+- 2026-11-02 20:19 [`ff61253`](https://github.com/krafton-playground/ops-mrso-console/commit/ff612539fad1602ba74f84244bc1e9a592c0c81d) feat(runtime): 임시 테스트 대상 부서를 OWNER·OPERATOR에게 선택 사항으로
+- 2026-11-02 19:34 [`ddefdd0`](https://github.com/krafton-playground/ops-mrso-console/commit/ddefdd0224cc9a8348dbe1918b8c1e3f9500ddff) fix(runtime): 임시 테스트 대상 부서 선택에 「+ 새 부서 추가」 제공
+- 2026-11-02 19:30 [`d1acfb9`](https://github.com/krafton-playground/ops-mrso-console/commit/d1acfb9fd8a06b8844e6f9ca58aad8becc304a3d) build: give next build a 4 GB heap in the image build stage
+- 2026-11-02 19:28 [`b8fd6a2`](https://github.com/krafton-playground/ops-mrso-console/commit/b8fd6a2c3d9729f4de78e75c9453b3472eb793c4) fix(setup): a reload or failed poll never sends a started activation back to step 1
+- 2026-11-02 19:27 [`2ba332c`](https://github.com/krafton-playground/ops-mrso-console/commit/2ba332cd3f1074df3df69a4f494d5281d8a14d30) fix(access-control): OWNER·OPERATOR 대상의 부서 카드를 읽기 전용으로 표시
+- 2026-11-02 19:08 [`a747ac0`](https://github.com/krafton-playground/ops-mrso-console/commit/a747ac088afd7f99942e365ced8547f0321dadac) chore(parity): sync dev 2748efb (per-workspace Slack 자동 발송 switch) into parity
+- 2026-11-02 19:06 [`2748efb`](https://github.com/krafton-playground/ops-mrso-console/commit/2748efb815211a9e0656c98847d88386a477712c) fix(notifications): review fixes for the 「자동 발송」 switch
+- 2026-11-02 18:20 [`6868e38`](https://github.com/krafton-playground/ops-mrso-console/commit/6868e38a8a7a1f8ccc690b91caab461a53ca188d) feat(notifications): per-workspace 「자동 발송」 switch stored in the DB
+- 2026-11-02 17:52 [`ab83764`](https://github.com/krafton-playground/ops-mrso-console/commit/ab837640011317f3de54c0545080667a095f815c) chore(parity): sync dev 32b17bf (admin 새로 시작, duplicate blocks removed) into parity
+- 2026-11-02 17:48 [`32b17bf`](https://github.com/krafton-playground/ops-mrso-console/commit/32b17bf05bc2b9fe9a722c31a4d7ad647e4b27b6) fix(setup): 새로 시작 on /admin opens the empty-workspace dialog; drop duplicate 「하나 더 만들기」 blocks
+- 2026-11-02 16:45 [`c19291b`](https://github.com/krafton-playground/ops-mrso-console/commit/c19291b6e8a2059f6b9a92afdfd1d7a2f3d488d3) fix(projects): honest 무인운영 tile, current-member people map, legacy link loading state, one member count
+- 2026-11-02 16:33 [`9f82081`](https://github.com/krafton-playground/ops-mrso-console/commit/9f820817e9d10d5167731f7eac6ef978a46057e9) fix(projects): distinct range chips in the Workspace bar, status chip tracking, E2E follows the redesigned page
+- 2026-11-02 16:00 [`e3bf193`](https://github.com/krafton-playground/ops-mrso-console/commit/e3bf193756b451c84327a59a3085b56107c2c981) fix(projects): drop the 기본 marker from overview read models (no new ActiveGeneration lookup)
+- 2026-11-02 15:53 [`810cd2a`](https://github.com/krafton-playground/ops-mrso-console/commit/810cd2a3b3350aaca4077ca4a67bf6a42f5edebe) test(projects): cover Project directory summaries, overview components and real-PG overview reads
+- 2026-11-02 15:37 [`60de0df`](https://github.com/krafton-playground/ops-mrso-console/commit/60de0df1d9b99a88817270044a3a14ce9350c51f) feat(projects): Project page as section cards with read-only rows and folds
+- 2026-11-02 15:32 [`be4708e`](https://github.com/krafton-playground/ops-mrso-console/commit/be4708e9f542e6f9eb0921e8b568981a38aab0c0) feat(projects): hook-free Project overview components
+- 2026-11-02 15:29 [`0fdcb97`](https://github.com/krafton-playground/ops-mrso-console/commit/0fdcb97565d3a855102eee8f92adb53fda1fc955) feat(projects): Project page reads overview inputs (schemas + read-only GETs)
+- 2026-11-02 15:28 [`17917d8`](https://github.com/krafton-playground/ops-mrso-console/commit/17917d8200a53c1ba8827120084aac274c576c5b) feat(projects): Project page reads its Workspace context after projectAdmin
+- 2026-11-02 15:27 [`b571e10`](https://github.com/krafton-playground/ops-mrso-console/commit/b571e10d2cb3539bac1fde923437b748a2f5b839) feat(projects): /admin passes 기존 MRSO 데이터로 시작 into the start strip
+- 2026-11-02 15:27 [`ba778fb`](https://github.com/krafton-playground/ops-mrso-console/commit/ba778fba2c6baf14b885391d059fe80a59e450af) feat(projects): Workspace · Projects list with start strip, search and journey cards
+- 2026-11-02 15:22 [`3c4a4d7`](https://github.com/krafton-playground/ops-mrso-console/commit/3c4a4d7e8c505b8d85b835d31866fbd8eda24567) feat(setup): LegacySetupStartLink for the Workspace · Project start strip
+- 2026-11-02 15:22 [`04a2d90`](https://github.com/krafton-playground/ops-mrso-console/commit/04a2d90e404c115593c9376a2ab65b5e0fb177d3) feat(projects): wizard can start on a preset DRAFT Workspace
+- 2026-11-02 15:22 [`e399fce`](https://github.com/krafton-playground/ops-mrso-console/commit/e399fcee414cd2bdc4745e5273d5f68c5f58b2a2) feat(projects): collections list reports the read-only snapshot count per scan
+- 2026-11-02 15:21 [`dfbaf30`](https://github.com/krafton-playground/ops-mrso-console/commit/dfbaf3085f5fe63db00ade6a12121c8289498f7c) feat(projects): directory adds fail-soft summaries and access-request count
+- 2026-11-02 15:21 [`61defe6`](https://github.com/krafton-playground/ops-mrso-console/commit/61defe6723ff1e11b2aedd9a111289e02e511e0d) feat(projects): count access requests the principal may process
+- 2026-11-02 15:21 [`eb1bf5a`](https://github.com/krafton-playground/ops-mrso-console/commit/eb1bf5aeb8ba8ccff1f6d01bd48b2896cb0587d0) feat(projects): bounded read-only Project summaries and workspace context
+- 2026-11-02 15:19 [`4d95535`](https://github.com/krafton-playground/ops-mrso-console/commit/4d955357ee948eb6170df49262185d0e180391a4) feat(projects): extract readableCandidateRows for shared candidate scope checks
+- 2026-11-02 15:18 [`1e66464`](https://github.com/krafton-playground/ops-mrso-console/commit/1e6646459f2a62109ae05c19d712a708b08dfc34) feat(projects): shared Project journey, todos and label helpers
+- 2026-11-02 15:17 [`1cdecdf`](https://github.com/krafton-playground/ops-mrso-console/commit/1cdecdfdbad2a4c0a75b2c9bede18f61e8f9bd7a) fix(runtime): classify TemporaryRuntimeTarget as generation working data for the archive purge
+- 2026-11-02 15:17 [`e73a0c9`](https://github.com/krafton-playground/ops-mrso-console/commit/e73a0c9bec1c71d12578857cd0fa23b9ad313bda) fix(runtime): classify TemporaryRuntimeTarget as generation working data for the archive purge
+- 2026-11-02 14:07 [`092ecb5`](https://github.com/krafton-playground/ops-mrso-console/commit/092ecb5ee72c7101b9ac09e5db246fb31991177d) feat(runtime): 무인운영 page with the production 고급 운영 도구 tabs and 「✨ 추천」 on 확인 근거 (D11)
+- 2026-11-02 14:07 [`6dfb9f8`](https://github.com/krafton-playground/ops-mrso-console/commit/6dfb9f820e9b612513c99c7dd9304d61d46ca767) feat(runtime): 무인운영 page with the production 고급 운영 도구 tabs and 「✨ 추천」 on 확인 근거 (D11)
+- 2026-11-02 11:52 [`0f9f114`](https://github.com/krafton-playground/ops-mrso-console/commit/0f9f1142f0944444443b30da15e31e12bc4254c0) docs: record validation run 27 (9 consecutive PASS) in both final reports
+- 2026-11-02 11:33 [`52eb8db`](https://github.com/krafton-playground/ops-mrso-console/commit/52eb8dbbabb542c75514380fec72b8f538085a80) chore(validation): record the legacy scope budget migration in the frozen overlay hashes
+- 2026-11-02 10:51 [`3d22f78`](https://github.com/krafton-playground/ops-mrso-console/commit/3d22f785cb28142f764163db0936e8bdfe25f1c1) fix(setup): keep 「+ 새로 추가하기」 a dashed outline on the Project page
+- 2026-11-02 10:51 [`ed40925`](https://github.com/krafton-playground/ops-mrso-console/commit/ed40925c7bf65e9f173a25f4577bb0a863c7cf2e) fix(setup): keep 「+ 새로 추가하기」 a dashed outline on the Project page
+- 2026-11-02 10:32 [`939f3dc`](https://github.com/krafton-playground/ops-mrso-console/commit/939f3dc7cd746d3fc8e74ea2530d6c364ed556b6) feat(setup): 「+ 새로 추가하기」 range card opens the Confluence wiki setup modal
+- 2026-11-02 10:32 [`b42fc72`](https://github.com/krafton-playground/ops-mrso-console/commit/b42fc72b1d7f1e2c44b06e746eefaf8cca09f3f6) feat(setup): 「+ 새로 추가하기」 range card opens the Confluence wiki setup modal
+- 2026-11-02 10:29 [`d645927`](https://github.com/krafton-playground/ops-mrso-console/commit/d645927e6d24fd43a78a6c82b2739d79325a42ce) docs: record validation run 26 (8 consecutive PASS) in both final reports
+- 2026-11-02 10:00 [`57b3e86`](https://github.com/krafton-playground/ops-mrso-console/commit/57b3e863e9ca854cc2c5ee5765154b01de27fecf) docs: Korean final report with current decisions, blockers and the journey gap
+- 2026-11-02 10:00 [`d8908b8`](https://github.com/krafton-playground/ops-mrso-console/commit/d8908b83faf0d437ac59cc9798fdb36a4adbcd1d) docs: Korean final report with current decisions, blockers and the journey gap
+- 2026-11-02 09:58 [`1b0ab76`](https://github.com/krafton-playground/ops-mrso-console/commit/1b0ab767c3c3abf5c8202c73ba9183511ce9d102) docs: core journey gap brief for the legacy MRSO path
+- 2026-11-02 09:58 [`e109267`](https://github.com/krafton-playground/ops-mrso-console/commit/e109267637d875769ef61f6a9dedc7d661d8c654) docs: core journey gap brief for the legacy MRSO path
+- 2026-11-02 08:24 [`a5ccd26`](https://github.com/krafton-playground/ops-mrso-console/commit/a5ccd267a196d875a73f9ee610830f7a11917104) chore(parity): sync dev main fdc5678 into parity
+- 2026-11-02 08:20 [`fdc5678`](https://github.com/krafton-playground/ops-mrso-console/commit/fdc56784f0f8dfe8dda806c4635ddc88bc65a5bf) fix(setup): count only live workspaces in the additional-workspace banner
+- 2026-11-02 08:13 [`836da7f`](https://github.com/krafton-playground/ops-mrso-console/commit/836da7fb920bff88dfd6c922a334ce6c43135154) chore(parity): sync dev main 95453f3 into parity
+- 2026-11-02 07:46 [`95453f3`](https://github.com/krafton-playground/ops-mrso-console/commit/95453f33589c84665ad8b37c6e1120194ca288a8) feat(dev,parity): multi-workspace on parity, one Workspace per generation, ✨추천 on empty-workspace step 3
+- 2026-11-02 06:38 [`48cb0c2`](https://github.com/krafton-playground/ops-mrso-console/commit/48cb0c2aba743322ae711be3cb3166b369b41372) chore(parity): sync dev main 1cdecdf into parity
+- 2026-11-02 05:58 [`a97f4f9`](https://github.com/krafton-playground/ops-mrso-console/commit/a97f4f9f09df1ecd9283e5826f4f034483a82dda) feat(dev): multi-generation S1 additive legacy import + S6 repeatable empty workspace; role/department scope copy
+- 2026-11-02 05:58 [`ee4b7aa`](https://github.com/krafton-playground/ops-mrso-console/commit/ee4b7aacc2877c4e5583e58136ee8f2b3593003b) feat(dev): multi-generation S1 additive legacy import + S6 repeatable empty workspace; role/department scope copy
+- 2026-11-02 03:42 [`4181afe`](https://github.com/krafton-playground/ops-mrso-console/commit/4181afef192319d919830db64d42ee51c753e8ca) feat(dev): signed legacy manifest-set evidence, lifecycle artifact producer, S3 catalog sync
+- 2026-11-02 03:42 [`8c057b3`](https://github.com/krafton-playground/ops-mrso-console/commit/8c057b3e1635c0aa9ffd8650c19cb96376aef4b2) feat(dev): signed legacy manifest-set evidence, lifecycle artifact producer, S3 catalog sync
+- 2026-11-02 02:29 [`689c423`](https://github.com/krafton-playground/ops-mrso-console/commit/689c423f4c52a19ebb45cdb5c2f4623d038b29b5) feat(dev): legacy scope capture plan, 1000-ref budget, project-owned schedule skip, 확인 근거 추천
+- 2026-11-02 02:29 [`bae03af`](https://github.com/krafton-playground/ops-mrso-console/commit/bae03af4da4ebd82e974ce64fea36170c1ba94cb) feat(dev): legacy scope capture plan, 1000-ref budget, project-owned schedule skip, 확인 근거 추천
+- 2026-11-02 01:20 [`ad09892`](https://github.com/krafton-playground/ops-mrso-console/commit/ad09892c5d88daacc47d913b94b21dc1d69966de) chore(parity): use ops-mrso-console-parity project metadata
+- 2026-11-02 01:03 [`26b3a89`](https://github.com/krafton-playground/ops-mrso-console/commit/26b3a89d4d14256af63d3f41051d16e316205d67) feat(dev): unified setup wizard (기존 MRSO 데이터 / 새로 시작) and 60-day generation archive purge
+- 2026-11-02 01:03 [`8257398`](https://github.com/krafton-playground/ops-mrso-console/commit/82573987640b02602889ed3071957879a4484864) feat(dev): unified setup wizard (기존 MRSO 데이터 / 새로 시작) and 60-day generation archive purge
+- 2026-11-01 22:57 [`3718be7`](https://github.com/krafton-playground/ops-mrso-console/commit/3718be796e8fc1850a5b38de36267b43895d29cb) docs: final report at run 25 with the core-flow results; decisions R15-R17 and B11
+- 2026-11-01 22:57 [`8b39dd4`](https://github.com/krafton-playground/ops-mrso-console/commit/8b39dd4440f38f7590fb7e95179f52fc391ec581) docs: final report at run 25 with the core-flow results; decisions R15-R17 and B11
+- 2026-11-01 22:30 [`43f5b97`](https://github.com/krafton-playground/ops-mrso-console/commit/43f5b9723b984b999137e072222dec33a4e06964) test(projects): core-flow harness stops after two targets with rejected model output
+- 2026-11-01 22:30 [`6ea4deb`](https://github.com/krafton-playground/ops-mrso-console/commit/6ea4deb6fbe9a655615d5430705e1e8a956c9579) test(projects): core-flow harness stops after two targets with rejected model output
+- 2026-11-01 22:30 [`a434411`](https://github.com/krafton-playground/ops-mrso-console/commit/a434411b4105e4dfcb8b5168c169103e8a0b22ac) fix(projects): legacy job diagnostics keep the specific blocking codes
+- 2026-11-01 22:30 [`f8c0198`](https://github.com/krafton-playground/ops-mrso-console/commit/f8c01989a5084a8a6098bec556b0284c07995ae1) fix(projects): legacy job diagnostics keep the specific blocking codes
+- 2026-11-01 22:25 [`d88c9ae`](https://github.com/krafton-playground/ops-mrso-console/commit/d88c9aee06c49e4c6f4b279227118ba9dcd5912c) fix(projects): only citation-shaped bracket tokens are checked as citations
+- 2026-11-01 22:25 [`f9c29b0`](https://github.com/krafton-playground/ops-mrso-console/commit/f9c29b0976ebc1e4da655c708b08834a5a53f2c8) fix(projects): only citation-shaped bracket tokens are checked as citations
+- 2026-11-01 22:18 [`7efbdf1`](https://github.com/krafton-playground/ops-mrso-console/commit/7efbdf159103fa0fc7d25479df51e8044cb7916a) fix(projects): an unchanged legacy page reuses its legacy baseline snapshot
+- 2026-11-01 22:18 [`c3ea16e`](https://github.com/krafton-playground/ops-mrso-console/commit/c3ea16ec45a4b6e6fff616e0cd2a53980aade9d6) fix(projects): an unchanged legacy page reuses its legacy baseline snapshot
+- 2026-11-01 22:13 [`1d296e4`](https://github.com/krafton-playground/ops-mrso-console/commit/1d296e4cda0e2c946b7539b600d90553772f4b84) fix(projects): accept the dept:-prefixed page definition keys real legacy data uses
+- 2026-11-01 22:13 [`45b9ba2`](https://github.com/krafton-playground/ops-mrso-console/commit/45b9ba2acdcdf1c8b91b7046c192c79c6d7d6b3d) test(projects): core-flow E2E harness on the real frozen MRSO legacy data
+- 2026-11-01 22:13 [`526099f`](https://github.com/krafton-playground/ops-mrso-console/commit/526099f99e4d90f8fca834a57a89053da349baf8) test(projects): core-flow E2E harness on the real frozen MRSO legacy data
+- 2026-11-01 22:13 [`dd36524`](https://github.com/krafton-playground/ops-mrso-console/commit/dd36524806c6a392d925ffe018f779c73b093bda) fix(projects): accept the dept:-prefixed page definition keys real legacy data uses
+- 2026-11-01 21:44 [`1b37c07`](https://github.com/krafton-playground/ops-mrso-console/commit/1b37c07d9b3b5d1f319e7c66855c2a6352664080) docs: final report at run 24 (six consecutive greens)
+- 2026-11-01 21:44 [`dc3fc66`](https://github.com/krafton-playground/ops-mrso-console/commit/dc3fc66b705a95657ba8bc1baad5b7148699b898) docs: final report at run 24 (six consecutive greens)
+- 2026-11-01 19:59 [`802f449`](https://github.com/krafton-playground/ops-mrso-console/commit/802f449ff3e3c8bff0e3b1f2c508a6182701b1b6) docs: final report with run 23 and every dev feature integrated
+- 2026-11-01 19:59 [`d0cfc1c`](https://github.com/krafton-playground/ops-mrso-console/commit/d0cfc1c5250fc75eab0390b0326db5b8913c7e4d) docs: final report with run 23 and every dev feature integrated
+- 2026-11-01 18:39 [`7e54d62`](https://github.com/krafton-playground/ops-mrso-console/commit/7e54d6200bd9f9b3a468cfb6297b2404924b9529) docs: consolidated handover for 2026-11-02
+- 2026-11-01 18:39 [`ada37a1`](https://github.com/krafton-playground/ops-mrso-console/commit/ada37a1540a9a972c33b901da86ca494dccd4c9f) docs: consolidated handover for 2026-11-02
+- 2026-11-01 18:29 [`27b4916`](https://github.com/krafton-playground/ops-mrso-console/commit/27b49164dfcbf601be79b7a209b2b057ce70bc82) docs: final report with run 21, legacy joint backup result, R14 and B10
+- 2026-11-01 18:29 [`f89b9b4`](https://github.com/krafton-playground/ops-mrso-console/commit/f89b9b41e5e967072de6623440814ae78bd0f485) docs: final report with run 21, legacy joint backup result, R14 and B10
+- 2026-11-01 17:48 [`8517d5d`](https://github.com/krafton-playground/ops-mrso-console/commit/8517d5db61673e51c96670b1000aa13fc00bb361) docs: R13 monitor placement and B9 monitor prerequisites
+- 2026-11-01 17:48 [`8cb6f3e`](https://github.com/krafton-playground/ops-mrso-console/commit/8cb6f3e78ddc135b60278a694c80db7b28e88ed2) docs: R13 monitor placement and B9 monitor prerequisites
+- 2026-11-01 17:45 [`6ea5fb1`](https://github.com/krafton-playground/ops-mrso-console/commit/6ea5fb128279b2d2fe469ccec9af82a73044bfcf) feat(projects): directory links to the access request page and approver queue
+- 2026-11-01 17:45 [`b607ed5`](https://github.com/krafton-playground/ops-mrso-console/commit/b607ed5fe953a2866dd69eae46876ae27fc6f2b4) feat(projects): directory links to the access request page and approver queue
+- 2026-11-01 17:45 [`868a87b`](https://github.com/krafton-playground/ops-mrso-console/commit/868a87b783eae91c12aee5636358c936bdd3625a) feat(ui): fold pending overflow and reviewed candidates on Project management (R4)
+- 2026-11-01 17:45 [`ddcb3f0`](https://github.com/krafton-playground/ops-mrso-console/commit/ddcb3f08ec539777efc20e8bfab6a9719259dfc4) feat(ui): fold pending overflow and reviewed candidates on Project management (R4)
+- 2026-11-01 17:42 [`22cdde4`](https://github.com/krafton-playground/ops-mrso-console/commit/22cdde4e915aa1b8412da3921f5400634cd75972) docs: pod memory limit 2Gi confirmed; B5 partly cleared
+- 2026-11-01 17:42 [`d20eddb`](https://github.com/krafton-playground/ops-mrso-console/commit/d20eddb0349e8ed9cac1683fbdecf2e27650062a) docs: pod memory limit 2Gi confirmed; B5 partly cleared
+- 2026-11-01 17:35 [`60f48d8`](https://github.com/krafton-playground/ops-mrso-console/commit/60f48d852d8fe9409e2c3028b65be0576ac1873f) wip(projects): unrouted access requests need a global approver; harness covers both access pages
+- 2026-11-01 17:35 [`ded26e4`](https://github.com/krafton-playground/ops-mrso-console/commit/ded26e46f6d6494249b2b6f0f14b9c068e686f4e) wip(projects): unrouted access requests need a global approver; harness covers both access pages
+- 2026-11-01 17:24 [`92c38bc`](https://github.com/krafton-playground/ops-mrso-console/commit/92c38bca3f35633d90e33395e8233d487edf331b) docs: decisions R1-R12, blockers B1-B8 and the dev E2E test guide
+- 2026-11-01 17:24 [`eed0680`](https://github.com/krafton-playground/ops-mrso-console/commit/eed0680b9d79b390aa673f93f011e8c6560e2ea0) docs: decisions R1-R12, blockers B1-B8 and the dev E2E test guide
+- 2026-11-01 17:18 [`9cdc8a8`](https://github.com/krafton-playground/ops-mrso-console/commit/9cdc8a8727fafe33e5d8ebc492d9efd8ec3fc163) wip(projects): access request feature (validation pending)
+- 2026-11-01 17:18 [`9d4ca4b`](https://github.com/krafton-playground/ops-mrso-console/commit/9d4ca4b0c4f67522feb0d9b132fa52be4c5d1c1a) wip(projects): access request feature (validation pending)
+- 2026-11-01 17:03 [`6b7fe10`](https://github.com/krafton-playground/ops-mrso-console/commit/6b7fe105704492e08c2e8374a6e2b740de44d97a) docs: decisions and blockers board for review
+- 2026-11-01 16:07 [`cdd8d57`](https://github.com/krafton-playground/ops-mrso-console/commit/cdd8d57af79e221e27fc84863beab27d2a5a1c8b) docs: final report with run 17, review list R1-R7 and blockers B1-B7
+- 2026-11-01 15:46 [`455b9a2`](https://github.com/krafton-playground/ops-mrso-console/commit/455b9a2c47d498776ec8b0e34355e89b15cc0239) docs: infra request for prod DB/S3 copy into dev for parity check
+- 2026-11-01 15:26 [`858b630`](https://github.com/krafton-playground/ops-mrso-console/commit/858b630318274c9b545622b86f50b30109855a08) feat(ui): Project screens in the console shell with wizard-style cards
+- 2026-11-01 14:31 [`c246470`](https://github.com/krafton-playground/ops-mrso-console/commit/c2464708c50fcf1d23372065bd925c9013fd90d2) docs: final implementation-phase report, app E2E evidence and handover
+- 2026-11-01 14:14 [`f29b958`](https://github.com/krafton-playground/ops-mrso-console/commit/f29b9585c01e3b55c59716817e1c367351641fd5) fix(projects): human readers qualify current watch-attached legacy pages
+- 2026-11-01 14:09 [`59bfa7b`](https://github.com/krafton-playground/ops-mrso-console/commit/59bfa7b0c84f55315c401e499ec0be43d3db04a6) feat(projects): G11 legacy target cutover handover and exactly-once adoption
+- 2026-11-01 13:55 [`b58004b`](https://github.com/krafton-playground/ops-mrso-console/commit/b58004b6f50aa29063f5980b1a42a2ebd84ea0de) test(projects): give legacy worker mocks the $executeRaw the retry helper uses
+- 2026-11-01 13:49 [`b7978f2`](https://github.com/krafton-playground/ops-mrso-console/commit/b7978f22112094923630c72b722a1f66736c34e2) fix(projects): retry legacy watch/worker serializable transactions on 40001
+- 2026-11-01 13:48 [`bd51126`](https://github.com/krafton-playground/ops-mrso-console/commit/bd51126321a671d7d88ff2865e799abffe34f09c) test(dev): run paused empty-workspace checks only while the pause flag is on
+- 2026-11-01 13:39 [`7a9a30d`](https://github.com/krafton-playground/ops-mrso-console/commit/7a9a30db3e0428f0796fb46d0c6ef7751e954229) chore(dev): enable empty workspace start on the dev server for testing
+- 2026-11-01 13:39 [`d108e63`](https://github.com/krafton-playground/ops-mrso-console/commit/d108e6337031ed5f536a5049108de37629625713) docs: hand over run 13 results, pushed snapshot and open defects
+- 2026-11-01 13:38 [`141c252`](https://github.com/krafton-playground/ops-mrso-console/commit/141c252096c9c201fb54bbb2d83469621ffc8f2c) feat(projects): integrate Project workflow, legacy scoped runtime and recovery (validation run 13)
+- 2026-11-01 13:08 [`4b5068a`](https://github.com/krafton-playground/ops-mrso-console/commit/4b5068a42035b117a669e7891f96dd24caf87711) chore(dev): use ops-mrso-console-dev project metadata
+- 2026-11-01 12:57 [`59c85c2`](https://github.com/krafton-playground/ops-mrso-console/commit/59c85c2d682ccb2faeca00f9e6241f87d7a09e75) test: split joint-backup URL builder so KP's JSX secret-sink regex does not match
+- 2026-11-01 12:57 [`ea669df`](https://github.com/krafton-playground/ops-mrso-console/commit/ea669df4ee56ff9d4d752287d642ea3dc8196979) test: split joint-backup URL builder so KP's JSX secret-sink regex does not match
+- 2026-11-01 10:47 [`11af93f`](https://github.com/krafton-playground/ops-mrso-console/commit/11af93f94fcac484dd17b2359d429cdcf5b61073) feat(dev): Workspace · Project as the default /admin tab, wiki settings opener there, inline range edit
+- 2026-11-01 10:47 [`6dacae8`](https://github.com/krafton-playground/ops-mrso-console/commit/6dacae830a2340e881e0ad3c338378bf9ef25095) feat(dev): Workspace · Project as the default /admin tab, wiki settings opener there, inline range edit
+- 2026-11-01 10:16 [`451496b`](https://github.com/krafton-playground/ops-mrso-console/commit/451496b784b4a71db2eda32b4ab4fc2b50adcb24) feat(dev): Workspace · Project accordion wizard, wiki settings rename, watches redesign
+- 2026-11-01 10:16 [`6c69b8a`](https://github.com/krafton-playground/ops-mrso-console/commit/6c69b8adf0e3df2ef2aac0490a8d013ff9b8974b) feat(dev): Workspace · Project accordion wizard, wiki settings rename, watches redesign
+- 2026-11-01 09:30 [`29ea1a6`](https://github.com/krafton-playground/ops-mrso-console/commit/29ea1a6412500b1511df5794ad3a5e6ef1c7d3d8) feat(dev): drop the Project sidebar entry; /admin Workspace · Project tab is the way in
+- 2026-11-01 09:30 [`3dd111f`](https://github.com/krafton-playground/ops-mrso-console/commit/3dd111f8f9036a643626dd8bf63ffc84683d585b) feat(dev): drop the Project sidebar entry; /admin Workspace · Project tab is the way in
+- 2026-11-01 09:21 [`c013d02`](https://github.com/krafton-playground/ops-mrso-console/commit/c013d02b6353df57a555087ec90406ffc20fb514) feat(dev): admin tabs for Workspace · Project and "확인 근거" reference labels
+- 2026-11-01 09:21 [`c04ace1`](https://github.com/krafton-playground/ops-mrso-console/commit/c04ace184fd5638c7e8cd6a91cea6abbc5a3d918) feat(dev): admin tabs for Workspace · Project and "확인 근거" reference labels
+- 2026-11-01 07:57 [`dba76b4`](https://github.com/krafton-playground/ops-mrso-console/commit/dba76b4424e4c7958cef2d54a780c973b5112063) feat(dev): rename, soft delete and restore data generations with impact warnings
+- 2026-11-01 07:57 [`fb6d2c8`](https://github.com/krafton-playground/ops-mrso-console/commit/fb6d2c806ef0a846e2fa8c9a92510802f05e0829) feat(dev): rename, soft delete and restore data generations with impact warnings
+- 2026-11-01 06:37 [`16bf23d`](https://github.com/krafton-playground/ops-mrso-console/commit/16bf23d7a69c4f4095308ae0c7dfeb551ead0ef7) feat(dev): lazy Confluence tree, subtree-only listing and unattended subtree rules
+- 2026-11-01 06:37 [`7cc7e70`](https://github.com/krafton-playground/ops-mrso-console/commit/7cc7e70dd6f52466c355703d251889bfc183656f) feat(dev): lazy Confluence tree, subtree-only listing and unattended subtree rules
+- 2026-10-31 15:40 [`cc5122a`](https://github.com/krafton-playground/ops-mrso-console/commit/cc5122ae3dd6ba3d3ba80739b9fffe0eb502a19d) docs: hand over stopped consolidated implementation with unverified WIP inventory
+- 2026-10-31 13:14 [`237a850`](https://github.com/krafton-playground/ops-mrso-console/commit/237a850242c6f5ae72aa8351e5f3e6f99411dd4a) docs: report real model candidates and actual local application API evidence
+- 2026-10-31 13:06 [`e759b4b`](https://github.com/krafton-playground/ops-mrso-console/commit/e759b4be48ab362860170b5f5bb8e94cc8e0c38f) feat: deliver local real-source candidates and explicit review workbench
+- 2026-10-31 12:31 [`61f4f98`](https://github.com/krafton-playground/ops-mrso-console/commit/61f4f98d3701249e8b85093eba640d721c4834fa) docs: preserve customer DM reference for dummy wiki E2E
+- 2026-10-31 12:29 [`f3ceddd`](https://github.com/krafton-playground/ops-mrso-console/commit/f3ceddde0605dcdaa5c2da40e97ef11165bca04d) docs: save timestamped customer outcome audit and handoff
+- 2026-10-31 11:59 [`684f0a7`](https://github.com/krafton-playground/ops-mrso-console/commit/684f0a744e84ca4daf19fcddf5f1677b5adb81fd) docs: report real wiki handling and preserve unattended functional next gates
+- 2026-10-31 11:56 [`19623ad`](https://github.com/krafton-playground/ops-mrso-console/commit/19623adfb14e13d3590eecb04ea10c2411f26e32) feat(projects): verify declared source links and real-source local capture
+- 2026-10-31 10:48 [`fefb1bb`](https://github.com/krafton-playground/ops-mrso-console/commit/fefb1bb0bf6475d9797cd943143792c210f4b69d) docs: report readiness prerequisite and retain full legacy approval gates
+- 2026-10-31 10:45 [`02f644c`](https://github.com/krafton-playground/ops-mrso-console/commit/02f644c47b5f0efc95dc613961024bd70764b07e) feat(projects): assess legacy observation freshness without authorizing binding
+- 2026-10-31 10:39 [`eb5c048`](https://github.com/krafton-playground/ops-mrso-console/commit/eb5c048fc2ff67d4f2ffa7d5f949d00805838ef9) docs: record FP2b1 evidence and approved legacy binding next gate
+- 2026-10-31 10:36 [`e8e3b16`](https://github.com/krafton-playground/ops-mrso-console/commit/e8e3b1620e173f9bc965f444e8ec66cfa7a3d378) feat(projects): preserve non-authoritative legacy scope observations
+- 2026-10-31 10:09 [`8d38c91`](https://github.com/krafton-playground/ops-mrso-console/commit/8d38c9131f8a1b217e8d6ae29b26f22ef982b5fd) docs: record FP2a verified snapshot and legacy scope next gate
+- 2026-10-31 10:07 [`39415d5`](https://github.com/krafton-playground/ops-mrso-console/commit/39415d50b39ccc4ac58a31d55d0e5174712564e6) feat(projects): fence native candidate birth ownership and approval receipts
+- 2026-10-31 09:17 [`b8f92be`](https://github.com/krafton-playground/ops-mrso-console/commit/b8f92beb297e837cc8aaf9c739bd12b3bb6a3bf4) docs: preserve tested DRAFT foundation and native legacy binding gate
+- 2026-10-31 09:16 [`52b0eac`](https://github.com/krafton-playground/ops-mrso-console/commit/52b0eaca49eb95f805a89a7d8a8eed7c90811d27) feat(projects): add explicit DRAFT foundation without legacy runtime inheritance
+- 2026-10-30 21:15 [`30c8786`](https://github.com/krafton-playground/ops-mrso-console/commit/30c878619e68622a6236dfecb6b99b6ee407a1d7) docs: preserve P1c review handoff and Project authority next gate
+- 2026-10-30 21:14 [`02c662a`](https://github.com/krafton-playground/ops-mrso-console/commit/02c662a739065da64821433a00343ba1bc9ae991) feat(jobs): preserve recurrence episodes and human review of unknown alert evidence
+- 2026-10-30 20:38 [`bdde4af`](https://github.com/krafton-playground/ops-mrso-console/commit/bdde4af18acae8bcb5ff7bb5ac4acfde7bfab395) docs: preserve P1b handoff and KP-first env rule
+- 2026-10-30 20:37 [`3f555b3`](https://github.com/krafton-playground/ops-mrso-console/commit/3f555b3091bd67bd648a6421b6cb5b0ba0a3fd18) feat(jobs): persist immutable scan handoffs and resume missing diagnostic receipts
+- 2026-10-30 20:03 [`201d5cb`](https://github.com/krafton-playground/ops-mrso-console/commit/201d5cbe8be3f05703015d55ac74778e7894ef8a) docs: record live OPERATOR source check and KP credential provenance boundary
+- 2026-10-30 17:46 [`7d8c8c3`](https://github.com/krafton-playground/ops-mrso-console/commit/7d8c8c3a7bde316ee19651508771835eb50ad61f) docs: record tested P1a recovery and scanner handoff next steps
+- 2026-10-30 17:45 [`82f8c0c`](https://github.com/krafton-playground/ops-mrso-console/commit/82f8c0c29da0a23ea8f94136a6a456def3a1d115) feat(jobs): reconcile approved failure observations without replaying work
+- 2026-10-30 16:20 [`97a7431`](https://github.com/krafton-playground/ops-mrso-console/commit/97a74312f6a418a4b4757aca13ec04e6aad14d8e) docs: record tested D3e dispatch and durable reconciliation next steps
+- 2026-10-30 16:19 [`6b6605c`](https://github.com/krafton-playground/ops-mrso-console/commit/6b6605c68efebbd2e89678897e940295433333b9) feat(jobs): dispatch operational alerts with immutable receipts and no unknown replay
+- 2026-10-30 15:40 [`7a336ed`](https://github.com/krafton-playground/ops-mrso-console/commit/7a336ed7f7954995fa9b43efdb8d8bc8a197be98) docs: compact D3 priorities and stage acceptance checklist
+- 2026-10-30 15:25 [`922c934`](https://github.com/krafton-playground/ops-mrso-console/commit/922c93410954f91b46457631b4a60f8eca46c820) docs: preserve D3d handoff and S5 clone gate
+- 2026-10-30 15:25 [`18560ed`](https://github.com/krafton-playground/ops-mrso-console/commit/18560ed5d5bb4f668276f354fce9f2875d21d218) feat(jobs): retain shared and dedicated scanner diagnostics as incidents
+- 2026-10-30 15:17 [`51a012b`](https://github.com/krafton-playground/ops-mrso-console/commit/51a012b5f6b833b4202dec87ab272146e7c54f5b) feat(jobs): persist platform incidents and recipient alert intents
+- 2026-10-30 14:36 [`46a2e4f`](https://github.com/krafton-playground/ops-mrso-console/commit/46a2e4f5e664ac866418bf3e997fb9a911d85452) docs: preserve D3 partial milestone handoff and remaining gates
+- 2026-10-30 14:35 [`7f74505`](https://github.com/krafton-playground/ops-mrso-console/commit/7f74505e6fee131a0a7e72765fcbf70dbce07216) feat(jobs): add read-only external worker and queue monitor probe
+- 2026-10-30 14:30 [`97630d2`](https://github.com/krafton-playground/ops-mrso-console/commit/97630d217f1c2d7b00b91a4aa439413b2b0bfb98) fix(jobs): reconcile uncertain worker claims before retry or shutdown
+- 2026-10-30 13:31 [`ae7ab2d`](https://github.com/krafton-playground/ops-mrso-console/commit/ae7ab2df48abb9330951fa898ab27fb1918ea600) docs(jobs): record final independent observability approval
+- 2026-10-30 13:27 [`701c053`](https://github.com/krafton-playground/ops-mrso-console/commit/701c05356bfb37e1bbea2b3f7a53849df638315b) docs(jobs): record D2 observability QA and pending final signoff
+- 2026-10-30 13:23 [`94c8b9b`](https://github.com/krafton-playground/ops-mrso-console/commit/94c8b9bdfa1eb9eac7096ebb6067d91b57c1dd32) test(jobs): verify provider telemetry and diagnostic UI recovery
+- 2026-10-30 13:23 [`ba5a908`](https://github.com/krafton-playground/ops-mrso-console/commit/ba5a908e54afe0162910dc96e36c8d2e2e295be4) feat(jobs): preserve provider-call observations and scoped diagnostics
+- 2026-10-30 10:42 [`2de8d6f`](https://github.com/krafton-playground/ops-mrso-console/commit/2de8d6f8f3ac2d69b47dec127db23ac9e0d8b9ad) docs: record retry milestone, S5 inputs and foundation context
+- 2026-10-30 10:39 [`8bb66b5`](https://github.com/krafton-playground/ops-mrso-console/commit/8bb66b5408014d7e3e20a3cf1e54dcc371fd1d9a) feat(jobs): apply bounded retry backoff and preserve provider retry hints
+- 2026-10-30 10:28 [`2b373e3`](https://github.com/krafton-playground/ops-mrso-console/commit/2b373e34b396bfbcbe4df6b6173a86e3447e5862) test(parity): inventory all local MRSO sources without changing legacy scope
+- 2026-10-30 09:48 [`fd695f2`](https://github.com/krafton-playground/ops-mrso-console/commit/fd695f2bdc30acfc51b79f4cd735d4d631c551ef) docs(jobs): record D1 diagnostics evidence and remaining milestone gates
+- 2026-10-30 09:46 [`ea820f5`](https://github.com/krafton-playground/ops-mrso-console/commit/ea820f507616cfb3aded15e6881fda6288bdbf74) feat(jobs): preserve bounded database failure diagnostics across retries
+- 2026-10-30 09:33 [`b0b2e1d`](https://github.com/krafton-playground/ops-mrso-console/commit/b0b2e1dc744d1a260fbafaf22fa44c5804701cf4) docs(notifications): close S4 with independent review and browser evidence
+- 2026-10-30 09:31 [`bbedc2f`](https://github.com/krafton-playground/ops-mrso-console/commit/bbedc2f629026c6b04c3e9ab028bbeb3355b19e0) fix(notifications): close independent S4 review findings
+- 2026-10-29 18:30 [`94bee6f`](https://github.com/krafton-playground/ops-mrso-console/commit/94bee6f64aabc1718f38280b5c89e6e2d4ea8820) docs(notifications): record S4 verification and pending review gate
+- 2026-10-29 18:27 [`00b8b45`](https://github.com/krafton-playground/ops-mrso-console/commit/00b8b45aa664507a27cbb6b6a9de6a23a7d36187) test(notifications): verify MRSO recipient and suppression recovery
+- 2026-10-29 18:27 [`7a7ece1`](https://github.com/krafton-playground/ops-mrso-console/commit/7a7ece1b6c27e5f5d8917409e106928b8fa208af) feat(notifications): add explicit recipient and suppression policy
+- 2026-10-29 16:38 [`a36fefd`](https://github.com/krafton-playground/ops-mrso-console/commit/a36fefdbf7e68b8ff5be0ec6be2b2c39c1cdae05) docs(jobs): record S3 recovery evidence and remaining milestones
+- 2026-10-29 16:37 [`3d3367f`](https://github.com/krafton-playground/ops-mrso-console/commit/3d3367f9a0e79911befc4f35d768f1190395e7e5) test(jobs): verify MRSO output recovery across process failures
+- 2026-10-29 16:37 [`8fb15b6`](https://github.com/krafton-playground/ops-mrso-console/commit/8fb15b62111f657932d24a5757559c12a36c9947) fix(jobs): persist validated output and reuse committed generations
+- 2026-10-29 16:18 [`d620e5f`](https://github.com/krafton-playground/ops-mrso-console/commit/d620e5f6f8d1ffe269b00e7bce93780c873e3c77) docs(jobs): record S2 occurrence verification and rollout boundaries
+- 2026-10-29 16:17 [`a2d8ca5`](https://github.com/krafton-playground/ops-mrso-console/commit/a2d8ca53b96fc9b06c8fb5c6cb462205a585612b) test(jobs): verify occurrence retry and next-cycle MRSO identity
+- 2026-10-29 16:05 [`93b4f02`](https://github.com/krafton-playground/ops-mrso-console/commit/93b4f026a1084e2e14dfc197df527f9e25a229fe) fix(jobs): derive generation request keys from schedule occurrences
+- 2026-10-29 15:51 [`10e7819`](https://github.com/krafton-playground/ops-mrso-console/commit/10e7819c4f659a3154f25817e16413c506107780) docs(jobs): record S1 recovery evidence and rollback gates
+- 2026-10-29 15:50 [`a91a647`](https://github.com/krafton-playground/ops-mrso-console/commit/a91a64771fe9e428ff7905e895c8219db0a9d312) test(jobs): verify MRSO checkpoint recovery across processes
+- 2026-10-29 15:46 [`b329c4d`](https://github.com/krafton-playground/ops-mrso-console/commit/b329c4dfc62386bbdb326e74063206d1c98eb748) fix(jobs): compare and restore checkpoint inputs semantically
+- 2026-10-29 14:36 [`8bb0a94`](https://github.com/krafton-playground/ops-mrso-console/commit/8bb0a9486e02fde874b3701a884ad015eecb1432) Merge pull request #137 from krafton-playground/qa/tweak-ui
+- 2026-10-29 11:47 [`2218f93`](https://github.com/krafton-playground/ops-mrso-console/commit/2218f939fc4c2ee6fd0bdab607dcc459258b2aaa) Merge pull request #138 from krafton-playground/claude/owner-confluence-fallback
+- 2026-10-29 11:47 [`6aeeecc`](https://github.com/krafton-playground/ops-mrso-console/commit/6aeeeccd7bf5020cc2f55f9cc8d8ecd9b4db2ffe) 리뷰 반영: 401은 OWNER 예비로 넘기지 않음(403·404만), null 결과(버전 조회·홈·제목 검색)와 v2 빈 스페이스 목록도 예비 자격증명으로 재시도
+- 2026-10-29 11:42 [`30d8ed8`](https://github.com/krafton-playground/ops-mrso-console/commit/30d8ed87b3e854bbc76a30986bf2171f22fc4679) 임시 테스트: 스페이스 홈 조회는 최상위 권한 확인 뒤에만(서버 자격증명으로 스페이스를 탐색하는 경로 차단)
+- 2026-10-29 11:40 [`ba61b7b`](https://github.com/krafton-playground/ops-mrso-console/commit/ba61b7b0bd6bbf597d79e513bd94f076399d1e63) Confluence 읽기에 OWNER 예비 자격증명(D18) + 임시 테스트가 스페이스 URL을 받도록
+- 2026-10-29 11:26 [`2fb7602`](https://github.com/krafton-playground/ops-mrso-console/commit/2fb76026d8988d825b883dc87fcaa2315df7a2f3) 백그라운드 테스트 패널: 접기 chevron 아이콘·닫기(X) 버튼, 문구 변경에 맞춘 테스트 갱신
+- 2026-10-29 10:48 [`c099f26`](https://github.com/krafton-playground/ops-mrso-console/commit/c099f2650ca4b761de2307a61c6f52aad7c9781a) Add proposal rejection history and background test panel
+- 2026-10-29 09:36 [`fc6454c`](https://github.com/krafton-playground/ops-mrso-console/commit/fc6454c4ac3af0ac6e53bab7384cbc1c98ba14e0) Merge pull request #136 from krafton-playground/codex/runtime-wizard-layout-fix
+- 2026-10-29 09:30 [`d19d295`](https://github.com/krafton-playground/ops-mrso-console/commit/d19d295316f875e9f579f2bb9eaa8928da7c3c91) fix(runtime): keep choice controls out of text field styles
+- 2026-10-29 09:22 [`8714704`](https://github.com/krafton-playground/ops-mrso-console/commit/87147044d2f6ae465c6da2de90e74b5a35882075) Merge pull request #135 from krafton-playground/codex/runtime-tools-wizard
+- 2026-10-29 09:22 [`d7486d5`](https://github.com/krafton-playground/ops-mrso-console/commit/d7486d5ddf67fb1bdd7df2a50c580e1ab0899f1b) docs(runtime): record isolated branch verification
+- 2026-10-29 09:20 [`676ae0a`](https://github.com/krafton-playground/ops-mrso-console/commit/676ae0a199c7b564d512ea2d2a6bf3c802dc110f) feat(runtime): add tabbed operations wizard and isolated project tests
+- 2026-10-28 19:52 [`df438bd`](https://github.com/krafton-playground/ops-mrso-console/commit/df438bd3c0b7f50cceccd19e65401a5344d227ab) Merge pull request #119 from krafton-playground/claude/start-hardening-p0
+- 2026-10-28 19:48 [`58cc9ff`](https://github.com/krafton-playground/ops-mrso-console/commit/58cc9ff6efe74c982f4dddf769c5ccbebae8c8b8) merge main into claude/start-hardening-p0 (runbook·LESSON 충돌 해소, 항목 102)
+- 2026-10-28 19:40 [`be1d51b`](https://github.com/krafton-playground/ops-mrso-console/commit/be1d51b1505ce44f299e1e7b620472dca6ad85fd) Merge pull request #127 from krafton-playground/claude/watch-enable-pr1a
+- 2026-10-28 19:38 [`367cf11`](https://github.com/krafton-playground/ops-mrso-console/commit/367cf111b35d312a03661afa7f478c15cf1b869f) LESSON: PR-1a 항목 번호를 101로 (main의 99·100과 충돌 회피)
+- 2026-10-28 19:37 [`995011b`](https://github.com/krafton-playground/ops-mrso-console/commit/995011b6c73eae53f29de1193ba044d0bc624d44) Merge remote-tracking branch 'origin/main' into HEAD
+- 2026-10-28 19:33 [`90bbb4e`](https://github.com/krafton-playground/ops-mrso-console/commit/90bbb4e0ee01aa345cfd267a7268d3ab2fb06200) Merge pull request #134 from krafton-playground/claude/operator-session-renewal
+- 2026-10-28 19:33 [`1c52d23`](https://github.com/krafton-playground/ops-mrso-console/commit/1c52d231f641164a13b3d6ec04207facfbea1520) 리뷰 반영: 정책 변경을 설정 변경보다 먼저 판정 — 기존 세션 종료 사유가 POLICY_CHANGED로 기록되도록
+- 2026-10-28 19:30 [`e1c6a92`](https://github.com/krafton-playground/ops-mrso-console/commit/e1c6a921c8c0c0a899ea955ee078c7247b58cec3) Merge pull request #130 from krafton-playground/codex/queue-content-redesign
+- 2026-10-28 19:27 [`1502654`](https://github.com/krafton-playground/ops-mrso-console/commit/15026546154b2ef87c6c6888f24fbf61c721adc0) Merge remote-tracking branch 'origin/main' into claude/operator-session-renewal
+- 2026-10-28 19:24 [`58b4a6c`](https://github.com/krafton-playground/ops-mrso-console/commit/58b4a6cc051f07dcf94b3344a561bb317762ba42) Merge pull request #133 from krafton-playground/claude/lesson-markers-fix
+- 2026-10-28 19:24 [`8caaa7f`](https://github.com/krafton-playground/ops-mrso-console/commit/8caaa7fe40c013f7ac0281c88a571b23b4d5c8c9) docs: LESSON.md에 남은 머지 충돌 마커 3줄 제거 (#128 main 병합 시 실수)
+- 2026-10-28 19:22 [`3330944`](https://github.com/krafton-playground/ops-mrso-console/commit/3330944bb6c6b880c4d44071961a14680c75cc1f) 통합 테스트: 연장 뒤 중복 세션 삽입 시도는 revision 0으로 시작(시작 가드가 아닌 단일 열림 인덱스가 거부하도록)
+- 2026-10-28 19:19 [`943b975`](https://github.com/krafton-playground/ops-mrso-console/commit/943b9758d7a0cdebb4a44b3a4c0dffd12cd07543) 마이그레이션: 고정 24시간 CHECK를 하한(expiresAt >= startedAt + 24h)으로 완화 — 연장 허용
+- 2026-10-28 19:16 [`709aa0d`](https://github.com/krafton-playground/ops-mrso-console/commit/709aa0db1738746e2423dafb4b05d86cdb06efc0) Merge pull request #128 from krafton-playground/claude/schedules-cleanup
+- 2026-10-28 19:16 [`8a1f6c0`](https://github.com/krafton-playground/ops-mrso-console/commit/8a1f6c07781723c6cebb89f796527817639469fd) merge main into claude/schedules-cleanup (LESSON.md 양쪽 유지)
+- 2026-10-28 19:15 [`2c210c3`](https://github.com/krafton-playground/ops-mrso-console/commit/2c210c32d99ea03a29d7ae01658917761b8efc16) 마이그레이션: policyVersion CHECK에 P2A_RENEWABLE_V1 허용(기존 값 유지)
+- 2026-10-28 19:11 [`ca6d3c4`](https://github.com/krafton-playground/ops-mrso-console/commit/ca6d3c4675b9473377bbe21fd64714fe5a30c348) 빌드 수정: 정책 상수를 node:crypto 없는 policy.ts로 분리 — 클라이언트 배너 번들에 proof.ts가 끌려오지 않게
+- 2026-10-28 19:09 [`dc7d14a`](https://github.com/krafton-playground/ops-mrso-console/commit/dc7d14a89bf8b25bdda3bf63b6231a3f7ed02cad) Merge pull request #132 from krafton-playground/claude/app-session-lifetime
+- 2026-10-28 19:08 [`c9b8ed1`](https://github.com/krafton-playground/ops-mrso-console/commit/c9b8ed1e2fae8038460463bcfa8e9caa65cabf91) 리뷰 반영: 미래 origin 토큰 거부, core 토큰 경로에서 죽은 앱 세션 쿠키 삭제, 테스트 2건
+- 2026-10-28 19:07 [`9c79a8b`](https://github.com/krafton-playground/ops-mrso-console/commit/9c79a8b99426c5bdf3719b48cde471fc2bac3fba) OPERATOR 세션을 갱신형으로: 웹 활동·수집기 heartbeat가 24시간 만료를 밀어 준다 (D17 ②)
+- 2026-10-28 19:03 [`2d4cf02`](https://github.com/krafton-playground/ops-mrso-console/commit/2d4cf02cba28eb7ff7c75f1e973b0d4647b8b3c4) Merge pull request #124 from krafton-playground/claude/worker-idle-polling
+- 2026-10-28 19:01 [`fd84f1e`](https://github.com/krafton-playground/ops-mrso-console/commit/fd84f1edfce0b0d0f932d1a6c69d8763093fae47) Merge remote-tracking branch 'origin/main' into claude/app-session-lifetime
+- 2026-10-28 19:00 [`6c43891`](https://github.com/krafton-playground/ops-mrso-console/commit/6c438916c291b9ffdabaccd29aeebf62de824ef5) 웹 콘솔 세션: SSO 검증 뒤 앱 서명 세션 쿠키 발급(활동 시 자동 연장, 기본 유휴 12시간·최대 7일) — 15분 재로그인 제거 (D17)
+- 2026-10-28 18:55 [`7a0b455`](https://github.com/krafton-playground/ops-mrso-console/commit/7a0b455df2be54cb7fe650a4f75a32c7090baf78) Merge pull request #131 from krafton-playground/claude/stale-integration-expectations
+- 2026-10-28 18:45 [`724913a`](https://github.com/krafton-playground/ops-mrso-console/commit/724913ae68f77ce776376f3d20713cf203792ec4) Merge pull request #123 from krafton-playground/claude/readiness-migration-auto
+- 2026-10-28 18:43 [`f7375e3`](https://github.com/krafton-playground/ops-mrso-console/commit/f7375e37fe4377ca28ebace4650169d7a3194e8a) style: 확인 대기 재설계 글자 크기를 콘솔 타입 스케일에 맞춤 (27→26px, 21→18px)
+- 2026-10-28 18:16 [`4b65c16`](https://github.com/krafton-playground/ops-mrso-console/commit/4b65c16a52188195dfe1b1dd32b6f692ee2be6c9) test: #107·#125 이후 낡은 통합 테스트 기대값 2건 갱신
+- 2026-10-28 18:13 [`46b8ae7`](https://github.com/krafton-playground/ops-mrso-console/commit/46b8ae743f6c08e9969ef34bb8c727e1793128f5) Redesign queue content with master detail review layout
+- 2026-10-28 18:13 [`a445703`](https://github.com/krafton-playground/ops-mrso-console/commit/a4457033f5b0168a25ec2e3a59742efd17440da9) WIP(미완성, 머지 금지): 갱신형 OPERATOR 세션 — renew.ts, 웹 활동·worker keepalive 훅, 정책 버전, 배너 일부. 트리거 완화 마이그레이션·view 리터럴·배너 본문·단위 테스트 미반영(권한 차단)
+- 2026-10-28 18:06 [`44d1724`](https://github.com/krafton-playground/ops-mrso-console/commit/44d1724b8d8f7334e23190615b5bd86dfb52bc01) WIP(미완성, 머지 금지): 앱 세션 쿠키 — lib/app-session, getSession, 콜백 발급. middleware·logout·테스트 미반영
+- 2026-10-28 18:01 [`172dfdf`](https://github.com/krafton-playground/ops-mrso-console/commit/172dfdfe0c8dad33abddf5cbeb910b096a2461bd) Merge pull request #129 from krafton-playground/claude/watches-remove-tool-pills
+- 2026-10-28 18:00 [`04c5133`](https://github.com/krafton-playground/ops-mrso-console/commit/04c51332128a09b58caebd5ab61a86bfc9f7829c) 수집 대상 화면: '수집 대상 설정'·'주간 일정 설정' 링크 버튼 제거
+- 2026-10-28 18:00 [`c3c86c5`](https://github.com/krafton-playground/ops-mrso-console/commit/c3c86c5f7e6ab059caa0ed61c3a44eaf95d55ecf) 수집 대상 화면: '수집 대상 설정'·'주간 일정 설정' 링크 버튼 제거
+- 2026-10-28 17:57 [`77dfea1`](https://github.com/krafton-playground/ops-mrso-console/commit/77dfea18dbada5c3c874441a9c0b86a018a0f0a1) chore: dead legacy schedule-management 스택 삭제 (#102 후속)
+- 2026-10-28 17:55 [`0f30187`](https://github.com/krafton-playground/ops-mrso-console/commit/0f301879cf64fa61dcd2cc7025f0975266fb9f10) Merge pull request #125 from krafton-playground/claude/runtime-test-all-targets
+- 2026-10-28 17:50 [`011cf6c`](https://github.com/krafton-playground/ops-mrso-console/commit/011cf6c82a7c7180b7a5ccfa88cf3a5202e33703) feat: 수집 대상 켜기/끄기 액션, homepageOf 표현, 부서 일정 표시, 중복 루트 검사 (PR-1a)
+- 2026-10-28 17:50 [`1f76e2e`](https://github.com/krafton-playground/ops-mrso-console/commit/1f76e2e3c329c19e68dba08df0c2544e687699fb) feat: 수집 대상 켜기/끄기 액션, homepageOf 표현, 부서 일정 표시, 중복 루트 검사 (PR-1a)
+- 2026-10-28 17:47 [`5f7afd4`](https://github.com/krafton-playground/ops-mrso-console/commit/5f7afd497d18a604d07b43bad49d607824d3c5e9) Merge pull request #126 from krafton-playground/claude/watch-wizard-invalid-fields
+- 2026-10-28 17:47 [`6b977f9`](https://github.com/krafton-playground/ops-mrso-console/commit/6b977f9f49b8b23cee4bcebe3b0534157ad2557b) 수집 대상 마법사: 저장 불가 값을 보내기 전에 막고, 400 응답에 문제 입력란 이름을 담는다
+- 2026-10-28 17:47 [`6d58e3f`](https://github.com/krafton-playground/ops-mrso-console/commit/6d58e3fa0590325dd59d315ef7b5fe70a27035ca) 수집 대상 마법사: 저장 불가 값을 보내기 전에 막고, 400 응답에 문제 입력란 이름을 담는다
+- 2026-10-28 17:34 [`661afd3`](https://github.com/krafton-playground/ops-mrso-console/commit/661afd3b0d13216db853579e3bd9db68b184bd27) feat: 일정 사전 테스트를 등록 대상 전체로, 주간 일정 요일·시각 변경(reschedule-all)과 /schedules 화면 복원, ADMIN 권한
+- 2026-10-28 17:34 [`fda8b4e`](https://github.com/krafton-playground/ops-mrso-console/commit/fda8b4ed98066734545bca1a41bd6f964faefc63) feat: 일정 사전 테스트를 등록 대상 전체로, 주간 일정 요일·시각 변경(reschedule-all)과 /schedules 화면 복원, ADMIN 권한
+- 2026-10-28 17:20 [`9424842`](https://github.com/krafton-playground/ops-mrso-console/commit/9424842e51254d0d7034924c15d48d6a46e6031a) perf: wiki worker idle 폴링 5초·주간 일정 스캔 60초로 완화 (env 조정 가능, 잘못된 값은 기본값)
+- 2026-10-28 17:16 [`ef8b251`](https://github.com/krafton-playground/ops-mrso-console/commit/ef8b251e498c51d0b44818913d4463461dfb7e9f) fix: readiness 필수 마이그레이션을 prisma/migrations의 최신 디렉터리에서 자동 도출
+- 2026-10-28 15:53 [`173e58c`](https://github.com/krafton-playground/ops-mrso-console/commit/173e58c14a4e7cb60d2e652bc0a11c9af369d538) Merge pull request #122 from krafton-playground/claude/login-brand-mrso
+- 2026-10-28 15:53 [`8a755b5`](https://github.com/krafton-playground/ops-mrso-console/commit/8a755b54395ce0c086fdfe5e050add5cfae89a53) 로그인 브랜드를 KS · MRSO Operation Div로, 수집 대상 관리 도구를 카드 밖으로
+- 2026-10-28 15:12 [`8998dc4`](https://github.com/krafton-playground/ops-mrso-console/commit/8998dc45550d80322de0913ba7e132d6ee41b70d) Merge pull request #120 from krafton-playground/claude/watch-link-resolve
+- 2026-10-28 15:11 [`2a4a35e`](https://github.com/krafton-playground/ops-mrso-console/commit/2a4a35ecb211245141dd3d2859b8d4a985a5d510) 리뷰 반영: 폼 닫힐 때 개인 토큰 비움, 이메일 칸 Enter 가드, 거부 시 로그에 자격증명 미노출 테스트, 문구
+- 2026-10-28 15:11 [`693780c`](https://github.com/krafton-playground/ops-mrso-console/commit/693780cd4546365464fcf4bb8b079bd4e3908dc4) 리뷰 반영: 폼 닫힐 때 개인 토큰 비움, 이메일 칸 Enter 가드, 거부 시 로그에 자격증명 미노출 테스트, 문구
+- 2026-10-28 15:10 [`0636ac0`](https://github.com/krafton-playground/ops-mrso-console/commit/0636ac0e5c71da7b790b98f49f48d9b0a63e4b04) Merge pull request #121 from krafton-playground/claude/notification-delivery-log-compact
+- 2026-10-28 15:07 [`2e99978`](https://github.com/krafton-playground/ops-mrso-console/commit/2e99978626be496dc1cb201263c53da38f571ea5) 알림 관리 처리 내역을 필터·날짜 묶음·더 보기가 있는 압축 목록으로 재설계
+- 2026-10-28 15:07 [`8b568f0`](https://github.com/krafton-playground/ops-mrso-console/commit/8b568f067c09bb1faeb858964af4eebe157e817a) 수집 대상 마법사: 스페이스 링크를 서버에서 시작 페이지로 조회(스피너), OPERATOR가 못 보면 개인 Confluence 계정으로 1회 조회
+- 2026-10-28 15:07 [`e4ae1ff`](https://github.com/krafton-playground/ops-mrso-console/commit/e4ae1ffbe454d264baba99f2588c45c5d01481e9) 수집 대상 마법사: 스페이스 링크를 서버에서 시작 페이지로 조회(스피너), OPERATOR가 못 보면 개인 Confluence 계정으로 1회 조회
+- 2026-10-28 15:05 [`b33d782`](https://github.com/krafton-playground/ops-mrso-console/commit/b33d7820a490d3c10fbb3badf24217e3e52e473c) fix: 컨테이너 기동 하드닝 — env 오타는 standby, 알림·발행 worker 재시작, 프로세스별 heap 상한 (P0)
+- 2026-10-28 14:58 [`0178ead`](https://github.com/krafton-playground/ops-mrso-console/commit/0178ead95ef135c81aa0888ca6f84efa966cab3d) Merge pull request #118 from krafton-playground/claude/watches-toolbar-in-panel
+- 2026-10-28 14:57 [`08f784d`](https://github.com/krafton-playground/ops-mrso-console/commit/08f784dba00588adbaf22972ab00656a58d5eb59) 수집 대상 화면: 관리 도구 두 개를 ‘새 수집 대상 만들기’ 블록 상단으로, 부서 pill 접근성 수정
+- 2026-10-28 14:57 [`8decfdb`](https://github.com/krafton-playground/ops-mrso-console/commit/8decfdb44983b0c45ea1cb689d083fbfc8415ad8) 수집 대상 화면: 관리 도구 두 개를 ‘새 수집 대상 만들기’ 블록 상단으로, 부서 pill 접근성 수정
+- 2026-10-28 14:53 [`8df2d2b`](https://github.com/krafton-playground/ops-mrso-console/commit/8df2d2b65d1fb256bd33581cc2d739184daff690) Merge pull request #117 from krafton-playground/claude/watch-dept-add-pill
+- 2026-10-28 14:50 [`560cceb`](https://github.com/krafton-playground/ops-mrso-console/commit/560ccebb7a62bfe81d067e27e0dd4d42f1dd5f72) 수집 대상 마법사: 부서 칩 줄에 ‘＋ 새 팀 추가’ pill — 누르면 그 자리에 등록 폼
+- 2026-10-28 14:50 [`c547cce`](https://github.com/krafton-playground/ops-mrso-console/commit/c547cced91214d69c0b090a4165ac3771e572382) 수집 대상 마법사: 부서 칩 줄에 ‘＋ 새 팀 추가’ pill — 누르면 그 자리에 등록 폼
+- 2026-10-28 14:00 [`c445c3f`](https://github.com/krafton-playground/ops-mrso-console/commit/c445c3f272f1dc6f16fd0bc01c4ed3b552944532) Merge pull request #116 from krafton-playground/claude/revert-110-inquiry
+- 2026-10-28 14:00 [`dd3cf25`](https://github.com/krafton-playground/ops-mrso-console/commit/dd3cf25a193cd0af126e9d43752763e0671a0a2a) revert: 문의하기(#110) 기능 제거
+- 2026-10-28 13:58 [`9f6e7d2`](https://github.com/krafton-playground/ops-mrso-console/commit/9f6e7d2393b9048a9b3d543b70a281d5e9c68058) Revert "Merge pull request #110 from krafton-playground/claude/inquiry-2026-10-28"
+- 2026-10-28 12:13 [`dd29f12`](https://github.com/krafton-playground/ops-mrso-console/commit/dd29f120f9ada913a2ce32d5c7c35ac8f1e8c2a7) Merge pull request #114 from krafton-playground/claude/watches-inline-create
+- 2026-10-28 12:11 [`1c20319`](https://github.com/krafton-playground/ops-mrso-console/commit/1c203198eb8e0ffdc8b0dc80df41468e65c456b9) 수집 대상(/watches) 상단에서 바로 새 수집 대상 만들기
+- 2026-10-28 12:11 [`84d40dc`](https://github.com/krafton-playground/ops-mrso-console/commit/84d40dce08e60b86be5e2f0c2eaeb2ff0a2e2c3e) 수집 대상(/watches) 상단에서 바로 새 수집 대상 만들기
+- 2026-10-28 11:53 [`aac40f1`](https://github.com/krafton-playground/ops-mrso-console/commit/aac40f1f014973428e4caec0054b9d87234fc9ed) Merge pull request #113 from krafton-playground/claude/watch-wizard-inline-department
+- 2026-10-28 11:53 [`d9d67e5`](https://github.com/krafton-playground/ops-mrso-console/commit/d9d67e5744f30b4adf074ee2f1529cbce19b11a2) 리뷰 반영: 부서 인라인 등록은 ACTIVE 세대에서만, 등록 직후 목록에 낙관적 반영
+- 2026-10-28 11:53 [`fa999ac`](https://github.com/krafton-playground/ops-mrso-console/commit/fa999acb6c1f46615b86cdcfd37ad5eeea297d90) 리뷰 반영: 부서 인라인 등록은 ACTIVE 세대에서만, 등록 직후 목록에 낙관적 반영
+- 2026-10-28 11:52 [`51118ad`](https://github.com/krafton-playground/ops-mrso-console/commit/51118ad6891332936f9421cc50394e3d01d90ab0) Merge pull request #110 from krafton-playground/claude/inquiry-2026-10-28
+- 2026-10-28 11:47 [`3d0f438`](https://github.com/krafton-playground/ops-mrso-console/commit/3d0f4387aa422b1ccdb91e9c9d76e42d7f9cb612) 수집 대상 마법사: 등록된 부서 목록 선택과 OWNER·OPERATOR 인라인 부서 등록
+- 2026-10-28 11:47 [`ebac30a`](https://github.com/krafton-playground/ops-mrso-console/commit/ebac30aeb12239ebc5df6e5d3857624f070e6c27) 수집 대상 마법사: 등록된 부서 목록 선택과 OWNER·OPERATOR 인라인 부서 등록
+- 2026-10-28 11:45 [`8290319`](https://github.com/krafton-playground/ops-mrso-console/commit/82903198964ee584491e251c49ec859064fd5ce0) Merge pull request #109 from krafton-playground/claude/unattended-e2e-main
+- 2026-10-28 11:39 [`dd96265`](https://github.com/krafton-playground/ops-mrso-console/commit/dd96265bc54676ce0eedc68797f65a722d580c9c) Merge pull request #112 from krafton-playground/claude/watch-wizard-green
+- 2026-10-28 11:37 [`b391a09`](https://github.com/krafton-playground/ops-mrso-console/commit/b391a09781725a5ab7a79b9fa9b4a0a4ad72676a) 수집 대상 마법사: 버튼·선택 강조색을 앱 녹색으로 통일, 부서 안내에 접근 관리 링크
+- 2026-10-28 11:37 [`f9e5295`](https://github.com/krafton-playground/ops-mrso-console/commit/f9e5295cfb79d48a6ede187ed637fba0054d91ac) 수집 대상 마법사: 버튼·선택 강조색을 앱 녹색으로 통일, 부서 안내에 접근 관리 링크
+- 2026-10-28 11:37 [`7d0ca6f`](https://github.com/krafton-playground/ops-mrso-console/commit/7d0ca6f3cbe1ea5108bf58f725635c669ab27379) Merge pull request #104 from krafton-playground/claude/plan-remaining-2026-10-28
+- 2026-10-28 11:34 [`3bf449f`](https://github.com/krafton-playground/ops-mrso-console/commit/3bf449f495f0f3fe99502b25771b3157947d424d) Merge pull request #111 from krafton-playground/claude/budget-abort-classification
+- 2026-10-28 11:30 [`91d5fe5`](https://github.com/krafton-playground/ops-mrso-console/commit/91d5fe535e82d4b36c3b270a9fb847343179d68c) fix: 예산 타임아웃이 끊은 요청을 시계와 무관하게 BUDGET_EXCEEDED로 분류
+- 2026-10-28 11:29 [`93de61a`](https://github.com/krafton-playground/ops-mrso-console/commit/93de61a5c1c9f7b0b8b50cd5e06ae9f0418c4117) Merge pull request #108 from krafton-playground/claude/worker-p2034-retry
+- 2026-10-28 11:29 [`5e8a2ac`](https://github.com/krafton-playground/ops-mrso-console/commit/5e8a2acddd97848be03250e84ceeed37488154b9) feat: 문의하기 — 우하단 "?" 버튼으로 운영 담당자에게 이메일·Slack 문의 전달
+- 2026-10-28 11:19 [`6f177fd`](https://github.com/krafton-playground/ops-mrso-console/commit/6f177fdd75e77eade218b3eafec390a7fbe3e3ec) Merge pull request #107 from krafton-playground/claude/assignee-source-reads
+- 2026-10-28 11:17 [`8193f21`](https://github.com/krafton-playground/ops-mrso-console/commit/8193f218da5f2e04467972d58d1f066f58065bd5) Merge pull request #106 from krafton-playground/claude/ops-alerts-admin
+- 2026-10-28 11:17 [`38be65a`](https://github.com/krafton-playground/ops-mrso-console/commit/38be65a86c13274062205bd0a8feecbc7137056e) fix: worker가 Prisma 직렬화 충돌(P2034)을 영구 실패 대신 재시도
+- 2026-10-28 11:17 [`9e3d798`](https://github.com/krafton-playground/ops-mrso-console/commit/9e3d798f76b8d070cd584f2e8ffb5c358f3e14a4) test: 무인 e2e 하네스를 main(#96/#99)에 맞추고 OPERATOR·팀원·업무·Slack 전체 흐름 e2e 추가
+- 2026-10-28 11:17 [`e368609`](https://github.com/krafton-playground/ops-mrso-console/commit/e368609cc773fdf5338c1721b94613cc6bcdab8b) fix: 원본 READ가 담당(assignment)을 따라가도록 배정·주간 사이클·발견 시 grant 생성
+- 2026-10-28 11:13 [`fdb6fab`](https://github.com/krafton-playground/ops-mrso-console/commit/fdb6fab91227505d1bf7d4df9ef8c2c734cad1b4) 리뷰 반영: ADMIN 운영 알림 행은 requiredRole=ADMIN으로 기록, 술어 동기화·소속 해제 dead letter 테스트, 발송 켜기 주의사항
+- 2026-10-28 11:06 [`fcd10a8`](https://github.com/krafton-playground/ops-mrso-console/commit/fcd10a8b2a7b77ec2d7a132a7cbecc861b1c9934) Merge remote-tracking branch 'origin/main' into claude/ops-alerts-admin
+- 2026-10-28 11:01 [`0e3cb56`](https://github.com/krafton-playground/ops-mrso-console/commit/0e3cb56f1087adafca441219923f9d6a2e22eff7) 운영 알림 Slack DM 수신자에 부서 팀장(ADMIN) 추가 (D16)
+- 2026-10-28 10:53 [`503a0e5`](https://github.com/krafton-playground/ops-mrso-console/commit/503a0e5cd087a33b391b9d445a108b5471bee1e7) Merge pull request #105 from krafton-playground/claude/watch-new-wizard-2026-10-28
+- 2026-10-28 10:31 [`47d3e5c`](https://github.com/krafton-playground/ops-mrso-console/commit/47d3e5c49309cc8a559fb7e616418f7e03ec3821) Merge pull request #103 from krafton-playground/claude/entitlements-groupby
+- 2026-10-28 10:19 [`de13e26`](https://github.com/krafton-playground/ops-mrso-console/commit/de13e264f0a1060276de137e72dbdb154ce0dc32) feat: 수집 대상 추가 화면을 3단계 안내형으로 재설계
+- 2026-10-28 10:02 [`030ebf9`](https://github.com/krafton-playground/ops-mrso-console/commit/030ebf929d9bcd40fd995d9464d4e7f157b1c233) docs: 2026-10-28 계획 대조와 남은 일 — 완료/미완료 판정, 라이브 안정성 To-do
+- 2026-10-28 10:00 [`9016a0a`](https://github.com/krafton-playground/ops-mrso-console/commit/9016a0a83e07fbb9e2ac6f65d73e4383e36a39d3) fix: 최상위 권한 엔타이틀먼트 조회를 groupBy로 전환하고 운영 트랜잭션 예산 적용
+- 2026-10-27 23:21 [`6b4b8ad`](https://github.com/krafton-playground/ops-mrso-console/commit/6b4b8add1912a226c204b0a78a62c2456957368e) Merge pull request #102 from krafton-playground/codex/schedules-route-compat
+- 2026-10-27 23:12 [`7611ded`](https://github.com/krafton-playground/ops-mrso-console/commit/7611ded377af53bc070052f42b35d2ca7bacb1c3) fix: batch scheduled source authorization
+- 2026-10-27 22:56 [`fe58489`](https://github.com/krafton-playground/ops-mrso-console/commit/fe584894feca7004b9a5540f7fc53f226c733833) batch job source authorization
+- 2026-10-27 22:51 [`cc53d74`](https://github.com/krafton-playground/ops-mrso-console/commit/cc53d7437cc571726e727f608837fad6cc2806ce) fix wiki worker transaction timeouts
+- 2026-10-27 22:20 [`e469237`](https://github.com/krafton-playground/ops-mrso-console/commit/e469237d191da34ab56d5ad7f458a49e799726a3) docs: correct operator SSO identity
+- 2026-10-27 22:16 [`bb295d6`](https://github.com/krafton-playground/ops-mrso-console/commit/bb295d6e502879286fd195ce1321766e95bda020) fix: bound registry detail reads
+- 2026-10-27 21:41 [`94572ac`](https://github.com/krafton-playground/ops-mrso-console/commit/94572ac56fbec7f6f56a9c105d8c0b6b57a71da4) chore: add safe Confluence access diagnostics
+- 2026-10-27 21:18 [`3188298`](https://github.com/krafton-playground/ops-mrso-console/commit/31882984894c40e0519acb0926c7c7d43cb2decd) fix: route scoped Confluence tokens through cloud API
+- 2026-10-27 21:04 [`9abb498`](https://github.com/krafton-playground/ops-mrso-console/commit/9abb498c551f89ebb2ba08cc51ba366b8abb3e18) docs: distinguish operator SSO and Confluence identities
+- 2026-10-27 21:03 [`367ea48`](https://github.com/krafton-playground/ops-mrso-console/commit/367ea48461e7a399618a0adf65b3d31fdcff513b) fix: diagnose operator Confluence read failures
+- 2026-10-27 20:21 [`6365b07`](https://github.com/krafton-playground/ops-mrso-console/commit/6365b07398876967e982e8254ef6b63070ca5242) Redirect legacy schedules page to target schedules
+- 2026-10-27 20:12 [`fe07cfd`](https://github.com/krafton-playground/ops-mrso-console/commit/fe07cfdf0c9843952886678e2f2c28b2d54b22c3) Redesign runtime setup and schedule overview (#101)
+- 2026-10-27 19:22 [`b5233ea`](https://github.com/krafton-playground/ops-mrso-console/commit/b5233ea4bbe68256ad82a3da147c51ce20a85c3c) Merge pull request #100 from krafton-playground/codex/fix-read-transaction-timeouts
+- 2026-10-27 19:16 [`5a3a2a0`](https://github.com/krafton-playground/ops-mrso-console/commit/5a3a2a0f0b11a8a527bcbf47b7d5dcfaea28e42e) fix: extend source and schedule read transaction timeouts
+- 2026-10-27 18:06 [`98c5f77`](https://github.com/krafton-playground/ops-mrso-console/commit/98c5f772f57b65e2f3872fa4f36cb7656b8743dc) Merge pull request #99 from krafton-playground/claude/unattended-wizard
+- 2026-10-27 17:48 [`213acf2`](https://github.com/krafton-playground/ops-mrso-console/commit/213acf22b26684897033e177e64e946d77fb6d02) feat: 무인운영 설정 위저드 — env 1개(WIKI_WORKER_MODE), 서버 상태로 진행, worker가 DB에서 대상 자립
+- 2026-10-27 17:23 [`2069450`](https://github.com/krafton-playground/ops-mrso-console/commit/20694509f929cf1ad5114cf4cbef979ff69948d0) feat: progressively load overview and queue (#98)
+- 2026-10-27 16:42 [`ed09c9b`](https://github.com/krafton-playground/ops-mrso-console/commit/ed09c9b34c2bbbe3ab37253cf65fe9d7d08ed163) Redesign runtime setup for admins
+- 2026-10-27 16:36 [`83efb8b`](https://github.com/krafton-playground/ops-mrso-console/commit/83efb8bda6e48273b897a3dbec30c286dc12a7bb) feat: /runtime 주간 일정 일괄 준비에 요일·시각 입력 추가 (기본 월 07:00 서울) (#97)
+- 2026-10-27 16:26 [`7a3cb4d`](https://github.com/krafton-playground/ops-mrso-console/commit/7a3cb4dc0224e8f8bf8c85710ffc16a909bc1a52) feat: 무인 주간 사이클에 watch 발견 동반·최신 정의 수집·worker READ 상속 (G-E2/G-E3) (#96)
+- 2026-10-27 16:21 [`be7ee8a`](https://github.com/krafton-playground/ops-mrso-console/commit/be7ee8af8ed1cdd43e4652fbe18b983d6d20f2e6) fix: /runs 운영/실행 기록 읽기 트랜잭션 제한 30초로 늘리고 실패 원인 코드를 로그에 남김 (#95)
+- 2026-10-27 15:28 [`6ded29d`](https://github.com/krafton-playground/ops-mrso-console/commit/6ded29df825b0fc779d4b8bf47df55d226a098ea) Redesign access management grant cards (#89)
+- 2026-10-27 15:21 [`6d44d00`](https://github.com/krafton-playground/ops-mrso-console/commit/6d44d00fc1f5dedc769b6233fd2abe03edfc05a2) Revert "feat: progressively load admin overview and queue (#93)" (#94)
+- 2026-10-27 15:01 [`97bf548`](https://github.com/krafton-playground/ops-mrso-console/commit/97bf548f0b129f0a478a9e11fb3cd7ec5bfc6c17) feat: progressively load admin overview and queue (#93)
+- 2026-10-27 14:53 [`2dd2d0d`](https://github.com/krafton-playground/ops-mrso-console/commit/2dd2d0d500e575f42ac6b5d642dbfb582f5c6ece) #88 후속: 테스트 DM 자동 승인에 맞춰 테스트 갱신, 타일 글자 크기를 타입 스케일로 (#91)
+- 2026-10-27 14:47 [`c95222f`](https://github.com/krafton-playground/ops-mrso-console/commit/c95222f94e7075cafa8b8817a5deee184e85c6c2) Keep team line-only document fixtures visible (#92)
+- 2026-10-27 14:42 [`841727a`](https://github.com/krafton-playground/ops-mrso-console/commit/841727a7c95590b18fd7d02f4a5b2cd2a9e30572) Render wiki Markdown formatting in review and team views (#90)
+- 2026-10-27 14:27 [`b28890e`](https://github.com/krafton-playground/ops-mrso-console/commit/b28890e6f2f3492d49d944ad1663bbb2c3133a46) Merge pull request #88 from krafton-playground/codex/slack-notification-redesign
+- 2026-10-27 14:07 [`b191371`](https://github.com/krafton-playground/ops-mrso-console/commit/b19137128c9c16f38925d88c83501d5470fb34f3) Merge pull request #87 from krafton-playground/codex/queue-read-timeout
+- 2026-10-27 14:06 [`65b9029`](https://github.com/krafton-playground/ops-mrso-console/commit/65b9029911b7dabcfd1d02c5ec3633d777c02480) feat: auto-approve Slack test links
+- 2026-10-27 14:03 [`ce9d2f8`](https://github.com/krafton-playground/ops-mrso-console/commit/ce9d2f8366502e8aa87afa24abb9abbe2121b164) fix queue read transaction timeouts
+- 2026-10-27 13:55 [`5605ae8`](https://github.com/krafton-playground/ops-mrso-console/commit/5605ae8fb4f7cfe9212d878630eb0d5e71952872) Merge pull request #86 from krafton-playground/codex/operator-pill-nowrap
+- 2026-10-27 13:55 [`8b28587`](https://github.com/krafton-playground/ops-mrso-console/commit/8b285873ea5d8007245c52bdfd9d336703ae611a) Merge pull request #85 from krafton-playground/codex/login-policy-test-fix
+- 2026-10-27 13:54 [`3b82213`](https://github.com/krafton-playground/ops-mrso-console/commit/3b82213a2da63579f5e8410a565a3ce004f0f150) fix: keep operator role pills on one line
+- 2026-10-27 13:54 [`5aedf64`](https://github.com/krafton-playground/ops-mrso-console/commit/5aedf64cd7e4ea69faeb9c2de1a8c89be1d7422b) test: align login error assertion with approved aliases
+- 2026-10-27 13:50 [`4340a05`](https://github.com/krafton-playground/ops-mrso-console/commit/4340a05455cffc85552d7dc5b1d302ad9a2c1f42) Merge pull request #80 from krafton-playground/claude/lesson-89-activation
+- 2026-10-27 13:50 [`627ade0`](https://github.com/krafton-playground/ops-mrso-console/commit/627ade0f4c6aaa76cf17e6e2ab0e48880d86864d) Merge pull request #84 from krafton-playground/codex/pr82-review-fixes
+- 2026-10-27 13:49 [`a90c321`](https://github.com/krafton-playground/ops-mrso-console/commit/a90c321cb7e5089e3ce0950ea290b78ef6c90687) fix: 승인된 팀 별칭의 SSO 진입과 세대별 연결 확인 보완
+- 2026-10-27 13:48 [`4a3cd17`](https://github.com/krafton-playground/ops-mrso-console/commit/4a3cd1753b914573fa5355f9e6f90c325afdee9b) docs: 활성화 기록 번호와 PR72 머지 상태 정정
+- 2026-10-27 13:44 [`858041b`](https://github.com/krafton-playground/ops-mrso-console/commit/858041b1d9f1eddb92b14e72ed285460f7289ca6) Merge pull request #83 from krafton-playground/codex/overview-transaction-timeout
+- 2026-10-27 13:43 [`2bd2885`](https://github.com/krafton-playground/ops-mrso-console/commit/2bd288502e0bd08e7f81b6e4ba7315f139fc7580) Merge pull request #82 from krafton-playground/codex/team-mapping-operator-pill
+- 2026-10-27 13:43 [`fd33631`](https://github.com/krafton-playground/ops-mrso-console/commit/fd33631fc62b3825829473904c398856a0ccf99d) Merge remote-tracking branch 'origin/main' into codex/team-mapping-operator-pill
+- 2026-10-27 13:42 [`fc25432`](https://github.com/krafton-playground/ops-mrso-console/commit/fc254320af5d803d0b9dfea204d8dbf47cba0a2b) fix overview read transaction timeout
+- 2026-10-27 13:42 [`8506238`](https://github.com/krafton-playground/ops-mrso-console/commit/8506238660cd850409ee360714ab1045da9ce0cd) Merge pull request #75 from krafton-playground/claude/legacy-team-manual-bind
+- 2026-10-27 13:37 [`3a2f080`](https://github.com/krafton-playground/ops-mrso-console/commit/3a2f080532db1b4820a9533f706b4dff63098be9) fix: link approved team aliases and show operator status pills
+- 2026-10-27 13:33 [`9b2a04e`](https://github.com/krafton-playground/ops-mrso-console/commit/9b2a04e442c4769c0bd895f108625067470db30c) Merge branch 'claude/legacy-team-manual-bind' of https://github.com/krafton-playground/ops-mrso-console into codex/team-mapping-operator-pill
+- 2026-10-27 12:52 [`5470363`](https://github.com/krafton-playground/ops-mrso-console/commit/547036318f1b24db0eaaca11281c0d68e1bcada7) docs: LESSON 89 — PROD 활성화(cutover) 완료 기록
+- 2026-10-27 12:49 [`b20bfef`](https://github.com/krafton-playground/ops-mrso-console/commit/b20bfef39a5d1165302324949216b318dbd64b69) 레거시 팀 미리보기 담당 안내 문구를 D14 기준으로 수정
+- 2026-10-27 12:48 [`3187a86`](https://github.com/krafton-playground/ops-mrso-console/commit/3187a864acc31a132981fee8e08c3b2e62871a79) Merge pull request #72 from krafton-playground/claude/p-activate-in-cluster
+- 2026-10-27 12:46 [`c5ab045`](https://github.com/krafton-playground/ops-mrso-console/commit/c5ab045616e5722d7ad5473400786e057c8edadc) Merge remote-tracking branch 'origin/main' into claude/legacy-team-manual-bind
+- 2026-10-27 12:37 [`854fc46`](https://github.com/krafton-playground/ops-mrso-console/commit/854fc46cbc83af9f3147dbd7f2ee7144a75e76df) Merge pull request #79 from krafton-playground/claude/sidebar-trim
+- 2026-10-27 12:36 [`0b2564e`](https://github.com/krafton-playground/ops-mrso-console/commit/0b2564e8f897766e91977b33167db2e5e5116a34) D14: legacy owner는 Assignment OWNER로, 나머지 배정은 MEMBER로 생성
+- 2026-10-27 12:31 [`179a129`](https://github.com/krafton-playground/ops-mrso-console/commit/179a129640992edce376b1d57cb2c2904ff9541d) 사이드바에서 팀 구성·기존 데이터 가져오기 메뉴 제거 (경로·API 는 유지)
+- 2026-10-27 12:26 [`7efcb7e`](https://github.com/krafton-playground/ops-mrso-console/commit/7efcb7e547c2ee7ff5089d59f10883a0d715c59a) Merge pull request #71 from krafton-playground/claude/slack-handoff-lessons
+- 2026-10-27 12:26 [`a70159c`](https://github.com/krafton-playground/ops-mrso-console/commit/a70159c93b89aabafe28bf0e1dd0534c7ed3ad08) Merge pull request #74 from krafton-playground/claude/slack-account-search
+- 2026-10-27 12:26 [`01c24a4`](https://github.com/krafton-playground/ops-mrso-console/commit/01c24a41551320eae40fd483e3f3350f24f2c4f6) Merge pull request #68 from krafton-playground/claude/slack-blockkit
+- 2026-10-27 12:26 [`225ba78`](https://github.com/krafton-playground/ops-mrso-console/commit/225ba78e23cb32bc2c1f7e1a4bfd5a6ff1a9e537) Merge pull request #76 from krafton-playground/claude/worker-provisioning
+- 2026-10-27 12:26 [`89d846a`](https://github.com/krafton-playground/ops-mrso-console/commit/89d846a44c0104284cfd3b8f64df0a8164a39c54) Merge pull request #70 from krafton-playground/claude/access-drawer-approval-ux
+- 2026-10-27 12:24 [`3e8a45c`](https://github.com/krafton-playground/ops-mrso-console/commit/3e8a45c3eb0f636b77f10a9fa86107b90e7889a1) LESSON 번호를 main(87·88) 뒤로 맞춤 (89–92)
+- 2026-10-27 12:19 [`50a62a2`](https://github.com/krafton-playground/ops-mrso-console/commit/50a62a2862b733661769fea4521a7b7be159b777) 검증 반영: 기대 건수 50/419, 부서 기본값 전체, 회수 역할 거부, 실패 사유 묶음, env 순서·회수 경로 정정, D13 기록
+- 2026-10-27 12:16 [`c785d5e`](https://github.com/krafton-playground/ops-mrso-console/commit/c785d5e2287511b365054a45b82b505a7bdff9a0) 수동 연결 UI 확인 단계·안내 문구와 운영 문서 보강
+- 2026-10-27 12:14 [`31bd2dd`](https://github.com/krafton-playground/ops-mrso-console/commit/31bd2dd14ee81e9739fcf88dae79c2ae01d9c30c) Merge pull request #78 from krafton-playground/claude/db-backup-scan-fix-2
+- 2026-10-27 12:14 [`e1231e1`](https://github.com/krafton-playground/ops-mrso-console/commit/e1231e188264d771998708ba3f8b13999bc7845d) security-scan 수정 2: 통합 테스트의 한 줄 { … process.env.DATABASE_URL … } 제거
+- 2026-10-27 12:10 [`4e191b7`](https://github.com/krafton-playground/ops-mrso-console/commit/4e191b735321a03cd4ded29ca41b3c4be5f497e0) Merge pull request #77 from krafton-playground/claude/db-backup-scan-fix
+- 2026-10-27 12:10 [`d4d9d53`](https://github.com/krafton-playground/ops-mrso-console/commit/d4d9d5398334523d6a26e62b480ce7b798b14669) 배포 security-scan 수정: 중괄호 안 DATABASE_URL 문자열 제거
+- 2026-10-27 12:06 [`62d7618`](https://github.com/krafton-playground/ops-mrso-console/commit/62d7618e5470c1a5cf6d2887ee060b96b96673a1) Merge pull request #73 from krafton-playground/claude/db-backup-s3
+- 2026-10-27 12:06 [`82bbb11`](https://github.com/krafton-playground/ops-mrso-console/commit/82bbb11ffeb99f6c98cbbc0b84ff14b76e50887e) Merge pull request #69 from krafton-playground/claude/p-activate-rebased
+- 2026-10-27 11:54 [`325a175`](https://github.com/krafton-playground/ops-mrso-console/commit/325a1755f540b162ee7f56e630872eb21bac9bc2) worker 권한 준비 + 주간 일정 일괄 준비 (무인 주간 사이클 임시 SERVICE 경로)
+- 2026-10-27 11:51 [`280a804`](https://github.com/krafton-playground/ops-mrso-console/commit/280a804512c1a8a0580400e7ae9494f4db42e9da) 기존 팀 자동 연결에 OWNER/OPERATOR 수동 연결(bind) 단계 추가
+- 2026-10-27 11:46 [`11afc21`](https://github.com/krafton-playground/ops-mrso-console/commit/11afc21071321cdd5de8d11e32f60fb2299b0e14) 역할 부여 드로어: 준비됨 세대 안내, 403 문구, 승인 기록 오류 메시지 정리
+- 2026-10-27 11:43 [`7ed83f4`](https://github.com/krafton-playground/ops-mrso-console/commit/7ed83f4edecb928aa0b6bb35ff505929a718195d) PROD DB 백업 → S3 (pg_dump 스트리밍) — ACT-3 백업 증거 생성 기능
+- 2026-10-27 11:37 [`2ae6836`](https://github.com/krafton-playground/ops-mrso-console/commit/2ae68364126416886b31e687aec87de6b568b15f) 알림 관리: Slack 계정 찾기를 별칭 도메인·이름 검색으로 보강하고 이메일 일괄 자동 등록 추가
+- 2026-10-27 11:33 [`69a3e5f`](https://github.com/krafton-playground/ops-mrso-console/commit/69a3e5f85d0743a4ede2900887bc5b2a72d09b35) docs: Slack 알림 세션 인수인계와 LESSON 88–91 추가
+- 2026-10-27 11:25 [`7003f25`](https://github.com/krafton-playground/ops-mrso-console/commit/7003f2560ac7e949a098b4dab68bda4bfc8c82f8) 역할 부여 드로어: 승인 기록 문구 정리, 소유권 이전 주의 문구, 저장 실패 시 전체 거부 화면 방지
+- 2026-10-27 11:18 [`29aa542`](https://github.com/krafton-playground/ops-mrso-console/commit/29aa54287242c58ab5d48ce1dd0252c7dba5d984) 역할 부여 드로어: 승인 근거를 맨 위로 올리고 비활성 사유를 표시
+- 2026-10-27 11:05 [`b1748c0`](https://github.com/krafton-playground/ops-mrso-console/commit/b1748c0734180190702227d75202b6f0ad88be5e) Merge main into claude/p-activate-in-cluster (reconcile OOM 수정·DB 오류 코드 보존 반영)
+- 2026-10-27 11:02 [`f67a03a`](https://github.com/krafton-playground/ops-mrso-console/commit/f67a03a9ac9d511cfc66f4c80470d0ee76e96cd3) Slack 알림을 한국어 Block Kit 메시지로 전송
+- 2026-10-27 10:59 [`7bab438`](https://github.com/krafton-playground/ops-mrso-console/commit/7bab438ef2b87ef5e4c36d6fdf2789d97a77ff6d) Merge pull request #67 from krafton-playground/claude/slack-routing-table
+- 2026-10-27 10:54 [`a5fd2b5`](https://github.com/krafton-playground/ops-mrso-console/commit/a5fd2b5ecaa5eba273d5012d1c35aea58e34657f) 알림 관리 수신 대상 표를 운영 알림 라우팅(#63)에 맞게 갱신
+- 2026-10-27 10:52 [`e1bf6cf`](https://github.com/krafton-playground/ops-mrso-console/commit/e1bf6cf12d3842237597a4a8ef39c6e8534b0da8) Merge pull request #65 from krafton-playground/claude/admin-console-redesign
+- 2026-10-27 10:52 [`bcf7171`](https://github.com/krafton-playground/ops-mrso-console/commit/bcf7171e3fd6ae28ce0a984af2280bb8a333ce29) Merge pull request #63 from krafton-playground/claude/slack-ops-routing
+- 2026-10-27 10:52 [`cce8a1b`](https://github.com/krafton-playground/ops-mrso-console/commit/cce8a1b6c9584c714b7a4ea1f0a3deeb707cc223) Merge pull request #64 from krafton-playground/claude/slack-team-from-bot
+- 2026-10-27 10:50 [`ac3d3e2`](https://github.com/krafton-playground/ops-mrso-console/commit/ac3d3e244cbeaad1cc0e059697aa713f6fd27ac3) 관리자 화면 글자 크기를 하나의 타입 스케일로 통일
+- 2026-10-27 10:33 [`c6e6c30`](https://github.com/krafton-playground/ops-mrso-console/commit/c6e6c30f6bef430b24867233856b7e342a16af9c) Merge pull request #66 from krafton-playground/claude/reconcile-memory
+- 2026-10-27 10:29 [`7b7f95e`](https://github.com/krafton-playground/ops-mrso-console/commit/7b7f95e9bade4a09ccc64b07409649496460b669) 대조(reconcile) OOM 수정: artifact 본문을 한 건씩 재해시
+- 2026-10-27 10:21 [`1334578`](https://github.com/krafton-playground/ops-mrso-console/commit/1334578939eeec84bd4537d406a6e64fc199e5bc) 재시도한 알림이 다시 발송되도록 시도 번호를 이어 매김
+- 2026-10-27 10:04 [`2fb78ba`](https://github.com/krafton-playground/ops-mrso-console/commit/2fb78ba0856fa113cc2c1bdfcd8d080437d4a2b1) 관리자 콘솔 콘텐츠 영역을 참조 디자인에 맞게 재설계
+- 2026-10-27 10:00 [`ef7dd42`](https://github.com/krafton-playground/ops-mrso-console/commit/ef7dd42cb961061bd7fb2ff2edc8bdd399ec9bc8) 알림 Slack 워크스페이스를 봇 토큰 기준으로 통일 (workspace_mismatch 제거)
+- 2026-10-27 09:59 [`5672941`](https://github.com/krafton-playground/ops-mrso-console/commit/5672941eab2c8d2b46899d7a16c7d1c23e00a05e) 운영 알림을 OWNER/OPERATOR에게도 DM으로 전달
+- 2026-10-27 09:53 [`4559596`](https://github.com/krafton-playground/ops-mrso-console/commit/45595963c1704722663e221d1ab9a8c8b397162f) Merge pull request #62 from krafton-playground/claude/import-db-conflict-diagnostics
+- 2026-10-27 09:52 [`fcef343`](https://github.com/krafton-playground/ops-mrso-console/commit/fcef34310d6650a04a5fec980d48828e415eacb9) 가져오기 DATABASE_CONFLICT 진단 정보 보존·배치 트랜잭션 타임아웃 명시
+- 2026-10-27 09:19 [`ae45079`](https://github.com/krafton-playground/ops-mrso-console/commit/ae45079cc828501ed8c9b2875263587aa8038aa8) Merge pull request #61 from krafton-playground/claude/import-memory-relief
+- 2026-10-27 09:19 [`1c5d779`](https://github.com/krafton-playground/ops-mrso-console/commit/1c5d779470aa99501a3dcc4d0cf7c778cf37dac0) 가져오기 메모리 폭주와 worker 공멸로 인한 OOM 재시작 루프 수정
+- 2026-10-27 09:12 [`2cf13ee`](https://github.com/krafton-playground/ops-mrso-console/commit/2cf13eef8415b4c483f3ab4b799b8f4a3d19b7e4) Merge pull request #51 from krafton-playground/claude/slack-notifications
+- 2026-10-27 08:50 [`e2fa68e`](https://github.com/krafton-playground/ops-mrso-console/commit/e2fa68e5a7045649ab63c35cbd36653bb0ea52b4) Merge pull request #60 from krafton-playground/claude/studios-assignee
+- 2026-10-27 08:49 [`dc5a977`](https://github.com/krafton-playground/ops-mrso-console/commit/dc5a9779254bb125f100e0c0b77a20e8c1f9a895) Merge pull request #59 from krafton-playground/claude/plan-g1-g4-activation
+- 2026-10-27 08:44 [`703c547`](https://github.com/krafton-playground/ops-mrso-console/commit/703c5472d9823a3807a917d3be63f687c0e3c3ac) docs: 2026-10-27 G1–G4 handoff (PROD state, rehearsal result, blockers, next steps)
+- 2026-10-27 07:45 [`ba659a3`](https://github.com/krafton-playground/ops-mrso-console/commit/ba659a3061547eccb2f446cb608b334097076bba) P-ACTIVATE: 통합 테스트 fixture 수정, cutover 오류 코드 노출, evidence 근거 이어받기
+- 2026-10-27 07:28 [`fe2b4ac`](https://github.com/krafton-playground/ops-mrso-console/commit/fe2b4ac3572a7474aacbf16cb93ce1822649c617) P-ACTIVATE: READY legacy 세대의 클러스터 안 활성화(cutover)·롤백 단계 추가
+- 2026-10-27 07:19 [`c6972ac`](https://github.com/krafton-playground/ops-mrso-console/commit/c6972ac29ff7759020566d0fe70ddfde125c968e) feat: 스튜디오·프로젝트 상세에서 담당자 지정·변경 (G4 마지막 항목)
+- 2026-10-27 06:50 [`b19312b`](https://github.com/krafton-playground/ops-mrso-console/commit/b19312b7daa1d099eec2b410846d0f4d16ed3f3d) docs: G1–G4 activation plan (READY-only gaps, P-ACTIVATE stages, verification)
+- 2026-10-27 00:09 [`69c24b1`](https://github.com/krafton-playground/ops-mrso-console/commit/69c24b1bf9e19e48a32390163a5abc7eaf4c0983) 기존 데이터 가져오기를 전용 worker에서만 실행 (#58)
+- 2026-10-26 23:51 [`b7f68af`](https://github.com/krafton-playground/ops-mrso-console/commit/b7f68af3fded14a529a751a8315e41930ca2e698) 운영 가져오기 1건의 무백업 사용자 승인과 실행 상태 표시 보완 (#57)
+- 2026-10-26 23:39 [`a87ae53`](https://github.com/krafton-playground/ops-mrso-console/commit/a87ae53564e6b0af107a569934099f4e542fe130) 안내 상자의 링크 두 개 사이에 간격 추가 (#52)
+- 2026-10-26 22:21 [`b3cafaa`](https://github.com/krafton-playground/ops-mrso-console/commit/b3cafaa6bcf7755894a23a6a0c0701689743cac8) Merge pull request #56 from krafton-playground/codex/operator-worker-session
+- 2026-10-26 22:19 [`fdff3b7`](https://github.com/krafton-playground/ops-mrso-console/commit/fdff3b782431a2b5d0a7be1494f3d9e37198e0c5) docs: distinguish status and callback failure latency metrics
+- 2026-10-26 22:18 [`8406268`](https://github.com/krafton-playground/ops-mrso-console/commit/84062684e64d796cc4987dee96f135f5f99771c0) docs: record P2a verified progress and remaining delivery gates
+- 2026-10-26 22:17 [`4db9bf0`](https://github.com/krafton-playground/ops-mrso-console/commit/4db9bf0dda73f559392885417220db1113c80b1f) docs: finalize pending-session verification and cleanup evidence
+- 2026-10-26 22:12 [`593589a`](https://github.com/krafton-playground/ops-mrso-console/commit/593589a0cd5565129d5787e8e5d43d97aa2de294) docs: distinguish database recovery from rejected status requests
+- 2026-10-26 22:09 [`0069878`](https://github.com/krafton-playground/ops-mrso-console/commit/00698787e0c33763578f78cffa28a1174e9ab6a5) docs: retain unresolved paused database browser failure
+- 2026-10-26 22:06 [`223136b`](https://github.com/krafton-playground/ops-mrso-console/commit/223136b4a08a8996809253e1279e7d832f082367) docs: record stale member expectation in browser harness
+- 2026-10-26 22:05 [`b8e4a2f`](https://github.com/krafton-playground/ops-mrso-console/commit/b8e4a2f6946561ecce07daabc3bdd5f34b00f879) docs: record repeated harness lookup failure and partial UI evidence
+- 2026-10-26 22:04 [`46151f6`](https://github.com/krafton-playground/ops-mrso-console/commit/46151f650ad58dc0eb7f58e2dc4467fd8492c608) docs: record first pending-session browser harness failure
+- 2026-10-26 22:00 [`3231559`](https://github.com/krafton-playground/ops-mrso-console/commit/32315598784d484c656770e210c3571e52db919e) docs: record passing pending-session database verification
+- 2026-10-26 21:54 [`65d04f7`](https://github.com/krafton-playground/ops-mrso-console/commit/65d04f7803e83805ec4d54b07cdb5a5ca520d125) test: bind revoked operator fixture timestamps consistently
+- 2026-10-26 21:51 [`74c602c`](https://github.com/krafton-playground/ops-mrso-console/commit/74c602c0fcbb28e63f7c8ff35613e117968c7a93) test: prove global vacant session race and partial uniqueness
+- 2026-10-26 21:49 [`a381f8e`](https://github.com/krafton-playground/ops-mrso-console/commit/a381f8ee93aca2888b6d8b64b1856c5cc8d30445) fix: preserve basic status readers and clear stale worker view
+- 2026-10-26 21:47 [`6316b26`](https://github.com/krafton-playground/ops-mrso-console/commit/6316b26a0483bc5bf4c8baccaad3aeef6a29238e) fix: accept readonly environment settings in status reader
+- 2026-10-26 21:45 [`d232578`](https://github.com/krafton-playground/ops-mrso-console/commit/d2325785780050069d1ced188a7e849f71691639) feat: add callback-only pending operator sessions
+- 2026-10-26 21:37 [`58b2acd`](https://github.com/krafton-playground/ops-mrso-console/commit/58b2acd7f85e4bc76942dd85fe91530850995017) docs: record callback topology harness lessons
+- 2026-10-26 21:36 [`ef36e04`](https://github.com/krafton-playground/ops-mrso-console/commit/ef36e04883cf228ea992728b587da9fd44c629ff) docs: finalize eligible callback reconciliation ordering
+- 2026-10-26 21:35 [`f5c97f7`](https://github.com/krafton-playground/ops-mrso-console/commit/f5c97f76bb2202c589065cc00470cf0ecf3c3b91) docs: bound callback DB work without promising wall-clock latency
+- 2026-10-26 21:34 [`6ad658b`](https://github.com/krafton-playground/ops-mrso-console/commit/6ad658bc3b97ed90f97aee8bbad26eabc63af4b4) docs: pin P2a proof persistence and read-only status contracts
+- 2026-10-26 21:32 [`7f49f7a`](https://github.com/krafton-playground/ops-mrso-console/commit/7f49f7af9d135647292094b36c3fd03cac67ad06) docs: include missing retry-helper lookup in lesson 54
+- 2026-10-26 21:32 [`31130b2`](https://github.com/krafton-playground/ops-mrso-console/commit/31130b27e0ccd42bae3dc2dbb29ff09acc79bcbb) docs: record recovered P2a source lookup failures
+- 2026-10-26 21:18 [`5356a06`](https://github.com/krafton-playground/ops-mrso-console/commit/5356a06756bef41db1d8ec94ba0933d31b5c2bc9) docs: split operator session control plane from worker execution
+- 2026-10-26 21:04 [`c47b95f`](https://github.com/krafton-playground/ops-mrso-console/commit/c47b95f6aea90e8cf938789f9455c89687bd3ee8) docs: define P2 P3 operator worker session implementation plan
+- 2026-10-26 20:58 [`bd38cdb`](https://github.com/krafton-playground/ops-mrso-console/commit/bd38cdb675a0a3294824a2f29c4936ae3b08b242) docs: confirm P4 live rollout and close deployment delay lesson
+- 2026-10-26 20:54 [`7060db6`](https://github.com/krafton-playground/ops-mrso-console/commit/7060db6a7118cce69590af1b1923cf12a917358f) docs: distinguish P4 CI success from pending live rollout
+- 2026-10-26 20:41 [`95de665`](https://github.com/krafton-playground/ops-mrso-console/commit/95de6654dddfcd7f295c054d4f7acf672559884a) Merge pull request #55 from krafton-playground/codex/legacy-team-link
+- 2026-10-26 20:38 [`73f2bc6`](https://github.com/krafton-playground/ops-mrso-console/commit/73f2bc6b6758ccd06d56d7ae05325db04dd64396) docs: record direct preview review and verified fixture cleanup
+- 2026-10-26 20:37 [`efa9fcc`](https://github.com/krafton-playground/ops-mrso-console/commit/efa9fccd1a083c1581f781a9f346096e8d05ceff) docs: record verified P4 backend and production-runtime browser evidence
+- 2026-10-26 20:26 [`61b61e4`](https://github.com/krafton-playground/ops-mrso-console/commit/61b61e49e2ff575d36a186123aa021963fe399e6) fix: match imported legacy roster owner metadata projection
+- 2026-10-26 20:14 [`98f77e0`](https://github.com/krafton-playground/ops-mrso-console/commit/98f77e054224426047ebc800d5d7df09b97e7111) test: preserve Prisma transaction methods in audit fault injection
+- 2026-10-26 20:10 [`d30881b`](https://github.com/krafton-playground/ops-mrso-console/commit/d30881b1f9d456fc85c0203a2389c03420cd5df7) test: seed GO scope identity for legacy team fixture
+- 2026-10-26 20:06 [`fe485b2`](https://github.com/krafton-playground/ops-mrso-console/commit/fe485b21b3981dd269ac91315595f84cf478a23e) test: supply source path to frozen roster YAML parser
+- 2026-10-26 20:03 [`d394c51`](https://github.com/krafton-playground/ops-mrso-console/commit/d394c51b3b7a48ad6efa62e210503ee935f70ca3) fix: require current operator identity for legacy team preview
+- 2026-10-26 19:51 [`1bb65a8`](https://github.com/krafton-playground/ops-mrso-console/commit/1bb65a872eda36316b2cfbd6b835e93a95798520) Bind approved legacy team identities after verified login
+- 2026-10-26 19:33 [`65b7965`](https://github.com/krafton-playground/ops-mrso-console/commit/65b7965b78acd4a1cd3889abf9627791f96ad013) Merge pull request #54 from krafton-playground/claude/p-import-in-cluster
+- 2026-10-26 19:32 [`52eecd3`](https://github.com/krafton-playground/ops-mrso-console/commit/52eecd3fab16c8095893c46f0961537c4d03cf93) Finalize browser and production runtime evidence for import candidate
+- 2026-10-26 19:26 [`9fa3436`](https://github.com/krafton-playground/ops-mrso-console/commit/9fa3436672bc7518525187e5a999b9c97b9f6a14) Correct backup attestation guidance in migration UI
+- 2026-10-26 19:23 [`4633250`](https://github.com/krafton-playground/ops-mrso-console/commit/463325040b39cfae018a34e1d3813739691888c8) Record exact candidate database and approved bundle verification
+- 2026-10-26 19:17 [`48df3be`](https://github.com/krafton-playground/ops-mrso-console/commit/48df3bef816f9f595f4bfd54892ba41a9b8f5ea8) Retry fenced raw serialization conflicts and isolate rehearsal failures
+- 2026-10-26 19:10 [`844039a`](https://github.com/krafton-playground/ops-mrso-console/commit/844039af18cedb16c6d7ee5f368000723763c928) Record isolated database runner naming failure and build proof
+- 2026-10-26 19:07 [`4ae581c`](https://github.com/krafton-playground/ops-mrso-console/commit/4ae581cce2b3f26f5df496fe942c30701377f891) Show authorized migration outcomes in runs and correct rehearsal gates
+- 2026-10-26 19:04 [`373ed3d`](https://github.com/krafton-playground/ops-mrso-console/commit/373ed3d8c0add365f1b45fc56769b82afbf88c1f) Require in-cluster import schema for readiness
+- 2026-10-26 19:02 [`9a92bc4`](https://github.com/krafton-playground/ops-mrso-console/commit/9a92bc4aef10b02c19bafdca6f1573daad246ebf) Integrate merged run reports and preserve all verification lessons
+- 2026-10-26 19:01 [`1cd8bcb`](https://github.com/krafton-playground/ops-mrso-console/commit/1cd8bcba234640280a9ab3ecfe6c0b73f299a8af) Fence approved legacy imports and supervise restart recovery
+- 2026-10-26 18:54 [`1bbf3d4`](https://github.com/krafton-playground/ops-mrso-console/commit/1bbf3d4ab1c4078d6a0a0c9e5ce841dc770168b0) Merge pull request #48 from krafton-playground/claude/runs-report-page
+- 2026-10-26 18:51 [`de771a4`](https://github.com/krafton-playground/ops-mrso-console/commit/de771a4a526f749f81aeffb199b605c0f967f98c) docs: 실행 기록 5역할 검증과 실패 복구 결과 기록
+- 2026-10-26 18:44 [`1e806ba`](https://github.com/krafton-playground/ops-mrso-console/commit/1e806baeea85a961104ff0edd0f71ed692ae3b44) Integrate deployed P1 into P-IMPORT and record review gaps
+- 2026-10-26 18:40 [`1c52fd2`](https://github.com/krafton-playground/ops-mrso-console/commit/1c52fd2f649795dc68f219154fedc866ad2acf81) Fix run report session observation, error keys and active selection
+- 2026-10-26 18:34 [`a470601`](https://github.com/krafton-playground/ops-mrso-console/commit/a4706017dcb06c35cfdff1a394152e7d4b96021a) Merge current main into run reports and record integration evidence
+- 2026-10-26 18:33 [`3bfce42`](https://github.com/krafton-playground/ops-mrso-console/commit/3bfce421840d0281354f28767603c6a138a6b986) P-IMPORT: in-cluster PROD legacy import (D12)
+- 2026-10-26 18:30 [`f9e9353`](https://github.com/krafton-playground/ops-mrso-console/commit/f9e935353ccf681972d29328e516865967894277) Merge pull request #49 from krafton-playground/claude/p1-operator-acl
+- 2026-10-26 18:29 [`0cbe9c2`](https://github.com/krafton-playground/ops-mrso-console/commit/0cbe9c293308692f7ea70aef08007df558c46054) docs: P1 5역할 검증과 실패별 재발 방지 기록
+- 2026-10-26 18:12 [`09f2c34`](https://github.com/krafton-playground/ops-mrso-console/commit/09f2c345ca7a55a948571f68fe6296382619420c) test: seed explicit recipient for top-tier publication recovery
+- 2026-10-26 18:04 [`4761101`](https://github.com/krafton-playground/ops-mrso-console/commit/4761101c7a43f8c974de58874868e53d4427fb04) 알림 관리: Slack 설정 페이지를 /admin/notifications로 옮기고 이메일 조회·테스트 DM 추가
+- 2026-10-26 17:57 [`a0be0ac`](https://github.com/krafton-playground/ops-mrso-console/commit/a0be0acb933a2012d287bb3bb970f436fb4585b2) fix: honor current top-tier publication approver scope
+- 2026-10-26 17:55 [`84c1c27`](https://github.com/krafton-playground/ops-mrso-console/commit/84c1c27dfb8e0d2902d5c5993102e0312181b723) fix: P1 역할 통합을 사람 계정에 한정하고 기존 OPERATOR 읽기 유지
+- 2026-10-26 17:54 [`65ab250`](https://github.com/krafton-playground/ops-mrso-console/commit/65ab2501575dc17faadf3100cfcb85a31dde89c4) Fix run report authority, error redaction, import paths and cancelled outcomes
+- 2026-10-26 17:53 [`e5f6d55`](https://github.com/krafton-playground/ops-mrso-console/commit/e5f6d55b002f4c6604f181490c80087aa9e5b4e5) Merge remote-tracking branch 'origin/main' into codex/p1-integration
+- 2026-10-26 17:52 [`213e9e9`](https://github.com/krafton-playground/ops-mrso-console/commit/213e9e9f9a7dc6a410f9406bc69d84a75bdf0b8b) Merge pull request #50 from krafton-playground/codex/disable-empty-workspace
+- 2026-10-26 17:52 [`668df26`](https://github.com/krafton-playground/ops-mrso-console/commit/668df268a8849adc8c8dcc65eb8979458f83b2c3) fix: 초기 설정 계획 확정 전 빈 워크스페이스 생성 중지
+- 2026-10-26 17:51 [`124f9d1`](https://github.com/krafton-playground/ops-mrso-console/commit/124f9d1d21d2246d666c3234cda5ac2f5ac28d9a) Merge commit '522097c' into codex/runs-report-fixes
+- 2026-10-26 17:51 [`a6a9f1c`](https://github.com/krafton-playground/ops-mrso-console/commit/a6a9f1c90182d9ae8603b304130c7fe3ca6722c8) Merge remote-tracking branch 'origin/main' into codex/p1-integration
+- 2026-10-26 17:40 [`258d88d`](https://github.com/krafton-playground/ops-mrso-console/commit/258d88d10880387054fabf12283b929494d5e129) Merge pull request #38 from krafton-playground/claude/wiki-page-import
+- 2026-10-26 17:26 [`f5f9c0e`](https://github.com/krafton-playground/ops-mrso-console/commit/f5f9c0ee3c16d8baf86ede7183f55216e9d1c857) Merge remote-tracking branch 'origin/main' into claude/p-import-in-cluster
+- 2026-10-26 17:25 [`d9ea1c7`](https://github.com/krafton-playground/ops-mrso-console/commit/d9ea1c7dc367d3c137d47d53228ebf0290194641) WIP: P-IMPORT scaffolding (schema, pinned yaml, archive/attestation modules)
+- 2026-10-26 17:15 [`522097c`](https://github.com/krafton-playground/ops-mrso-console/commit/522097c2675dcd1f9826d3773970d4ed1cb01c5f) Add global OPERATOR top-tier ACL (P1: D1, D2, D8, D10, G1)
+- 2026-10-26 17:13 [`95c87eb`](https://github.com/krafton-playground/ops-mrso-console/commit/95c87eb5408de5c13a39cb79e3ae5f801e6c8a42) Merge pull request #45 from krafton-playground/claude/registry-mockup
+- 2026-10-26 17:13 [`b84b1a5`](https://github.com/krafton-playground/ops-mrso-console/commit/b84b1a5550ddb9d67614432eeb807985af9da7df) Merge pull request #46 from krafton-playground/claude/registry-nav
+- 2026-10-26 17:08 [`1d78553`](https://github.com/krafton-playground/ops-mrso-console/commit/1d785534ee90ccd263f849b8e18aaf40cd9207c0) Give OPERATOR/ADMIN workspace authority per legacy 1:1 roles; keep saves successful
+- 2026-10-26 17:07 [`df5cb9b`](https://github.com/krafton-playground/ops-mrso-console/commit/df5cb9ba6ae8f47544881c7610bba41dd234559c) Merge pull request #47 from krafton-playground/claude/plan-d12-in-cluster-import
+- 2026-10-26 16:49 [`37e50bf`](https://github.com/krafton-playground/ops-mrso-console/commit/37e50bff2c1b715de885777a46d0c3dc154bedef) Merge remote-tracking branch 'origin/main' into claude/wiki-page-import
+- 2026-10-26 16:38 [`4f9448e`](https://github.com/krafton-playground/ops-mrso-console/commit/4f9448e575b38b35172e77d58a4bd4c8a8ca9c9d) docs: record D12 in-cluster PROD legacy import and P-IMPORT phase
+- 2026-10-26 16:37 [`2ce2500`](https://github.com/krafton-playground/ops-mrso-console/commit/2ce25009e34c7d999ed7aebd48bb9f119a2de451) Show legacy-style run reports and worker status on /runs
+- 2026-10-26 16:36 [`51db334`](https://github.com/krafton-playground/ops-mrso-console/commit/51db3344ac806b3e763c5666a9837942ba4ab477) Merge pull request #43 from krafton-playground/claude/discovery-entity-judgement
+- 2026-10-26 16:32 [`bcf0f13`](https://github.com/krafton-playground/ops-mrso-console/commit/bcf0f1343cdea681bd42f1bbd20de31cc9185ac9) Merge pull request #40 from krafton-playground/claude/full-read-roles
+- 2026-10-26 16:28 [`f79641e`](https://github.com/krafton-playground/ops-mrso-console/commit/f79641e391ec4bb08d2be7f190adc6745e1607bf) Point the 스튜디오·프로젝트 menu at the read-only registry page
+- 2026-10-26 16:27 [`cb18145`](https://github.com/krafton-playground/ops-mrso-console/commit/cb18145d26c8b9d9df6a1291921245c194202c39) Merge pull request #44 from krafton-playground/claude/operator-acl-auto-collect
+- 2026-10-26 16:21 [`2f45172`](https://github.com/krafton-playground/ops-mrso-console/commit/2f45172320dd0b259c9b8554b5f25e54bc3f486e) Bound discovery judgement work inside the persist transaction
+- 2026-10-26 16:21 [`607acd9`](https://github.com/krafton-playground/ops-mrso-console/commit/607acd912b76fedea801e40ac0c0be8ebdb44585) Let a human OPERATOR open the access directory read-only
+- 2026-10-26 16:12 [`96d24e3`](https://github.com/krafton-playground/ops-mrso-console/commit/96d24e3ed833832756a9b0c5604cf2063ca33caf) Add read-only studio/project registry page before activation
+- 2026-10-26 15:58 [`3440f66`](https://github.com/krafton-playground/ops-mrso-console/commit/3440f66c34227e58cfbfbec8cfbdde0fc264b281) Apply D8/D9/D11 review fixes to full read and approval references
+- 2026-10-26 15:46 [`2f50865`](https://github.com/krafton-playground/ops-mrso-console/commit/2f508655edf6c81f7ec9f88569933b116c554324) Extend 2026-10-26 session record: PR reviews, decisions D8-D11, mockup, resume steps
+- 2026-10-26 15:31 [`d519cd7`](https://github.com/krafton-playground/ops-mrso-console/commit/d519cd7ab94e59c63d6febd874acc564c99a4f5f) Merge remote-tracking branch 'origin/main' into claude/full-read-roles
+- 2026-10-26 15:30 [`02eff96`](https://github.com/krafton-playground/ops-mrso-console/commit/02eff96d93c6865de465dc12a2cccce5409f26fb) Record D10 role unification and D11 approval reference policy
+- 2026-10-26 15:21 [`e8b3134`](https://github.com/krafton-playground/ops-mrso-console/commit/e8b3134352356e24670903b861095e6ff424c08d) Merge pull request #42 from krafton-playground/claude/next-15-upgrade
+- 2026-10-26 14:51 [`0536e92`](https://github.com/krafton-playground/ops-mrso-console/commit/0536e92db236ee8953e33b8767fb58b9742a349d) Judge discovered watch pages against their entity policy
+- 2026-10-26 14:40 [`1f53aa2`](https://github.com/krafton-playground/ops-mrso-console/commit/1f53aa29b64aaa1e64db4928d36c2dc5173e5bfc) Verify wiki workspaces on save with audit, gate page assignment behind a flag
+- 2026-10-26 14:40 [`7415a27`](https://github.com/krafton-playground/ops-mrso-console/commit/7415a27e02362a9e17abf7359362c716aa26afb2) Document persisted verification, page import limits and optional assignment
+- 2026-10-26 14:40 [`a04639b`](https://github.com/krafton-playground/ops-mrso-console/commit/a04639b8bdd8eeae525f33c23ec576b610651428) Bound the whole wiki page listing by time and bytes
+- 2026-10-26 14:39 [`011499b`](https://github.com/krafton-playground/ops-mrso-console/commit/011499bd5aff2b4aa6b03f2da3926245c7e02f2b) Record D9: empty-state AI preview analysis
+- 2026-10-26 14:27 [`29181f9`](https://github.com/krafton-playground/ops-mrso-console/commit/29181f907da0544a072fb11e522dd02135e3dd2f) Record D8: access OWNER and OPERATOR share top-tier permissions
+- 2026-10-26 14:15 [`79c4359`](https://github.com/krafton-playground/ops-mrso-console/commit/79c435942c11521448f16704e711ec619da49fa3) Upgrade to Next.js 15.5.28 and React 19
+- 2026-10-26 14:06 [`bcd2286`](https://github.com/krafton-playground/ops-mrso-console/commit/bcd22868fd1a4402f9b990bb926ddc92669e8d42) Merge remote-tracking branch 'origin/main' into claude/wiki-page-import
+- 2026-10-26 14:02 [`392e9a8`](https://github.com/krafton-playground/ops-mrso-console/commit/392e9a87e3688600fd1f26ee39a062ca64179986) Merge pull request #41 from krafton-playground/claude/operator-confluence-env
+- 2026-10-26 13:58 [`41a581e`](https://github.com/krafton-playground/ops-mrso-console/commit/41a581ee2cb226a08266d734953ec532b2e965f3) Read OPERATOR_CONFLUENCE_* credentials for Confluence access
+- 2026-10-26 13:55 [`72e0e63`](https://github.com/krafton-playground/ops-mrso-console/commit/72e0e631e8fd3a8d59f6b7713f9f0bf534cbff04) Merge pull request #39 from krafton-playground/codex/team-page-redesign
+- 2026-10-26 13:51 [`c56d975`](https://github.com/krafton-playground/ops-mrso-console/commit/c56d9752ae39d3562915dd83873211492dcd669b) Fix review notes on the team history page and headings
+- 2026-10-26 13:47 [`6250e6d`](https://github.com/krafton-playground/ops-mrso-console/commit/6250e6d1af28ef37b3b0efd0f8567bb04fbf18a9) Redesign the team member workspace to match the team reference
+- 2026-10-26 13:34 [`46689f8`](https://github.com/krafton-playground/ops-mrso-console/commit/46689f85b60f6aaf6dd972b82654a29847a54846) Address 5-role review findings for wiki page import and assignment
+- 2026-10-26 13:31 [`5f92a6c`](https://github.com/krafton-playground/ops-mrso-console/commit/5f92a6c3d25d2b4f6fb176cd184a8c2ab5f77fa3) Add code-survey gaps to OPERATOR auto-collect plan
+- 2026-10-26 13:30 [`e66c127`](https://github.com/krafton-playground/ops-mrso-console/commit/e66c127bcfc260343bd386816e13d1bcaaf503f3) Add OPERATOR auto-collect plan and session record
+- 2026-10-26 13:28 [`8c9cbd3`](https://github.com/krafton-playground/ops-mrso-console/commit/8c9cbd311f40fcf4296dfccfe3aa4ba3ebb9e337) Give OWNER and OPERATOR full read, make approval optional, suggest wikis
+- 2026-10-26 13:22 [`6336af0`](https://github.com/krafton-playground/ops-mrso-console/commit/6336af09cbf19bade25c4937f25be545544b4ebb) Import wiki pages from verified workspaces and assign them to team members
+- 2026-10-26 13:16 [`c6fea9a`](https://github.com/krafton-playground/ops-mrso-console/commit/c6fea9ad46010ec27ce43e388962d12501a8c298) Merge pull request #37 from krafton-playground/claude/security-review-fixes
+- 2026-10-26 12:42 [`1831ac5`](https://github.com/krafton-playground/ops-mrso-console/commit/1831ac5a2331c5f1075ef5d109bee6b409701869) Close image-optimizer exposure, patch dependencies, tighten admin reads
+- 2026-10-26 12:32 [`a36d68f`](https://github.com/krafton-playground/ops-mrso-console/commit/a36d68fa2542ef4134c6536b53ab726f07db9963) Merge pull request #36 from krafton-playground/codex/account-page-redesign
+- 2026-10-26 12:32 [`8133a45`](https://github.com/krafton-playground/ops-mrso-console/commit/8133a453c34b168d281d300cbde1fcbdf4079f43) Restore the account page shell and redesign its login card
+- 2026-10-26 12:05 [`4a86d96`](https://github.com/krafton-playground/ops-mrso-console/commit/4a86d963c1541a41ae6df698debf53c297487dba) Merge pull request #35 from krafton-playground/codex/account-page-redesign
+- 2026-10-26 11:59 [`4abb4ee`](https://github.com/krafton-playground/ops-mrso-console/commit/4abb4eed31f6fefc29909ac40588a5ef386ef20f) Redesign the account (내 로그인) page
+- 2026-10-26 11:51 [`702404f`](https://github.com/krafton-playground/ops-mrso-console/commit/702404fad513a601f0f8e9bfc0f9b4b68b848d44) Merge pull request #34 from krafton-playground/codex/access-control-redesign
+- 2026-10-26 11:40 [`a7e96fc`](https://github.com/krafton-playground/ops-mrso-console/commit/a7e96fc264ca8daec56a9f462600bf794e6bd5bf) Align PostgreSQL contracts with generation-wide ADMIN reads
+- 2026-10-26 10:40 [`cec4fc0`](https://github.com/krafton-playground/ops-mrso-console/commit/cec4fc07f6fd29a7f636eb3839cf27b6ab515df7) Unify access management and administrator workspace views
+- 2026-10-26 10:12 [`58ddd6e`](https://github.com/krafton-playground/ops-mrso-console/commit/58ddd6ea9f148afd52ea1bf268cf8601da629773) Merge current main while preserving user search work
+- 2026-10-26 10:11 [`42005d4`](https://github.com/krafton-playground/ops-mrso-console/commit/42005d41ae0a5b78452b87ac11de2b7370072385) Add user search suggestions and permission input validation
+- 2026-10-26 10:09 [`9143c25`](https://github.com/krafton-playground/ops-mrso-console/commit/9143c253c912cae1da38aed00721b32801248400) Merge pull request #33 from krafton-playground/codex/access-redesign-rollout
+- 2026-10-26 10:08 [`89fb19e`](https://github.com/krafton-playground/ops-mrso-console/commit/89fb19e13970acf37ce7c836f8ba41ecdd3134b8) Confluence 원문 S3 저장과 전용 워커 추가
+- 2026-10-26 10:03 [`33d1b47`](https://github.com/krafton-playground/ops-mrso-console/commit/33d1b472b28e08b5364001922d1618d7ffb07d45) Style sidebar counts as aligned pills
+- 2026-10-26 10:03 [`3e42c4c`](https://github.com/krafton-playground/ops-mrso-console/commit/3e42c4cae5e6cfe293313c88f0d7aef7d2e533da) Style sidebar counts as aligned pills
+- 2026-10-26 10:00 [`2cb30a1`](https://github.com/krafton-playground/ops-mrso-console/commit/2cb30a16ec55db3da46b63310a5f7d3c23a0709d) Redesign access management with Pretendard typography
+- 2026-10-26 10:00 [`cf32d93`](https://github.com/krafton-playground/ops-mrso-console/commit/cf32d93e1fe38b94d8a64f622299dcdced0b69d4) Redesign access management with Pretendard typography
+- 2026-10-26 09:54 [`6f05d5c`](https://github.com/krafton-playground/ops-mrso-console/commit/6f05d5c125f903657c0a1a8abe6f11d4bc53782f) Merge pull request #28 from krafton-playground/claude/admin-email-uppercase
+- 2026-10-26 00:37 [`8f60136`](https://github.com/krafton-playground/ops-mrso-console/commit/8f60136d995fdf96467a55cbcca6d6836ab33e49) Merge pull request #32 from krafton-playground/codex/redesign-ux-adoption
+- 2026-10-26 00:37 [`be90969`](https://github.com/krafton-playground/ops-mrso-console/commit/be9096959e3cf47d93ce9e1e184a195385e7f733) Adopt scoped wiki redesign layouts and navigation
+- 2026-10-26 00:07 [`e27a52d`](https://github.com/krafton-playground/ops-mrso-console/commit/e27a52dbf94b7effed4d933aa3d0110afd761a99) Merge pull request #31 from krafton-playground/codex/sidebar-role-menus
+- 2026-10-26 00:05 [`503f7ee`](https://github.com/krafton-playground/ops-mrso-console/commit/503f7ee7452ceda0559ab5418596fa96180fa2e8) fix: separate sidebar menus by current workspace permissions
+- 2026-10-25 23:05 [`5113242`](https://github.com/krafton-playground/ops-mrso-console/commit/5113242388a5e20fc0ed59486933793f93c2f9fa) Merge pull request #30 from krafton-playground/codex/unattended-scan-fix
+- 2026-10-25 23:04 [`d763e40`](https://github.com/krafton-playground/ops-mrso-console/commit/d763e4087535f7ca5c0b33543682d500cee61382) test: use schema datasource in observed integration clients
+- 2026-10-25 23:02 [`f9564ad`](https://github.com/krafton-playground/ops-mrso-console/commit/f9564adcf4a5ef7892c2926ea1567aca22513667) Merge pull request #29 from krafton-playground/codex/unattended-review
+- 2026-10-25 23:02 [`858bfd8`](https://github.com/krafton-playground/ops-mrso-console/commit/858bfd8d7c3a41b3b79641de01a4c6f6688d4075) feat: complete inactive unattended wiki workflows and review evidence
+- 2026-10-25 21:09 [`2dec2f5`](https://github.com/krafton-playground/ops-mrso-console/commit/2dec2f5443c092dd8107545e092adea1429ed721) wip: KP 자동운영 P1 초안과 Mac 인수인계 체크포인트
+- 2026-10-25 20:25 [`0a34444`](https://github.com/krafton-playground/ops-mrso-console/commit/0a34444511f853efc0af6db7f78ccef65f4bab6b) refactor: rename admin_email_address to ADMIN_EMAIL_ADDRESS with a legacy fallback
+- 2026-10-25 19:55 [`c001a1f`](https://github.com/krafton-playground/ops-mrso-console/commit/c001a1fd97b9bfdc96a5d7fab0887c21a68666fb) Merge PR #27: login page redesign in the app's green palette
+- 2026-10-25 19:55 [`668d2da`](https://github.com/krafton-playground/ops-mrso-console/commit/668d2dac7b2868fc92cfe87899077875f66c5388) fix: raise login focus-ring and dark hover contrast
+- 2026-10-25 19:53 [`86f0d1e`](https://github.com/krafton-playground/ops-mrso-console/commit/86f0d1e004cbba101f6bcb04f7b1dd381837c32a) feat: redesign the login page in the app's green palette
+- 2026-10-25 19:45 [`e2dec2e`](https://github.com/krafton-playground/ops-mrso-console/commit/e2dec2e65b44eda6b5b98e43ff9dcef35c9d626a) Merge PR #26: read-only page-tree preview for wiki workspaces
+- 2026-10-25 19:39 [`54e5fe9`](https://github.com/krafton-playground/ops-mrso-console/commit/54e5fe908a2ceb668eb0168f089ce16369802e2b) fix: skip malformed child pages in preview and record the plan exception
+- 2026-10-25 19:36 [`fb9ab44`](https://github.com/krafton-playground/ops-mrso-console/commit/fb9ab4455a770e2eef8c0768b6601d133e221ba2) feat: add read-only Confluence page-tree preview for saved wiki workspaces
+- 2026-10-25 19:28 [`b370afa`](https://github.com/krafton-playground/ops-mrso-console/commit/b370afa7821a98101541ea56d9abe8bb7000bad2) Merge PR #25: audited, restorable delete for wiki workspaces
+- 2026-10-25 19:21 [`486e19d`](https://github.com/krafton-playground/ops-mrso-console/commit/486e19dfa4117a241c6be8f67c82e51569d0b625) fix: keep other edit drafts on removal; document rollback and removal evidence
+- 2026-10-25 19:18 [`05a768b`](https://github.com/krafton-playground/ops-mrso-console/commit/05a768b1e82b25bd641f69ebb0448b42e4e9c93a) feat: add audited, restorable delete for Confluence workspace definitions
+- 2026-10-25 19:08 [`e171ff7`](https://github.com/krafton-playground/ops-mrso-console/commit/e171ff7165557f86afc7c2dfecc4b8eee5c19079) Merge PR #24: runtime Confluence/Anthropic providers and collect-only wiki test
+- 2026-10-25 19:05 [`6a8486c`](https://github.com/krafton-playground/ops-mrso-console/commit/6a8486c561bd2cbb7a2018aa572aa0a5ce3fe341) fix: clarify collect-only availability and align provider runtime docs
+- 2026-10-25 18:58 [`618fd5b`](https://github.com/krafton-playground/ops-mrso-console/commit/618fd5b03325435fb79db33a08638d8e8b8f3a07) feat: bind runtime Confluence/Anthropic providers and add a collect-only wiki test
+- 2026-10-25 18:52 [`ae7cbe0`](https://github.com/krafton-playground/ops-mrso-console/commit/ae7cbe04a433a5d9f3d835c0ace699ef74cdd05b) Merge PR #23: automatic Confluence connection check on wiki URL setup
+- 2026-10-25 18:40 [`3debf44`](https://github.com/krafton-playground/ops-mrso-console/commit/3debf44fe74718cff773fe1bdb546465f30806f5) fix: let connection status tones override card paragraph color
+- 2026-10-25 17:58 [`bc1d20b`](https://github.com/krafton-playground/ops-mrso-console/commit/bc1d20b5fc062965ebff37f9621632d3d00efcbc) feat: automatically check Confluence workspace connection while setting a wiki URL
+- 2026-10-25 17:20 [`97a19a2`](https://github.com/krafton-playground/ops-mrso-console/commit/97a19a2630e9ba9a5adf9c540351757e1c2f42d4) Merge PR #22: audited Confluence workspace URL setup
+- 2026-10-25 17:19 [`a03d58c`](https://github.com/krafton-playground/ops-mrso-console/commit/a03d58c51e3fe0715b75d8dc7758340f3769ed15) feat: add auditable Confluence workspace setup from wiki URLs
+- 2026-10-25 17:00 [`fcc7b90`](https://github.com/krafton-playground/ops-mrso-console/commit/fcc7b906535c8c264e394ce10f6c2f0577186e39) Merge PR #21: scoped Runs and durable manual refresh
+- 2026-10-25 16:58 [`6151c1a`](https://github.com/krafton-playground/ops-mrso-console/commit/6151c1af856aee75c6de69a384c680dad877f06e) feat: add scoped Runs dashboard and durable manual refresh
+- 2026-10-25 15:57 [`0dda024`](https://github.com/krafton-playground/ops-mrso-console/commit/0dda024e971a9d083f76592acf14a124f4f3dee7) Merge PR #19: explicit initial administrator and dedicated team workspace
+- 2026-10-25 15:56 [`9f7e854`](https://github.com/krafton-playground/ops-mrso-console/commit/9f7e854f6f1c437a468efe95f2ed384f7d070cd0) feat: bootstrap configured verified administrator and separate team access
+- 2026-10-25 14:09 [`7faeb5a`](https://github.com/krafton-playground/ops-mrso-console/commit/7faeb5a2e5a84b48fdab205139298c6cf1bbdfd4) Merge PR #18: operating routes and reference sidebar
+- 2026-10-25 14:08 [`56a770d`](https://github.com/krafton-playground/ops-mrso-console/commit/56a770d8335e5feb75d7650b3e5a3f7c259926de) feat: separate access administration and add reference sidebar
+- 2026-10-25 13:41 [`5971c0d`](https://github.com/krafton-playground/ops-mrso-console/commit/5971c0d2e0c05ad4a2e78cb76341777fa4967431) Merge PR #17: verified access console
+- 2026-10-25 13:39 [`05e316b`](https://github.com/krafton-playground/ops-mrso-console/commit/05e316bd5f72d71a224e0ebf877255389e1fd89d) Merge PR #16: registry metadata [skip ci]
+- 2026-10-25 13:38 [`3b8132f`](https://github.com/krafton-playground/ops-mrso-console/commit/3b8132f84e1eac3c7592ad851dcc4df9a836fe60) feat: add verified identity and access administration
+- 2026-10-25 12:33 [`2f6ce35`](https://github.com/krafton-playground/ops-mrso-console/commit/2f6ce356fb945ad9ed79c4cf0ac9584f3fcf4476) feat: manage registry parent and department metadata
+- 2026-10-25 12:24 [`4612e62`](https://github.com/krafton-playground/ops-mrso-console/commit/4612e624dd3465e30f626c7df3ab72ad65666b46) Merge PR #15: ordered migration stack
+- 2026-10-25 12:24 [`cb2c31b`](https://github.com/krafton-playground/ops-mrso-console/commit/cb2c31b2a2ff82446b80a05fb8ec686a46ee0f80) Merge PR #14: ordered migration stack [skip ci]
+- 2026-10-25 12:24 [`6fbad84`](https://github.com/krafton-playground/ops-mrso-console/commit/6fbad8483b385bbfc5ed2d04625e3ffb60c1f39e) Merge PR #13: ordered migration stack [skip ci]
+- 2026-10-25 12:24 [`be1a1fc`](https://github.com/krafton-playground/ops-mrso-console/commit/be1a1fc363879c5e0f8db5a55692f37d4d26510f) Merge PR #12: ordered migration stack [skip ci]
+- 2026-10-25 12:24 [`4cc4ff0`](https://github.com/krafton-playground/ops-mrso-console/commit/4cc4ff0e723a8a8361f724f4b929894043550b4a) Merge PR #11: ordered migration stack [skip ci]
+- 2026-10-25 12:24 [`4bc5b35`](https://github.com/krafton-playground/ops-mrso-console/commit/4bc5b3525b1379471e4475a7ac7f60437d7d8af6) Merge PR #10: ordered migration stack [skip ci]
+- 2026-10-25 12:24 [`2e629e4`](https://github.com/krafton-playground/ops-mrso-console/commit/2e629e4e24c9765d038fd04537a4871d18f32ea0) Merge PR #9: ordered migration stack [skip ci]
+- 2026-10-25 12:23 [`c5be106`](https://github.com/krafton-playground/ops-mrso-console/commit/c5be1065d8734c9f6bf5f4ed263bdfe3ab8c5ed0) Merge PR #8: ordered migration stack [skip ci]
+- 2026-10-25 12:23 [`23c375d`](https://github.com/krafton-playground/ops-mrso-console/commit/23c375d57eff74726d580fe944acea627262e4d4) Merge PR #7: ordered migration stack [skip ci]
+- 2026-10-25 12:23 [`5fadc49`](https://github.com/krafton-playground/ops-mrso-console/commit/5fadc49c94af41072e9d66a75e3c120eb025d93b) Merge PR #6: ordered migration stack [skip ci]
+- 2026-10-25 12:23 [`0516f8b`](https://github.com/krafton-playground/ops-mrso-console/commit/0516f8b2a49d5c8c2d130508b6bf07c62c8c6bfd) Merge PR #5: ordered migration stack [skip ci]
+- 2026-10-25 12:23 [`b83e119`](https://github.com/krafton-playground/ops-mrso-console/commit/b83e119b916256d6954b9c1c1b2060e62ac78068) Merge PR #4: ordered migration stack [skip ci]
+- 2026-10-25 12:23 [`fb32cb8`](https://github.com/krafton-playground/ops-mrso-console/commit/fb32cb819d27f40be908373f211bb4c08f4af58a) Merge PR #3: ordered migration stack [skip ci]
+- 2026-10-25 12:22 [`1244330`](https://github.com/krafton-playground/ops-mrso-console/commit/1244330d4fdbabba4aa577013baa4ace11aa8fde) Merge PR #2: migration runtime foundation [skip ci]
+- 2026-10-25 00:05 [`76b6721`](https://github.com/krafton-playground/ops-mrso-console/commit/76b67211d078bbc0f62e42d737d60f4cdc39b1c5) feat: add inactive watch and weekly schedule management
+- 2026-10-24 23:53 [`e7a99fb`](https://github.com/krafton-playground/ops-mrso-console/commit/e7a99fbfac389610b17cb36e2e063e8bc0b508ee) feat: gate shared registry edits with explicit global grants
+- 2026-10-24 23:40 [`4981d53`](https://github.com/krafton-playground/ops-mrso-console/commit/4981d53b89f0aaa5427948c1252ce77b1f81df7a) workspace: manage assignments through exact admin ownership
+- 2026-10-24 23:40 [`2dc11a0`](https://github.com/krafton-playground/ops-mrso-console/commit/2dc11a09ba64adf52b9af498ef0c3dbf1a7617e6) migration: rehearse approved archive with exact archival dispositions
+- 2026-10-24 23:04 [`d1e0705`](https://github.com/krafton-playground/ops-mrso-console/commit/d1e0705efc4ea41e2c9aa5becfdb90355c666436) feat: add subject-owned team corrections and durable reply receipts
+- 2026-10-24 22:50 [`9730f83`](https://github.com/krafton-playground/ops-mrso-console/commit/9730f83e0d3c3a295a50b046d5a4b147aa0d86aa) feat: add scoped confirmation review with immutable history checks
+- 2026-10-24 22:42 [`57fb9a1`](https://github.com/krafton-playground/ops-mrso-console/commit/57fb9a1b0264ec61e1f827f99be56743af2936ed) feat: add scoped page settings and enforce exclusion across jobs
+- 2026-10-24 22:29 [`f5ed2c6`](https://github.com/krafton-playground/ops-mrso-console/commit/f5ed2c6e4b688e278807c92f11b39b1cc02889be) feat: add versioned proposal review actions and conflict recovery
+- 2026-10-24 22:17 [`5d40a3b`](https://github.com/krafton-playground/ops-mrso-console/commit/5d40a3bc8cdfbc03d6f3e928654c19f7995887e9) feat: add authenticated admin and team read workspaces
+- 2026-10-24 22:04 [`fc590ec`](https://github.com/krafton-playground/ops-mrso-console/commit/fc590ecc2102835f132d8b962517c403e1218b21) feat: add durable jobs and supervised wiki worker
+- 2026-10-24 21:48 [`37f0e11`](https://github.com/krafton-playground/ops-mrso-console/commit/37f0e1142d3334312bc4e8f082de3be252fe2a2b) feat: add M2b frozen migration and recovery tooling
+- 2026-10-24 21:27 [`9b5eb3b`](https://github.com/krafton-playground/ops-mrso-console/commit/9b5eb3be70527997820d1b4eb1675b4f20b907c4) feat: add M2a durable wiki persistence and authorization
+- 2026-10-24 21:08 [`c8cd249`](https://github.com/krafton-playground/ops-mrso-console/commit/c8cd249da0cfa30d02ace5c23fafdfc1654fbfe9) feat: port M1 wiki kernel with behavior contracts
+- 2026-10-24 20:59 [`3e10f04`](https://github.com/krafton-playground/ops-mrso-console/commit/3e10f04697e4a43461e42cd23323205e98a23474) feat: add M0 migration runtime and verification foundation
+- 2026-10-24 20:44 [`560a5a2`](https://github.com/krafton-playground/ops-mrso-console/commit/560a5a205e1f52e215b2cca8f6bfe0bf3f5821a3) docs: KP 마이그레이션 계획과 M0–M7 TODO 추가 [skip ci]
+
+## notetaker-landing
+
+619 commits. Newest first.
+
+- 2026-10-29 18:03 [`6323a43`](https://github.com/krafton-playground/notetaker-landing/commit/6323a434e5ae8220446b68091ec77d89ef28e810) docs: 인수인계·제품 명세·파이프라인 그림·FullScript 제안 트레이드오프 문서 추가 (#277)
+- 2026-10-27 08:39 [`95fbab0`](https://github.com/krafton-playground/notetaker-landing/commit/95fbab0e721bbec97909eeb770d00ce03ab6ea30) fix: recover quarantined exports, contain per-row DB errors, and pin list SQL to the JS classifier (#276)
+- 2026-10-26 14:17 [`1aac33c`](https://github.com/krafton-playground/notetaker-landing/commit/1aac33c44ad169cbf87351798a30428eb6234eb5) fix: 초안 목록 생성 기록 조회를 제한 시간 안으로 줄이고 내보내기 재처리 정체 해소 (#275)
+- 2026-10-26 11:26 [`f580e4d`](https://github.com/krafton-playground/notetaker-landing/commit/f580e4d5e115735f922140015897c89405eb40f6) fix: 초안 운영 조회와 내보내기 재처리 안정화 (#274)
+- 2026-10-21 15:46 [`0927293`](https://github.com/krafton-playground/notetaker-landing/commit/092729376d503399f4a915ebd1711349b9c2a7f3) fix: 회의록 내보내기와 제목 입력의 앰퍼샌드 정규화 (#273)
+- 2026-10-21 13:27 [`6e61dbe`](https://github.com/krafton-playground/notetaker-landing/commit/6e61dbed1081e6a8277eca62d08aaf90abe2b29a) fix: 운영 통계 회의 제목의 앰퍼샌드 표시 수정 (#272)
+- 2026-10-20 13:41 [`0d6acbf`](https://github.com/krafton-playground/notetaker-landing/commit/0d6acbf91e0023a5f71156b3a61e205c3bb1e552) feat: 의제 연동용 버전 기반 회의 근거 내보내기 계약 추가 (#271)
+- 2026-10-20 10:18 [`b35b8b7`](https://github.com/krafton-playground/notetaker-landing/commit/b35b8b7d1651b41cb6770e111bdce0f9e6b586db) Merge pull request #270 from krafton-playground/codex/mcp-agenda-sync
+- 2026-10-20 10:13 [`d423dc4`](https://github.com/krafton-playground/notetaker-landing/commit/d423dc4ecf05ed6e3cdbd67d85fd3924ed4287bf) Merge pull request #269 from krafton-playground/codex/package-fullscript-glossary
+- 2026-10-20 09:51 [`58d7ae8`](https://github.com/krafton-playground/notetaker-landing/commit/58d7ae818c4a479b50784bb4fc804547c048cec8) test(mcp): run personal draft sync checks in PR CI
+- 2026-10-20 09:49 [`b6cae48`](https://github.com/krafton-playground/notetaker-landing/commit/b6cae482f233c5da057e36f98a66864d7215cdae) feat(mcp): add versioned personal draft synchronization
+- 2026-10-20 09:21 [`9699ceb`](https://github.com/krafton-playground/notetaker-landing/commit/9699cebb6e83bafc9c71c89701719a4f9c4c6bd2) fix: package FullScript glossary JSON in production image
+- 2026-10-20 09:16 [`6098f5a`](https://github.com/krafton-playground/notetaker-landing/commit/6098f5a94947d1beff275fd1ddc8c0f4b919cc45) Merge pull request #268 from krafton-playground/codex/confirmed-names-quoted-rules
+- 2026-10-19 15:34 [`b8cffdd`](https://github.com/krafton-playground/notetaker-landing/commit/b8cffdd07e9fe4303b8e58fe946317a679a17013) fix: recover summary evidence with bound exact quote options
+- 2026-10-19 15:26 [`0440b56`](https://github.com/krafton-playground/notetaker-landing/commit/0440b5656fd3194a521763a68a70d52ab4d8761f) fix: enforce action evidence scope and exact quote recovery
+- 2026-10-19 15:14 [`92357af`](https://github.com/krafton-playground/notetaker-landing/commit/92357af1148c791ecce0a2675af98df0ce11064d) fix: repair unverifiable summary actions without protocol retries
+- 2026-10-19 14:51 [`af5e32f`](https://github.com/krafton-playground/notetaker-landing/commit/af5e32f1cfe06a612aa9189f34990b05ee37a2a1) fix: 확정 이름의 복합 조사도 맞춰 교정
+- 2026-10-19 14:48 [`4864e6d`](https://github.com/krafton-playground/notetaker-landing/commit/4864e6d40d934940e15b4c7bd9b5fa39525fa95b) fix: 확정 인물명 조사 교정과 교정 예문 보호
+- 2026-10-16 17:57 [`7f123e1`](https://github.com/krafton-playground/notetaker-landing/commit/7f123e1167e488fe0b45c46967ba9f22f6e63de7) Merge pull request #264 from krafton-playground/codex/admin-regenerate-draft
+- 2026-10-16 17:51 [`742465f`](https://github.com/krafton-playground/notetaker-landing/commit/742465f6baf38cf986ec635854bd8178f7492ec7) fix: show saved draft speaker counts in admin regeneration
+- 2026-10-16 17:23 [`c32aca9`](https://github.com/krafton-playground/notetaker-landing/commit/c32aca9f0a3e7d7eab1b9b3dd737c1f8a57faf58) fix: 회의 제목의 앰퍼샌드 인코딩 표시 수정 (#266)
+- 2026-10-16 17:21 [`3e7033c`](https://github.com/krafton-playground/notetaker-landing/commit/3e7033c9e6428175f4670fc2100364e09999ac62) fix: 상무·상무님 확정 교정 규칙 복구 (#267)
+- 2026-10-16 17:21 [`afac246`](https://github.com/krafton-playground/notetaker-landing/commit/afac24617c076a8a4fd922978951754066b1a830) fix: preserve confirmed mappings under personal vocabulary-only entries (#265)
+- 2026-10-16 11:11 [`ad7a5a3`](https://github.com/krafton-playground/notetaker-landing/commit/ad7a5a3f27e60c2061879d4390439777daa35bda) fix: 관리자 다시 만들기로 완료된 초안 재생성
+- 2026-10-16 10:51 [`bbdb931`](https://github.com/krafton-playground/notetaker-landing/commit/bbdb931bad569dc65e08c28809bc743c59824fbb) fix: STT·요약 복구와 관리자 전용 처리 상태 UI (#263)
+- 2026-10-16 10:05 [`9c56d12`](https://github.com/krafton-playground/notetaker-landing/commit/9c56d12ccbcd5c14caad62ce2ad6344752063dce) fix: persist contextual STT correction occurrences (#262)
+- 2026-10-16 09:46 [`c707ea4`](https://github.com/krafton-playground/notetaker-landing/commit/c707ea4479b7ae6c2af60df96748ebc331fc177c) 복구 모드에서 관리자 개별 초안 재생성 허용 (#261)
+- 2026-10-16 09:32 [`3900327`](https://github.com/krafton-playground/notetaker-landing/commit/39003276ff9d7335af4dd108ae6e9640179da91b) 품질 검증 실패 초안 보존과 관리자 개별 재생성 (#260)
+- 2026-10-15 09:27 [`b2afb32`](https://github.com/krafton-playground/notetaker-landing/commit/b2afb3209ac82691697ec1ffdfeef9df6f7d32aa) fix: strengthen contextual STT and action speaker evidence (#259)
+- 2026-10-14 20:34 [`a4628db`](https://github.com/krafton-playground/notetaker-landing/commit/a4628db110f641271ad0f0a0b003e8d2c70747c4) fix: make paragraph readability and summary validation mandatory (#258)
+- 2026-10-14 17:38 [`419627f`](https://github.com/krafton-playground/notetaker-landing/commit/419627fca2a549a1ee850ac28df873eae4bf40a9) 지정 용어집 → 문단 편집 → DB 용어집 순서와 보존 검증 적용 (#257)
+- 2026-10-14 08:46 [`026db6d`](https://github.com/krafton-playground/notetaker-landing/commit/026db6d1726b14525a38956bbfdad18885afc56a) [Draft] 원문 근거 교정·요약 및 로컬 Docker 품질 비교 (#256)
+- 2026-10-07 19:51 [`6543d87`](https://github.com/krafton-playground/notetaker-landing/commit/6543d8704d67f8554a8b94ac25ba7693407c6712) fix(glossary): 확정 변형은 한글 띄어쓰기 차이를 같은 표기로 보고, 상무님 행을 자료에서 뺀다 (#255)
+- 2026-10-07 16:13 [`23f1815`](https://github.com/krafton-playground/notetaker-landing/commit/23f18159480866cedba149ef137cc8f170ba7700) 용어집 확정 규칙 적용과 버전별 교정 이력 보장 (#254)
+- 2026-10-01 13:45 [`8784b47`](https://github.com/krafton-playground/notetaker-landing/commit/8784b477747292eeb36e450ace5a75909be6b23b) feat(security): 세션을 유지하는 연결 암호화 키 교체 구현 (#253)
+- 2026-10-01 13:18 [`6bafd1e`](https://github.com/krafton-playground/notetaker-landing/commit/6bafd1e410cf29365bc32825d3b439d17fb9a17a) docs(security): 기존 사용자 연결을 유지하는 키 교체 계획 (#229)
+- 2026-10-01 11:18 [`2d6b31c`](https://github.com/krafton-playground/notetaker-landing/commit/2d6b31c5d4f8e4028cf27f4af0d8a00bf8e596ed) feat: 용어 교정에서 사용자 소속 분기 제거 (#252)
+- 2026-10-01 10:22 [`28d39eb`](https://github.com/krafton-playground/notetaker-landing/commit/28d39eb33856be233fd596dd0422aca68692faf3) docs(glossary): 회의록 glossary 1차(260929) 엑셀을 Markdown 으로 옮긴다 (#251)
+- 2026-10-01 09:45 [`a90c989`](https://github.com/krafton-playground/notetaker-landing/commit/a90c989d465e130aac5226bdd2919eed144ea5dc) fix(app): 회의를 누르면 초안이 먼저 뜬다 — 용어 확인은 '화자·용어 다시 확인'으로만 (#250)
+- 2026-09-30 16:53 [`fe199c5`](https://github.com/krafton-playground/notetaker-landing/commit/fe199c5045ef96aea11a81211f804f38fd8d6fc9) chore(worker): 죽은 게이트 두 개를 지운다 — 이름 정리(repair_names)·끊긴 발언 끝맺기 (#249)
+- 2026-09-30 16:43 [`7635ff0`](https://github.com/krafton-playground/notetaker-landing/commit/7635ff0ebee758a36b876eeb6801d64126f064c9) feat(app): 용어 확인 창에서 새 용어 후보 탭을 뺀다 (#248)
+- 2026-09-25 17:33 [`fb7f1bd`](https://github.com/krafton-playground/notetaker-landing/commit/fb7f1bdda0bf70e52c2464a3d878e84641b8d9f9) qa(glossary): 용어집 정확도 E2E 하네스 · 판정 누락 자리 단위 처리 · 성 뺀 이름 가드 (#247)
+- 2026-09-23 13:12 [`f596b3a`](https://github.com/krafton-playground/notetaker-landing/commit/f596b3a2b296e3b5419f784e8093b6091e2cab5f) fix(app): 용어집·운영 현황에서 회의를 눌러도 아무 일이 안 났다 (#246)
+- 2026-09-23 12:02 [`32ff758`](https://github.com/krafton-playground/notetaker-landing/commit/32ff7586e7f4c13b047c10df579d6b84da588448) feat(app): 목록 뼈대 · 여섯 화면 본문 폭 통일 · 스크롤 막대 감추기 (#245)
+- 2026-09-23 10:36 [`d431878`](https://github.com/krafton-playground/notetaker-landing/commit/d431878aa88fe34eecc8f38df3e2592a413927f0) fix(app): 사이드바를 DB 로 먼저 그린다 · 운영 현황 나머지 탭에도 붙인다 (#244)
+- 2026-09-23 10:00 [`25af9cd`](https://github.com/krafton-playground/notetaker-landing/commit/25af9cd77ab7642a092d1e19c6877667dbfc6fc3) feat(app): 사이드바는 전원에게 보인다 — 역할 조건을 뺀다 (#243)
+- 2026-09-23 09:29 [`a485f06`](https://github.com/krafton-playground/notetaker-landing/commit/a485f063db00202bb309a2288349ab9fb95cfb65) feat(app): 회의 목록을 앱 공용 사이드바로 — 네 화면이 한 벌을 쓴다 (#241)
+- 2026-09-22 23:06 [`3a8eaeb`](https://github.com/krafton-playground/notetaker-landing/commit/3a8eaeb27e8a3e57e7b1735d0bcbb303063c3da8) fix(draft): 표 칸 이스케이프는 역슬래시를 먼저 — 내보낸 .md 에서 칸이 늘지 않는다 (#242)
+- 2026-09-22 14:11 [`904cf12`](https://github.com/krafton-playground/notetaker-landing/commit/904cf12dabb6260e73382a8cae5db3a6f43aac2f) 일반 명사의 인명 치환 차단과 다듬기 결과 표시 (#240)
+- 2026-09-21 10:23 [`e19b87b`](https://github.com/krafton-playground/notetaker-landing/commit/e19b87bbd06960686fdc69c312a0b3115fcc22f7) fix(qa): 한 문장에 반복된 자리는 질문 하나다 — stt-e2e 를 묶기 계약에 맞춘다 (#239)
+- 2026-09-20 23:08 [`81c5064`](https://github.com/krafton-playground/notetaker-landing/commit/81c5064fa1507323e5bf69e29fcfe2d2ece3d129) feat(admin): 초안 작업은 최고 관리자만 — 관리자는 로그인 세션에서 배포 상태를 본다 (#238)
+- 2026-09-20 22:29 [`1db7da0`](https://github.com/krafton-playground/notetaker-landing/commit/1db7da0f5fbc9d5a4662a52fc4ff2e6d780e4cf2) feat(glossary): 말한 그대로의 표기(spoken 모드) — 클로드·코덱스·클로바는 묻지도 고치지도 않는다
+- 2026-09-20 21:50 [`033df69`](https://github.com/krafton-playground/notetaker-landing/commit/033df6984a2e26d644acddc98add7e560cd2cd66) Merge remote-tracking branch 'origin/main' into fix/glossary-picker-duplicate-spots
+- 2026-09-20 21:50 [`54c5205`](https://github.com/krafton-playground/notetaker-landing/commit/54c5205e36734ba100d371c3f2b7f7fe4dc956e6) fix(interview): 한 문장에 반복된 자리는 질문 하나로 묶는다 — 같은 질문이 세 번 뜨던 것
+- 2026-09-20 20:13 [`52a90c7`](https://github.com/krafton-playground/notetaker-landing/commit/52a90c73b222f3fbe232ff133d27098c11235c62) feat(draft): 끊긴 발언 끝맺기 단계(complete_tails) — 기본은 shadow, 본문은 바꾸지 않는다 (#237)
+- 2026-09-20 15:43 [`292fda2`](https://github.com/krafton-playground/notetaker-landing/commit/292fda2c4f27d6b3e40247c8c6d81f158edfd0de) feat(qa): 첫 초안 점수 — 정답 글만 있으면 스크립트 정확도(기준 95%)를 낸다 (#236)
+- 2026-09-20 15:43 [`99e06e4`](https://github.com/krafton-playground/notetaker-landing/commit/99e06e44599565fa25b9c9bb8c954c894549ccb9) fix(glossary): 성 뺀 이름으로 부른 자리(다미 → 강다미)는 묻지도 고치지도 않는다 (#235)
+- 2026-09-20 15:09 [`5f533a2`](https://github.com/krafton-playground/notetaker-landing/commit/5f533a2f866f3ba26b20927ac6673747561e2699) feat(admin): 통계 탭(토큰 사용량·추정 비용) + 자동전사를 최고 관리자 역할로
+- 2026-09-20 13:04 [`6e1783a`](https://github.com/krafton-playground/notetaker-landing/commit/6e1783a9138619803b8d99f3f422fd4fa476d141) feat(admin): 로그인 세션 — 역할을 드롭다운으로, 세션을 펼치지 않고 바로, 두 탭의 본문 폭을 같게
+- 2026-09-20 12:15 [`0ad0431`](https://github.com/krafton-playground/notetaker-landing/commit/0ad0431b26ea6fd754fc1b23792cb40f74d33c47) Merge remote-tracking branch 'origin/main' into feat/login-session-roles
+- 2026-09-20 12:12 [`a37f8d0`](https://github.com/krafton-playground/notetaker-landing/commit/a37f8d0e0eb466a4a89df79f0185581dd5301432) feat(admin): 로그인 세션 화면과 역할(최고 관리자·관리자·멤버)
+- 2026-09-20 09:51 [`81b051d`](https://github.com/krafton-playground/notetaker-landing/commit/81b051d2bb74add6d177d634f5233046348ec0dc) fix(interview): 새 인터뷰가 없는 초안도 앞 회차의 pending 질문을 내린다
+- 2026-09-19 20:02 [`df9e7a3`](https://github.com/krafton-playground/notetaker-landing/commit/df9e7a362d8debe3b7545fd0d8d985a5fa33a549) feat(draft): 낱말 고치기 폼이 드래그한 글자를 고칠 말에 따라 넣는다 (#234)
+- 2026-09-19 19:10 [`6756f50`](https://github.com/krafton-playground/notetaker-landing/commit/6756f50c57596284788f1bd20bdc0aedc36f42e9) feat(interview): 용어 확인을 맨 앞 탭으로, 스크립트의 화자 표시를 눌러 이름을 바꾼다, 직접 고치기는 감춘다 (#233)
+- 2026-09-18 17:54 [`94808eb`](https://github.com/krafton-playground/notetaker-landing/commit/94808ebadf28d50fc55a331d070ddcce27e320fb) fix(draft): 낱말 고치기가 실제 초안 형식(굵은 라벨)에서 발언을 찾는다 — 평문으로 비교하고 원문 자리로 되돌린다 (#231)
+- 2026-09-18 13:38 [`bdd6a27`](https://github.com/krafton-playground/notetaker-landing/commit/bdd6a275540094010abe0060f5b983cd39d0b3da) fix(repair): 합친 결과 재검사에서 사람이 고정한 낱말은 발언 규칙을 타지 않는다 (#232)
+- 2026-09-18 13:24 [`e6121bc`](https://github.com/krafton-playground/notetaker-landing/commit/e6121bc3dc3231f61f31ae241bcb677bf4d8e614) fix(draft): 낱말 고치기가 발언을 화면 모양으로 찾는다 — 굵게 라벨 때문에 늘 못 찾았다 (#230)
+- 2026-09-18 13:02 [`401e4af`](https://github.com/krafton-playground/notetaker-landing/commit/401e4afa37b4d350514bdaec62c8ccbd93ccbe92) fix(draft): 낱말 고치기 경계 정규식 — 템플릿 리터럴에서 \\s 가 사라져 띄어쓰기를 경계로 안 봤다 (#228)
+- 2026-09-18 11:41 [`d870679`](https://github.com/krafton-playground/notetaker-landing/commit/d8706791f1cee54651e9aeb0af06525ab261f15f) feat(draft): 낱말 고치기 — 초안 창에서 낱말을 직접 고쳐 새 회차로 저장하고 다시 만들기가 이어받는다 (#227)
+- 2026-09-18 11:18 [`d48dacd`](https://github.com/krafton-playground/notetaker-landing/commit/d48dacdabefd03dcd7369408833ab29ec471406c) docs(plan): 첫 초안부터 읽기 좋게 — PR 1·2 병합 상태, 첫 실측(캐시 80 %), 켜는 순서 확정 (#226)
+- 2026-09-18 10:46 [`2a356be`](https://github.com/krafton-playground/notetaker-landing/commit/2a356be1a3ad05f4b2a33c9c0d62e02f68a7e837) feat(repair): SCRIPT_REPAIR_STAGE — 1차·자동 회차에도 읽기 좋게 다듬기, 확인 창 낱말은 보호 (#225)
+- 2026-09-18 10:46 [`ca04d14`](https://github.com/krafton-playground/notetaker-landing/commit/ca04d147501206bceb404d75e0565ba2877992ee) docs(plan): 첫 초안부터 읽기 좋게 — prod 실측으로 보정하고 트레이드오프를 더한다 (#223)
+- 2026-09-18 09:53 [`87fca15`](https://github.com/krafton-playground/notetaker-landing/commit/87fca15873fdb273848b89e416e92b29b02f54fe) feat(timing): 회차마다 토큰·캐시 적중·추정 비용을 남기고, 배치 중 워커 깨우기를 잃지 않는다 (#224)
+- 2026-09-18 09:19 [`82f84f7`](https://github.com/krafton-playground/notetaker-landing/commit/82f84f7b1d4958eaf9cd3ee13d02ff18366b0087) docs(plan): 첫 초안부터 읽기 좋게 — 발견 즉시 시작 · 1차부터 다듬기 · 토큰 계측 (#222)
+- 2026-09-17 18:30 [`8c1c8ae`](https://github.com/krafton-playground/notetaker-landing/commit/8c1c8aee1a6f79877f3b490599544c9b110b5666) feat(slack): 'DM으로 받기' 스위치 — 로그인 이메일로 내 Slack 계정을 찾아 저장한다 (#221)
+- 2026-09-17 16:07 [`3986edf`](https://github.com/krafton-playground/notetaker-landing/commit/3986edffcd9028509647d368153dca4930ba46ad) qa(repair): 읽기 좋게 다듬기 하드 QA — 회차 carry-over, 규칙별 사유, 검증기 조임, 실모델 측정 도구 (#220)
+- 2026-09-17 14:19 [`92b9661`](https://github.com/krafton-playground/notetaker-landing/commit/92b9661326f7324a3383a144f2effe78fbc7a633) feat(notation): 반려된 표기 추론 후보는 확인 창의 '후보 용어' 대신 새 용어 후보(후보함)로 간다 (#219)
+- 2026-09-17 12:40 [`6446ba3`](https://github.com/krafton-playground/notetaker-landing/commit/6446ba33aa58001ef7f7116d243b8ace378cc304) fix(notation): 이름 닻은 어절이 아니라 줄기를 보고, 반려된 추론 후보는 문장을 다시 읽는다 (#218)
+- 2026-09-17 12:40 [`571c087`](https://github.com/krafton-playground/notetaker-landing/commit/571c08700e70b983f3c36c3659ec56791ff924b8) feat(poll): 진행을 기다리는 화면의 상태 확인이 그 연결의 백그라운드 폴링을 60초로 되돌린다 (#217)
+- 2026-09-17 10:43 [`4c57d25`](https://github.com/krafton-playground/notetaker-landing/commit/4c57d250412bb0b205482453d66a16d1d945f919) chore(modal): 초안 모달의 회의록 AI 채팅 바를 뗀다 (#215)
+- 2026-09-17 10:43 [`8e798c1`](https://github.com/krafton-playground/notetaker-landing/commit/8e798c1c5cbeb656ff83aa7914c96b7605290956) fix(notes): 갓 끝난 회의의 '초안 없음' 줄도 스스로 갱신한다 — 백그라운드 폴링이 잡을 만드는 순간을 화면이 놓치지 않게 (#216)
+- 2026-09-17 09:18 [`146522f`](https://github.com/krafton-playground/notetaker-landing/commit/146522f9f77f8a322197d73e9eef579983c2bb3d) feat(redraft): 다시 만들기가 '읽기 좋게 다듬기'까지 한 초안을 낸다 — 채팅 버튼과 같은 검증기를 워커가 저장 전에 탄다 (#214)
+- 2026-09-17 01:16 [`266384a`](https://github.com/krafton-playground/notetaker-landing/commit/266384af617dc3e0a49f37230f7d43452beb6d36) feat(interview): 용어 확인 창, 일부만 골라도 계속 — 미선택 문장은 보내지 않고 서버는 보낸 것만 판정한다 (#213)
+- 2026-09-16 16:51 [`1abce32`](https://github.com/krafton-playground/notetaker-landing/commit/1abce32f0c1f662d8bd4383897d3b461777ca9a2) feat(chat): 읽기 좋게 다듬기 — Clova 오청·잘린 어미를 편집 단위 검증으로 고친다 (#212)
+- 2026-09-16 09:13 [`ff15026`](https://github.com/krafton-playground/notetaker-landing/commit/ff1502676ec77ca931dc2372883313eb0c4ed2aa) fix(glossary): 영문 카테고리를 대문자로 통일한다 — mrso 가 MRSO 와 다른 팀으로 갈라지지 않게 (#211)
+- 2026-09-16 08:53 [`d15c845`](https://github.com/krafton-playground/notetaker-landing/commit/d15c8457e45ca6a491b5dafcb063b7f20ff6baec) fix(poll): 백그라운드 폴링 두 가지 — due 판정 반 간격 여유(60초 연결이 tick 을 걸러 읽히던 것) · '쉬는 중' 수를 간격으로 (#210)
+- 2026-09-16 06:33 [`a3d5c35`](https://github.com/krafton-playground/notetaker-landing/commit/a3d5c3543f766f9dca722db69be3d84c5ebac39d) perf(poll): 백그라운드 폴링을 연결별 적응 간격으로 — 목록이 그대로인 연결은 60초에서 최대 10분까지 뜸하게 본다 (#209)
+- 2026-09-15 20:41 [`89e3fb9`](https://github.com/krafton-playground/notetaker-landing/commit/89e3fb90489f39c1738637d5f0ca57b0b9bc98bd) chore(glossary): GitHub 공용 용어집 동기화와 Krafton_org 위키를 제품에서 떼어낸다 (#205)
+- 2026-09-15 17:26 [`9f26447`](https://github.com/krafton-playground/notetaker-landing/commit/9f2644701095716850ab00357d9476d0eb4d1c67) fix(notes): 다시 만들기가 끝난 줄 객체의 '만드는 중' 표식을 내린다 — 용어 확인 창을 닫고 연 초안이 잠기지 않게 (#208)
+- 2026-09-15 16:31 [`6cd126c`](https://github.com/krafton-playground/notetaker-landing/commit/6cd126c55d9031c0600ab40b26949f799f469696) feat(landing): 설치 안내를 걷어내고 상단 바를 소개·시작 하기·문제 해결로 정리 (#206)
+- 2026-09-15 16:30 [`3736bd4`](https://github.com/krafton-playground/notetaker-landing/commit/3736bd4d2a1229668acf433521d5ab8270988ae9) fix(admin): 저장 끝난 초안의 종료 확인 기록이 배포 gate 를 영영 막지 않게 하고, 화자 확인 상태를 화면에 보인다 (#207)
+- 2026-09-15 13:12 [`87e190d`](https://github.com/krafton-playground/notetaker-landing/commit/87e190d34b047c2e2f04f9de756899dd116ff03d) feat(admin): 초안 작업 목록을 최근 활동 순으로, 생성 중 작업은 맨 위에 실시간으로 (#204)
+- 2026-09-15 13:12 [`b89f8e8`](https://github.com/krafton-playground/notetaker-landing/commit/b89f8e8dce11a46befc55795b499e39a5edf6dcd) perf(draft): 초안 만들기 버튼도 큐에 넣자마자 워커를 깨운다 (#203)
+- 2026-09-15 12:14 [`9da539d`](https://github.com/krafton-playground/notetaker-landing/commit/9da539d8163fff1d1bcde816b100528e01726476) feat(notes): 상태 폴링이 어디를 읽는지 콘솔·서버 로그로 보인다 (#202)
+- 2026-09-15 11:56 [`4c07cf0`](https://github.com/krafton-playground/notetaker-landing/commit/4c07cf08f23a7102647379ad188da1c1c05d6e4e) perf(notes): 화면 주기 폴링을 Clova 목록 대신 DB 상태 경로로 돌린다 (#201)
+- 2026-09-15 11:31 [`ed67c43`](https://github.com/krafton-playground/notetaker-landing/commit/ed67c4376cdaa24d07a8a9425293653b6147ec84) feat(gate): 등록된 인물 별칭(정구승 ← [교수님])을 게이트+확인 창으로 올리고, 이름 후보에 초대 명단·주최자 팀을 붙인다 (#200)
+- 2026-09-15 11:31 [`012e54f`](https://github.com/krafton-playground/notetaker-landing/commit/012e54f1325790a5c15e4f286f7ce815fb83beaf) perf(gate): 문맥 게이트 조각을 6개로 줄이고, 요약 모델 추론 강도를 env 로 연다 (#199)
+- 2026-09-15 11:30 [`9b0d2dd`](https://github.com/krafton-playground/notetaker-landing/commit/9b0d2dd39c9591262c9629d473369c5f420bb04e) perf(glossary): 교정 규칙을 노트당 한 번만 만든다 — apply_glossary 54.5초를 없앤다 (#198)
+- 2026-09-15 10:33 [`972cc7f`](https://github.com/krafton-playground/notetaker-landing/commit/972cc7f2cb2cd202fc88dff4543dc817faefbbe0) fix(gate): 이름+님을 한 표기로 묻고, 중복 후보 하나가 회의 전체를 버리지 않게 하며, 내 용어집 교정은 shadow 를 넘는다 (#197)
+- 2026-09-15 07:23 [`a132d7b`](https://github.com/krafton-playground/notetaker-landing/commit/a132d7b499dad2ff4cbf11dfc721c298228feb2d) fix(interview): 검토 창 탭 3개를 늘 두고, 확인할 내용이 없는 탭은 회색·비활성 (#195)
+- 2026-09-15 07:22 [`fb4e3a6`](https://github.com/krafton-playground/notetaker-landing/commit/fb4e3a6c475a3538ea53c2d246dd88a2370b5735) test(glossary): 실측 시나리오 E2E(qa:glossary:gate-e2e)와 걸러진 수확 로그, 운영자 점검 페이지 정정 (#196)
+- 2026-09-15 07:01 [`0196930`](https://github.com/krafton-playground/notetaker-landing/commit/0196930b772d27103c4b8383c1e41c089a998ede) feat(interview): 용어 확인 창을 목업 시안대로 재설계 — 탭·레일·용어집 서랍, #188 후보 용어 포함 (#193)
+- 2026-09-14 23:58 [`74782ec`](https://github.com/krafton-playground/notetaker-landing/commit/74782ec928751d12dce8cf57666498d511d96881) feat(chat): 스크립트 보강을 화자 발언 창 단위로 나눠 병렬로 묻고 합친다 — 긴 회의의 출력 상한 실패를 없앤다 (#194)
+- 2026-09-14 22:02 [`cec9b55`](https://github.com/krafton-playground/notetaker-landing/commit/cec9b550e284568959665970f0240bad190fa517) perf(draft): 문맥 게이트를 낮은 추론 강도로 묻고, 용어집 단계의 조회를 한 번에 하며 어디서 기다렸는지 남긴다 (#192)
+- 2026-09-14 21:46 [`f04c43d`](https://github.com/krafton-playground/notetaker-landing/commit/f04c43d353bf03bfcb5d1669166e26a210213970) fix(worker): 배포로 끊긴 초안을 즉시 돌려주고, 죽은 워커의 초안을 화면에서 '만드는 중'으로 보이지 않게 한다 (#191)
+- 2026-09-14 21:22 [`2e3efd5`](https://github.com/krafton-playground/notetaker-landing/commit/2e3efd50743c949e5bcca31d3b63b41843d5ae2e) feat(chat): 스크립트 보강에 스킬 파생 규칙을 붙이고, 원본 발언 무결성을 서버가 검사하며, 504 진단 로그를 남긴다 (#190)
+- 2026-09-14 20:50 [`36b46d2`](https://github.com/krafton-playground/notetaker-landing/commit/36b46d2f546bbe3a5d5b7ea3d8a98ce6b313efd8) fix(glossary): 수확 변형 후보를 문장 문맥 게이트에 묻고, 교정·수확 정확도 점수판을 만든다 (#189)
+- 2026-09-14 19:19 [`203a0dc`](https://github.com/krafton-playground/notetaker-landing/commit/203a0dccc621c7e9d64c857dfd95f1b945bdeafa) fix(interview): 회의록의 '표기 확인 필요' 절을 없애고 표기 후보를 용어 확인 창의 후보 용어로 옮긴다 (#188)
+- 2026-09-14 18:00 [`14874f8`](https://github.com/krafton-playground/notetaker-landing/commit/14874f868052f92c23e12af94b8130f285acded3) feat(admin): 운영 현황에서 사용자 회의록 보기 (#186)
+- 2026-09-14 17:56 [`f102397`](https://github.com/krafton-playground/notetaker-landing/commit/f1023974e911a67832928bb379a9c0bb8acf325d) fix(speakers): stop redrafting unchanged notes and cap automatic revisions (#187)
+- 2026-09-14 15:49 [`bb38d8c`](https://github.com/krafton-playground/notetaker-landing/commit/bb38d8cb2086d68e91d267797a34a86608829c70) feat(admin): 초안 생성 현황 /admin 페이지와 배포 보호 gate (#185)
+- 2026-09-14 14:18 [`882660e`](https://github.com/krafton-playground/notetaker-landing/commit/882660e9b9eafd5c1b42a30887d5a66ca47dc4b3) feat: unify glossary workspace and harvest review (#184)
+- 2026-09-14 13:16 [`13ec685`](https://github.com/krafton-playground/notetaker-landing/commit/13ec685a715db6449ac8b4ce57a0408bf8068022) fix: rename common glossary sync branch (#183)
+- 2026-09-14 13:04 [`c961535`](https://github.com/krafton-playground/notetaker-landing/commit/c961535b834bc56d5c234f78cb8698b57ae68605) fix: surface draft pipeline timing in the browser console (#182)
+- 2026-09-14 11:40 [`ce3a108`](https://github.com/krafton-playground/notetaker-landing/commit/ce3a108b882faa423ce66074efc3fded2f124021) fix: simplify interview correction actions
+- 2026-09-14 10:39 [`4838232`](https://github.com/krafton-playground/notetaker-landing/commit/483823294ab6a5bb16ae39dc675a6a6562a06d00) feat: customize interview corrections and remember context choices (#178)
+- 2026-09-14 09:35 [`22abe39`](https://github.com/krafton-playground/notetaker-landing/commit/22abe3979e5f598d9a71f34d3e3691039f9d5053) fix: keep saved notes responsive during concurrent drafting (#180)
+- 2026-09-14 09:19 [`43bc56a`](https://github.com/krafton-playground/notetaker-landing/commit/43bc56adfc2963ff3790291f5d417aac47f7ad9e) feat: trace draft pipeline latency and gate outcomes (#181)
+- 2026-09-14 09:18 [`d6f0b3b`](https://github.com/krafton-playground/notetaker-landing/commit/d6f0b3bb47327d35f55c116b558f9fb089b717f6) fix: draw KRAFTON wordmark as SVG and declare pages light-only (#176)
+- 2026-09-13 22:57 [`2c4e65d`](https://github.com/krafton-playground/notetaker-landing/commit/2c4e65dff8398e52defb3506839670450ad514e7) Harden interview IDs and cover attendee roster failures (#179)
+- 2026-09-13 19:14 [`92aef9d`](https://github.com/krafton-playground/notetaker-landing/commit/92aef9d531d0bfaa38809d30e2d84fb7dbd5cdad) Restore future Clova drafts with recovery cutover gates (#177)
+- 2026-09-13 18:50 [`9d24991`](https://github.com/krafton-playground/notetaker-landing/commit/9d249919365e90e72528f3253642ba424151d635) Count inaccessible saved drafts as recovery failures
+- 2026-09-13 16:54 [`e8dbbfc`](https://github.com/krafton-playground/notetaker-landing/commit/e8dbbfce85445e9805d5b3245e6dc8a4535477c3) Verify every client has a readable draft after incident recovery
+- 2026-09-13 16:28 [`77cbcbc`](https://github.com/krafton-playground/notetaker-landing/commit/77cbcbc5551bfba3ec6e7cd9bfad23a4d06ad7da) Pause pending drafts and restore stored draft access
+- 2026-09-13 13:51 [`a498527`](https://github.com/krafton-playground/notetaker-landing/commit/a4985279aa17f05893fe6ce3bbcb1405500a2bba) fix: stabilize Korean time labels across Node runtimes
+- 2026-09-13 13:45 [`7816894`](https://github.com/krafton-playground/notetaker-landing/commit/78168943f70d05102da93e2a199891039d060070) fix: prevent unrequested legacy source refreshes
+- 2026-09-13 13:30 [`68f782c`](https://github.com/krafton-playground/notetaker-landing/commit/68f782cf57a97097a7c68630a6e7cb30a49c36f4) Merge pull request #173 from krafton-playground/codex/outlook-complete-attendees
+- 2026-09-13 13:28 [`a465fae`](https://github.com/krafton-playground/notetaker-landing/commit/a465fae8c69d6f3d4d8bd9e7236f5a403481a430) fix: preserve named Outlook invitees in speaker selection
+- 2026-09-13 13:08 [`7039daf`](https://github.com/krafton-playground/notetaker-landing/commit/7039daf3bd448a32d9ab05c71a0a9cb75fc14e27) Merge pull request #172 from krafton-playground/codex/repo-writing-cleanup-skills
+- 2026-09-13 13:06 [`c9ebb37`](https://github.com/krafton-playground/notetaker-landing/commit/c9ebb372f4d85cc265dab975eaf3f17db700c71e) docs: add repository writing and cleanup skills
+- 2026-09-13 10:57 [`09046d6`](https://github.com/krafton-playground/notetaker-landing/commit/09046d6dd4cde0fa60253bffbad5641bc0d0230b) Merge pull request #168 from krafton-playground/codex/stt-accuracy-improvement
+- 2026-09-13 10:55 [`71696f8`](https://github.com/krafton-playground/notetaker-landing/commit/71696f8334b1e83fc698978ac8e9119860a4c676) Merge main into STT occurrence corrections
+- 2026-09-13 10:25 [`c5e417c`](https://github.com/krafton-playground/notetaker-landing/commit/c5e417cea0946d37ea0443fe37ccb2e51e848d36) Merge pull request #171 from krafton-playground/codex/interview-outlook-attendees
+- 2026-09-13 10:23 [`a99e3e6`](https://github.com/krafton-playground/notetaker-landing/commit/a99e3e66b1db9c5b2b06b65c7016fd868531dce5) fix: sync speaker choices with the matched Outlook event
+- 2026-09-13 10:13 [`078b8d7`](https://github.com/krafton-playground/notetaker-landing/commit/078b8d7b9255b81724711da1f0b492eb0961a821) Merge pull request #170 from krafton-playground/codex/landing-page-redesign
+- 2026-09-13 10:11 [`b3939c8`](https://github.com/krafton-playground/notetaker-landing/commit/b3939c8d51a93a6c72cc62e4929d20232f7efe99) feat: redesign landing page with a unified setup guide
+- 2026-09-13 10:01 [`4cf77be`](https://github.com/krafton-playground/notetaker-landing/commit/4cf77be384c917954e2afeb69181c0d911c1edfd) Merge pull request #169 from krafton-playground/codex/interview-unknown-continue
+- 2026-09-13 10:00 [`db06cb4`](https://github.com/krafton-playground/notetaker-landing/commit/db06cb469369749d2a593330aa8664c9fe73b485) fix: allow unresolved speakers to continue interview
+- 2026-09-13 09:57 [`2e0826d`](https://github.com/krafton-playground/notetaker-landing/commit/2e0826db891cc18d56cec71168fbc4897259c4ef) docs(stt): record verified delivery and remaining release gates
+- 2026-09-13 09:51 [`5131017`](https://github.com/krafton-playground/notetaker-landing/commit/5131017d940c90d60641e49e299bca868a136b85) feat(stt): bind glossary corrections to source occurrences
+- 2026-09-13 09:18 [`959362e`](https://github.com/krafton-playground/notetaker-landing/commit/959362ef89610dea9a124ac23194c2e6f80cc1e1) Merge pull request #167 from krafton-playground/qa/interview-speaker-selection
+- 2026-09-13 09:16 [`7de1221`](https://github.com/krafton-playground/notetaker-landing/commit/7de12219a18c2f87a803d029a0b7654a2ca25683) feat: move speaker confirmation into interview
+- 2026-09-13 09:04 [`fe10878`](https://github.com/krafton-playground/notetaker-landing/commit/fe10878ec85dd6c6b312cee47e2b23b619e3dfce) Merge pull request #166 from krafton-playground/codex/meeting-ready-toast
+- 2026-09-13 09:04 [`6f54385`](https://github.com/krafton-playground/notetaker-landing/commit/6f5438522ef0af3fcf7517dc851637f9364f95fa) fix(ui): view completed meeting notes without page reload
+- 2026-09-13 08:27 [`0b0daa5`](https://github.com/krafton-playground/notetaker-landing/commit/0b0daa544f50c299f3832c36472db51c6ddfb95d) Merge pull request #165 from krafton-playground/codex/meeting-chat-outcome-only
+- 2026-09-13 08:23 [`ef88549`](https://github.com/krafton-playground/notetaker-landing/commit/ef88549805617777a42a7352d35e98611580ea9f) fix: return completed meeting note edits instead of clarification
+- 2026-09-12 19:06 [`749fb28`](https://github.com/krafton-playground/notetaker-landing/commit/749fb28565668e04b5de8417d4b37e4e5399b317) Merge pull request #164 from krafton-playground/feat/llm-fixation-chat-ui
+- 2026-09-12 19:04 [`ea73340`](https://github.com/krafton-playground/notetaker-landing/commit/ea73340df83821f617da7a8228d95304b3d01ecf) feat: add section-scoped meeting note revision chat
+- 2026-09-12 17:07 [`ab94db0`](https://github.com/krafton-playground/notetaker-landing/commit/ab94db091a56ba6d3a4dc3259f4f79943b5a7fb1) feat: add private glossaries, interview integration, and GitHub sync (#163)
+- 2026-09-12 13:36 [`1fcd945`](https://github.com/krafton-playground/notetaker-landing/commit/1fcd94524c256ddf96f7d324d2d17ab149edf077) test(qa): 배포된 것을 재는 검사를 손에서 스크립트로 옮긴다 (#162)
+- 2026-09-12 10:50 [`36af1ac`](https://github.com/krafton-playground/notetaker-landing/commit/36af1acc364e9e557d9a5f46d27f718c1a876689) 화면이 제 동작을 제 말로 말하게 한다 — 문구 정리와 거짓말하던 자리 수정 (#161)
+- 2026-09-11 22:34 [`1f45562`](https://github.com/krafton-playground/notetaker-landing/commit/1f455628ae3dc38b281f0261d6b8e9099b32bbd9) docs: 인터뷰 창의 화자 선택 명세 (#160)
+- 2026-09-11 22:09 [`158b6af`](https://github.com/krafton-playground/notetaker-landing/commit/158b6af48c96783b8f6c8197b7cf7b0e4502d37d) feat(interview): 상한을 없애고 페이지로 넘긴다 — 33개면 33개를 묻는다 (#159)
+- 2026-09-11 13:38 [`18f839a`](https://github.com/krafton-playground/notetaker-landing/commit/18f839a7d4df53f0c212385bee1d3911cf6f6b32) fix(glossary): 반려분은 창이 묻거나 절이 보고하거나, 둘 중 하나다 (#158)
+- 2026-09-11 13:08 [`d8ccd37`](https://github.com/krafton-playground/notetaker-landing/commit/d8ccd37aac02e2596aa648afd74cc35147017ca4) docs: require security scans before changes and merges (#157)
+- 2026-09-11 10:25 [`7910f0e`](https://github.com/krafton-playground/notetaker-landing/commit/7910f0ec97835430ab52c30e6120b9b9c5b20836) Merge pull request #156 from krafton-playground/fix/honorific-not-name
+- 2026-09-11 10:18 [`dab48a1`](https://github.com/krafton-playground/notetaker-landing/commit/dab48a1f7557229037c2fba59e5627748aefa815) fix(glossary): 하드 QA — 호칭이 이름이 되던 남은 경로 넷을 막는다
+- 2026-09-11 09:32 [`47cb1f6`](https://github.com/krafton-playground/notetaker-landing/commit/47cb1f60d8b934194afc0b2d48d29defa41eabcb) fix(glossary): 호칭은 이름이 되지 않는다 — 의장님은 의장님으로, 호칭 교정은 LLM이 문맥으로
+- 2026-09-11 09:21 [`d53005d`](https://github.com/krafton-playground/notetaker-landing/commit/d53005d2fc6c9444cee147e46063963adbc05be3) Merge pull request #155 from krafton-playground/fix/speakers-recheck-comment
+- 2026-09-11 00:16 [`d1237ca`](https://github.com/krafton-playground/notetaker-landing/commit/d1237cade3e0ba3e038732cb32dba789ca6f77d1) fix(speakers): 예산을 다 쓴 노트도 개수 그대로의 재지정이면 다음 회차를 낸다
+- 2026-09-09 23:12 [`e97fea4`](https://github.com/krafton-playground/notetaker-landing/commit/e97fea4bc351f316800930510a9a3beb00fdeb34) 화자 재확인 상한이 마감이 아니라고 주석이 말하게 한다
+- 2026-09-09 20:29 [`dc028f8`](https://github.com/krafton-playground/notetaker-landing/commit/dc028f889ade4d04f291dcc756a2f892cd229614) Merge pull request #154 from krafton-playground/codex/speaker-recheck-watermark
+- 2026-09-09 20:22 [`4ff043b`](https://github.com/krafton-playground/notetaker-landing/commit/4ff043bcb21cd5a559ea02d0be9ea442c4970e07) fix(speakers): preserve rechecks across clock skew and revisions
+- 2026-09-09 19:34 [`8ea7c95`](https://github.com/krafton-playground/notetaker-landing/commit/8ea7c95d1ea353c429e74d443be9f16726267da1) fix(speakers): 손댄 노트를 화자 확인 앞으로 당긴다 — 감지 지연 4분 19초의 정체 (#153)
+- 2026-09-09 18:10 [`d093469`](https://github.com/krafton-playground/notetaker-landing/commit/d0934699d2eaccd69b8fc12c683a7558b7472518) fix(clova): 공유 요청 제한과 429 지연 처리 보강 (#151 통합) (#152)
+- 2026-09-09 16:22 [`1d61970`](https://github.com/krafton-playground/notetaker-landing/commit/1d61970fd14369e0aadcb56340f325548bb2039b) 워커 로그가 누구의 회의인지 말한다 (#150)
+- 2026-09-09 15:37 [`c35a274`](https://github.com/krafton-playground/notetaker-landing/commit/c35a274f12cebe17aae73c14bcd417508d021973) chore(security): env 시크릿을 글롭으로 차단하고, 실재하는 pre-commit 훅을 추가한다 (#149)
+- 2026-09-09 13:10 [`fc81736`](https://github.com/krafton-playground/notetaker-landing/commit/fc8173674d98e3c48931ad31b6ed5b06d0febd70) 초안 보기 라우트를 주입 가능하게 하고, 누가 무엇을 보는지 브라우저로 검사한다 (#148)
+- 2026-09-09 11:31 [`27a20dd`](https://github.com/krafton-playground/notetaker-landing/commit/27a20dd6f573a50368ec8506519cbc7b5ebc44a2) 아젠다는 훑어보는 목록이고, 복사본에는 확인 요청 절이 없다 (#147)
+- 2026-09-09 11:20 [`fd9641a`](https://github.com/krafton-playground/notetaker-landing/commit/fd9641a2e5bf3fb336fd0d5df29cf5bfbaf1d0b0) 표 칸에서 &lt;br>을 걷어내고, 한 줄 요약을 표의 아젠다 행으로 (#146)
+- 2026-09-09 11:07 [`35d62af`](https://github.com/krafton-playground/notetaker-landing/commit/35d62afd4584975048201b8a75f090e75968d84d) 회의록은 받는 사람이 읽을 것만 남기고, 복사는 한 가지로 (#145)
+- 2026-09-08 11:50 [`75ec954`](https://github.com/krafton-playground/notetaker-landing/commit/75ec954b3a945ece5a75bef84388f49cf88c359a) fix: edit interview terms inline and style modal error toasts
+- 2026-09-08 11:18 [`4ec9ccf`](https://github.com/krafton-playground/notetaker-landing/commit/4ec9ccf09bafa7e77e800041e0c3fe0449e616b7) feat: add draft interview redo and compact copy menu
+- 2026-09-08 10:37 [`e1f83e1`](https://github.com/krafton-playground/notetaker-landing/commit/e1f83e180b09ca00e8b6c5bcf5aca8300be093b3) fix: open interviews only when viewing a selected draft
+- 2026-09-08 10:08 [`0a83e6f`](https://github.com/krafton-playground/notetaker-landing/commit/0a83e6f9bc1f6f6beb1247e1c4c7fe564de2b5e0) fix: preserve interview helper binding in production builds
+- 2026-09-08 09:40 [`c49e16e`](https://github.com/krafton-playground/notetaker-landing/commit/c49e16e2263b792848fec8409de43387558e0387) fix: open glossary interviews when drafts are ready
+- 2026-09-07 19:58 [`d4468a6`](https://github.com/krafton-playground/notetaker-landing/commit/d4468a6a551441a327eb93d4b826213080fe61b7) 용어 확인 GET 은 성공도 로그에 남긴다 — 화면이 불렀는지 서버에서 가린다 (#144)
+- 2026-09-07 19:45 [`8eee3c0`](https://github.com/krafton-playground/notetaker-landing/commit/8eee3c08fdfd73968a02fb6be33f38e343fd1bca) 반려된 교정을 묻고, 직접 고칠 수 있고, 옛 탭은 스스로 말한다 (#143)
+- 2026-09-07 18:34 [`390ed41`](https://github.com/krafton-playground/notetaker-landing/commit/390ed418b9103bddeffdda99901a4b9fe2dea37c) 반복되는 상태는 노트별로 안 찍는다 — 로그 창을 되찾는다 (#142)
+- 2026-09-07 18:06 [`b05431a`](https://github.com/krafton-playground/notetaker-landing/commit/b05431ab47f71b469fa18b7ac23771b2b6c4f39c) 검색창과 탭 사이 여백을 걷어낸다 — 18px에서 8px로 (#141)
+- 2026-09-07 13:56 [`a0c5deb`](https://github.com/krafton-playground/notetaker-landing/commit/a0c5deb28992fb844857a4a26604c5f2d5d0640d) 수확 후보가 제 탭을 가진다 — 등록 용어 사이에 끼어 살지 않는다 (시안 2차) (#140)
+- 2026-09-07 13:37 [`dc8a6b9`](https://github.com/krafton-playground/notetaker-landing/commit/dc8a6b9d68b84feab5d4235b3b78c973a80672da) '지금 보기'가 옛 note 객체를 넘겨도 창이 뜬다 — 세션 표식을 초안 단위로 (#139)
+- 2026-09-07 09:45 [`de43422`](https://github.com/krafton-playground/notetaker-landing/commit/de4342255df7661438a319931a6521b39705eff1) 초안이 준비되면 창이 뜬다 — 노트당 한 번이 아니라 초안당 한 번 (#138)
+- 2026-09-06 22:27 [`2e53881`](https://github.com/krafton-playground/notetaker-landing/commit/2e53881e05d48841297cfff7a16cd82ca50becf4) Merge pull request #137 from krafton-playground/feat/client-draft-retry-log
+- 2026-09-06 22:27 [`9dbc517`](https://github.com/krafton-playground/notetaker-landing/commit/9dbc517299f781ae9a75cc55fd6b3119e44b9129) A draft killed by a deploy says so — in the browser console and the server log
+- 2026-09-06 22:16 [`f020b83`](https://github.com/krafton-playground/notetaker-landing/commit/f020b83803684b5daa47152b89527bb3892188af) Merge pull request #136 from krafton-playground/docs/interview-plan-refresh
+- 2026-09-06 22:16 [`3c975d8`](https://github.com/krafton-playground/notetaker-landing/commit/3c975d81ca3c9146aec28d47b1ddb14539872401) The interview plan doc catches up with what actually shipped
+- 2026-09-06 22:02 [`47cade3`](https://github.com/krafton-playground/notetaker-landing/commit/47cade3c121a8d422036d8f7e041ada535d6c616) Merge pull request #135 from krafton-playground/fix/gate-honors-curated-glossary
+- 2026-09-06 22:02 [`609a7f0`](https://github.com/krafton-playground/notetaker-landing/commit/609a7f030e1f700b47beac911c118b1e294bb94d) The gate learns what the standard means before judging its occurrences
+- 2026-09-06 21:57 [`6910d28`](https://github.com/krafton-playground/notetaker-landing/commit/6910d288c0fe2809c0c141623164f7b6ca26e857) 로그인 카드 브랜드는 KRAFTON AX 배지 하나만 — 딸깍 Notes 워드마크를 뺀다 (#134)
+- 2026-09-06 21:56 [`36b631c`](https://github.com/krafton-playground/notetaker-landing/commit/36b631c583974f95ff84631289cde520fc034f91) Merge pull request #133 from krafton-playground/fix/inference-korean-name-only
+- 2026-09-06 21:56 [`7460c5c`](https://github.com/krafton-playground/notetaker-landing/commit/7460c5cca96e5f9333827c4de64a3941c266df84) Inference candidates fold to the paren-Korean name — meeting notes speak Korean
+- 2026-09-06 21:54 [`84d73c6`](https://github.com/krafton-playground/notetaker-landing/commit/84d73c64eebbb2edbf5500537b13b365dcf7437b) Merge pull request #132 from krafton-playground/feat/interview-ask-once-per-note
+- 2026-09-06 21:53 [`7a972ce`](https://github.com/krafton-playground/notetaker-landing/commit/7a972ce50d5bce242400e6c98e3aa394d883c6a0) 인터뷰는 회차가 아니라 노트에 한 번 묻는다 — 1차에서 못 물었으면 재생성이 살린다
+- 2026-09-06 21:24 [`6613488`](https://github.com/krafton-playground/notetaker-landing/commit/661348837db10e52207a946b0e332e412af78ac5) chore: rollout to apply GLOSSARY_INTERVIEW=on (env-only, no code change)
+- 2026-09-06 21:19 [`7522edc`](https://github.com/krafton-playground/notetaker-landing/commit/7522edcadda4a29d2fe189d2d051e14123a4ad22) 표기 추론을 게이트에 배선하고, 용어집 이름을 닻으로 근접 표기를 잡는다 — 윤섭·윤선이 윤서로 (#131)
+- 2026-09-06 21:00 [`aebcf87`](https://github.com/krafton-playground/notetaker-landing/commit/aebcf8763026b8007542c71eb80026f7cbb396b9) 로그인된 사람에게 로그인 실패했다고 말하지 않는다 (#130)
+- 2026-09-06 18:17 [`c1ebc23`](https://github.com/krafton-playground/notetaker-landing/commit/c1ebc23ee6e82a337dbc23423eb5b056c79185ca) 로그아웃 상태에 로그인 화면을 준다 — 평문 한 줄 대신 (#129)
+- 2026-09-06 17:35 [`4479438`](https://github.com/krafton-playground/notetaker-landing/commit/44794385c241733f2121b79805607cf8cf98a469) 용어 확인 인터뷰 + 새 용어 후보를 한 창에 — 초안 보기에서, 사람이 판정한다 (#128)
+- 2026-09-06 16:21 [`5099e43`](https://github.com/krafton-playground/notetaker-landing/commit/5099e4308d86994700e5f51809acb083d99864d2) Merge pull request #127 from krafton-playground/qa/speaker-exclusion-two-person
+- 2026-09-06 16:20 [`03411e7`](https://github.com/krafton-playground/notetaker-landing/commit/03411e7524d32a8375704d98c649ebd098a49e8b) 2-person meetings fill the counterpart label once one side is resolved
+- 2026-09-06 16:16 [`2a85b05`](https://github.com/krafton-playground/notetaker-landing/commit/2a85b055896c978652d3ce03c496aa5e2a41bbb9) Merge pull request #126 from krafton-playground/feat/action-table-global-fold
+- 2026-09-06 16:16 [`f551191`](https://github.com/krafton-playground/notetaker-landing/commit/f551191e82cbdcd0068d17c706258ab4dfc2147a) Scattered same-owner action rows fold from anywhere in the table — hard-QA'd against 5 real meetings
+- 2026-09-06 15:36 [`0b5560f`](https://github.com/krafton-playground/notetaker-landing/commit/0b5560fa933819e8dd6dfe0ff9c1fdbac055cbfd) Merge pull request #125 from krafton-playground/feat/format-stored-drafts
+- 2026-09-06 15:36 [`8ca6d96`](https://github.com/krafton-playground/notetaker-landing/commit/8ca6d9689f87c39e199025005afbbbd9a99a8348) Stored drafts get the folded action table at the read boundary — existing notes, not just new ones
+- 2026-09-06 15:15 [`dd5b05b`](https://github.com/krafton-playground/notetaker-landing/commit/dd5b05bc349fd164294dc9db100c30bca12b999b) Merge pull request #124 from krafton-playground/fix/glossary-readd-merges
+- 2026-09-06 15:15 [`22fd0f9`](https://github.com/krafton-playground/notetaker-landing/commit/22fd0f94e3a4962bf41293cb7d5f388d37e5f4fa) Re-adding an existing glossary term merges variants instead of clobbering the entry
+- 2026-09-06 15:11 [`72b129c`](https://github.com/krafton-playground/notetaker-landing/commit/72b129cb9fd0c1c3346655d7bf09457430da88d1) Merge pull request #123 from krafton-playground/feat/speaker-log-owner-email
+- 2026-09-06 15:11 [`c699fe0`](https://github.com/krafton-playground/notetaker-landing/commit/c699fe0f3f0acd8e9f87f38828389218a8566991) Speaker-scan logs carry ownerEmail so meetings are attributable per user
+- 2026-09-06 15:09 [`1ddfa80`](https://github.com/krafton-playground/notetaker-landing/commit/1ddfa806bcc06a5e1965292d01c3f53b4ac64285) Merge pull request #122 from krafton-playground/feat/action-table-readability
+- 2026-09-06 15:08 [`14096fa`](https://github.com/krafton-playground/notetaker-landing/commit/14096fa18b88a35b8fd668ecfaeb581117b704da) Action items fold by owner and deadlines read human — and the Confluence copy boundary ships
+- 2026-09-06 14:57 [`07cc419`](https://github.com/krafton-playground/notetaker-landing/commit/07cc41915b44798fcb76e196f372b8d3e38e4bb3) Merge pull request #121 from krafton-playground/feat/glossary-add-default-auto
+- 2026-09-06 14:57 [`4861043`](https://github.com/krafton-playground/notetaker-landing/commit/48610434cd212989111b7a12b7ff0cb69a1663bb) New glossary entries start as 자동 치환 — registering is the human judgment
+- 2026-09-06 00:30 [`92b67ea`](https://github.com/krafton-playground/notetaker-landing/commit/92b67eaa6d0163a15cc639352a5cc8b7289715bc) Merge pull request #120 from krafton-playground/fix/cross-addressing-callers
+- 2026-09-06 00:30 [`27c672f`](https://github.com/krafton-playground/notetaker-landing/commit/27c672ffbc13459795f8c1c2680be00b76abc3dd) Cross-addressing resolves both seats — two exclusions that interlock are not ambiguity
+- 2026-09-06 00:17 [`e4780e1`](https://github.com/krafton-playground/notetaker-landing/commit/e4780e112630542cfb5a018ee1dabfbf19ef51e3) Merge pull request #119 from krafton-playground/fix/inference-panel-hardening
+- 2026-09-06 00:17 [`3bda263`](https://github.com/krafton-playground/notetaker-landing/commit/3bda26302e7bd1a495e7f7104600a48e4352f342) Harden the deterministic speaker rules per the 5-role panel review
+- 2026-09-05 23:59 [`adfd37c`](https://github.com/krafton-playground/notetaker-landing/commit/adfd37c0e77d9556ccf1ab525b0525f8b6729056) Merge pull request #118 from krafton-playground/feat/speaker-echo-adjacency
+- 2026-09-05 23:58 [`b264309`](https://github.com/krafton-playground/notetaker-landing/commit/b26430985a8c67bc1e7feebb7128270ca31697ac) Echo adjacency: the speaker right after a turn-end address is the person addressed
+- 2026-09-05 23:23 [`679cd01`](https://github.com/krafton-playground/notetaker-landing/commit/679cd0130d27a9da66b91dd1e2f4596161cd97b2) Merge pull request #117 from krafton-playground/fix/speaker-caller-exclusion
+- 2026-09-05 23:23 [`7dbf60a`](https://github.com/krafton-playground/notetaker-landing/commit/7dbf60ab5fcdb0c5acccf7ce893d97241d99f8ee) Caller exclusion: in a 2-name roster, the speaker who calls a name is the other one
+- 2026-09-05 13:09 [`cd9de3c`](https://github.com/krafton-playground/notetaker-landing/commit/cd9de3c981bf15347e07c97bfda84642c1ed84d7) Merge pull request #116 from krafton-playground/perf/gate-chunk-parallel
+- 2026-09-05 12:29 [`c54f9aa`](https://github.com/krafton-playground/notetaker-landing/commit/c54f9aac857be057043da2d6e449dce868506b70) Split the correction gate into parallel chunks — 48s of the measured 116s was one 39-candidate call
+- 2026-09-05 12:25 [`466187c`](https://github.com/krafton-playground/notetaker-landing/commit/466187cac9965110f049065ddda738310e4a62a4) Merge pull request #115 from krafton-playground/test/glossary-extract-no-mutation
+- 2026-09-05 12:12 [`2df7a04`](https://github.com/krafton-playground/notetaker-landing/commit/2df7a04f74adf26fde5bacbeafd7d0d08278b218) Salvage the no-mutation regression test from the superseded PR #113
+- 2026-09-05 12:09 [`c0ec08e`](https://github.com/krafton-playground/notetaker-landing/commit/c0ec08edce0d76081cc098f38fb7b2b806b98874) Merge pull request #114 from krafton-playground/fix/glossary-duplicate-conflict
+- 2026-09-05 11:43 [`5e4653e`](https://github.com/krafton-playground/notetaker-landing/commit/5e4653e15afe69d692932968dc75db2c9e1a6c3f) Answer a duplicate glossary save with 409 and say so, instead of asking for a retry
+- 2026-09-05 11:28 [`36772a3`](https://github.com/krafton-playground/notetaker-landing/commit/36772a380315b5e697392ce5ba4ce2fbd2e9221a) Merge pull request #112 from krafton-playground/fix/glossary-extract-conjugation
+- 2026-09-05 11:27 [`25aceb7`](https://github.com/krafton-playground/notetaker-landing/commit/25aceb7264c2c83769b210a247d4fd2a3e92ea54) Hard rule: a common-word stem plus a verbal connector is conversation, not a term
+- 2026-09-05 11:11 [`1b36fd3`](https://github.com/krafton-playground/notetaker-landing/commit/1b36fd3057f53f9d3a87bdc762b5544ee51daf23) Block the whole conjugation family, not just the form we happened to test
+- 2026-09-05 10:55 [`4c0c5f9`](https://github.com/krafton-playground/notetaker-landing/commit/4c0c5f957bbb0ab9b7466fb79863f946a8c306f6) Merge pull request #111 from krafton-playground/feat/glossary-extract-s0-s2
+- 2026-09-05 10:50 [`2d8636c`](https://github.com/krafton-playground/notetaker-landing/commit/2d8636cb8499d698f47b03ec1ca87fe8cb5b4bff) Add the glossary extraction gate: plan, fail-first tests, pure extractor, measure harness
+- 2026-09-05 09:27 [`94ce99d`](https://github.com/krafton-playground/notetaker-landing/commit/94ce99de13e7420e50162c802390712331a0132a) Merge pull request #110 from krafton-playground/codex/speaker-label-only
+- 2026-09-05 00:47 [`37306d8`](https://github.com/krafton-playground/notetaker-landing/commit/37306d8b8de9a68972f2b660cc1607799dbe3a7f) Infer only the responding speaker
+- 2026-09-04 21:42 [`700f0d7`](https://github.com/krafton-playground/notetaker-landing/commit/700f0d7a0d791a0f4de64bbe04c0e361337a986f) Add glossary review filter
+- 2026-09-04 21:38 [`73496a8`](https://github.com/krafton-playground/notetaker-landing/commit/73496a84f6bbcbcc9ce4486f1fc1231c988f5183) Keep speaker inference on labels only
+- 2026-09-04 20:56 [`d8fc817`](https://github.com/krafton-playground/notetaker-landing/commit/d8fc81773298addbafd9d2853828918226297afe) Merge pull request #109 from krafton-playground/codex/revert-gpt-5-5-glossary
+- 2026-09-04 20:55 [`7d5cc6b`](https://github.com/krafton-playground/notetaker-landing/commit/7d5cc6b267e80c635aa2e099baba1ef651523ca2) Revert GPT-5.5 glossary validation
+- 2026-09-04 20:47 [`738f080`](https://github.com/krafton-playground/notetaker-landing/commit/738f080a21aaa59585aa8fde255204b3605daf9c) Merge pull request #108 from krafton-playground/fix/transcript-line-breaks
+- 2026-09-04 20:25 [`9b08dec`](https://github.com/krafton-playground/notetaker-landing/commit/9b08dec2e470bceca17b579c3fa51f75896b9c79) Stop a newline inside one block from splitting a turn into label-less paragraphs
+- 2026-09-04 20:16 [`36fd26a`](https://github.com/krafton-playground/notetaker-landing/commit/36fd26a3e1b73deca36e486d79d8e1c52fa9b4e5) Merge pull request #107 from krafton-playground/fix/sangwoo-variant-collision
+- 2026-09-04 20:03 [`6039ecd`](https://github.com/krafton-playground/notetaker-landing/commit/6039ecd990f20a98eaa9cb3096d913e42dca70df) Unbreak the meeting that says 상우님, and add the E2E that caught it
+- 2026-09-04 19:25 [`69c3836`](https://github.com/krafton-playground/notetaker-landing/commit/69c383612e1a197c659af35f1f8a0da08f8cf1c3) Merge pull request #106 from krafton-playground/codex/gpt-5-5-glossary-gates
+- 2026-09-04 19:24 [`f0e0187`](https://github.com/krafton-playground/notetaker-landing/commit/f0e0187a68d559aa8f2d178ab73859ddf4ed5753) Merge pull request #105 from krafton-playground/feat/spt-glossary-add
+- 2026-09-04 19:23 [`33ffb57`](https://github.com/krafton-playground/notetaker-landing/commit/33ffb5782df4eab1380e2b913aed8d50c8cc4c91) Use GPT-5.5 for glossary validation
+- 2026-09-04 19:21 [`501529f`](https://github.com/krafton-playground/notetaker-landing/commit/501529ff76d365a285e124b7caddc33997cfc5b1) Add 24 SPT terms, and say plainly that nothing here waits for a person
+- 2026-09-04 19:15 [`63a1a32`](https://github.com/krafton-playground/notetaker-landing/commit/63a1a324346ad725676987a652647e45a6017612) Merge pull request #104 from krafton-playground/codex/speaker-phonetic-inference
+- 2026-09-04 19:14 [`7a8585d`](https://github.com/krafton-playground/notetaker-landing/commit/7a8585ddeb769ab7d75d861f3650294004f7cd99) Recognize 교수님 as 구승 speaker cue
+- 2026-09-04 18:33 [`2d947bc`](https://github.com/krafton-playground/notetaker-landing/commit/2d947bc52625a8c7dfdd4da3fe6018ba1f8c3a16) Add phonetic speaker address inference
+- 2026-09-03 22:13 [`266683d`](https://github.com/krafton-playground/notetaker-landing/commit/266683d656933305f0e2c1b1a5aeb5d20a066d45) Merge pull request #103 from krafton-playground/test/inference-first-draft
+- 2026-09-03 15:12 [`ef219c2`](https://github.com/krafton-playground/notetaker-landing/commit/ef219c2741773c7e3466b6eb8c34c08123bff48d) Merge pull request #102 from krafton-playground/feat/foreign-gate
+- 2026-09-03 09:38 [`fd07ca3`](https://github.com/krafton-playground/notetaker-landing/commit/fd07ca316a0726be84aa37221c7bdb096943fb04) Pin that inference runs on the first draft, and that null means "never ran"
+- 2026-09-03 09:35 [`167ec0f`](https://github.com/krafton-playground/notetaker-landing/commit/167ec0fa59fceda144a2f576aa29b1dba6a88770) Judge other teams' terms per position instead of per word
+- 2026-09-02 19:56 [`d1b0795`](https://github.com/krafton-playground/notetaker-landing/commit/d1b079599468530df31b8964b8a43e1ff749d610) Merge pull request #101 from krafton-playground/feat/slack-dm-deeplink
+- 2026-09-02 19:56 [`73aea83`](https://github.com/krafton-playground/notetaker-landing/commit/73aea833893ed5b0d60d82b636bcc31181436731) Merge pull request #100 from krafton-playground/feat/white-tags
+- 2026-09-02 19:56 [`7966b66`](https://github.com/krafton-playground/notetaker-landing/commit/7966b66e3a8cc8b99f4906f06de51987c13c2f89) Merge pull request #98 from krafton-playground/docs/slack-bot-plan
+- 2026-09-02 18:24 [`f74f93a`](https://github.com/krafton-playground/notetaker-landing/commit/f74f93abfdbc86bfb3cd43e5e9b2703b9fc94765) Send draft notices to DM, and make the link open that meeting
+- 2026-09-02 18:18 [`c18b885`](https://github.com/krafton-playground/notetaker-landing/commit/c18b8853b663a033da61e2820b5371068be06bf2) Stop calling the gate a confirmation step — nobody confirms anything
+- 2026-09-02 18:15 [`2c4f19e`](https://github.com/krafton-playground/notetaker-landing/commit/2c4f19e8a7762988078f97b0c6170d821c7bf20d) Say what the return-to cookie can and cannot do
+- 2026-09-02 18:09 [`9dcebdc`](https://github.com/krafton-playground/notetaker-landing/commit/9dcebdccf1e8429fa24e2a830a7fc36060950cc9) Merge branch 'main' into docs/slack-bot-plan
+- 2026-09-02 18:09 [`fa8c040`](https://github.com/krafton-playground/notetaker-landing/commit/fa8c040841cf989f1e5970f4911eb0641573e472) Point the DM at the meeting, not at the list
+- 2026-09-02 18:09 [`fc2fb0c`](https://github.com/krafton-playground/notetaker-landing/commit/fc2fb0ccf8186a03e82b892e4e8136ae6f48367a) Say what the 소속 field actually does
+- 2026-09-02 18:05 [`364ece1`](https://github.com/krafton-playground/notetaker-landing/commit/364ece18a307396fed15b0ce27dc1d4914c7b428) Merge pull request #97 from krafton-playground/fix/simplify-server-logs
+- 2026-09-02 18:04 [`131617d`](https://github.com/krafton-playground/notetaker-landing/commit/131617d1ef0b7477c5f1cfbe347997bf515e7980) Make the team chips white, and stop two components from sharing one class
+- 2026-09-02 18:04 [`e9503ff`](https://github.com/krafton-playground/notetaker-landing/commit/e9503ff959514ad51de4f4b259968c7e6dc9e20c) Merge main — keep both sides of the worker test file
+- 2026-09-02 17:54 [`5b94ead`](https://github.com/krafton-playground/notetaker-landing/commit/5b94ead0bccc03295291f470e24cf74fe94f2925) Cut the Slack plan down to DM-only notifications
+- 2026-09-02 17:49 [`6c816e1`](https://github.com/krafton-playground/notetaker-landing/commit/6c816e18f287792b80f43042001b4c2c01b13761) Merge pull request #99 from krafton-playground/feat/team-tag-input
+- 2026-09-02 16:38 [`29ead74`](https://github.com/krafton-playground/notetaker-landing/commit/29ead7465b1b1c30fa867a8e22a2c2a374cd4bd7) Make the team field a tag input, and let a person belong to more than one
+- 2026-09-02 16:36 [`ac8b2eb`](https://github.com/krafton-playground/notetaker-landing/commit/ac8b2eb350b2c324806e81485762b8aa9c396f79) Plan the Slack bot around the one door that opens
+- 2026-09-02 16:27 [`b9f5c60`](https://github.com/krafton-playground/notetaker-landing/commit/b9f5c603cef2f4905a3605eaf7372b1aaaab2cc3) Make the summary one line, drop the zeros, and keep the lines that say what happened
+- 2026-09-02 16:23 [`4fa2f0e`](https://github.com/krafton-playground/notetaker-landing/commit/4fa2f0e4e360441f579bb8a50677aea3c824dac3) Merge pull request #96 from krafton-playground/fix/org-backfill-and-log-noise
+- 2026-09-02 16:16 [`be9cde8`](https://github.com/krafton-playground/notetaker-landing/commit/be9cde8764e12f69e1559ea943820b41e6fbcdb2) Fill the team on page load, and stop the debug log from burying every other line
+- 2026-09-02 14:54 [`6519c08`](https://github.com/krafton-playground/notetaker-landing/commit/6519c0895763c5b3a32d7e0c5bf267d666d6faf4) Merge pull request #95 from krafton-playground/feat/team-auto-matching
+- 2026-09-02 13:32 [`1d246ce`](https://github.com/krafton-playground/notetaker-landing/commit/1d246ce770aa888e35e9f172af61f96d5b555d13) Scope the org update to the signed-in row, and show every team in the badge
+- 2026-09-02 13:23 [`cb1f245`](https://github.com/krafton-playground/notetaker-landing/commit/cb1f245c2ca9addc343153776c8787af46341c3d) Match the signed-in person to their team, and say where the answer came from
+- 2026-09-02 13:10 [`7536518`](https://github.com/krafton-playground/notetaker-landing/commit/75365187a1774b6ca1e76f2d7878c9ddb4781e9a) Merge pull request #94 from krafton-playground/docs/team-auto-matching
+- 2026-09-02 12:46 [`a5ac76f`](https://github.com/krafton-playground/notetaker-landing/commit/a5ac76f6b3730b4e498dc77eb182b70170b2f5cd) Find why the org lookup was silently empty, and plan the team matching on it
+- 2026-09-02 09:59 [`b2816a7`](https://github.com/krafton-playground/notetaker-landing/commit/b2816a7850ad46e0429345f4cee63e5000870b7d) Merge pull request #93 from krafton-playground/fix/calendar-timezone
+- 2026-09-02 09:55 [`ffc26cd`](https://github.com/krafton-playground/notetaker-landing/commit/ffc26cd4cc557729edceec758e9ae2248aafd318) Read Graph event times by their stated zone, not the pod's
+- 2026-09-02 09:51 [`834c354`](https://github.com/krafton-playground/notetaker-landing/commit/834c35452c21433434e413eac6fbd264dd34b39c) Merge pull request #92 from krafton-playground/fix/human-readable-meeting-time
+- 2026-09-02 09:47 [`80563a4`](https://github.com/krafton-playground/notetaker-landing/commit/80563a447adf6b93bf76a928a2b0a2a5d04c3f87) Write the meeting time the way a person reads it
+- 2026-09-02 09:41 [`3f5de80`](https://github.com/krafton-playground/notetaker-landing/commit/3f5de80c8bc9c1afbb5f529ff4c4a82d3931b934) Merge pull request #91 from krafton-playground/ui/team-card-04
+- 2026-09-02 09:35 [`4539d45`](https://github.com/krafton-playground/notetaker-landing/commit/4539d4595d2d3ba7b844d8604195fd0078d6ee19) Move 소속 팀 into the setup grid as card 04
+- 2026-09-02 09:23 [`fab383f`](https://github.com/krafton-playground/notetaker-landing/commit/fab383f40da93104b8e1f228a9a851902af025dc) Merge pull request #90 from krafton-playground/feat/graph-calendar-wiring
+- 2026-09-02 09:10 [`91dfdb5`](https://github.com/krafton-playground/notetaker-landing/commit/91dfdb54a6d9f5b59c22a59079f5a6a57f70193e) Document the Graph keys the app now needs
+- 2026-09-01 20:00 [`1bd7e7b`](https://github.com/krafton-playground/notetaker-landing/commit/1bd7e7b496254827b301f9885a7effdcc002abde) Correct the deploy note — the container migrates itself at start
+- 2026-09-01 19:57 [`72a8c61`](https://github.com/krafton-playground/notetaker-landing/commit/72a8c619fee17b82a9c151883ba7293c76616b05) Look the calendar up again when a person asks for a new draft
+- 2026-09-01 19:52 [`28cc2ce`](https://github.com/krafton-playground/notetaker-landing/commit/28cc2ce0f4d8086844a3ebceee7b11c7d52ad729) Pin that Clova's assignment wipes the estimates in the second draft
+- 2026-09-01 19:49 [`f5fde61`](https://github.com/krafton-playground/notetaker-landing/commit/f5fde61967dd1d6d29008b4f360b7c0a19e93ffb) Determine two-person meetings from who calls whom, and score it with a checklist
+- 2026-09-01 19:36 [`cf4d364`](https://github.com/krafton-playground/notetaker-landing/commit/cf4d364786af713d2ba57b1188d609cedeb46d7e) Fill the roster from Outlook, and let people connect MS365
+- 2026-09-01 19:23 [`b069cc4`](https://github.com/krafton-playground/notetaker-landing/commit/b069cc4b2fb8e5d42ebc708a872799e220354f38) Merge pull request #89 from krafton-playground/docs/plan-outlook-followup
+- 2026-09-01 19:21 [`923337c`](https://github.com/krafton-playground/notetaker-landing/commit/923337cf01462a44b8c56f17cf66f2c3501018c0) Send what we cannot verify to 확인 필요, and fix the plan's own contradictions
+- 2026-09-01 19:09 [`cffd85e`](https://github.com/krafton-playground/notetaker-landing/commit/cffd85e9eced2c1dcf634447ab3f17e21164f7ad) Merge pull request #88 from krafton-playground/docs/plan-outlook-update
+- 2026-09-01 17:57 [`530b4c9`](https://github.com/krafton-playground/notetaker-landing/commit/530b4c9b97168496a18ded9a2c59d28a46d9c4d3) Fold the requirements, the measurements, and the pipeline order into the plan
+- 2026-09-01 13:04 [`82d280f`](https://github.com/krafton-playground/notetaker-landing/commit/82d280f60c8defa63b9a7320f9e5568647a6b5ac) Merge pull request #86 from krafton-playground/docs/stt-error-log
+- 2026-09-01 11:09 [`94dcba0`](https://github.com/krafton-playground/notetaker-landing/commit/94dcba0b80d239dba0e703f25ce445b8d5050d16) Plan the Outlook calendar hookup — the roster the inference gate never had
+- 2026-09-01 10:33 [`c28a99f`](https://github.com/krafton-playground/notetaker-landing/commit/c28a99f8a0ecc792fe0f61c564cb18612b45e477) Merge pull request #87 from krafton-playground/feat/graph-calendar
+- 2026-09-01 10:27 [`ba68608`](https://github.com/krafton-playground/notetaker-landing/commit/ba68608c1bc5258af92da1310b32a8ac1c7d578f) Add the Graph calendar reader, and let the app report its own config
+- 2026-08-31 18:02 [`f3493d4`](https://github.com/krafton-playground/notetaker-landing/commit/f3493d448130a927a8b0ad86fb2930cdefdb64ea) Keep an error log, and make every case in it executable
+- 2026-08-31 17:47 [`d976bdd`](https://github.com/krafton-playground/notetaker-landing/commit/d976bdd9331d1d0c8b9bc25603744a46fa3b661e) Merge pull request #85 from krafton-playground/feat/transcript-fragments
+- 2026-08-31 17:38 [`ed0b470`](https://github.com/krafton-playground/notetaker-landing/commit/ed0b470a64dab56b95ccb020904070c8bcaeadb3) Catch the mangled echo of a glossary term someone just said
+- 2026-08-31 17:34 [`8231aa1`](https://github.com/krafton-playground/notetaker-landing/commit/8231aa1e7aa4485f5bbc54a2c111fd044411fbe6) Give the action table its separator, and stop splitting one person's turn
+- 2026-08-31 15:13 [`e9bd683`](https://github.com/krafton-playground/notetaker-landing/commit/e9bd683e8b4e7f2b979fd5562502d76ef1d4e2c7) Merge pull request #84 from krafton-playground/fix/gate-confidence
+- 2026-08-31 14:40 [`c3b3678`](https://github.com/krafton-playground/notetaker-landing/commit/c3b3678ac21eeb2b9027d2b65be135f42caa451e) Stop asking the gate whether a human's glossary rule is correct
+- 2026-08-31 14:36 [`814f506`](https://github.com/krafton-playground/notetaker-landing/commit/814f50694ec1c5054bb3e9fb512c871b120fd5a5) Score the verdict, and make the dropped surname a hard rule
+- 2026-08-31 14:31 [`e17d95e`](https://github.com/krafton-playground/notetaker-landing/commit/e17d95e2bf0f8570d198777a3a728c24ecce83a2) Tell the gate that 구승 is 정구승 — it was checking the roster literally
+- 2026-08-31 14:30 [`d567b9c`](https://github.com/krafton-playground/notetaker-landing/commit/d567b9c104b351ebff38ac221b02e7045ce2b850) Take the NUL bytes back out of drafts.js — I made it unreviewable
+- 2026-08-31 14:24 [`6d68cd6`](https://github.com/krafton-playground/notetaker-landing/commit/6d68cd6e4fdd7d049b2cb66c65c05b0858884c4e) Merge pull request #83 from krafton-playground/fix/drop-title-review
+- 2026-08-31 14:21 [`19834a7`](https://github.com/krafton-playground/notetaker-landing/commit/19834a74677bcd90f645b454dbf128b8e10faa56) Correct the 구스 count in the docs, not in the applied migration
+- 2026-08-31 14:18 [`282b07f`](https://github.com/krafton-playground/notetaker-landing/commit/282b07f08e087839bc71e3c42bc09204e027605e) Measure with the glossary loaded — it is the first priority
+- 2026-08-31 14:15 [`a9152f5`](https://github.com/krafton-playground/notetaker-landing/commit/a9152f51305fe5b22e92ad997ad2bdc844ad3ea5) Merge remote-tracking branch 'origin/main' into fix/drop-title-review
+- 2026-08-31 14:09 [`64e3e36`](https://github.com/krafton-playground/notetaker-landing/commit/64e3e36f0d830452f2be7342b44ca1291a9d7d41) Merge pull request #82 from krafton-playground/fix/koosung-name-rule
+- 2026-08-31 14:06 [`3bedf0a`](https://github.com/krafton-playground/notetaker-landing/commit/3bedf0a0eca956fcb3489ffe7ed18c2d4a120d5b) Drop the title-position lines — measured, they were all noise
+- 2026-08-31 13:52 [`3e6469f`](https://github.com/krafton-playground/notetaker-landing/commit/3e6469f408f57fc19741bcd954811e77ef141f7a) Read both transcript formats — the scorer was seeing a quarter of them
+- 2026-08-31 13:51 [`824e84d`](https://github.com/krafton-playground/notetaker-landing/commit/824e84d34e39df3a1dbc2b2117c9796ea8b35902) Merge pull request #81 from krafton-playground/feat/notation-review-section
+- 2026-08-31 13:42 [`9aafc23`](https://github.com/krafton-playground/notetaker-landing/commit/9aafc23d7244ed3b88552df148e289cadfd3ad91) Make 정구승 a curated rule, since inference cannot reach it
+- 2026-08-31 13:29 [`e22adb6`](https://github.com/krafton-playground/notetaker-landing/commit/e22adb6148b18b8da0eb0eacb5c33bce51fbc0c3) Report the notation we did not fix, instead of staying silent
+- 2026-08-31 13:08 [`836754c`](https://github.com/krafton-playground/notetaker-landing/commit/836754caf3fc27c42f193e6b894a860cf1f98c6e) Merge pull request #80 from krafton-playground/test/regression-real-draft
+- 2026-08-31 13:07 [`b48aa64`](https://github.com/krafton-playground/notetaker-landing/commit/b48aa64c5b3037cae52f134c1f70df090145c50c) Absorb the trailing honorific instead of dropping the correction
+- 2026-08-31 13:03 [`f54c35f`](https://github.com/krafton-playground/notetaker-landing/commit/f54c35fd8c68aa2be11486413a4294b9931aa5dc) Merge pull request #79 from krafton-playground/feat/gate-scoring
+- 2026-08-31 12:36 [`edba09f`](https://github.com/krafton-playground/notetaker-landing/commit/edba09fada65a65ae2624afbff2bcbf57c668d08) Measure what the gate refuses, and score what generation misses
+- 2026-08-31 12:34 [`8b1d4b1`](https://github.com/krafton-playground/notetaker-landing/commit/8b1d4b174e8bec2cce7226c555ff97812b9ad61c) Merge pull request #78 from krafton-playground/fix/spoken-endings
+- 2026-08-31 12:27 [`ca0b95b`](https://github.com/krafton-playground/notetaker-landing/commit/ca0b95b6f5d6284267c8283a342ec4b9ca38bdea) Let corrections survive the endings people actually speak
+- 2026-08-31 12:20 [`77fe87d`](https://github.com/krafton-playground/notetaker-landing/commit/77fe87def43bc260766e1e5dcd2d0744d2c4cf3e) Merge pull request #77 from krafton-playground/fix/honorific-guard
+- 2026-08-31 12:19 [`edc0dd5`](https://github.com/krafton-playground/notetaker-landing/commit/edc0dd56a6289a5bcb6e4b3fdb09fc9fd00c6577) Guard the gate path against doubled honorifics too
+- 2026-08-31 12:12 [`052aca9`](https://github.com/krafton-playground/notetaker-landing/commit/052aca9e4e26d8de1c3cbdb51911834d77c9bf79) Never let a 님-suffixed standard produce a doubled honorific
+- 2026-08-31 11:48 [`c2c652b`](https://github.com/krafton-playground/notetaker-landing/commit/c2c652b85412fdd1f0f4b3f48694bae0ac237824) Merge pull request #76 from krafton-playground/fix/glossary-scoping
+- 2026-08-31 11:38 [`4ad4c01`](https://github.com/krafton-playground/notetaker-landing/commit/4ad4c0184ad714391b3ff0cc1b0e4cb38908cce4) Take the standard names from the attendee list, not just who spoke
+- 2026-08-31 11:29 [`b998a26`](https://github.com/krafton-playground/notetaker-landing/commit/b998a2661ae42bbccdee3e9bceff31c203385e34) Load every team's glossary, and rank them for the meeting
+- 2026-08-31 11:23 [`2b1d8d6`](https://github.com/krafton-playground/notetaker-landing/commit/2b1d8d60422effc787319670d41fc30937dd86ea) Merge pull request #75 from krafton-playground/fix/gate-knows-attendees
+- 2026-08-31 11:17 [`dae301e`](https://github.com/krafton-playground/notetaker-landing/commit/dae301eea3731335a76828a5897ce94b3bb4aa88) Add MRSO as a real glossary category, wired to the md file
+- 2026-08-31 10:44 [`fc070e5`](https://github.com/krafton-playground/notetaker-landing/commit/fc070e5a80d17d94b9bb602943ff0df7e6a3097b) Show the gate who is in the meeting, and let the glossary win
+- 2026-08-31 10:05 [`558f462`](https://github.com/krafton-playground/notetaker-landing/commit/558f4627dceeaf6eaba787b79a5e124afa0299ea) Merge pull request #74 from krafton-playground/fix/glossary-comma-separator
+- 2026-08-31 10:02 [`b39229c`](https://github.com/krafton-playground/notetaker-landing/commit/b39229c557a919e743e7c0f529c468f9b142d2fc) Separate variants with a comma, not a middle dot
+- 2026-08-31 09:46 [`ba666b1`](https://github.com/krafton-playground/notetaker-landing/commit/ba666b1156a6df9ad23a601fa0c45f0aacf98556) Merge pull request #73 from krafton-playground/feat/proper-noun-glossary
+- 2026-08-31 09:45 [`e57648c`](https://github.com/krafton-playground/notetaker-landing/commit/e57648c658d8ba1134ae6db459ea15ba018dda27) Merge pull request #72 from krafton-playground/fix/draft-latency
+- 2026-08-31 09:38 [`df698d9`](https://github.com/krafton-playground/notetaker-landing/commit/df698d9e7eeb942e4b3e5aa63054709dad249b05) Merge pull request #70 from krafton-playground/fix/view-button
+- 2026-08-31 07:25 [`7033cbf`](https://github.com/krafton-playground/notetaker-landing/commit/7033cbfbf3bd06597cf3062463d16c784a4e752e) Name the executives the STT keeps misspelling — 스텔라, 알버트, RisingWings CEO
+- 2026-08-31 07:18 [`f1c18aa`](https://github.com/krafton-playground/notetaker-landing/commit/f1c18aac684e46f0ef48e41bc5d8ea41da330cfa) Put the echo evidence in front of the gate, and label its verdicts
+- 2026-08-31 07:12 [`21b83db`](https://github.com/krafton-playground/notetaker-landing/commit/21b83dbc3dc314541e7ff0b32252cacc816f7e38) Give the gate a size-based budget and kick the worker on redraft
+- 2026-08-31 06:54 [`0b86b03`](https://github.com/krafton-playground/notetaker-landing/commit/0b86b03498c7f44637a6ef952dda9d8c2c669312) Merge pull request #71 from krafton-playground/feat/echo-notation
+- 2026-08-31 06:44 [`552312c`](https://github.com/krafton-playground/notetaker-landing/commit/552312cfd10842bbabe53098856819cba16fed89) Ask the gate about in-meeting echoes — 페이스 해커톤, 구순 봇
+- 2026-08-31 06:31 [`0e34d42`](https://github.com/krafton-playground/notetaker-landing/commit/0e34d4293507f28b5aaa8e3679754a8648c336d8) Pin the view branch by intent, not by its old source line
+- 2026-08-31 06:31 [`8706fb1`](https://github.com/krafton-playground/notetaker-landing/commit/8706fb17ef51464f6f47451f5c8a2a0024f983e3) Reopen the finished draft without the stale busy markers
+- 2026-08-31 00:42 [`fd51b01`](https://github.com/krafton-playground/notetaker-landing/commit/fd51b015e9b9b89882833bfa5a537dcb2c943c11) Merge pull request #69 from krafton-playground/feat/inference-notation
+- 2026-08-31 00:31 [`6f9feb4`](https://github.com/krafton-playground/notetaker-landing/commit/6f9feb437d65816b5ea67d0c22c5279954de65ac) Match given-name 호명 too — 타미→다미, 구수→구승
+- 2026-08-31 00:15 [`1e8d39a`](https://github.com/krafton-playground/notetaker-landing/commit/1e8d39adfd237afe27b0b1a5b2cf79e2dfc927f5) Send misheard speaker names through the per-site sentence gate
+- 2026-08-31 00:09 [`51ace7d`](https://github.com/krafton-playground/notetaker-landing/commit/51ace7d18cdb335b5ff23a97396427547d31a794) Merge pull request #68 from krafton-playground/feat/glossary-fold
+- 2026-08-31 00:07 [`e8b25fa`](https://github.com/krafton-playground/notetaker-landing/commit/e8b25fa1d758f519c6baabc8a7cfb7a9db56dc4c) Fold long glossary lists behind a view-more toggle
+- 2026-08-30 23:52 [`f836e11`](https://github.com/krafton-playground/notetaker-landing/commit/f836e1118f61cf310b0dc248c814234841bc5563) Merge pull request #67 from krafton-playground/feat/inference-wiring
+- 2026-08-30 23:47 [`0d60446`](https://github.com/krafton-playground/notetaker-landing/commit/0d60446975bfc68bef8ce569cfa743182d396ab7) Wire speaker inference into the draft pipeline behind a default-off flag
+- 2026-08-30 23:42 [`6046017`](https://github.com/krafton-playground/notetaker-landing/commit/6046017554d58f9a6f40dd448a128627210e446c) Merge pull request #66 from krafton-playground/qa/modal-redraft
+- 2026-08-30 23:39 [`36f0456`](https://github.com/krafton-playground/notetaker-landing/commit/36f045649c848b4a1e9d29f7aecd1fb546524821) Lock the redraft button while a draft is being made
+- 2026-08-30 23:32 [`d544365`](https://github.com/krafton-playground/notetaker-landing/commit/d544365d4c66546bad67010467aea6f2ff273395) Merge pull request #65 from krafton-playground/feat/inference-s0-s1
+- 2026-08-30 23:31 [`21abc94`](https://github.com/krafton-playground/notetaker-landing/commit/21abc9457921a640d02309168d6ceeac4176acbe) Infer speakers from what the meeting already knows, and measure it first
+- 2026-08-30 23:18 [`88bf73e`](https://github.com/krafton-playground/notetaker-landing/commit/88bf73e8ba45e493c3da39ed0ea8bd1c1eba3f5d) Merge pull request #64 from krafton-playground/docs/inference-gate
+- 2026-08-30 23:09 [`5e01d6c`](https://github.com/krafton-playground/notetaker-landing/commit/5e01d6cbd101163c3ee602f22ea6c606f0482409) Correct the plan where the second panel found it wrong
+- 2026-08-30 11:16 [`e565946`](https://github.com/krafton-playground/notetaker-landing/commit/e565946ffa5f3b34dfaffc2df426d649f6a1b5ef) Harden the inference gate plan with a five-role validation panel
+- 2026-08-29 19:14 [`baf3313`](https://github.com/krafton-playground/notetaker-landing/commit/baf3313b344ae2a5c80cb305b158c97a8e321f4d) Plan an inference gate that reads the evidence already in the meeting
+- 2026-08-29 17:47 [`6cf3099`](https://github.com/krafton-playground/notetaker-landing/commit/6cf30992de2968f939c5019e0675e6d4ef743684) Merge pull request #63 from krafton-playground/fix/notes-page-polling
+- 2026-08-29 17:37 [`a87e28c`](https://github.com/krafton-playground/notetaker-landing/commit/a87e28c89912f771eb9317c0ceea40ab790fbd4a) Notice when the draft finishes, not when it starts
+- 2026-08-29 17:01 [`9499309`](https://github.com/krafton-playground/notetaker-landing/commit/949930985086314e70c81806c0794cfe2c1f98e9) Merge pull request #62 from krafton-playground/test/e2e-recent-merges
+- 2026-08-29 16:53 [`6c5f094`](https://github.com/krafton-playground/notetaker-landing/commit/6c5f0941e03a3b79aff4946fcf4363e9e837e6e7) Check in a browser that the last four merges actually work
+- 2026-08-29 16:33 [`03edf46`](https://github.com/krafton-playground/notetaker-landing/commit/03edf46ebbe67bc89229fdab7d6bd3a9d07216ff) Merge pull request #61 from krafton-playground/feat/spt-glossary
+- 2026-08-29 16:28 [`52c07bd`](https://github.com/krafton-playground/notetaker-landing/commit/52c07bdccbfd7389459a913ba5d6db43613afda3) Give the Strategic Planning team its own glossary
+- 2026-08-29 16:22 [`3a30346`](https://github.com/krafton-playground/notetaker-landing/commit/3a3034614e7de1215a9ad26644b85e9192e6cd31) Merge pull request #60 from krafton-playground/fix/ship-the-toast
+- 2026-08-29 16:16 [`97ead0e`](https://github.com/krafton-playground/notetaker-landing/commit/97ead0e09d1e1ec0f5b941ee26e277f334b60641) Actually ship the completion notice, and put it where it can be seen
+- 2026-08-29 15:54 [`5ff746e`](https://github.com/krafton-playground/notetaker-landing/commit/5ff746e7615534c7fea9fd56871830cc3fa6297c) Merge pull request #59 from krafton-playground/test/pipeline-stress
+- 2026-08-29 13:58 [`81b4792`](https://github.com/krafton-playground/notetaker-landing/commit/81b4792aafacc97ec2d5f07b5a617bc5067826cb) Prove thirty simultaneous meetings do not drop or duplicate work
+- 2026-08-29 13:54 [`f4ef7e5`](https://github.com/krafton-playground/notetaker-landing/commit/f4ef7e5ed7507e4d102772b6faacf41621d8238c) Merge pull request #58 from krafton-playground/fix/clova-retry-policy
+- 2026-08-29 12:51 [`f372029`](https://github.com/krafton-playground/notetaker-landing/commit/f372029b04a48b9f5cbe500a6571a508fc2972f7) Merge main (parallel poll) into the retry-policy branch
+- 2026-08-29 12:50 [`a80b41b`](https://github.com/krafton-playground/notetaker-landing/commit/a80b41bc7a537e93a7f7e027a82c3dd8d7b99952) Listen when Clova says we are sending too much
+- 2026-08-29 12:16 [`364d4b3`](https://github.com/krafton-playground/notetaker-landing/commit/364d4b33b82e0eded6fd47b2641228caa5b89f5c) Merge pull request #57 from krafton-playground/perf/parallel-poll
+- 2026-08-29 12:08 [`4fdd91a`](https://github.com/krafton-playground/notetaker-landing/commit/4fdd91a6a61ffa2b800f9e746fda05756a0369c6) Pin the case this was built for — fifteen meetings ending at once
+- 2026-08-29 11:34 [`99ca109`](https://github.com/krafton-playground/notetaker-landing/commit/99ca109f4e16967c8c8921a4a3da48d1079858c6) Discover several people's meetings at the same time
+- 2026-08-28 17:58 [`1d3539b`](https://github.com/krafton-playground/notetaker-landing/commit/1d3539bd7f3138459961543d1fcec1dbcd136643) Merge pull request #56 from krafton-playground/feat/length-based-modes
+- 2026-08-28 17:57 [`d25d483`](https://github.com/krafton-playground/notetaker-landing/commit/d25d483d9cf82448c6b9adf820493039425e52af) Decide by rule what may be substituted without reading the sentence
+- 2026-08-28 17:45 [`c277f4a`](https://github.com/krafton-playground/notetaker-landing/commit/c277f4a6a69ca641e21e442ed3be9ac05a9568e4) Merge pull request #55 from krafton-playground/chore/stt-review-pack
+- 2026-08-28 17:44 [`bd17166`](https://github.com/krafton-playground/notetaker-landing/commit/bd1716642055e88b7b69b466c9d7fd12e57a30f2) Keep the STT review pack, drop the meeting paths
+- 2026-08-28 17:19 [`4e084b3`](https://github.com/krafton-playground/notetaker-landing/commit/4e084b366056e83cb1be0097c3c367de1b73d24a) Make it possible to run the migrations before pushing them
+- 2026-08-28 17:16 [`515bb63`](https://github.com/krafton-playground/notetaker-landing/commit/515bb637e2060169e6f24e0fb1578cb505343358) Merge pull request #54 from krafton-playground/feat/person-names
+- 2026-08-28 17:15 [`01fe7ab`](https://github.com/krafton-playground/notetaker-landing/commit/01fe7ab373b6b7bb7c238a58aa37b74c98196844) Let the code ask whether a string is somebody's name
+- 2026-08-28 16:26 [`68c49a6`](https://github.com/krafton-playground/notetaker-landing/commit/68c49a617f5014a4b513078217a1626b6b7fc566) Tell people when the draft is actually done
+- 2026-08-28 16:15 [`44d6dcc`](https://github.com/krafton-playground/notetaker-landing/commit/44d6dccadfd32a3524edbf001d3840b8e6848d79) Merge pull request #53 from krafton-playground/feat/glossary-sentence-gate
+- 2026-08-28 16:15 [`9fc880b`](https://github.com/krafton-playground/notetaker-landing/commit/9fc880b3c4c119d4955e4bfdaf6d673132104672) Merge pull request #52 from krafton-playground/fix/contain-name-repair
+- 2026-08-28 16:10 [`523ca9f`](https://github.com/krafton-playground/notetaker-landing/commit/523ca9f272a32d4867205cdb632132240ae0b602) Say which draft it actually is, not always the second
+- 2026-08-28 16:07 [`1c25b94`](https://github.com/krafton-playground/notetaker-landing/commit/1c25b9434ed27a8db26905ff975f0f62a859dc4a) Ask the model about ambiguous corrections, one spot at a time
+- 2026-08-28 15:51 [`ca3f411`](https://github.com/krafton-playground/notetaker-landing/commit/ca3f4116ac9927df9cf89e4082405cea02bbe2fc) Merge glossary word-boundary guard into the correction-safety PR
+- 2026-08-28 15:51 [`f0b6b6a`](https://github.com/krafton-playground/notetaker-landing/commit/f0b6b6a3919f73837e48db9d9a49b8c5ec5c0699) Stop the glossary from rewriting the inside of ordinary words
+- 2026-08-28 15:10 [`e7d6b66`](https://github.com/krafton-playground/notetaker-landing/commit/e7d6b664a08f6d6d7aca6b4a3a6c25b52c1c4989) Stop repairing speaker names until the candidate rule is sound
+- 2026-08-28 14:45 [`da871f8`](https://github.com/krafton-playground/notetaker-landing/commit/da871f838cde22edae9b3c8794f92da48b25c090) Merge pull request #51 from krafton-playground/qa/glossary-modal
+- 2026-08-28 14:40 [`0fe1f44`](https://github.com/krafton-playground/notetaker-landing/commit/0fe1f4462638a8a5e5d29f6d9e75a9fce9aab8cd) Add saved-revision glossary diff modal
+- 2026-08-28 13:38 [`5287b24`](https://github.com/krafton-playground/notetaker-landing/commit/5287b24c2160835f786673e34b5793035a3eb29b) Merge pull request #50 from krafton-playground/feat/speaker-name-repair
+- 2026-08-28 13:36 [`d6d558b`](https://github.com/krafton-playground/notetaker-landing/commit/d6d558b62a945a49b49e2ee2338f6501333e2b72) Repair speaker-name typos using the meeting's own roster
+- 2026-08-28 13:12 [`2e65210`](https://github.com/krafton-playground/notetaker-landing/commit/2e65210f8fb2bcc576dfe43c0b613017c23a8fbd) Merge pull request #49 from krafton-playground/feat/modal-design-parity
+- 2026-08-28 12:05 [`5bb7e10`](https://github.com/krafton-playground/notetaker-landing/commit/5bb7e104b44731c241fa952e3530a481e5b4c8c6) Dress the draft modal to the Setup mockup, binding only real data
+- 2026-08-28 11:05 [`0d29c99`](https://github.com/krafton-playground/notetaker-landing/commit/0d29c99cc331ab0b8dbeaa0f1230274e907940b1) Merge pull request #48 from krafton-playground/fix/fast-first-draft
+- 2026-08-28 11:04 [`9bb28f1`](https://github.com/krafton-playground/notetaker-landing/commit/9bb28f1909f37d1e395e3d5d63795154703c50b0) Merge pull request #47 from krafton-playground/feat/glossary-pipeline-phase2
+- 2026-08-28 10:59 [`6bd3869`](https://github.com/krafton-playground/notetaker-landing/commit/6bd38691fc94b2b38c96f3572d4c977b2896db54) Draft a freshly discovered meeting now, not a timer later
+- 2026-08-28 10:54 [`6356136`](https://github.com/krafton-playground/notetaker-landing/commit/6356136039fe86e4debf4ffedd0bf49f713d52ed) Cover the front of the pipeline: a finished meeting drafts itself
+- 2026-08-28 10:45 [`3f1ee72`](https://github.com/krafton-playground/notetaker-landing/commit/3f1ee72248252173e8293229f19afbf5f4c61f3c) Fix the transcript itself, from the first draft on
+- 2026-08-28 10:41 [`d70cda6`](https://github.com/krafton-playground/notetaker-landing/commit/d70cda6af8ded73248d2018174593924a6257019) Pin that a redraft passes through the glossary gate
+- 2026-08-28 09:35 [`6301baf`](https://github.com/krafton-playground/notetaker-landing/commit/6301bafeaef6ad391238df3a92f06db576bbf9c6) Merge pull request #45 from krafton-playground/feat/glossary-pipeline-phase1
+- 2026-08-28 09:25 [`f381380`](https://github.com/krafton-playground/notetaker-landing/commit/f381380ac8920ddfb2f004d2e3686a089a22b17c) Feed the glossary into the first draft, and fill the team from the org chart
+- 2026-08-27 17:55 [`829edbd`](https://github.com/krafton-playground/notetaker-landing/commit/829edbd410a4d32fbbbc528da4fed02fe3f77a2a) Merge pull request #44 from krafton-playground/fix/e2e-5role-findings
+- 2026-08-27 17:45 [`a661ed1`](https://github.com/krafton-playground/notetaker-landing/commit/a661ed166bc93b251bc1d4959f7b0a725a3e51da) Fix four dead ends the five-role e2e pass found
+- 2026-08-27 16:21 [`a9d91cc`](https://github.com/krafton-playground/notetaker-landing/commit/a9d91cc85e89170735fd5a17c7cacb4af3808879) Merge pull request #43 from krafton-playground/test/90min-burst-assignment
+- 2026-08-27 16:15 [`5f25814`](https://github.com/krafton-playground/notetaker-landing/commit/5f25814289c877407dafc2af50a3ab8f94508901) Cover the assignment patterns people actually use
+- 2026-08-27 16:11 [`c1150ae`](https://github.com/krafton-playground/notetaker-landing/commit/c1150aea80cabe1aa4c2a396ab1292cbf4690f35) Merge pull request #42 from krafton-playground/test/draft-pipeline-e2e
+- 2026-08-27 13:27 [`7bec174`](https://github.com/krafton-playground/notetaker-landing/commit/7bec1748925108254b04453db51ffd988eb824f9) Run the whole draft pipeline in a test, and fix what it caught
+- 2026-08-27 11:40 [`fd8d426`](https://github.com/krafton-playground/notetaker-landing/commit/fd8d426330673c4c74694bd6ee045ab13e0dd97c) Merge pull request #41 from krafton-playground/fix/activity-resets-recheck-budget
+- 2026-08-27 11:36 [`c78b185`](https://github.com/krafton-playground/notetaker-landing/commit/c78b185f4389ed403690fe139e9720b2b29a9279) Let activity revive a note whose recheck budget ran out
+- 2026-08-27 11:22 [`7d8dff9`](https://github.com/krafton-playground/notetaker-landing/commit/7d8dff9b44126d2557ba15389198959e165d663f) Merge pull request #40 from krafton-playground/fix/quiet-window-by-duration
+- 2026-08-27 11:21 [`c1f93fe`](https://github.com/krafton-playground/notetaker-landing/commit/c1f93fec684eb73649bda2531f7edcf8c8a3e96c) Give long meetings a longer quiet window before drafting
+- 2026-08-27 11:14 [`26f71e2`](https://github.com/krafton-playground/notetaker-landing/commit/26f71e29ac1b91ec4beb07f50ef22eb87a969541) Merge pull request #38 from krafton-playground/fix/redraft-live-refresh
+- 2026-08-27 11:11 [`c561c5f`](https://github.com/krafton-playground/notetaker-landing/commit/c561c5faed41a941ebca2d673fdd6d252883af44) Merge pull request #39 from krafton-playground/feat/glossary-redesign
+- 2026-08-27 11:09 [`af29ffa`](https://github.com/krafton-playground/notetaker-landing/commit/af29ffa4f1ec7982c85b6e6d8ff7aff79fd79cdc) Merge remote-tracking branch 'origin/main' into feat/glossary-redesign
+- 2026-08-27 11:09 [`4f27218`](https://github.com/krafton-playground/notetaker-landing/commit/4f2721856f8b6de1022081e583ada52ab83c0266) Tell the list what happened instead of polling for it
+- 2026-08-27 11:04 [`4c2765f`](https://github.com/krafton-playground/notetaker-landing/commit/4c2765f17f83eaca84dbc7b6d245a6982f03d691) Refresh the modal in place instead of asking people to reopen it
+- 2026-08-27 11:01 [`9757d5a`](https://github.com/krafton-playground/notetaker-landing/commit/9757d5afbd79c3068014fc5338888c285f23e542) Rebuild the glossary screen from the design, minus what we cannot back up
+- 2026-08-27 10:45 [`08fbd7d`](https://github.com/krafton-playground/notetaker-landing/commit/08fbd7d40bc3bc6daaff135b43d6a6782b4db898) Merge pull request #36 from krafton-playground/feat/sync-button
+- 2026-08-27 10:45 [`722f6b5`](https://github.com/krafton-playground/notetaker-landing/commit/722f6b5cc6b08f3d292c30c4488dbd7e452439da) Merge pull request #37 from krafton-playground/feat/modal-sync
+- 2026-08-27 10:41 [`ffe2f17`](https://github.com/krafton-playground/notetaker-landing/commit/ffe2f17d5fef1635622c5177e5e24b666af26a0f) Give people a way out when our change detection is wrong
+- 2026-08-27 10:31 [`16bd2a9`](https://github.com/krafton-playground/notetaker-landing/commit/16bd2a9bc7c6c27705d81d268c836c20cdb863b6) Let people pull in a new meeting instead of waiting for the tick
+- 2026-08-27 10:06 [`4456fb7`](https://github.com/krafton-playground/notetaker-landing/commit/4456fb776f5c3761e26ed8a3e4b6bbb6e2463799) Merge pull request #35 from krafton-playground/fix/detect-speaker-rename
+- 2026-08-27 09:57 [`9f8c885`](https://github.com/krafton-playground/notetaker-landing/commit/9f8c885ab875e3634ad30ae8bbdaf423f3a3d8e9) Notice when a speaker is renamed, not just when the count changes
+- 2026-08-27 09:34 [`a3acd8c`](https://github.com/krafton-playground/notetaker-landing/commit/a3acd8c0460f544ad7399de0c471f4fdf7902469) Merge pull request #34 from krafton-playground/fix/baseline-from-previous-revision
+- 2026-08-27 09:20 [`b045a6c`](https://github.com/krafton-playground/notetaker-landing/commit/b045a6c52572546766bf5d23a4e61df768e46b5f) Take the baseline from what the draft was made with, not from now
+- 2026-08-27 06:50 [`50ec82d`](https://github.com/krafton-playground/notetaker-landing/commit/50ec82dbf12267772eb4e5312034c099075518c6) Merge pull request #33 from krafton-playground/docs/org-wiki-shared
+- 2026-08-27 06:49 [`2e9557b`](https://github.com/krafton-playground/notetaker-landing/commit/2e9557b303dfa9560219db6ec0fda45114d3a386) Merge pull request #31 from krafton-playground/fix/redraft-on-speaker-change
+- 2026-08-26 23:44 [`cf1fcf6`](https://github.com/krafton-playground/notetaker-landing/commit/cf1fcf60dca4ebb882b18775a5dc4f27e69df914) Merge remote-tracking branch 'origin/main' into docs/org-wiki-email
+- 2026-08-26 23:41 [`f82bc1f`](https://github.com/krafton-playground/notetaker-landing/commit/f82bc1ff75d0f7177c56df34b330a6f633b02835) Merge remote-tracking branch 'origin/main' into fix/redraft-on-speaker-change
+- 2026-08-26 23:38 [`b61b6e7`](https://github.com/krafton-playground/notetaker-landing/commit/b61b6e7f8d8b510795197ee110f4cda2bb55bbde) Put work emails in the people index and stop dating the wiki by run time
+- 2026-08-26 23:05 [`ac56388`](https://github.com/krafton-playground/notetaker-landing/commit/ac56388c77762c88911fcadc71476a99488a208b) Keep watching a meeting after its speaker draft goes out
+- 2026-08-26 22:06 [`55c2199`](https://github.com/krafton-playground/notetaker-landing/commit/55c21992bdeb66a338c83b608384b0022d9d8f9b) Merge pull request #30 from krafton-playground/fix/shared-draft-modal
+- 2026-08-26 20:50 [`c35ec13`](https://github.com/krafton-playground/notetaker-landing/commit/c35ec1362cbb45744937b962f0958fe954eb3a9e) Build the draft modal once instead of twice
+- 2026-08-26 20:00 [`683f4db`](https://github.com/krafton-playground/notetaker-landing/commit/683f4db4c5c8e248f2969e63132f7606f421491a) Merge pull request #29 from krafton-playground/fix/draft-latency
+- 2026-08-26 19:57 [`358e2fc`](https://github.com/krafton-playground/notetaker-landing/commit/358e2fcffcea8328b60ed552b6c1540823dabcda) Stop making the model retype the transcript
+- 2026-08-26 19:49 [`a7d5648`](https://github.com/krafton-playground/notetaker-landing/commit/a7d56486d9a6f09734172a9660862d0c78a9247c) Merge pull request #28 from krafton-playground/fix/layout-parity
+- 2026-08-26 19:32 [`5bc5784`](https://github.com/krafton-playground/notetaker-landing/commit/5bc57849750a4217c81f7d203246a82c7c6f8cc0) Measure the chrome in a browser instead of trusting the markup
+- 2026-08-26 18:00 [`01186e5`](https://github.com/krafton-playground/notetaker-landing/commit/01186e50b15a08c530ed2270245664ca255d7987) Merge pull request #27 from krafton-playground/feat/glossary-applied
+- 2026-08-26 16:42 [`1db3b02`](https://github.com/krafton-playground/notetaker-landing/commit/1db3b0277bc9a9703b439479172d8ce6f0d166a9) Stop calling "no record" the same thing as "nothing to fix"
+- 2026-08-26 16:37 [`22f7e16`](https://github.com/krafton-playground/notetaker-landing/commit/22f7e16f4cbfc554f2f8f307761d87186b57013d) Merge remote-tracking branch 'origin/main' into feat/glossary-applied
+- 2026-08-26 15:00 [`9a7df2e`](https://github.com/krafton-playground/notetaker-landing/commit/9a7df2e9cb451d1acaa1f90abcb2237b0ca6cf95) Pick the category glossary from the signed-in person's team
+- 2026-08-26 14:36 [`6001cfa`](https://github.com/krafton-playground/notetaker-landing/commit/6001cfa696d6d867d07f3de46cc4f0ccaa58ee6d) Build the top bar once instead of three times
+- 2026-08-26 14:25 [`1642026`](https://github.com/krafton-playground/notetaker-landing/commit/164202656f8698d9979bda31898e90c0142f9d74) Finish the draft modal now that the glossary is wired
+- 2026-08-26 14:24 [`bf0de8f`](https://github.com/krafton-playground/notetaker-landing/commit/bf0de8f2d1cf01b5eec7e7c5d5b5cdd0cb4e9f54) Merge pull request #26 from krafton-playground/feat/glossary-applied
+- 2026-08-26 14:20 [`bfd97d5`](https://github.com/krafton-playground/notetaker-landing/commit/bfd97d56cb8a1bb5288839e1d3867b8b8c0b012e) Actually apply the glossary when drafting
+- 2026-08-26 14:15 [`de73638`](https://github.com/krafton-playground/notetaker-landing/commit/de736389bd6599007b7fefffde9efa5569c45655) Merge pull request #25 from krafton-playground/fix/nav-parity
+- 2026-08-26 14:10 [`6a4bd62`](https://github.com/krafton-playground/notetaker-landing/commit/6a4bd62bf7609a84b25c64f30b6fef6af3a3603f) Make the settings header match the other two for real
+- 2026-08-26 14:00 [`302291c`](https://github.com/krafton-playground/notetaker-landing/commit/302291c8342fcbdb4116877134cd57ba4cca8546) Merge pull request #24 from krafton-playground/fix/shared-top-nav
+- 2026-08-26 13:43 [`3668899`](https://github.com/krafton-playground/notetaker-landing/commit/3668899b7b30627b5317ecd19d3d54186cedcb1a) Put the same tab bar on the settings screen
+- 2026-08-26 13:34 [`87ac46e`](https://github.com/krafton-playground/notetaker-landing/commit/87ac46ee04dff2444cdfb8f6399b29809aa75db2) Merge pull request #23 from krafton-playground/codex/add-spt-lee-sanghoon-glossary
+- 2026-08-26 13:33 [`9c6a299`](https://github.com/krafton-playground/notetaker-landing/commit/9c6a2990b519647a77219444ce7472ab82798243) Add SPT Lee Sanghoon glossary reference
+- 2026-08-26 13:29 [`b229b02`](https://github.com/krafton-playground/notetaker-landing/commit/b229b022fe71fd202d05b5692c3c5815a65435aa) Merge pull request #22 from krafton-playground/glossary/mapping-candidates
+- 2026-08-26 13:26 [`f17262e`](https://github.com/krafton-playground/notetaker-landing/commit/f17262ee9d753b59af99925ef7e952cf29868999) Ignore a personal task-notes doc
+- 2026-08-26 13:22 [`3d18643`](https://github.com/krafton-playground/notetaker-landing/commit/3d186430c637e91ca81b46b3f0ee3dc37261c198) Merge pull request #21 from krafton-playground/feat/notes-page
+- 2026-08-26 09:51 [`8c935c5`](https://github.com/krafton-playground/notetaker-landing/commit/8c935c5fb05d110b2e68632fd0802fc29624634e) Let people edit the glossary from the browser
+- 2026-08-26 09:35 [`e1e1a9c`](https://github.com/krafton-playground/notetaker-landing/commit/e1e1a9c89ca08ed186f97d474b50626218212d54) Move the glossary somewhere it can actually be edited
+- 2026-08-26 09:04 [`bf6b054`](https://github.com/krafton-playground/notetaker-landing/commit/bf6b054c5b507e28f4227cd4b58c3b992bfdc405) Give meetings their own screen instead of a strip under setup
+- 2026-08-26 08:52 [`9431410`](https://github.com/krafton-playground/notetaker-landing/commit/9431410db0f428571bb795774e2e5767a42826da) Register the GSM glossary and split auto from review
+- 2026-08-26 08:48 [`8758cec`](https://github.com/krafton-playground/notetaker-landing/commit/8758cec93987cc126bf95fad074a7357f83f3b37) Collect mapping candidates from 42 real meeting transcripts
+- 2026-08-24 22:56 [`62f268a`](https://github.com/krafton-playground/notetaker-landing/commit/62f268addfe459d24c24648a9e7780355067f8b1) Merge pull request #20 from krafton-playground/fix/speaker-scan-skips-unlinked
+- 2026-08-24 21:08 [`c23d98e`](https://github.com/krafton-playground/notetaker-landing/commit/c23d98e1e78bb896ad697109b0629745698dd3de) Stop scanning speakers for people who have not linked yet
+- 2026-08-24 20:46 [`bbeffa5`](https://github.com/krafton-playground/notetaker-landing/commit/bbeffa50fdc3f9ebbe4c094366d61f9e28a4a800) Merge pull request #19 from krafton-playground/feat/clova-oauth
+- 2026-08-24 20:38 [`decae92`](https://github.com/krafton-playground/notetaker-landing/commit/decae927275cb8fce146ae8d3e28493f8fbf24d0) Mark the Clova OAuth plan through S4 as built
+- 2026-08-24 20:38 [`18b5b60`](https://github.com/krafton-playground/notetaker-landing/commit/18b5b6006563abb7f4b4bca2d0fe1dc3c63a55c3) Link Clova with a button instead of a pasted key
+- 2026-08-24 20:33 [`01fdd98`](https://github.com/krafton-playground/notetaker-landing/commit/01fdd986c2fcbfdc58ba97be3be42fcbae4c9e4e) Call the AI Note API directly with tokens we hold
+- 2026-08-24 20:33 [`a7dcb99`](https://github.com/krafton-playground/notetaker-landing/commit/a7dcb996cfc7f22f00af2271ba73ef50eaafe6a5) Exchange LINE WORKS tokens ourselves instead of borrowing a key
+- 2026-08-12 21:27 [`159abb0`](https://github.com/krafton-playground/notetaker-landing/commit/159abb0635c76dd6426d763325061992ccb4a212) Say so when a meeting has no transcript to draft from
+- 2026-08-12 20:34 [`09bdc63`](https://github.com/krafton-playground/notetaker-landing/commit/09bdc6343411f7cb41e7c1d873612fd4fd1ca599) Refresh the list when speakers get assigned
+- 2026-08-12 20:02 [`33cdb4f`](https://github.com/krafton-playground/notetaker-landing/commit/33cdb4f08dbfd3ecf32d7439e342c93e0f444d78) Stop promising a draft in one minute
+- 2026-08-12 19:53 [`3e7c617`](https://github.com/krafton-playground/notetaker-landing/commit/3e7c617a8ed5ddf77924eb0adb88e9e396633653) Cut the 2nd-draft gate from ~180s to ~75s
+- 2026-08-12 19:32 [`1eea23f`](https://github.com/krafton-playground/notetaker-landing/commit/1eea23f9f4644717078250f50f4e99201886d6f9) Harden speaker detection after a live check of 14 notes
+- 2026-08-12 19:17 [`28014c3`](https://github.com/krafton-playground/notetaker-landing/commit/28014c3f5b7cf805061f8313385b8c02200dad5c) Read attendeeId for assignment, and stop deferring a quiet note
+- 2026-08-12 16:28 [`e8fc821`](https://github.com/krafton-playground/notetaker-landing/commit/e8fc821870224ace864bd68baaee6d2a028571cb) Give up the slot when a speaker check fails
+- 2026-08-12 16:16 [`a002c1e`](https://github.com/krafton-playground/notetaker-landing/commit/a002c1e3734c2804c2a29948191ecfd37d490151) Treat a quiet note as finished, not as half-assigned
+- 2026-08-12 15:05 [`38a27cf`](https://github.com/krafton-playground/notetaker-landing/commit/38a27cff61365097ffb3c24647f1de536c6aecf8) Count speakers, not blocks, when deciding the 2nd draft
+- 2026-08-12 14:30 [`df2a4e0`](https://github.com/krafton-playground/notetaker-landing/commit/df2a4e0d323c3ff6b7fa3908f044e10b80e452e1) Stop showing a spinner for jobs nobody is working on
+- 2026-08-12 14:01 [`28428fd`](https://github.com/krafton-playground/notetaker-landing/commit/28428fd9c5459f4f527ef842f48ae71032f377de) Make speaker failures traceable to their owner
+- 2026-08-12 13:07 [`ee90e30`](https://github.com/krafton-playground/notetaker-landing/commit/ee90e30902cbf9782f694053b6e2d5c2bc034056) Preserve Clova outage diagnostics when tool calls fail
+- 2026-08-11 18:13 [`8e77dd1`](https://github.com/krafton-playground/notetaker-landing/commit/8e77dd11d6c1e290a774a86d506ad265530cdecb) Merge pull request #17 from krafton-playground/dami-krafton/scale-clova-note-cron
+- 2026-08-11 18:07 [`7614377`](https://github.com/krafton-playground/notetaker-landing/commit/761437729954c1b40e80c26d18cc9be857e580ce) Drain drafts concurrently so a burst of meetings doesn't back up
+- 2026-08-11 15:32 [`668dcb0`](https://github.com/krafton-playground/notetaker-landing/commit/668dcb0e183bcc90e26d65116a1ed84ef97f7656) Time out and fall back a stuck draft instead of hanging
+- 2026-08-11 15:07 [`2c52e01`](https://github.com/krafton-playground/notetaker-landing/commit/2c52e01e55b65a87d30fec9ccd07fb73a214f546) Lease the newest first draft first, not the oldest
+- 2026-08-11 14:51 [`2b2627d`](https://github.com/krafton-playground/notetaker-landing/commit/2b2627da3d689146a2f152d30dbecc42507c6350) Log each leased draft job for queue visibility
+- 2026-08-11 14:33 [`e6d0c19`](https://github.com/krafton-playground/notetaker-landing/commit/e6d0c191d248adac29567310ec011659af6d5b4a) Lease first drafts ahead of the second-draft backlog
+- 2026-08-11 13:28 [`cd2ca5a`](https://github.com/krafton-playground/notetaker-landing/commit/cd2ca5a5ca5a9883e02558b516bdb6d660863db9) Retry transient Clova MCP failures with backoff
+- 2026-08-11 13:18 [`06ce857`](https://github.com/krafton-playground/notetaker-landing/commit/06ce857eb118150160db055a8ea488cff12e50a8) TEMP: trace speaker recheck decisions (counts, prior state, updatedTime)
+- 2026-08-11 13:01 [`1bb1663`](https://github.com/krafton-playground/notetaker-landing/commit/1bb166320bf816a4e28abf7ad7ac19c9aa03d982) Draft the 2nd draft immediately once every speaker is assigned
+- 2026-08-11 12:03 [`d706053`](https://github.com/krafton-playground/notetaker-landing/commit/d706053e6975a05ecca8bc310ba6f81164673895) Revert speaker-detection debug logging
+- 2026-08-11 11:48 [`bce91fe`](https://github.com/krafton-playground/notetaker-landing/commit/bce91fee9875d5b4d6ce20efd51f967d668a68b9) TEMP: log real Clova scripts[] block shape for speaker-detection debug
+- 2026-08-11 11:31 [`c43f2a9`](https://github.com/krafton-playground/notetaker-landing/commit/c43f2a964544024576cefb976fefbe1d87c76cbb) Detect speaker assignment by attendeeName, not attendeeId
+- 2026-08-11 10:22 [`bd1091e`](https://github.com/krafton-playground/notetaker-landing/commit/bd1091e1562bca34abb831c2f0393c33d76e4509) Auto-refresh the /app draft list while a draft is in progress
+- 2026-08-11 10:06 [`aef6c68`](https://github.com/krafton-playground/notetaker-landing/commit/aef6c68a54651a09413fb8e93b607c7fe0ba8ffa) Move the header account button next to the KRAFTON logo
+- 2026-08-11 10:03 [`23a85bc`](https://github.com/krafton-playground/notetaker-landing/commit/23a85bc3b7782550967131475e6cc2d5aecc2331) Tighten 내 설정 to 내설정 in the header and title
+- 2026-08-11 09:51 [`f5ab10a`](https://github.com/krafton-playground/notetaker-landing/commit/f5ab10a8b5dcd8fbd3630e2ec0e396f2fdcfe271) Keep the /app draft list expanded across refreshes
+- 2026-08-11 09:42 [`b425d04`](https://github.com/krafton-playground/notetaker-landing/commit/b425d0451a6dda791f03674af9a7be702be89336) Add a 홈으로 button to the /app header
+- 2026-08-10 23:56 [`06d1321`](https://github.com/krafton-playground/notetaker-landing/commit/06d132190377ceac2ace68152850f99adcfbc44f) Page the meeting list behind a 더 보기 / 접기 toggle
+- 2026-08-10 23:51 [`b1df189`](https://github.com/krafton-playground/notetaker-landing/commit/b1df1893f326bfe843da6e062f35e9d39dec1a2a) Align the guide with /app, default to Codex, fit the prereq shot
+- 2026-08-10 23:43 [`05a9c3f`](https://github.com/krafton-playground/notetaker-landing/commit/05a9c3fdac424abe0ab1231ec7d9924058050733) Give both pages the same header
+- 2026-08-10 23:37 [`a230b67`](https://github.com/krafton-playground/notetaker-landing/commit/a230b6772a2d1b9f222d7f1b0ea7b1d8dcbbc9ba) Rebuild /app on the v2 editorial layout
+- 2026-08-10 23:32 [`9fa4651`](https://github.com/krafton-playground/notetaker-landing/commit/9fa4651098d046a94a9de6748214231fea4bb685) Match the v4 section headers and code blocks
+- 2026-08-10 23:29 [`6a77ec1`](https://github.com/krafton-playground/notetaker-landing/commit/6a77ec167f1f8f6a739965f4f467c3d5b653411b) Drop the dark rule under the header
+- 2026-08-10 23:27 [`1fbc4e6`](https://github.com/krafton-playground/notetaker-landing/commit/1fbc4e615beb41a65e16c2324baa573d7d4a9661) Restyle the setup guide with the v4 design language
+- 2026-08-10 20:17 [`ea61915`](https://github.com/krafton-playground/notetaker-landing/commit/ea61915a611270fa8ab1f7c0f34bad23dca99e26) Rebuild /app as a fixed app shell with settings tabs
+- 2026-08-10 14:50 [`ab4727c`](https://github.com/krafton-playground/notetaker-landing/commit/ab4727ccbd7c856d4a73b80f214de74ace405778) Tell a scheduled retry apart from work in progress
+- 2026-08-10 14:50 [`dea5aaf`](https://github.com/krafton-playground/notetaker-landing/commit/dea5aaf56b8e5d4c989eb13f591e84196e1cac28) Pin the OpenAI endpoint instead of inheriting it
+- 2026-08-10 14:24 [`89426ac`](https://github.com/krafton-playground/notetaker-landing/commit/89426ac8104845afb4ba1af7eec999bc4a8a6db7) Let customers read and request drafts from /app
+- 2026-08-10 14:23 [`d91a5ae`](https://github.com/krafton-playground/notetaker-landing/commit/d91a5ae29ee6e139b8c2cf51770dc6b1cadcb74e) Give the meeting draft a fixed shape
+- 2026-08-10 14:23 [`a315d2a`](https://github.com/krafton-playground/notetaker-landing/commit/a315d2aa2201704e6d5c3fa2e014e3860aadae06) Ignore gstack's local state directory
+- 2026-08-10 09:33 [`88a81e4`](https://github.com/krafton-playground/notetaker-landing/commit/88a81e459e601dafbe679d4bfe4320bd11c9546c) Stop tracking agent runtime state, keep project skills
+- 2026-08-10 09:20 [`2f56c88`](https://github.com/krafton-playground/notetaker-landing/commit/2f56c88abf5f328184abf47e03e00bdd9f7723a1) Draft a second time once the customer names the speakers
+- 2026-08-05 10:57 [`2950156`](https://github.com/krafton-playground/notetaker-landing/commit/2950156bf8069a7c88462c2a5f36d38910e6753d) Stop dropping meetings the server already detected
+- 2026-08-02 23:17 [`de7fe01`](https://github.com/krafton-playground/notetaker-landing/commit/de7fe01f98b407251a1cacc1f665e1c9c453d1fe) Merge branch 'agentic-automation' into dami.kang
+- 2026-08-02 23:17 [`163ebbc`](https://github.com/krafton-playground/notetaker-landing/commit/163ebbcded3437b326878a3bb3a7e21264e31722) Stop implying every notes-list failure is an expired key
+- 2026-08-02 21:58 [`61db0c0`](https://github.com/krafton-playground/notetaker-landing/commit/61db0c0e94be626e6b24a58f6d890cf8b9e1e23d) Merge branch 'agentic-automation' into dami.kang
+- 2026-08-02 21:58 [`06b9b45`](https://github.com/krafton-playground/notetaker-landing/commit/06b9b457ae6efd3778c87dfbae742ccbc8a7f7a5) Add per-user Slack draft-ready notifications
+- 2026-08-02 21:43 [`6548959`](https://github.com/krafton-playground/notetaker-landing/commit/6548959f4c9d54cbd13b3bc11295a54db20f82e1) Merge branch 'agentic-automation' into dami.kang
+- 2026-08-02 21:43 [`6a2b027`](https://github.com/krafton-playground/notetaker-landing/commit/6a2b027743556842eeac3cc80de94c8d2164b053) Reveal the recent-meetings card as soon as the connection saves
+- 2026-08-02 21:12 [`6161fd8`](https://github.com/krafton-playground/notetaker-landing/commit/6161fd8fa5e1223431557f3ab072d3e8bc28b618) Merge branch 'agentic-automation' into dami.kang
+- 2026-08-02 21:12 [`4c58372`](https://github.com/krafton-playground/notetaker-landing/commit/4c5837276b8e958600458df630c37f768dfdb0d6) Show recent Clova meetings at the bottom of /app
+- 2026-07-30 18:08 [`e59a6ed`](https://github.com/krafton-playground/notetaker-landing/commit/e59a6edac18327836badddb813a5409cb8c6626e) Merge branch 'agentic-automation' into dami.kang
+- 2026-07-30 18:08 [`d62a920`](https://github.com/krafton-playground/notetaker-landing/commit/d62a9200876fdb763a0331bcb8f93482ade6e38e) Detect Clova notes through the API instead of the home page
+- 2026-07-30 17:19 [`a113d76`](https://github.com/krafton-playground/notetaker-landing/commit/a113d76cdc7aea962a8c3b84766092c7f3dba0c9) Merge branch 'agentic-automation' into dami.kang
+- 2026-07-30 17:19 [`96727c1`](https://github.com/krafton-playground/notetaker-landing/commit/96727c1ba0cecaae264644b66ad4cdf7b9c335c3) Make the watcher work on both Codex and Claude Code
+- 2026-07-30 16:04 [`304f2c6`](https://github.com/krafton-playground/notetaker-landing/commit/304f2c61a6ffa45856910c59aaf51761ba716ffd) Make the watcher work on both Codex and Claude Code
+- 2026-07-30 15:24 [`2d03f14`](https://github.com/krafton-playground/notetaker-landing/commit/2d03f147e420aadf950e187c1ddcfc3de7aaf927) Add the dami.kang workspace and resident card
+- 2026-07-30 15:23 [`2c9ea7d`](https://github.com/krafton-playground/notetaker-landing/commit/2c9ea7da5f39726dd7d5241a7d56c83e4a0c8b1c) Derive the watcher repo path from the script location
+- 2026-07-30 13:56 [`e44ecf2`](https://github.com/krafton-playground/notetaker-landing/commit/e44ecf23b35799942774cd2cfa083a5396a10431) Draft the agentic meeting-note automation pipeline
+- 2026-07-30 11:34 [`a30c721`](https://github.com/krafton-playground/notetaker-landing/commit/a30c7210d523809bcd17008057d14f989be94d61) Correct install docs that no longer match the code
+- 2026-07-30 10:11 [`2bbeb11`](https://github.com/krafton-playground/notetaker-landing/commit/2bbeb11e6cec506b24684bba2ee757ef61711be7) Shorten the dev tool step heading
+- 2026-07-30 10:04 [`5aab249`](https://github.com/krafton-playground/notetaker-landing/commit/5aab2498c27e510c3f07d3c8a051584389c406d3) Fold the dev tool bootstrap into the numbered steps
+- 2026-07-30 09:41 [`4b2ffb5`](https://github.com/krafton-playground/notetaker-landing/commit/4b2ffb53c5b1834a1e663a81eb7faea1cf861775) Offer the one-line dev tool bootstrap on the landing page
+- 2026-07-30 09:17 [`443216f`](https://github.com/krafton-playground/notetaker-landing/commit/443216f550b6beaef4ec6b2941a5d58061ff0d3c) Point the landing header at settings once signed in
+- 2026-07-29 18:23 [`a489533`](https://github.com/krafton-playground/notetaker-landing/commit/a489533d4b8aba76bbd3359e0c630ffe94e6b19c) Let automatic Clova SSO settle before requesting user login
+- 2026-07-29 18:14 [`47ddee3`](https://github.com/krafton-playground/notetaker-landing/commit/47ddee3d872c875b2b3c93ab724b0dc7370b31bc) Wait for Clova home navigation to settle before trusting it
+- 2026-07-29 18:07 [`04d405d`](https://github.com/krafton-playground/notetaker-landing/commit/04d405dbc3c5c6f0dc762be8b7029f090eec744a) Keep Clova login recovery open until authentication settles
+- 2026-07-29 17:58 [`1b506e1`](https://github.com/krafton-playground/notetaker-landing/commit/1b506e1fb36bc76bb4cc9017bc895e790fce140e) Keep the watcher honest about restored Clova sessions
+- 2026-07-29 17:52 [`5060bff`](https://github.com/krafton-playground/notetaker-landing/commit/5060bff8891cbe2352a0c543555e8c9f538a26bc) Make new Clova meetings export verified review drafts
+- 2026-07-29 16:34 [`1b7fc2f`](https://github.com/krafton-playground/notetaker-landing/commit/1b7fc2f1e15b553f0a905e8e106f4a40a83cc953) Prioritize newly finished meetings over historical backlog
+- 2026-07-29 15:57 [`6e4179e`](https://github.com/krafton-playground/notetaker-landing/commit/6e4179e3f715951f178649af0d277a65635a94d3) Make long meeting drafts deterministic and observable
+- 2026-07-29 15:46 [`a888c3b`](https://github.com/krafton-playground/notetaker-landing/commit/a888c3b58a670729a9193dfd7027d988ce1f73f0) Restore production Clova polling for meeting automation
+- 2026-07-29 15:31 [`1e2dd14`](https://github.com/krafton-playground/notetaker-landing/commit/1e2dd147936540a4f204dab6554871c7bf547122) Carry the scheduler entrypoint into production images
+- 2026-07-29 15:23 [`b249568`](https://github.com/krafton-playground/notetaker-landing/commit/b249568106c3bb71b2fb7dcd9aff5db7a7e3c329) Preserve current production fixes while adding automation
+- 2026-07-29 15:23 [`9dd4137`](https://github.com/krafton-playground/notetaker-landing/commit/9dd41377c9b0c6e6ad53215d2090bb07cb05ed78) Ensure meeting automation always starts with the app
+- 2026-07-28 18:16 [`3259d23`](https://github.com/krafton-playground/notetaker-landing/commit/3259d23b521cd5732b26c585f51e1e5364733ef1) Rebuild /app as a two-step setup checklist
+- 2026-07-28 15:27 [`a6c008a`](https://github.com/krafton-playground/notetaker-landing/commit/a6c008a4525b830e2c888488ab817e134215ec52) Install openssl so Prisma can run migrations on Alpine
+- 2026-07-28 15:15 [`bbe5387`](https://github.com/krafton-playground/notetaker-landing/commit/bbe5387481adb123726e2f9c29b94e9decb18009) Apply the database migration when the container starts
+- 2026-07-28 13:49 [`d67411e`](https://github.com/krafton-playground/notetaker-landing/commit/d67411ef69802a0f9706c8b9c77315f23e0ffef3) Keep the RDS connection on TLS without demanding a public CA
+- 2026-07-28 13:40 [`597ce29`](https://github.com/krafton-playground/notetaker-landing/commit/597ce29773d632520a88675619ca180f91c12964) Send the post-login redirect to the public origin
+- 2026-07-28 13:22 [`9f566c8`](https://github.com/krafton-playground/notetaker-landing/commit/9f566c83c372cb57cdf41634659f798bc39fdf06) Import the core-api signing key from its non-standard JWKS
+- 2026-07-28 11:53 [`7d54608`](https://github.com/krafton-playground/notetaker-landing/commit/7d5460850c142ab86fe7bb6d54205721f444f541) Accept the code-only SSO callback core-api sends
+- 2026-07-28 11:53 [`5d48fcb`](https://github.com/krafton-playground/notetaker-landing/commit/5d48fcbcea559c8e0340432fff54a2097652666b) Serve PNG assets with their real content type
+- 2026-07-28 11:49 [`c28dec2`](https://github.com/krafton-playground/notetaker-landing/commit/c28dec2f1f0ff0e22603a14fc883b7b8c5cafea5) Guide setup with a prerequisite walkthrough on the landing page
+- 2026-07-28 10:46 [`44b39f7`](https://github.com/krafton-playground/notetaker-landing/commit/44b39f710a96f4e323fc2d7610959af9f941605d) Move the automation service onto Next.js
+- 2026-07-28 10:25 [`4b3ce49`](https://github.com/krafton-playground/notetaker-landing/commit/4b3ce499539864c9121cfd046451141a0dcd7f15) Restore the supported EKS deployment contract
+- 2026-07-28 10:10 [`a1ba9d4`](https://github.com/krafton-playground/notetaker-landing/commit/a1ba9d4c3230d254fef04be86e21e177e65f4579) Let Playground detect the public frontend
+- 2026-07-28 10:08 [`5499bbc`](https://github.com/krafton-playground/notetaker-landing/commit/5499bbcd9451db4c044e5c2786a69e67b931e059) Route the public frontend through port 3000
+- 2026-07-28 10:06 [`4805268`](https://github.com/krafton-playground/notetaker-landing/commit/4805268d1a6fe57dce09cc08812ca38a521e7047) Expose the meeting automation service
+- 2026-07-28 09:58 [`01e866b`](https://github.com/krafton-playground/notetaker-landing/commit/01e866beb3de2642e598e49cf2355d65323ff792) Use Playground SSO defaults
+- 2026-07-28 09:44 [`adbc5a9`](https://github.com/krafton-playground/notetaker-landing/commit/adbc5a940e3a3c0cfbaec1b9868e92580921a9dd) Prepare meeting drafts before human review
+- 2026-07-15 12:50 [`fe15c3b`](https://github.com/krafton-playground/notetaker-landing/commit/fe15c3b1f3f3724fb0c129ae132f83909cdc93cf) Keep distributed skills and Hard QA status visible
+- 2026-07-15 11:01 [`40309ad`](https://github.com/krafton-playground/notetaker-landing/commit/40309adccfa02351440d7a175404ee1060cd6d73) Keep distributed skills synchronized across clients
+- 2026-07-15 10:55 [`2a531bb`](https://github.com/krafton-playground/notetaker-landing/commit/2a531bb99da3b6275c4dedacdf16567719ec85fa) Sync meeting templates for MRSO and leadership cues
+- 2026-07-15 10:45 [`8f5dfbe`](https://github.com/krafton-playground/notetaker-landing/commit/8f5dfbe889dc1bf35ef1e21d0ae1f81458f22c9c) Make setup and workflow paths easy to discover
+- 2026-07-15 10:31 [`a68f0ca`](https://github.com/krafton-playground/notetaker-landing/commit/a68f0caa61739cd400205d3c09f81e0af487524b) Let glossary extraction handle non-standard teams
+- 2026-07-15 10:28 [`84ea359`](https://github.com/krafton-playground/notetaker-landing/commit/84ea359b7d2b0e70e02c4518a0a849e9bbb2c289) Keep Clova exports on the configured remote MCP path
+- 2026-07-15 10:16 [`dba3097`](https://github.com/krafton-playground/notetaker-landing/commit/dba30972e1b65e31b30cc830329dd454f6fca198) Keep organization-owned meeting templates context-aware
+- 2026-07-15 10:00 [`6f609a7`](https://github.com/krafton-playground/notetaker-landing/commit/6f609a72a6d3fa8e9a2de68570ddfa473069c73d) Keep glossary history inside each working directory
+- 2026-07-15 09:52 [`cc2d39c`](https://github.com/krafton-playground/notetaker-landing/commit/cc2d39caf9258c83799136d45c88380fed704467) Distribute glossary extraction as an installable skill
+- 2026-07-15 09:49 [`6502869`](https://github.com/krafton-playground/notetaker-landing/commit/650286910857990f26bf1b21b3fdbaab53a7225d) Adapt meeting workflows to organization-owned templates
+- 2026-07-15 09:36 [`9a5e4d9`](https://github.com/krafton-playground/notetaker-landing/commit/9a5e4d9a293bfc0c66348518efd92b83d84620e2) Run glossary extraction immediately after note export
+- 2026-07-15 09:32 [`0c594e7`](https://github.com/krafton-playground/notetaker-landing/commit/0c594e72389ee32edebc187f2de79eead12dfe2b) Clarify MR organization team scope
+- 2026-07-15 09:32 [`f1aa8bc`](https://github.com/krafton-playground/notetaker-landing/commit/f1aa8bcf85eb2af2042bc96e4c72081dffa70899) Harvest meeting terminology into team glossaries
+- 2026-07-15 09:16 [`ea1dc3a`](https://github.com/krafton-playground/notetaker-landing/commit/ea1dc3af1d3fb3bd9493b8f3a6c012ba1bdb528d) Make meeting templates directly editable
+- 2026-07-15 08:34 [`5aaf13f`](https://github.com/krafton-playground/notetaker-landing/commit/5aaf13f9128ace8c0d6d67c274ea15bacd01cff0) Merge pull request #16 from krafton-playground/agent/rename-meeting-template-skill
+- 2026-07-15 08:33 [`557c78c`](https://github.com/krafton-playground/notetaker-landing/commit/557c78c399491cde6f42142da60eb5683c9da5d7) Rename meeting template skill
+- 2026-07-15 08:18 [`c996003`](https://github.com/krafton-playground/notetaker-landing/commit/c996003a82534f72d19cdc6f15b4dbfd9f91ed4b) Merge pull request #15 from krafton-playground/agent/rename-meeting-template-section
+- 2026-07-15 08:18 [`ecd2ade`](https://github.com/krafton-playground/notetaker-landing/commit/ecd2adec229d46d04968c3cb38881885307eda78) Rename meeting template section
+- 2026-07-15 07:08 [`0d56ca4`](https://github.com/krafton-playground/notetaker-landing/commit/0d56ca44812b9d889fd9c04bcc038bc049739166) Merge pull request #14 from krafton-playground/agent/add-meeting-hard-qa
+- 2026-07-15 07:07 [`db1fae7`](https://github.com/krafton-playground/notetaker-landing/commit/db1fae7d64de1f688e0378d9f1fd38262936fdaa) Add meeting-hard-qa skill
+- 2026-07-15 06:57 [`3ca8ced`](https://github.com/krafton-playground/notetaker-landing/commit/3ca8ced8096592c6c0ceeb32684a899e19111c43) Merge pull request #13 from krafton-playground/feat/prompt-customize-tabs
+- 2026-07-15 06:56 [`c7a0c47`](https://github.com/krafton-playground/notetaker-landing/commit/c7a0c47f57b7107b86209b7baa64f7d6975966ea) Add collapsible team meeting prompt template
+- 2026-07-15 06:20 [`9a00adc`](https://github.com/krafton-playground/notetaker-landing/commit/9a00adc83a88033364ec74405f03a755c81343c7) Add 기조실/자회사관리 tab bar to Prompt 커스터마이징 section
+- 2026-07-15 00:30 [`62b5de9`](https://github.com/krafton-playground/notetaker-landing/commit/62b5de910811e3d397e8605ffb1bc72f8b351777) Switch Clova Note and MS365 MCPs to remote HTTP servers
+- 2026-07-14 23:38 [`f1ccc79`](https://github.com/krafton-playground/notetaker-landing/commit/f1ccc79577461ea556fc08a7ca656420d2075205) Restore repository state to 0a953c8
+- 2026-07-14 23:29 [`eb91c51`](https://github.com/krafton-playground/notetaker-landing/commit/eb91c51900c703ea02891df07fd9fbfa1b4b3fea) Restore repository state to fa05931
+- 2026-07-14 23:27 [`b515101`](https://github.com/krafton-playground/notetaker-landing/commit/b515101796a78c122e1aadf1dfb9e81b8fa753d1) Reapply "Merge pull request #7 from krafton-playground/restore-meeting-qa"
+- 2026-07-14 23:10 [`cbab975`](https://github.com/krafton-playground/notetaker-landing/commit/cbab975001c270f7d254eb603c7e0cfad1956e07) Revert "Merge pull request #7 from krafton-playground/restore-meeting-qa"
+- 2026-07-07 10:24 [`032e791`](https://github.com/krafton-playground/notetaker-landing/commit/032e7911a38bff3bd9c77d90b4b66ecb2bd84b27) Merge pull request #12 from krafton-playground/update-root-docs
+- 2026-07-07 10:24 [`a325164`](https://github.com/krafton-playground/notetaker-landing/commit/a325164a9671875ed8eadc1fbabaaeba640a22e3) Update root README/AGENTS for the audio → Confluence pipeline
+- 2026-07-07 10:17 [`7265023`](https://github.com/krafton-playground/notetaker-landing/commit/7265023485798df8da7f1d9fd1616c4209ae67f5) Merge pull request #11 from krafton-playground/wire-audio-pipeline
+- 2026-07-07 10:17 [`e65ca3c`](https://github.com/krafton-playground/notetaker-landing/commit/e65ca3c630dbcfb1da862b9d47eb25ff1a062592) Wire audio → minutes → Confluence pipeline across the three skills
+- 2026-07-07 10:10 [`a7ec8ef`](https://github.com/krafton-playground/notetaker-landing/commit/a7ec8efddf2f085c463dd8ca69ce06ec43495257) Merge pull request #10 from krafton-playground/stt-whisper-engine
+- 2026-07-07 10:10 [`a646e87`](https://github.com/krafton-playground/notetaker-landing/commit/a646e87a994f5a1da57fb1d6025e80197f39820d) Swap stt-skills engine: Soniox → OpenAI gpt-4o-transcribe-diarize
+- 2026-07-07 10:04 [`43d9091`](https://github.com/krafton-playground/notetaker-landing/commit/43d9091505a450e0d8dfaf1408e0f386d7bbd84d) Merge pull request #9 from krafton-playground/add-stt-skills
+- 2026-07-07 10:04 [`999b2cd`](https://github.com/krafton-playground/notetaker-landing/commit/999b2cd35d2b25cb0c87ed20866d6a2a88f60fc5) Add references/stt-skills: audio → STT + diarization → markdown
+- 2026-07-07 10:00 [`71a697e`](https://github.com/krafton-playground/notetaker-landing/commit/71a697e9f152b39bfae2b96d4b3a4d5af08eddaf) Merge pull request #8 from krafton-playground/clean-meeting-qa-keywords
+- 2026-07-07 10:00 [`c1e7eac`](https://github.com/krafton-playground/notetaker-landing/commit/c1e7eacc29a023467f304fce98f026595d954577) De-Clova meeting-qa skill and retarget to ms365-mcp
+- 2026-07-07 09:55 [`e76232a`](https://github.com/krafton-playground/notetaker-landing/commit/e76232a64ba71da57f5208004d7a778a03383d57) Merge pull request #7 from krafton-playground/restore-meeting-qa
+- 2026-07-07 09:55 [`4587b8b`](https://github.com/krafton-playground/notetaker-landing/commit/4587b8b4a2fa7056ec6823f745c167e3d7880e79) Restore references/meeting-qa skill
+- 2026-07-07 09:44 [`f6aea85`](https://github.com/krafton-playground/notetaker-landing/commit/f6aea85ab0f9ce515c621fb7246eb1027fb9a633) Merge pull request #6 from krafton-playground/ms365-mcp-http-migration
+- 2026-07-07 09:44 [`fa05931`](https://github.com/krafton-playground/notetaker-landing/commit/fa05931829464ec85fc138f7ea2fe9149af38fb9) Migrate MS365 MCP to streamable HTTP server
+- 2026-07-02 11:59 [`07eedb2`](https://github.com/krafton-playground/notetaker-landing/commit/07eedb20f75f2d458f107a385a06f508daa72af9) Merge pull request #5 from krafton-playground/remove-clova-note-mcp
+- 2026-07-02 11:56 [`eb43762`](https://github.com/krafton-playground/notetaker-landing/commit/eb437629d6218e7e0c552fddced861e406771531) Merge remote-tracking branch 'origin/main' into remove-clova-note-mcp
+- 2026-07-02 09:30 [`fd93cab`](https://github.com/krafton-playground/notetaker-landing/commit/fd93cab90da833138a33e4292bcf740ec64b6c20) Remove Clova Note MCP entirely
+- 2026-07-02 09:23 [`33c54d5`](https://github.com/krafton-playground/notetaker-landing/commit/33c54d51101d9a86069a0f53355a2ec90e7616f7) Merge pull request #3 from krafton-playground/replace-ms365-mcp-slug
+- 2026-07-02 09:21 [`dadca86`](https://github.com/krafton-playground/notetaker-landing/commit/dadca868d3fbf49477110c1f108b1b9a8e5f1596) Merge pull request #4 from krafton-playground/fix-windows-python-detection
+- 2026-07-02 09:19 [`0c1a689`](https://github.com/krafton-playground/notetaker-landing/commit/0c1a6891fb2655458bdbdf3b7e148f910dc9136c) Fix Windows crash when probing python version candidates
+- 2026-07-02 09:03 [`0a953c8`](https://github.com/krafton-playground/notetaker-landing/commit/0a953c849d4f6f62b6adde0bffbd9cc60be06ff3) Retarget MS365 MCP references to ms365-mcp repo
+- 2026-06-22 20:00 [`876b1fb`](https://github.com/krafton-playground/notetaker-landing/commit/876b1fb5608f1d0340d81f88356ccadcd124e6c5) Merge pull request #1 from krafton-playground/add-hard-rules-and-confluence-skill
+- 2026-06-22 20:00 [`e53352e`](https://github.com/krafton-playground/notetaker-landing/commit/e53352e2b881e3bf0afe591c5486390d2a03f890) Add 3단계 Prompt 커스터마이징 section to landing page
+- 2026-06-22 19:44 [`5188f40`](https://github.com/krafton-playground/notetaker-landing/commit/5188f40ff2326ebeae1c02d424a0a83ddac763ad) Add [Hard rules] to skill prompt and the confluence-issue skill
+- 2026-06-22 17:38 [`571b3e7`](https://github.com/krafton-playground/notetaker-landing/commit/571b3e7f5e64456ad1d0f856eb9f1e6bb82c4454) Add Confluence MCP section and troubleshooting FAQ to landing page
+- 2026-06-19 09:35 [`76fd6e7`](https://github.com/krafton-playground/notetaker-landing/commit/76fd6e7d6690be710dcf0b0ad0ab53ea2b6f5b3b) update index.html
+- 2026-06-18 15:27 [`2179f68`](https://github.com/krafton-playground/notetaker-landing/commit/2179f68ba40af8ec45fadb99b6e0ab53f4a76963) update AGENTS.md and README.md
+- 2026-06-18 15:26 [`73f42bf`](https://github.com/krafton-playground/notetaker-landing/commit/73f42bfae9179136e4514c90f7ad5162c4717e50) update AGENTS.md and README.md
+- 2026-06-18 15:02 [`4c14581`](https://github.com/krafton-playground/notetaker-landing/commit/4c145813a139ac56eacc5472949634321b9bb709) Add OS/tool environment selector with dynamic prompt + skill path
+
+## ops-content-hub
+
+287 commits. Newest first.
+
+- 2026-11-13 16:44 [`e1e8d4e`](https://github.com/krafton-playground/ops-content-hub/commit/e1e8d4ea4c0dda6a7f6e2816d085b1c8e97d2daf) fix: 로그인 만료 시 저장 오류 안내와 소스 미리보기 지연 해소
+- 2026-11-09 20:18 [`9ffec6c`](https://github.com/krafton-playground/ops-content-hub/commit/9ffec6cb597a57cba88b3819881ddd5c81de031a) revert: 사이드바 Hermes 연결 상태 문구 복원
+- 2026-11-09 20:11 [`ebbd42c`](https://github.com/krafton-playground/ops-content-hub/commit/ebbd42ca23ae43b382d22ef955c9c35c8380e935) fix: 사이드바 로고 아래 Hermes 연결 상태 문구 제거
+- 2026-10-23 10:15 [`9c2165a`](https://github.com/krafton-playground/ops-content-hub/commit/9c2165a7df821180d7046aaa843065e86c6e1f0e) fix: 뉴스레터 카드 전환과 초안 편집 상태 복원 수정 (#233)
+- 2026-10-22 18:47 [`2eb6260`](https://github.com/krafton-playground/ops-content-hub/commit/2eb6260142fe019ecd7c64fee5c1e46a5a3860ad) fix: use help bubble icon for inquiry button
+- 2026-10-22 15:45 [`2b52ec4`](https://github.com/krafton-playground/ops-content-hub/commit/2b52ec458d7ccebd960deded426f8b58c2bdd0a3) fix: 문의 공용 메일 발신 계정 및 Slack 수신 주소 연결 (#232)
+- 2026-10-22 15:26 [`c91fde9`](https://github.com/krafton-playground/ops-content-hub/commit/c91fde9d7acdf1f7b860ab8d4edc90352bdb5497) feat: 앱 문의 버튼과 이메일·Hermes DM 알림 추가 (#231)
+- 2026-10-21 12:56 [`a9fb34c`](https://github.com/krafton-playground/ops-content-hub/commit/a9fb34c746e1522dca228cd3c5efba84c153930b) 인수인계 문서 두 벌을 추가한다 — SPEC(개발자용)·HANDOVER(비개발자용) [skip ci]
+- 2026-10-13 21:20 [`19e9e1b`](https://github.com/krafton-playground/ops-content-hub/commit/19e9e1b1a1ec775ea7ef9feb4f7082366e2a7696) feat: 뉴스레터 라이브러리 셸프와 커버 아트 추가 (#230)
+- 2026-10-13 13:46 [`a4eba3e`](https://github.com/krafton-playground/ops-content-hub/commit/a4eba3e5763c51606dc8f5930358cfbfedd12276) 뉴스레터별 소스·예약 격리와 버전 관리 및 Docker E2E 검증 (#229)
+- 2026-10-01 10:23 [`8cf2317`](https://github.com/krafton-playground/ops-content-hub/commit/8cf2317cf067d59dabffe8f408a544d9ce151d7b) fix: 내보낸 구성원의 열린 탭을 로그아웃시킨다 (#228)
+- 2026-10-01 09:46 [`488a1d7`](https://github.com/krafton-playground/ops-content-hub/commit/488a1d7ba695198293b916d0ed8953ee8e1599cb) fix: 내보낸 구성원이 다시 가입하면 첫 설정으로 보낸다 (#227)
+- 2026-09-30 17:33 [`42c6795`](https://github.com/krafton-playground/ops-content-hub/commit/42c6795469a9a3d164f988d8345c2c93506d1ac6) fix: Slack 발송 채널 선택 통합 및 Reddit 숨김 (#226)
+- 2026-09-30 17:11 [`f54188e`](https://github.com/krafton-playground/ops-content-hub/commit/f54188e1a69c516c38fdff3866a04287b837e003) fix: 브리핑 템플릿 순서와 영문 표시 정리 (#225)
+- 2026-09-30 17:02 [`4cd3783`](https://github.com/krafton-playground/ops-content-hub/commit/4cd378317be4b0ed77cc6836024c6d89deca037d) fix: 소스 선택 모달에서 연결 미지원 항목 제외 (#224)
+- 2026-09-30 16:55 [`331b01c`](https://github.com/krafton-playground/ops-content-hub/commit/331b01c7fd927c5ebce4952736a9d2f1e806d9bd) fix: 검색 키워드 우선 흐름과 튜토리얼 순서 정리 (#223)
+- 2026-09-29 09:03 [`3f31c41`](https://github.com/krafton-playground/ops-content-hub/commit/3f31c41d59af9bd8a4f46bc367e20ec179d32b2b) 말일이 주말·공휴일이면 다음 영업일에 보낸다 (#222)
+- 2026-09-29 07:16 [`329e54e`](https://github.com/krafton-playground/ops-content-hub/commit/329e54e8a72a2c18649ce967e86556994c9a4201) fix: Slack 테스트 발송을 5단계로 이동하고 템플릿 타일 제거 (#221)
+- 2026-09-26 19:15 [`0de5dd2`](https://github.com/krafton-playground/ops-content-hub/commit/0de5dd2dc177c5480c0cc8951ae0c503493e8d05) fix: 신규 가입자의 온보딩 완료 후에만 튜토리얼 자동 표시 (#220)
+- 2026-09-26 18:32 [`e60c307`](https://github.com/krafton-playground/ops-content-hub/commit/e60c307aed69230791f9cbf0bb9f192b09c9b18e) feat: 신규 온보딩에 브리핑 발송 일정 설정 추가 (#219)
+- 2026-09-26 18:19 [`6dd506e`](https://github.com/krafton-playground/ops-content-hub/commit/6dd506e655210ef678fc57bb777ec6bfac74329c) fix: 자동 발송 설정 완료 시 흰 화면 전환 제거 (#218)
+- 2026-09-26 17:12 [`6de5a25`](https://github.com/krafton-playground/ops-content-hub/commit/6de5a25f2b01f740daf7f1cae360674997156a2a) 소스 뉴스레터 채널 선택과 발송 일정 설정 개선 (#217)
+- 2026-09-23 16:10 [`a41aa86`](https://github.com/krafton-playground/ops-content-hub/commit/a41aa867c75099e0c58681052d110a0f12cbca30) fix: prevent onboarding logout prefetch from clearing sessions (#216)
+- 2026-09-23 15:09 [`40b5317`](https://github.com/krafton-playground/ops-content-hub/commit/40b531711676a97e4e47d55687170a4524ff264a) fix: group sidebar management menus under section heading (#215)
+- 2026-09-23 15:08 [`733b272`](https://github.com/krafton-playground/ops-content-hub/commit/733b27222a9169cfaf81cbec763f5385934188bb) Fix onboarding Slack channel lookup recovery (#214)
+- 2026-09-23 11:31 [`98053e9`](https://github.com/krafton-playground/ops-content-hub/commit/98053e95e8718b643dd97c3c567ae283a594cfbb) 튜토리얼 재설계 — 메뉴는 레일 옆 기둥, 실습은 오른쪽 패널 (#213)
+- 2026-09-23 09:45 [`8cb6aaf`](https://github.com/krafton-playground/ops-content-hub/commit/8cb6aaff978dc3cf4feb6f4edc483adb4e18a2e3) 첫 설정은 전체 화면으로 — 사이드바 없이 (#212)
+- 2026-09-22 13:33 [`1a89d01`](https://github.com/krafton-playground/ops-content-hub/commit/1a89d013bfeab38a845a869b056fd528a16b9753) 브리핑을 세 가지 주기로 만들고, 기존 계정에도 깔아 준다 (#211)
+- 2026-09-22 11:49 [`d600b2d`](https://github.com/krafton-playground/ops-content-hub/commit/d600b2d6633a573ac0f96af426cecdc69c669bd6) 스케쥴 제목을 통일하고, 레일 소개를 튜토리얼 0번 아래로 넣는다
+- 2026-09-22 09:58 [`e8ef62a`](https://github.com/krafton-playground/ops-content-hub/commit/e8ef62af8f6100f1a22e1cef534aabf532739153) 콘솔 라벨을 눈에 보이는 말로 고치고 로그인 제목을 본문 폰트로 되돌린다 (#210)
+- 2026-09-21 13:53 [`7f2541f`](https://github.com/krafton-playground/ops-content-hub/commit/7f2541ffd64f62ab60eef47cfabd80e3c4c56df4) Merge remote-tracking branch 'origin/main' into feat/ms-newsletter-template
+- 2026-09-21 13:53 [`d82c323`](https://github.com/krafton-playground/ops-content-hub/commit/d82c32304c71f4b25c72905475a83a732df66189) Implement Outlook email template editor and Sources binding
+- 2026-09-21 13:48 [`2cc09ce`](https://github.com/krafton-playground/ops-content-hub/commit/2cc09ced596d2592893daf69a72ad5e111fe124e) 답변이 오는 중에 위로 스크롤하면 그 자리에 머무르게 (#209)
+- 2026-09-21 13:42 [`ced5c3c`](https://github.com/krafton-playground/ops-content-hub/commit/ced5c3c47bc62fa465653d5ce376af6d59077163) web_fetch 실패를 로그와 요약에 드러낸다 (#208)
+- 2026-09-21 12:59 [`8cc76f1`](https://github.com/krafton-playground/ops-content-hub/commit/8cc76f1e999e8afc1fa5e86ccc5cb8f294541f52) 이메일 뉴스레터에 진짜 템플릿을 준다 — 슬랙 템플릿을 빌려 쓰던 걸 걷어내고
+- 2026-09-20 17:57 [`11bf870`](https://github.com/krafton-playground/ops-content-hub/commit/11bf870ba250c151dc2134bb9597cc7fb3d2be31) QA 기록(429)과, 레일 첫 열기의 빈 화면 채우기 (#207)
+- 2026-09-20 16:59 [`6bb31a1`](https://github.com/krafton-playground/ops-content-hub/commit/6bb31a110672efa08d78f0a0e56f2c8072b11c5e) Hermes 바 예시에서 특정 아티스트 이름을 뺀다 (#206)
+- 2026-09-20 15:56 [`2065eb7`](https://github.com/krafton-playground/ops-content-hub/commit/2065eb7570fe5478e7db71a61c15fdcd9e7ab2f9) 상단 Hermes 칩을 누르면 옆에서 대화창이 열리게 (#205)
+- 2026-09-20 13:22 [`9811b67`](https://github.com/krafton-playground/ops-content-hub/commit/9811b673d87a4f4876a8dd2b6b7ed2580aefdf14) 투어의 '다음'이 단계마다 움직이지 않게 (#204)
+- 2026-09-20 13:08 [`fc6a5f1`](https://github.com/krafton-playground/ops-content-hub/commit/fc6a5f1e6173fc58ce1e9f88fefd8951bce9dd45) 소스 담기 → 채널 등록 → Test 발송 → 소스 빼기를 한 번에 걷는 E2E (#203)
+- 2026-09-20 12:14 [`24a6139`](https://github.com/krafton-playground/ops-content-hub/commit/24a61399fc330d5c83650e79f495d4ff5c97b16f) E2E 두 건이 제품이 아니라 테스트 때문에 빨갰다 (#202)
+- 2026-09-20 09:29 [`afc9ba7`](https://github.com/krafton-playground/ops-content-hub/commit/afc9ba7773af8c851469ce8aa5fa03e885454b0b) 소스 추가: GeekNews (news.hada.io) (#201)
+- 2026-09-20 08:33 [`e6393e1`](https://github.com/krafton-playground/ops-content-hub/commit/e6393e18e3c2572d1c501fa4b7d3130398d50cc7) 첫 설정 건너뛰기를 보이게 — 13px 회색 글씨 → 44px 알약 (#200)
+- 2026-09-19 14:32 [`d271a54`](https://github.com/krafton-playground/ops-content-hub/commit/d271a54cdb2531d557b8f6c71e92e7431335a076) 튜토리얼 투어 다듬기 — 그만하기 · 스포트라이트 범위·크기·겹침 (#199)
+- 2026-09-19 13:25 [`26289bf`](https://github.com/krafton-playground/ops-content-hub/commit/26289bf47524301ad06b1e388d402b9dd0ce7310) 튜토리얼 투어 검수에서 나온 것들 고치기 — 위치 표시 · 카운터 · 낡은 E2E (#198)
+- 2026-09-19 11:04 [`aef644e`](https://github.com/krafton-playground/ops-content-hub/commit/aef644eecbf24bc5b075fabbb571b58aadd732a5) 소스 튜토리얼: 모달 코치마크 → 오른쪽 슬라이드 패널 (비차단, 사이드바 진입) (#197)
+- 2026-09-16 17:21 [`03edba4`](https://github.com/krafton-playground/ops-content-hub/commit/03edba4381d0a812f78c12e39b08e04a9ccf9c18) 사이드바 내비게이션 프레임 도입 (Sidebar Nav Redesign 2a) (#196)
+- 2026-09-16 09:59 [`cc4e893`](https://github.com/krafton-playground/ops-content-hub/commit/cc4e893537ca0c41d94fb3f5e41d45ad3697923f) 이메일 채널 모드: 소스 화면 전체를 보라 강조로 · 채널 탭 라벨 통일 (#195)
+- 2026-09-16 08:49 [`d5ff177`](https://github.com/krafton-playground/ops-content-hub/commit/d5ff177800807ab3df41dfaccd187dc14a66b3fb) 스텝퍼: 흰 카드 배경 제거 · ① 배지와 정렬 · 링크 착지 오프셋 + QA e2e (#194)
+- 2026-09-16 08:26 [`f15ba21`](https://github.com/krafton-playground/ops-content-hub/commit/f15ba212a6078f93477a34f179ae64914c4e6e2c) 소스 화면 흐름 바를 실제 진행률이 보이는 스텝퍼로 바꾼다 (#193)
+- 2026-09-16 08:21 [`98adff5`](https://github.com/krafton-playground/ops-content-hub/commit/98adff501a94572050f99134eadfa7710a563af2) 소스 화면 이메일 컴포저에서 3단계와 중복되는 글 목록을 없앤다 (#192)
+- 2026-09-16 07:52 [`c477c9c`](https://github.com/krafton-playground/ops-content-hub/commit/c477c9c57fc384afc92b3ee4acdd60f475e63984) 소스 화면의 Slack/이메일 선택 탭을 상단 탭 바로 아래로 올린다 (#191)
+- 2026-09-15 17:25 [`b022daa`](https://github.com/krafton-playground/ops-content-hub/commit/b022daaa8d7056fd92f2f04a53eb674f8bd210df) 이메일 뉴스레터 제목을 Slack처럼 한국어로 번역한다 (#190)
+- 2026-09-15 10:25 [`9f65b98`](https://github.com/krafton-playground/ops-content-hub/commit/9f65b9832ffc926e90c477bc216b2943269af8a5) 화면 제목을 상단 탭 이름과 일치시킨다 (#189)
+- 2026-09-14 13:12 [`e37ca41`](https://github.com/krafton-playground/ops-content-hub/commit/e37ca41dd69a00606632b435841a7368fb5fdd44) Apply approved hero design to the live login route (#188)
+- 2026-09-14 10:08 [`26def2c`](https://github.com/krafton-playground/ops-content-hub/commit/26def2c2f90bf081809e854dde59127e1ad14833) Add blue and purple login design mockup (#187)
+- 2026-09-14 09:44 [`903af2a`](https://github.com/krafton-playground/ops-content-hub/commit/903af2a87da00133df3a4da06b6578f5047fe179) Restore inline newsletter previews and delivery setup on Sources (#186)
+- 2026-09-14 09:18 [`467c1cb`](https://github.com/krafton-playground/ops-content-hub/commit/467c1cb9b267fa0c030541f81a49d39b61364ecc) fix: restore two-panel glossy login design (#185)
+- 2026-09-12 16:56 [`587c152`](https://github.com/krafton-playground/ops-content-hub/commit/587c152ce80ea2c1e5aaa0da672008cd5c497763) fix: complete email newsletters on Sources and apply client feedback (#184)
+- 2026-09-12 08:04 [`1ff32ee`](https://github.com/krafton-playground/ops-content-hub/commit/1ff32eebadf01b5975393547738c68d7086f391b) 소스 안내가 실제 동작과 일치하도록 문구를 바로잡는다 (#183)
+- 2026-09-11 22:08 [`2557812`](https://github.com/krafton-playground/ops-content-hub/commit/2557812e6abf6f3069551a869cd9622a7dda9f38) 검토한 문구 전체 221건 반영 (#182)
+- 2026-09-05 22:52 [`e372e44`](https://github.com/krafton-playground/ops-content-hub/commit/e372e44401281569441d8dfe32243143ed5f362d) 로그인 텍스트 한 단계 축소 + 오른쪽 인증 컬럼 프로스트 화이트 분리
+- 2026-09-05 13:57 [`0bb0674`](https://github.com/krafton-playground/ops-content-hub/commit/0bb0674bab8e5ca3eed355f49552cf3f6b353701) 로그인 스케일 다이얼다운: 히어로 타이틀·카드·타이포 약 15% 축소
+- 2026-09-05 13:44 [`d10a055`](https://github.com/krafton-playground/ops-content-hub/commit/d10a055bc9aa335017f849dcc7d1fd2d71dec9f3) 로그인 화면 리디자인: 파스텔 애니메이션 배경 + 리퀴드 글래스 카드 (#181)
+- 2026-08-26 09:31 [`848cb91`](https://github.com/krafton-playground/ops-content-hub/commit/848cb910c5e7d68cd5db94852b7c64e681f363f3) /trends UI: 키워드 흐름 · 순위 패널 · 공유 소스 (손으로 그린 SVG) (#180)
+- 2026-08-26 08:43 [`3e0b5e6`](https://github.com/krafton-playground/ops-content-hub/commit/3e0b5e680f71ed2dbd06fd86a0b29c13924a8430) 배포 실패 수정: 정의되지 않은 eslint 규칙을 끄는 주석이 빌드를 깨뜨렸다 (#179)
+- 2026-08-25 20:25 [`2342731`](https://github.com/krafton-playground/ops-content-hub/commit/2342731944ca360dbc301f9069c957ece63fc666) /trends 2단계: 키워드 시계열 집계 (#178)
+- 2026-08-25 20:25 [`b2861c2`](https://github.com/krafton-playground/ops-content-hub/commit/b2861c2b9058e352cc1392efc6d716fb40dd0f1b) 키워드 태깅이 소스 이름에 걸려 순환하던 문제 (#177)
+- 2026-08-25 19:49 [`0ba976b`](https://github.com/krafton-playground/ops-content-hub/commit/0ba976be9e912373d8aa38fea20a4ba0cefb2427) 트렌드 분석 탭 + /trends 자리 만들기 (#152)
+- 2026-08-24 10:52 [`eb31900`](https://github.com/krafton-playground/ops-content-hub/commit/eb3190035893799e37a0c8ef4ba6fe1313832fee) fix: narrow login support Graph scopes (#176)
+- 2026-08-24 10:45 [`9c850e0`](https://github.com/krafton-playground/ops-content-hub/commit/9c850e0f65dd4d1d08a05f6b0b39fb39180e7c56) fix: allow members to manage private templates (#175)
+- 2026-08-24 10:29 [`825b17e`](https://github.com/krafton-playground/ops-content-hub/commit/825b17e5ed246f2ff44f795c3632d2d8190b1cf1) fix: restore spacing after collection schedule (#174)
+- 2026-08-24 10:10 [`438e697`](https://github.com/krafton-playground/ops-content-hub/commit/438e697740e48f2bfaa0f4f3de6fd3ba9f8afc48) fix: align auto collection step target (#173)
+- 2026-08-24 10:08 [`3b99ea3`](https://github.com/krafton-playground/ops-content-hub/commit/3b99ea3f3f93e0ac0173b88283e182eacbba3198) fix: sanitize onboarding test payload (#172)
+- 2026-08-24 10:01 [`61c2807`](https://github.com/krafton-playground/ops-content-hub/commit/61c280705b3093e18e25e093970fe2a1061661a8) fix: correct paid source labels (#171)
+- 2026-08-24 09:58 [`09cab82`](https://github.com/krafton-playground/ops-content-hub/commit/09cab827854487408a44e3ca735a4c0e19c1e1b6) fix: allow proxied login support requests (#170)
+- 2026-08-24 09:57 [`ad1e546`](https://github.com/krafton-playground/ops-content-hub/commit/ad1e546a83a736f06099e5a3e096fad6aa35d4ef) Keep all eight links in onboarding test delivery (#169)
+- 2026-08-24 09:47 [`5951cf8`](https://github.com/krafton-playground/ops-content-hub/commit/5951cf86c8918c28e4e1abe8a2a4034313c7c34c) feat: label source access as free or paid (#167)
+- 2026-08-24 09:40 [`22e421e`](https://github.com/krafton-playground/ops-content-hub/commit/22e421e7d3e1ded849c7ef008c4b8c6b37e9dc00) feat: add login support email modal (#166)
+- 2026-08-24 09:38 [`e4290da`](https://github.com/krafton-playground/ops-content-hub/commit/e4290da56759ebb87f6f3109a9fd5b58a342d420) fix: expand onboarding test newsletter (#165)
+- 2026-08-24 09:37 [`6f81508`](https://github.com/krafton-playground/ops-content-hub/commit/6f81508643f2e6bb6eb076e8d5153f6a4926adff) Fix first-sign-up Slack validation and test messages (#164)
+- 2026-08-22 20:33 [`fee1139`](https://github.com/krafton-playground/ops-content-hub/commit/fee113905694ec37d68159ae5c28f72ead5aaf00) Band 4 제목 '뉴스레터 만들기 & 테스트' → '뉴스레터 만들기' (#163)
+- 2026-08-22 19:48 [`8ad5c4d`](https://github.com/krafton-playground/ops-content-hub/commit/8ad5c4d158d1eb521e4d4755c56c56b9a70d17c4) 플로우 바: 1·2·3·4 단계 클릭이 먹통이던 문제 — 해당 밴드로 스크롤 (#162)
+- 2026-08-22 17:11 [`1ef40ec`](https://github.com/krafton-playground/ops-content-hub/commit/1ef40ecc2c2595869b2af45831e513fab4b45728) 리서치 질문: 기다리는 시간을 줄이고, 접어 둔 창이 스스로 돌아옵니다 (#156 통합) (#160)
+- 2026-08-22 16:16 [`954d1fe`](https://github.com/krafton-playground/ops-content-hub/commit/954d1fe994574f08f484612d795217cd45af04e4) 리서치 질문에 ✨ AI 자동 생성 — 빈칸 앞에서 멈추지 않게 (#161)
+- 2026-08-22 15:55 [`a9a39b9`](https://github.com/krafton-playground/ops-content-hub/commit/a9a39b9c54336297dcdee33b7ea8ddb2d65421e6) 뉴스레터 기록의 건너뜀 회차도 '수집된 기사가 없습니다'로 (#159)
+- 2026-08-22 15:34 [`e0a35bb`](https://github.com/krafton-playground/ops-content-hub/commit/e0a35bbbe1f0a9b44c5e95f90185a40156b40f00) 리서치 추천: 왜 느린지 보이게 하고, 실제로 빠르게 (수집물 우선 + 소스 병렬) (#157)
+- 2026-08-22 15:12 [`ab802aa`](https://github.com/krafton-playground/ops-content-hub/commit/ab802aa15f303eaf6c6e1aa718e6b89a1c038f3e) 날짜 표기 버그 일괄 수정 (미정 기간·미래날짜 제목·미리보기 불일치·연말 파싱·스케줄 앵커) (#158)
+- 2026-08-22 15:07 [`0ac9bcc`](https://github.com/krafton-playground/ops-content-hub/commit/0ac9bcc1bce0e46287004f74f0dec2b6a9bf07b9) 공유 기록 남기기 — 무엇을 골라 보냈는지 (마이그레이션 없음) (#155)
+- 2026-08-21 17:03 [`c4d55af`](https://github.com/krafton-playground/ops-content-hub/commit/c4d55af4973dc9201eb384dfc4caf548629e0c53) 템플릿 말투가 아무 일도 하지 않던 문제 (고객 신고) (#154)
+- 2026-08-21 16:59 [`0a6028d`](https://github.com/krafton-playground/ops-content-hub/commit/0a6028d8b02b89b7aa5f666870cb350a7650e2f7) 리서치 추천 스피너가 영영 도는 문제 — effect가 자기 요청을 취소하던 걸 고침 (#153)
+- 2026-08-21 16:32 [`943d92e`](https://github.com/krafton-playground/ops-content-hub/commit/943d92e32e003b74bcc717f2637b173886ccf88b) 떠 있는 막대와 접어 두기 버튼의 자리 정리 (#151)
+- 2026-08-21 16:20 [`05a37b4`](https://github.com/krafton-playground/ops-content-hub/commit/05a37b4acab5d32a329ed78e783634269b2894aa) 리서치 실행 상태를 전역으로 — 탭을 옮겨도 막대가 떠 있고 추천이 계속 돕니다 (#150)
+- 2026-08-21 16:10 [`be4b1dc`](https://github.com/krafton-playground/ops-content-hub/commit/be4b1dc2c892f1ae4009d404f1cc57978568d751) 지금 실행: /runs로 넘겨 버리지 않고 실제 결과를 그 자리에서 보여준다 (#148)
+- 2026-08-21 16:06 [`89b6065`](https://github.com/krafton-playground/ops-content-hub/commit/89b6065b881a6300532e59488671a3d1b6f0cfe2) 리서치 추천: 타임아웃·경과 시간·다시 시도, 그리고 창 접어 두기 (#147)
+- 2026-08-21 15:41 [`f834c34`](https://github.com/krafton-playground/ops-content-hub/commit/f834c34c276a4614220e123763fa41eea670488f) 빈 APP_URL/AUTH_URL이 기본값으로 안 떨어지던 문제 수정 + 로그인 E2E 되살리기 (#124)
+- 2026-08-21 15:05 [`e16c55b`](https://github.com/krafton-playground/ops-content-hub/commit/e16c55b5d45ac11dd3927cbd28615d150026a41b) 리서치 질문: 이해 확인 → 추천 2단계 모달 (LLM 추천) (#143)
+- 2026-08-21 15:05 [`a19a162`](https://github.com/krafton-playground/ops-content-hub/commit/a19a1625d02b783bd77fff3c4a6b773a3da8f54f) 온보딩 테스트 발송: 확인 모달 → 완료 체크 → 콘솔로 자동 이동 (#146)
+- 2026-08-21 13:56 [`0190a63`](https://github.com/krafton-playground/ops-content-hub/commit/0190a63bbbe1ee022ab38240d9c805129d856170) "주소만 붙여넣으면 끝": 등록 전에 수집 가능한 주소인지 먼저 확인 (#145)
+- 2026-08-21 13:51 [`926a505`](https://github.com/krafton-playground/ops-content-hub/commit/926a5051fefcad578febc6ebb45e9e73653665e8) 지금 수집 실패를 볼 수 있게 — 서버·브라우저 로그 + 원인별 안내 (#142)
+- 2026-08-21 13:49 [`f0c330c`](https://github.com/krafton-playground/ops-content-hub/commit/f0c330ccd75ee57cef3695a5c44d4d00aafe0ead) 온보딩 마지막 단계 '메인으로 가기' 이동 수정 + 단계 진행선 균등 정렬 (#144)
+- 2026-08-21 13:21 [`fd335f1`](https://github.com/krafton-playground/ops-content-hub/commit/fd335f1e637a5e9225e149e611189d897f095aff) 새 채널 등록하기: 채널 이름 칸 추가 · ID 오류 인라인 안내 · 이름 자동 조회 (#141)
+- 2026-08-21 13:05 [`e09dcc9`](https://github.com/krafton-playground/ops-content-hub/commit/e09dcc91e31c8be192af01da55b584f1919c44e3) 온보딩: 채널 이름 자동 조회 + 테스트 발송 origin 로그 (#140)
+- 2026-08-21 11:02 [`d5061ee`](https://github.com/krafton-playground/ops-content-hub/commit/d5061ee63f7c83b249a99c3e2cc7528418bc9822) 첫 가입자(MEMBER)가 온보딩을 끝낼 수 있게 — 권한 정리 + 채널 ID 오류 안내 (#138)
+- 2026-08-21 10:25 [`352a43f`](https://github.com/krafton-playground/ops-content-hub/commit/352a43f5b622ea477f36bc8764aaf512acea5313) §1 분류: 내가 추가한 소스를 맨 앞으로, 기본 탭으로 (#139)
+- 2026-08-21 10:05 [`7cbca43`](https://github.com/krafton-playground/ops-content-hub/commit/7cbca436696fb4473e238e6902bcd65f93accd53) 새 채널 등록하기 타일을 템플릿 카드와 같은 너비로 (width:100%) (#137)
+- 2026-08-21 09:47 [`7455edd`](https://github.com/krafton-playground/ops-content-hub/commit/7455edd97dfee31853aa41c150c690e59a541045) 새 채널 등록하기 타일을 템플릿 카드와 같은 크기·간격으로 (#136)
+- 2026-08-21 09:37 [`339a989`](https://github.com/krafton-playground/ops-content-hub/commit/339a98901a17fba44dcb47b4195aef380bcef188) 새 템플릿 추가에 편집기 전체를 인라인으로 — 두 번 왕복하던 걸 한 번으로 (#135)
+- 2026-08-21 09:31 [`c8f3ba1`](https://github.com/krafton-playground/ops-content-hub/commit/c8f3ba1ebfdbbc0339e05c560521e667c72f7e79) /admin 구성원 내보내기를 hard delete로 — 내보낸 계정이 다시 로그인하면 500 (#134)
+- 2026-08-21 09:16 [`8268b3d`](https://github.com/krafton-playground/ops-content-hub/commit/8268b3d76aa09a95979d7b12d474e52dcdfd91a6) 새 채널 등록하기: /channels 이동 대신 모달로 · 템플릿 목록 위로 · 빈 상태에서도 노출 (#133)
+- 2026-08-21 09:10 [`b723093`](https://github.com/krafton-playground/ops-content-hub/commit/b723093bd452e8cd01a0afca0c6d788b7fbbd1f4) /sources 자동 발송: 켜기 전 확인 모달 · 켜진 뒤 체크 애니메이션 (#132)
+- 2026-08-21 08:58 [`6ba6e7a`](https://github.com/krafton-playground/ops-content-hub/commit/6ba6e7a06566220823fed90e77c6cb2fd573c7ae) 첫 가입자 온보딩 5단계 (Onboarding.dc.html) — 기존 사용자에게는 보이지 않게 (#131)
+- 2026-08-21 08:46 [`494eb87`](https://github.com/krafton-playground/ops-content-hub/commit/494eb87251af86496bbb6f0b3d8b0ebdb09008ed) /sources 소스 고르기: 2열 카드 격자 · 분류 칩 필터 · 선택 개수 푸터 (#130)
+- 2026-08-20 20:57 [`2c93cd6`](https://github.com/krafton-playground/ops-content-hub/commit/2c93cd6127751d511935dddf40db800e57eb4961) /issues · /audit 의 관리자 메뉴를 /admin 탭 바와 동일한 컨트롤로 (#129)
+- 2026-08-20 20:48 [`7570faf`](https://github.com/krafton-playground/ops-content-hub/commit/7570faf5739c5ec276a649d0dda62346432026b1) 자동 발송을 켜도 아무 말이 없던 문제 — /sources 에 남아 토스트로 알려줍니다 (#128)
+- 2026-08-20 20:40 [`294fb44`](https://github.com/krafton-playground/ops-content-hub/commit/294fb44707bc20d3e756c498d50c9f0164f4805b) 에이전트 탭 복구 · /templates Slack·Email 필 아래 여백을 /admin 과 맞춤 (#127)
+- 2026-08-20 19:46 [`d7f23b0`](https://github.com/krafton-playground/ops-content-hub/commit/d7f23b0cfba14e7f6b664c19652db650066ef417) 상단 탭 8개 → 3개(+관리자) · 플로우 바 밝은 색 · /admin 탭에 발행 기록·감사 로그 (#126)
+- 2026-08-20 15:57 [`9440bf4`](https://github.com/krafton-playground/ops-content-hub/commit/9440bf473f5dc8963e32b77a3aca3a39d4f7cf7f) /sources §2: "무엇에 대해 조사할까요?" · 맥락 탭을 리서치 질문 한 칸으로 (#125)
+- 2026-08-20 15:19 [`9ccf984`](https://github.com/krafton-playground/ops-content-hub/commit/9ccf984bd2f5a395019508dca40978d89fae1b9b) 로그인 화면 재설계: 브랜드 패널 + 로그인 카드 (Login.dc.html) (#123)
+- 2026-08-19 21:58 [`58e03dd`](https://github.com/krafton-playground/ops-content-hub/commit/58e03ddf9888f9e24e5260c0e4b479f4781fe320) /sources 튜토리얼: 첫 방문 시 패널 자동 열기 · "체크리스트"→"튜토리얼" · 우하단 보기설정 제거 (#122)
+- 2026-08-19 17:15 [`e622c8a`](https://github.com/krafton-playground/ops-content-hub/commit/e622c8ae7fdb76610726a97452aee0efeff431bd) /sources 튜토리얼: 단계별 플로팅 코치마크 + 첫 브리핑 준비 체크리스트 (#121)
+- 2026-08-19 13:45 [`2013ad4`](https://github.com/krafton-playground/ops-content-hub/commit/2013ad40a41d956e4022d9237e48392127c3fa9f) Slack/Email tabs: drop the extra top margin (match nav→content gap) (#119)
+- 2026-08-19 13:45 [`44bf818`](https://github.com/krafton-playground/ops-content-hub/commit/44bf81898469029157df3ae00e3afe06a3f52621) Newsletter §2: redesign "무엇을 담을까요" to the updated mockup (#120)
+- 2026-08-19 13:21 [`544ba7e`](https://github.com/krafton-playground/ops-content-hub/commit/544ba7e3b970a3a2530a3b6e5bed04f75540f1e3) Slack/Email tabs: use the .seg pill style (white track, blue-soft active) (#118)
+- 2026-08-19 12:58 [`ac07600`](https://github.com/krafton-playground/ops-content-hub/commit/ac07600434fd5758aef03f608b2ae4e210ed6190) Newsletter: use the shared app chrome (consistent header + top nav) (#117)
+- 2026-08-19 11:19 [`42526cd`](https://github.com/krafton-playground/ops-content-hub/commit/42526cd2ebdc07a77c7a1671232cbbe0ab8ccd08) Fix next build: templates page props must satisfy PageProps (#116)
+- 2026-08-19 11:07 [`ca18e0f`](https://github.com/krafton-playground/ops-content-hub/commit/ca18e0f07184ff0d105cae0f0b1c390086c4c2ce) 뉴스레터 재설계: 이메일 뉴스레터 보내기 (Design mockup, DB-wired) (#115)
+- 2026-08-18 17:05 [`d14cc31`](https://github.com/krafton-playground/ops-content-hub/commit/d14cc315df3e4219d2652a505649582f6223e914) Newsletter tab: compose & send a newsletter via Outlook (MVP) (#114)
+- 2026-08-18 15:32 [`2e219f3`](https://github.com/krafton-playground/ops-content-hub/commit/2e219f320227d0c5e8fab72aec32658e012aee02) 모아온 결과 rail에 '한 줄 대기' 스켈레톤 — 소스 추가 후 새로고침 없이 실시간 반영 (#113)
+- 2026-08-18 13:09 [`200825a`](https://github.com/krafton-playground/ops-content-hub/commit/200825a12baef319b2b0ccafaa57484e6f61a01a) MS user connection: stop requesting Mail.Read (not consented on the Azure app) (#112)
+- 2026-08-18 11:45 [`5dc970e`](https://github.com/krafton-playground/ops-content-hub/commit/5dc970eace99501b33be3140b5fb5cd003b4727a) URL 직접 등록 리디자인 — 주소 한 줄 붙여넣기 + 잘못된 주소 인라인 안내 (#111)
+- 2026-08-13 09:31 [`bdf2c88`](https://github.com/krafton-playground/ops-content-hub/commit/bdf2c88929375bcb74a211001a4e1c362c086e56) 연결 테스트를 그 자리에서 — 페이지 새로고침 대신 토스트 (#110)
+- 2026-08-13 09:26 [`7eb9f36`](https://github.com/krafton-playground/ops-content-hub/commit/7eb9f36435b90a61753ed541f458104f74f0a83a) Hermes에게 Confluence 도구를 준다 — 찾고, 본문을 읽고, 범위를 지킨다 (#109)
+- 2026-08-13 08:53 [`e8fe021`](https://github.com/krafton-playground/ops-content-hub/commit/e8fe0217613e575428eb47b2a251b43606ac5b06) Confluence 계정 칸: 로그인 메일로 미리 채우고 사내 도메인을 안내 (#107)
+- 2026-08-12 22:29 [`b009943`](https://github.com/krafton-playground/ops-content-hub/commit/b00994325bbdc303aac27b0dc7d985ba85a5b1cf) Confluence 검색을 공식 Atlassian REST로 (CQL + ADF→평문) (#106)
+- 2026-08-12 21:16 [`b0fdc2b`](https://github.com/krafton-playground/ops-content-hub/commit/b0fdc2b64a5d81bad8eea805e5ae9b9f7821f7fc) 스페이스 키 대소문자 보존 + 사이트 주소 보관 (있는 스페이스를 못 찾던 원인) (#105)
+- 2026-08-12 20:57 [`16ab58d`](https://github.com/krafton-playground/ops-content-hub/commit/16ab58d132932a02c1e36c6614ebc3ec4109bdcf) 연결 테스트를 공식 Atlassian API로 (유효한 토큰이 '거부됨'으로 뜨던 원인) (#104)
+- 2026-08-12 20:05 [`187acd5`](https://github.com/krafton-playground/ops-content-hub/commit/187acd51afaa7b26c3ac3f49a53a7c4da5d20d4c) Confluence 스페이스: URL 입력 지원 + 무엇이 잘못됐는지 말해주는 검증 (#103)
+- 2026-08-12 19:12 [`e8fda75`](https://github.com/krafton-playground/ops-content-hub/commit/e8fda75a79ca141a1ed9bfc1a3468132b9f3da85) 설정 화면이 연결 상태를 사실대로 말하게 — MS365 영구 '재연결 필요', Confluence 오류 은폐 수정 (#102)
+- 2026-08-12 16:09 [`6df9a66`](https://github.com/krafton-playground/ops-content-hub/commit/6df9a667caab758b60a16b58f6314c0b03abebfd) Hermes가 내 Outlook을 본다 — 공용 사서함 대신 내 연결로, 그리고 실패 이유를 말해준다 (#101)
+- 2026-08-12 15:29 [`e2fa152`](https://github.com/krafton-playground/ops-content-hub/commit/e2fa152b23613ce8518a4599216fe0f852643c80) Flow Bar Redesign: 컴팩트 sticky pill bar + 상세 드로어 (claude.ai/design 임포트) (#100)
+- 2026-08-12 13:54 [`60ba8da`](https://github.com/krafton-playground/ops-content-hub/commit/60ba8dab746238ab26f0cb9f28a0db1dc8a1f0b0) 에이전트 대화를 SSE 스트리밍으로 — 중간 메시지 유실·기억 상실·승인 후 단절 수정 (#99)
+- 2026-08-12 13:52 [`694174a`](https://github.com/krafton-playground/ops-content-hub/commit/694174a62fd0090a6137999751254ebadb59234c) HOW IT FLOWS 배너를 sticky로 고정 (스크롤해도 파이프라인이 보이게) (#98)
+- 2026-08-11 09:19 [`e8f4c43`](https://github.com/krafton-playground/ops-content-hub/commit/e8f4c434cb383e62a86bba6c4b9289ece0d6d4b3) 뉴스레터 제목 날짜를 발송일 기준으로 (windowEnd 미래날짜 버그 수정) (#97)
+- 2026-08-10 10:40 [`4c53776`](https://github.com/krafton-playground/ops-content-hub/commit/4c53776b728fd016ff4f44effdf3cefcbf9dcff9) Firecrawl 실패를 서버 로그에 남긴다 — 조용한 폴백에 이유를 붙여서 (#96)
+- 2026-08-10 09:33 [`39d44ba`](https://github.com/krafton-playground/ops-content-hub/commit/39d44bad63762f6cf62dacd5b0301d6bd06a6c44) 섹션형 템플릿도 같은 Slack 크롬으로 — 크롬 래퍼를 종류 분기 바깥으로 (#95)
+- 2026-08-07 15:44 [`0e68937`](https://github.com/krafton-playground/ops-content-hub/commit/0e68937b3750d285826e3ab38f604e4c635be3b3) Slack 크롬 CSS 중복 제거 — #93이 #92의 밴드 4 미리보기를 조용히 덮어쓰던 문제 (#94)
+- 2026-08-07 15:29 [`6025c43`](https://github.com/krafton-playground/ops-content-hub/commit/6025c43c05756e4edaf78d7b563e04f893b87ef6) Template editor redesign: Slack-chrome preview + AI 본문 생성 (design import) (#93)
+- 2026-08-07 15:28 [`6cfd91b`](https://github.com/krafton-playground/ops-content-hub/commit/6cfd91b8b75c309fcc6bcc9a40f5a91674b33ae5) 뉴스레터 만들기 & 테스트 재설계 — 고르면 바로 Slack 모습으로 보인다 (#92)
+- 2026-08-07 12:44 [`a08b45e`](https://github.com/krafton-playground/ops-content-hub/commit/a08b45e5d522380b4bbbaa35d97b2381691abc28) 0건 수집은 '수집된 기사가 없습니다'로 — 오류처럼 보이지 않게 (#91)
+- 2026-08-07 08:44 [`ddda37a`](https://github.com/krafton-playground/ops-content-hub/commit/ddda37a4920a8c317f3cf254080d80bc0ca53fd7) 채널 추가를 룩업이 막지 못하게 — 비공개 채널도 그대로 추가된다 (#90)
+- 2026-07-27 09:38 [`80de4a3`](https://github.com/krafton-playground/ops-content-hub/commit/80de4a395ba7a35a71fcefd33afbc8410de8232c) 소스 요청하기의 '바로 담기' 우회 제거 — 초록불이어도 승인 게이트로 간다 (#89)
+- 2026-07-27 07:41 [`196f94a`](https://github.com/krafton-playground/ops-content-hub/commit/196f94a0fb04c0c6d843322994f3fc220fa96e1d) 소스 요청에 사람 검토 게이트 추가 — 승인된 요청만 AI가 연결 (#88)
+- 2026-07-27 06:15 [`79436b9`](https://github.com/krafton-playground/ops-content-hub/commit/79436b9e0b37640b932462d2c484ef54a1f07779) 활동 기록 콜아웃 버튼: "이슈로 보기" → "실행기록 보기" (#87)
+- 2026-07-27 05:54 [`0ad7ea2`](https://github.com/krafton-playground/ops-content-hub/commit/0ad7ea25516d7174b2a0dcfdf158d396aa12e000) 수집 결과를 사실대로 보여준다 — 20건 vs 0건 vs "수집한 적 없어요" 모순 제거 (#86)
+- 2026-07-27 01:07 [`4898be9`](https://github.com/krafton-playground/ops-content-hub/commit/4898be9bd676e15728f6a699b06e2fab6caec599) 피드를 실제로 받아 검증한다 — 입력이 끝나면 자동으로, 기사 수까지 (#85)
+- 2026-07-27 01:04 [`cdae232`](https://github.com/krafton-playground/ops-content-hub/commit/cdae232de5afd682924205cefdbe6d45c4e6fc43) 방금 등록한 소스가 "승인 대기"로 뜨던 문제 — 수집 전은 미연결이 아니다 (#84)
+- 2026-07-27 00:37 [`b36693d`](https://github.com/krafton-playground/ops-content-hub/commit/b36693dce829afa50c7443d5bf00bf2cf2f9cade) Google 뉴스 빌더를 "새 소스 추가"와 같은 타일 + 모달로 (#83)
+- 2026-07-26 23:59 [`39b7a4f`](https://github.com/krafton-playground/ops-content-hub/commit/39b7a4fffc9adec4308d613927dacf4039a1c106) Google 뉴스 검색을 안내형으로 담기 (내가 추가한 소스 탭) (#82)
+- 2026-07-26 23:58 [`f1be340`](https://github.com/krafton-playground/ops-content-hub/commit/f1be34055c043cca0911a93b1f53e14980f237ad) 소스: Naver/GitHub OR 검색어 팬아웃 + 피커에서 Reddit·GitHub가 안 보이던 버그 + Reddit 비활성화 (#80)
+- 2026-07-26 23:56 [`6daaa2c`](https://github.com/krafton-playground/ops-content-hub/commit/6daaa2c0a8dc57659792072d131dfecffd4c57f1) 소스 등록: 주소를 넣으면 RSS 연결 가능 여부를 먼저 확인해 알려준다 (#81)
+- 2026-07-26 23:27 [`4de0ae6`](https://github.com/krafton-playground/ops-content-hub/commit/4de0ae608a770a20c6bfec3590d3c8cb17134942) 맥락 파이프라인 + 하드 관련성 게이트: 문장형 맥락을 LLM이 해석하고, 무관한 글은 발송되지 않게 (#79)
+- 2026-07-26 20:49 [`f38efec`](https://github.com/krafton-playground/ops-content-hub/commit/f38efecfb15ba31ce1edd864443e1d45cfe13f3b) 소스: 내가 추가한 소스 삭제 기능 + Google 뉴스 RSS 수집 정상화 (#78)
+- 2026-07-26 19:42 [`fae3417`](https://github.com/krafton-playground/ops-content-hub/commit/fae3417ef547b3d00dd8963c5955b65a9499b914) 실행 실패 UX: 원인별 안내 모달 + 비차단 실행 (S9b reaper 레이스 방어) (#77)
+- 2026-07-26 19:42 [`a5cf359`](https://github.com/krafton-playground/ops-content-hub/commit/a5cf35930a6616d15941f27d43b4922b53546068) Relevance gate: 문장형 키워드가 필터를 무력화하던 문제 수정 (#76)
+- 2026-07-26 19:16 [`b614fc7`](https://github.com/krafton-playground/ops-content-hub/commit/b614fc7b2866337c69e8256a6eca452ba1d801cf) 이슈 카드가 실제 발송 본문을 그대로 보여주도록 수정 (합성 미리보기 제거) (#75)
+- 2026-07-26 17:27 [`a04c80c`](https://github.com/krafton-playground/ops-content-hub/commit/a04c80c139d7fbcc628a37de0074883998ab6128) Run History v2: /runs 실행 기록 재설계 — 병합 로더 · 실행 로그 모달 · 재시도 (#74)
+- 2026-07-26 17:22 [`b59a8a2`](https://github.com/krafton-playground/ops-content-hub/commit/b59a8a2d9153277f052d502477687181779db0d2) 지금 실행 확인 모달: 예약 발송을 소진한다는 점을 미리 알림 (#73)
+- 2026-07-26 16:53 [`80f6b67`](https://github.com/krafton-playground/ops-content-hub/commit/80f6b67e39fdfc5e3175ee24e63db23180846abd) 감사 로그 "챙겨보세요" 콜아웃의 이슈로 보기 → /runs 연결 (#72)
+- 2026-07-26 16:39 [`f1a676b`](https://github.com/krafton-playground/ops-content-hub/commit/f1a676b602300e3acf0159cadf4aae2a1e2de9da) 채널 발송 무조건 보장: 번역 실패 기사만 버리고 발송 (3단계 graceful degradation) (#71)
+- 2026-07-26 16:34 [`5ee50ed`](https://github.com/krafton-playground/ops-content-hub/commit/5ee50ede99aa66ed7631239eeee8da8e32d661ad) 한국어 게이트 비율 기반 전환 — 영어 제품명 포함 번역을 살려 스케줄 발송 복구 (QA-BUG-1 진짜 원인) (#70)
+- 2026-07-26 14:41 [`93b836b`](https://github.com/krafton-playground/ops-content-hub/commit/93b836b136270428b3d39609ae4d071fd4ca2f8c) 뉴스레터 enrichment 배치 기본값 + 잘림/재시도 처리 — 07-26 새벽 4/4 실행 전멸 수정 (QA-BUG-1) (#69)
+- 2026-07-26 13:40 [`5df28f3`](https://github.com/krafton-playground/ops-content-hub/commit/5df28f3b07c6efdba3a1e5d0c570d22d48c8028c) 자동 발송 켜기·지금 실행 재클릭 크래시 수정 + 실행 실패 관측성 (ULTRAQA P0 ×2) (#68)
+- 2026-07-26 02:09 [`39520c4`](https://github.com/krafton-playground/ops-content-hub/commit/39520c49eb9a0227a6627f5ba942f819e2916302) Sources: 밴드 헤더 위아래 여백 정리 (파이프라인 배너 밑 0px → 26px) (#67)
+- 2026-07-26 01:57 [`c2aefe0`](https://github.com/krafton-playground/ops-content-hub/commit/c2aefe0cb97d281eb93beeb4d39d6aa217458d8a) 직접 설정: 소스별 수집 스케줄 커스터마이징 — 그리고 수집 주기가 실제로 동작하게 (#66)
+- 2026-07-25 20:43 [`fafea8c`](https://github.com/krafton-playground/ops-content-hub/commit/fafea8cae5fd2cc21ea179a4b1d8c48247a4dde0) 채널 추가: Slack 채널 ID를 넣으면 채널 이름 자동 완성 (#65)
+- 2026-07-25 18:07 [`04cc546`](https://github.com/krafton-playground/ops-content-hub/commit/04cc546026d9b37a1bd1c13b0a79de6be8de6f52) Pipeline banner: arrows get their mockup 24px lanes (#64)
+- 2026-07-25 17:35 [`9933c9b`](https://github.com/krafton-playground/ops-content-hub/commit/9933c9bd492d0f481e60a43533175efc2fd8afa8) Sources v2.1: 담은 소스 테이블 + 결과 사이드탭 — 지금 모두 수집하기 (design delta, full DB binding) (#63)
+- 2026-07-25 16:51 [`edb2e79`](https://github.com/krafton-playground/ops-content-hub/commit/edb2e79bd8d037160c465acb489dea41141a80a9) Audit Log v2: 활동 기록 redesign — merged timeline, repeat-grouping, right rail (#62)
+- 2026-07-25 15:46 [`dc56b7b`](https://github.com/krafton-playground/ops-content-hub/commit/dc56b7b41c632d6220e0a46850178361976aa134) Admin: 대화 로그 사용자별 그룹핑 + 서브탭 .seg 통일 (PR #59 머지 이후 누락분) (#61)
+- 2026-07-25 15:39 [`f2b01d5`](https://github.com/krafton-playground/ops-content-hub/commit/f2b01d550867d055137c1b64426d51460c77d005) RSS 원클릭 소스 확장: 연합뉴스·한국경제·TechCrunch·The Verge·McKinsey·FT·Bloomberg (#60)
+- 2026-07-25 14:42 [`08578aa`](https://github.com/krafton-playground/ops-content-hub/commit/08578aae14728a22a4f50365a3d8623d733ebf64) Admin Page v2: 구성원/사용량·통계/Hermes 대화 로그 sub-tab redesign (design import, full DB binding) (#59)
+- 2026-07-24 16:38 [`1ef2fef`](https://github.com/krafton-playground/ops-content-hub/commit/1ef2fef7081c47f5d4cd47010e335683bbc12f85) Admin: 통계 & 사용량 section, 최근 로그인 fix, usage/chat/token logging (#58)
+- 2026-07-24 16:17 [`d1fcc1d`](https://github.com/krafton-playground/ops-content-hub/commit/d1fcc1d477255c5dc6ffa043945268b56b4d245f) /agents guide: 첫 데모 답변을 위클리 뉴스레터 초안 시나리오로 교체 (#57)
+- 2026-07-24 16:04 [`8ccc9ab`](https://github.com/krafton-playground/ops-content-hub/commit/8ccc9abf2a25769ec1bc4875bd16128a39079b33) Hermes: gather_external_media 스키마의 top-level anyOf 제거 — 400 오류 수정 (#56)
+- 2026-07-24 15:20 [`da2b917`](https://github.com/krafton-playground/ops-content-hub/commit/da2b917cd70100bd7b638d620964b5c62c7bc9e8) /agents guide: first demo ask → 위클리 뉴스레터 초안 prompt (#55)
+- 2026-07-24 15:11 [`46d603f`](https://github.com/krafton-playground/ops-content-hub/commit/46d603f3e1acdfef26c4a75d7b101d6093919c2d) /agents guide: auto-advance the demo carousel (#54)
+- 2026-07-24 15:04 [`045d588`](https://github.com/krafton-playground/ops-content-hub/commit/045d58887b8a186123eeea35cf708de7b8318924) Top bar: compact single-line Hermes/user pills per Agents Guide design (#53)
+- 2026-07-24 14:33 [`20ad44d`](https://github.com/krafton-playground/ops-content-hub/commit/20ad44d4ed1dc4b49c993b45b100811c822ae189) /agents: 에이전트 tab — Agents Guide (사용 예시 demo + Hermes 대화) (#52)
+- 2026-07-23 18:07 [`6a3bde0`](https://github.com/krafton-playground/ops-content-hub/commit/6a3bde02a49d20ac726ded3edc9888547216e576) Channels: 삭제 button in the row header (일시정지 moves into the edit panel) (#51)
+- 2026-07-23 13:01 [`830568c`](https://github.com/krafton-playground/ops-content-hub/commit/830568cf9975374003bffb63ccd970ca188915a6) Settings: Microsoft 365 (메일·파일) 카드 제거 — 내 Microsoft 계정 카드만 남김 (#50)
+- 2026-07-23 11:23 [`e68a2e1`](https://github.com/krafton-playground/ops-content-hub/commit/e68a2e13ed7f447d85e340d2ae6871950d2ee415) MS365 사용자별 연결 (PR A): 각 사용자의 메일 주소로 뉴스레터를 보낼 기반 (#48)
+- 2026-07-23 11:22 [`1423569`](https://github.com/krafton-playground/ops-content-hub/commit/1423569c254c48623c923ebf2d15db42d566aa96) Issues archive: collapse consecutive 건너뜀 rounds into one summary row (#49)
+- 2026-07-22 13:29 [`ba1524e`](https://github.com/krafton-playground/ops-content-hub/commit/ba1524e806ae4801a32c41eb192f88a56989199d) Settings: MS365 connect failures name the real Azure error (#47)
+- 2026-07-22 13:25 [`2e730f8`](https://github.com/krafton-playground/ops-content-hub/commit/2e730f8f4a240cdb646cd88066f9b7abe0cdfa5b) Schedules: 삭제 in the row header, 일시정지 moves into the edit panel (#46)
+- 2026-07-22 11:09 [`e4450e8`](https://github.com/krafton-playground/ops-content-hub/commit/e4450e8dbad9a4ae2fa355cb7ed93161ba4e8d84) Sources Route v2: 브리핑 만들기 flow — pipeline banner, 지금 바로 수집하기, honest live stats (#45)
+- 2026-07-21 15:08 [`9ed8f4e`](https://github.com/krafton-playground/ops-content-hub/commit/9ed8f4e09406a0f6427a14bda352e01f14ac575c) Fix: AutoSend defaults sectioned templates to weekly-Monday, not daily (#42)
+- 2026-07-21 15:04 [`6a47bd6`](https://github.com/krafton-playground/ops-content-hub/commit/6a47bd63d436fa9603259b192515f3219960b6ac) Fix: sectioned /sources preview shows the user's real 담기 items (#41)
+- 2026-07-21 14:49 [`10e3961`](https://github.com/krafton-playground/ops-content-hub/commit/10e39610611ae89e26bcbf4b2e791f299bc74bc9) Relevance gate: collected items must match the source keywords (ultra-QA) (#43)
+- 2026-07-21 14:46 [`b4ab57d`](https://github.com/krafton-playground/ops-content-hub/commit/b4ab57d2e14f684c564dc639f84a427e72b56909) Fix: 자동 수집 cadence pills persist across reload (매시간/하루 2번 no longer snap back) (#44)
+- 2026-07-14 20:55 [`98e26a7`](https://github.com/krafton-playground/ops-content-hub/commit/98e26a7a4d70bf2a7a1be7b04cc00b1dd04cb784) Source tray × persists: removal auto-saves enabled=false with a toast (#40)
+- 2026-07-14 14:10 [`d526559`](https://github.com/krafton-playground/ops-content-hub/commit/d526559bb3362d7ac294a9e564531a0c391e35a4) Re-land chat fail-open + hard QA: English inquiries always get their answer (#39)
+- 2026-07-14 13:20 [`94b326c`](https://github.com/krafton-playground/ops-content-hub/commit/94b326cb54943e9b4440fd0f8fc86e915c4117f9) 내가 추가한 소스 + Forbes/Inc. sources + fix: new sources reach the live preview (#38)
+- 2026-07-14 09:58 [`93d6b66`](https://github.com/krafton-playground/ops-content-hub/commit/93d6b660fa552cd9da06a88bc8cb2d32aee593f5) Firecrawl article-body enrichment: flag-gated, fallback-first (Phase 0+1) (#36)
+- 2026-07-14 09:57 [`d1a0ba5`](https://github.com/krafton-playground/ops-content-hub/commit/d1a0ba57123a96fda4aedb0691df41d36c899f75) Test send: fast + faithful — concurrent batched enrichment on the fast tier (#35)
+- 2026-07-14 09:12 [`4baa519`](https://github.com/krafton-playground/ops-content-hub/commit/4baa519e182ccfa52da91f60e6ad52ce4554a4e2) Test sends never block: best-effort translation inside a 12s budget, always fire (#34)
+- 2026-07-13 20:56 [`68aa15e`](https://github.com/krafton-playground/ops-content-hub/commit/68aa15e67bb8bc0730ed4176f39001c89b845649) Fix cross-user leak in /issues archive + re-land dropped test-send guard fix (#33)
+- 2026-07-13 17:44 [`2f5749a`](https://github.com/krafton-playground/ops-content-hub/commit/2f5749ab597a44272a7fa8a1673aedee1c7eaa9a) Fix: newsletter test-send picker shows any owned channel, not just metadata-flagged test channels (#32)
+- 2026-07-13 06:03 [`ce6fc40`](https://github.com/krafton-playground/ops-content-hub/commit/ce6fc40acafcf5173194499135a97458066f100c) Fix Play build: keep playwright.config.ts out of the image
+- 2026-07-13 05:53 [`02a302c`](https://github.com/krafton-playground/ops-content-hub/commit/02a302cae8ca8fb4a2eebfbd743e811efcfb32a8) Fix Play build: drop eslint-disable for a rule not in the config
+- 2026-07-13 05:44 [`7407205`](https://github.com/krafton-playground/ops-content-hub/commit/74072059e67b6b0c3834f3419a210b85e6702787) Korean Slack fidelity, canonical HBR ownership, Hermes endpoint, compact source UI (hard-QA) (#31)
+- 2026-07-11 13:03 [`629fab3`](https://github.com/krafton-playground/ops-content-hub/commit/629fab3a7a6ca2f4d470fe7f34b7b7fd1ac9f014) Fix deploy startup_failure: drop removed 'public' input from deploy caller (#30)
+- 2026-07-09 16:12 [`2cb4eb6`](https://github.com/krafton-playground/ops-content-hub/commit/2cb4eb6b1a12eb5b390c201a086cc989081d8077) Source requests resolve themselves: AI agent auto-connects requested sources (#29)
+- 2026-07-09 15:12 [`852181e`](https://github.com/krafton-playground/ops-content-hub/commit/852181e2085de7684023b43ef3bbc66d3e3f3377) Hard rule: schedule template always drives the send + Korean item copy everywhere (#28)
+- 2026-07-09 15:05 [`7609a05`](https://github.com/krafton-playground/ops-content-hub/commit/7609a0525fae4901b7ec62f99ea51298d1a2c734) Fix newsletter format fidelity: schedule template wins, no telemetry, clean snippets (#27)
+- 2026-07-07 19:04 [`8a73a94`](https://github.com/krafton-playground/ops-content-hub/commit/8a73a943cc2260646187fd708d1d07671ce22dfd) Document MS_GRAPH_* (Microsoft 365 connector) and GITHUB_TOKEN in .env.example (#26)
+- 2026-07-07 10:32 [`f44fec4`](https://github.com/krafton-playground/ops-content-hub/commit/f44fec410ca09a6d4bbb1877228fabc0de1d8174) Microsoft 365: replace ms365-mcp-mini subprocess with Azure app (Graph) (#25)
+- 2026-07-03 14:37 [`dfd3166`](https://github.com/krafton-playground/ops-content-hub/commit/dfd316612432f3dcdbaf0ff93c1e15d9cc7aa168) Reddit 403: calm the social-search error on page reload (#24)
+- 2026-07-03 14:16 [`8798da8`](https://github.com/krafton-playground/ops-content-hub/commit/8798da8ca4b89920488963ace5ad4094359dd486) Collapsible 모아온 결과 groups: per-source toggle + 모두 접기/펼치기 (#23)
+- 2026-07-03 13:58 [`7e2db31`](https://github.com/krafton-playground/ops-content-hub/commit/7e2db31e062e06364218245ec3bfdabf8a395923) Reddit + GitHub native collection, keyword/context/account wiring, one-click connect (#22)
+- 2026-07-03 11:31 [`c0beb74`](https://github.com/krafton-playground/ops-content-hub/commit/c0beb74ad6ded5b68c169311a6c381a38612646f) Slack bot memory+vision fixes; newsletter Korean wording, KST times, {{keywords}} (#21)
+- 2026-07-03 11:29 [`e5f194c`](https://github.com/krafton-playground/ops-content-hub/commit/e5f194c44c3b79b204de86c47819d93ac9ef508c) Honest last-fetch reporting: "N건 확인 · 전부 이미 수집됨" instead of bare 0 (#20)
+- 2026-07-03 11:29 [`cd10e16`](https://github.com/krafton-playground/ops-content-hub/commit/cd10e1673db78bfa107f64062d22f938e3834c88) Harden 맥락(context) mode per adversarial QA (ultrawork) (#19)
+- 2026-07-02 21:09 [`6e8c4fe`](https://github.com/krafton-playground/ops-content-hub/commit/6e8c4fe1c447ebab255c0cfa8facbcfdf90ac862) Sectioned items: blockquote card look (preview parity) (#18)
+- 2026-07-02 20:51 [`64dad33`](https://github.com/krafton-playground/ops-content-hub/commit/64dad33c85c945b7e07beed7ab8a353613cda630) Sectioned sends: preview-parity item layout + AI detail/핵심 enrichment (#17)
+- 2026-07-02 20:48 [`7f6da27`](https://github.com/krafton-playground/ops-content-hub/commit/7f6da27030849d02ffb7ace88550278da67de21d) Fix prod 500s: cadence eligibility crash + legacy null-owner channel rows (#16)
+- 2026-07-02 20:01 [`d461ffb`](https://github.com/krafton-playground/ops-content-hub/commit/d461ffbf3266e7099ea086703bee6bb9841cd848) Slack bot: remember the conversation across messages (session reuse + history) (#15)
+- 2026-07-02 19:33 [`d3d459b`](https://github.com/krafton-playground/ops-content-hub/commit/d3d459bd5334f17a1ea4053fc0ec4b63c7e3eb00) Sectioned template: sends render the promised auto-classified sections (#14)
+- 2026-07-02 17:07 [`ee176b8`](https://github.com/krafton-playground/ops-content-hub/commit/ee176b870c88db3b88c16f869c3309362e1352df) Flexible schedule customization: 직접 설정 day/time pickers (sources + schedules) (#13)
+- 2026-07-02 13:47 [`987f13d`](https://github.com/krafton-playground/ops-content-hub/commit/987f13d5d6f92a7150a3c2386a10ed998b211a6a) Per-user agent memory (Slack subjects) + shared agent loop + private-scoped dashboard lists (#12)
+- 2026-06-26 18:54 [`b17a794`](https://github.com/krafton-playground/ops-content-hub/commit/b17a794e8fa1fdb594061a0d7deb8c93632b7d07) Fix '지금 실행' error on the research-crawl schedule (route by kind)
+- 2026-06-26 18:32 [`615201e`](https://github.com/krafton-playground/ops-content-hub/commit/615201e6d1796dba0cdaeb3676f496d33d027419) Fix CRITICAL privesc: require SUPERADMIN to change dashboard roles
+- 2026-06-26 17:41 [`980b81f`](https://github.com/krafton-playground/ops-content-hub/commit/980b81f220cef8b7611eb62e5825d2b692d5f8f4) Fix HBR latest-articles: use its Atom feed, not homepage scraping
+- 2026-06-26 17:06 [`802566a`](https://github.com/krafton-playground/ops-content-hub/commit/802566a1d030922b9e2123329c28ee80f63f2d85) Fix Hermes 400: drop disable_parallel_tool_use with server tools
+- 2026-06-26 16:21 [`ba2214d`](https://github.com/krafton-playground/ops-content-hub/commit/ba2214d0d18457a8dd24030ecd1424a8deac9ee8) Add per-user agent memory (B): recall + feedback-driven write-back
+- 2026-06-26 11:29 [`fcf998b`](https://github.com/krafton-playground/ops-content-hub/commit/fcf998ba4c3db93d7531653a7a0d2ac43e75c115) Harden research-crawl run history, content extraction, and crawl-schedule UI
+- 2026-06-25 16:50 [`975df14`](https://github.com/krafton-playground/ops-content-hub/commit/975df14eb07e8930fc1dc4feb390946aff000681) Merge pull request #11 from krafton-playground/feat/phase1-claude-engine
+- 2026-06-25 16:42 [`284abb3`](https://github.com/krafton-playground/ops-content-hub/commit/284abb304858925272315c05f5f0efc600a12ee3) fix(hermes): make tool input_schema conform to the live Anthropic API
+- 2026-06-25 15:56 [`d668148`](https://github.com/krafton-playground/ops-content-hub/commit/d66814804184ad95e689b6ce7e55e5bd792acbc6) feat(hermes): migrate the bot brain to the Anthropic Messages API (Phase 1 Track A)
+- 2026-06-25 15:04 [`70db667`](https://github.com/krafton-playground/ops-content-hub/commit/70db667b8989c6b1105e6f4f2a727191a6c7d591) Merge pull request #9 from krafton-playground/fix/scheduler-internal-loop
+- 2026-06-25 14:59 [`7952143`](https://github.com/krafton-playground/ops-content-hub/commit/79521433c23372873fe5089dd5729947389c6d83) fix(scheduler): drive the tick in-app so scheduled crawls actually run
+- 2026-06-23 17:08 [`c7d0d50`](https://github.com/krafton-playground/ops-content-hub/commit/c7d0d504b44e30efc6e13e3f96bfc21ab1dab13c) Open OPS Bot DMs to all roles (MEMBERs included), scoped per-user
+- 2026-06-22 17:07 [`2df9ed1`](https://github.com/krafton-playground/ops-content-hub/commit/2df9ed18ddac50224257f1d5ca0755366313b86b) Merge pull request #8 from krafton-playground/codex/slack-email-alias-superadmin
+- 2026-06-22 17:02 [`334b02a`](https://github.com/krafton-playground/ops-content-hub/commit/334b02ab2be311805cadfb30aba435f60695acf5) Map Slack email aliases to dashboard roles
+- 2026-06-22 16:56 [`adf7a3a`](https://github.com/krafton-playground/ops-content-hub/commit/adf7a3aab10994014606c1deed0bb16ef2c97e27) Merge pull request #7 from krafton-playground/codex/hermes-fast-article-lookups
+- 2026-06-21 23:14 [`9763b7a`](https://github.com/krafton-playground/ops-content-hub/commit/9763b7a363ef26a3ffcffecbbfb71d228a664c50) Route simple publisher lookups around Hermes latency
+- 2026-06-21 23:08 [`42e6457`](https://github.com/krafton-playground/ops-content-hub/commit/42e6457fb7ad40f5664602d8711c177d8ec3931e) Make Hermes Slack placeholders task-aware
+- 2026-06-21 22:58 [`9f43870`](https://github.com/krafton-playground/ops-content-hub/commit/9f4387077b4f398c4fd7c2a719ca56e120f31e8b) Merge pull request #6 from krafton-playground/codex/agent-guidance-files
+- 2026-06-21 22:57 [`14f79c3`](https://github.com/krafton-playground/ops-content-hub/commit/14f79c33d6ddbaafb0b42aea96582e9e53e3c7d7) Show Hermes progress during delayed Slack replies
+- 2026-06-21 22:33 [`27ab5ef`](https://github.com/krafton-playground/ops-content-hub/commit/27ab5efb67d370ace2d498239f823390c7cef220) Merge pull request #5 from krafton-playground/codex/agent-guidance-files
+- 2026-06-21 22:31 [`e9a1705`](https://github.com/krafton-playground/ops-content-hub/commit/e9a17058b8f4e1d3070bc0f3a9fa4395ce1050df) Tune Hermes prompt responsiveness
+- 2026-06-21 22:27 [`626b274`](https://github.com/krafton-playground/ops-content-hub/commit/626b274694fc2f3d873ca43e829a98a9412231fa) Keep agent guidance portable without runtime state
+- 2026-06-21 15:23 [`0ae8f0b`](https://github.com/krafton-playground/ops-content-hub/commit/0ae8f0b63084c3e5c526ccd28f83e121689703a9) fix(slack): upgrade Bolt 3.22→4.7.3 + supervise worker to stop crashloop
+- 2026-06-21 15:14 [`3cc69a0`](https://github.com/krafton-playground/ops-content-hub/commit/3cc69a061147b4de53165ff7190a058fd9e2ce28) Fix delegated dashboard roles reverting to MEMBER (MEMBER/ADMIN bug)
+- 2026-06-21 14:56 [`86ee632`](https://github.com/krafton-playground/ops-content-hub/commit/86ee6327ef6d844d2f2875af95fe99bf194e51d4) Add Harvard Business Review to the source catalog as a live source
+- 2026-06-21 14:04 [`2d62c2b`](https://github.com/krafton-playground/ops-content-hub/commit/2d62c2b0ad803acd3e5361702759f007bb69a1c0) Style the crawl-schedule control to match the design system
+- 2026-06-21 12:57 [`9f8c48b`](https://github.com/krafton-playground/ops-content-hub/commit/9f8c48bdc0824694606cd76a9987b4762b590cd0) Merge pull request #4 from krafton-playground/review-base/pre-hermes-v2
+- 2026-06-21 12:56 [`e79d13f`](https://github.com/krafton-playground/ops-content-hub/commit/e79d13f52444ef2a585330f8a8fbe6e54eef3d4b) Merge main into review-base/pre-hermes-v2; resolve save_research description (keep softened wording)
+- 2026-06-21 12:26 [`f04452f`](https://github.com/krafton-playground/ops-content-hub/commit/f04452f383b706a4db0be937b946a6bf711f99a1) feat(hermes): save_research tool + scheduled research crawl to S3 (#3)
+- 2026-06-21 12:07 [`3f2c5c6`](https://github.com/krafton-playground/ops-content-hub/commit/3f2c5c682e9165d9592ce68530a6df617ae984b3) Hermes v2: autonomous Slack research loop + durable research worker
+- 2026-06-21 11:57 [`f264970`](https://github.com/krafton-playground/ops-content-hub/commit/f26497031627c05b50a94a62341a8c4bc80e3852) Install Chromium in the runtime image for Hermes browser_navigate
+- 2026-06-21 10:45 [`53297d6`](https://github.com/krafton-playground/ops-content-hub/commit/53297d610819251c60d95430f0e64fb734e10cf5) Allow bot-worker pods to reach the Hermes agent service
+- 2026-06-21 09:12 [`44c3eab`](https://github.com/krafton-playground/ops-content-hub/commit/44c3eab3110c9bd744bf6fd0cfde466fbc97535f) Add opsbot.web_fetch tool for real web research/crawling
+- 2026-06-21 04:23 [`c7d5ecf`](https://github.com/krafton-playground/ops-content-hub/commit/c7d5ecfdb7fd33d9c2908e7187d46eac7df33d84) SOUL: research-first behavior, especially in DMs
+- 2026-06-21 04:12 [`eede395`](https://github.com/krafton-playground/ops-content-hub/commit/eede3954bc629722432481e17139caf887569a2c) Hermes: rename ack placeholder + hard rule against repetition
+- 2026-06-21 04:10 [`3bcedac`](https://github.com/krafton-playground/ops-content-hub/commit/3bcedacf70cdad16ae7a9c8022eefe86853a4615) Hermes: drop the "concise" length constraint on answers
+- 2026-06-21 04:03 [`2a86c1f`](https://github.com/krafton-playground/ops-content-hub/commit/2a86c1fcbae8cdbcc09dd6734c8a12e92e8eafed) Hermes: stop reciting status/capabilities every turn
+- 2026-06-21 03:58 [`449bb79`](https://github.com/krafton-playground/ops-content-hub/commit/449bb79228b618268bd3ccae64fcf20cb52061af) SOUL: friendlier, human tone (less robotic)
+- 2026-06-21 03:51 [`fbe6374`](https://github.com/krafton-playground/ops-content-hub/commit/fbe6374223c834287dcaef6464abb6f5764b99f1) Slack bot: answer thread follow-ups without re-mention
+- 2026-06-21 03:43 [`1a161a3`](https://github.com/krafton-playground/ops-content-hub/commit/1a161a3156ccaedb4a94dc3d37cd63fda05066ea) Resolve Slack user's dashboard role exactly (no rank inference)
+- 2026-06-21 03:25 [`432c31f`](https://github.com/krafton-playground/ops-content-hub/commit/432c31ff6d1cc982a988df6f48858f5ddcd7d862) Inject SOUL.md first as Hermes's authoritative system message
+- 2026-06-21 03:25 [`9e905b8`](https://github.com/krafton-playground/ops-content-hub/commit/9e905b8fab8cd2aafdda621ea74b446a0686517c) Slack bot: answer in any added channel + report real dashboard role
+- 2026-06-21 03:09 [`4a59870`](https://github.com/krafton-playground/ops-content-hub/commit/4a59870ef88f76085a7c665c6106c524929dcdd4) Slack bot: use editable 👀 placeholder instead of emoji reactions
+- 2026-06-21 03:04 [`980662a`](https://github.com/krafton-playground/ops-content-hub/commit/980662ad4a55c63f63954cade081e2b47728b4b8) Add reactions:write to Slack app manifest
+- 2026-06-21 02:59 [`985dba3`](https://github.com/krafton-playground/ops-content-hub/commit/985dba3c8dcae254e307266d33ab7a7ceb314973) Slack bot: public threaded mention replies + emoji reactions
+- 2026-06-20 22:08 [`9f0d11f`](https://github.com/krafton-playground/ops-content-hub/commit/9f0d11ff460039dee042f2f7d41ac1bc09fed741) Update Hermes SOUL: friendlier DM tone, retries, richer tool use
+- 2026-06-20 22:04 [`b86c71a`](https://github.com/krafton-playground/ops-content-hub/commit/b86c71a31576eab815b7cf018af54ffb8081fb5a) Enforce strict per-user isolation for dashboard resources
+- 2026-06-20 21:35 [`4bd566a`](https://github.com/krafton-playground/ops-content-hub/commit/4bd566a38ba6ea392a73ac2b3bc45cc649e4a564) Make Slack admin roles mirror dashboard roles (#2)
+- 2026-06-20 21:21 [`a40bb31`](https://github.com/krafton-playground/ops-content-hub/commit/a40bb315f9be56623fe5421f8b40bac87d70c8b3) Make Hermes SOUL Korean-first
+- 2026-06-20 21:12 [`bbdcadd`](https://github.com/krafton-playground/ops-content-hub/commit/bbdcadd9368c75b2dd9c5d4069d30371a7ae7122) Give Hermes a durable OPS Bot identity
+- 2026-06-20 21:01 [`391cfa8`](https://github.com/krafton-playground/ops-content-hub/commit/391cfa8dfbb95d34857ad53daeaeba2d08c7ccc5) fix(modals): no backdrop-close; add X button to every modal (#1)
+- 2026-06-20 18:10 [`8552e67`](https://github.com/krafton-playground/ops-content-hub/commit/8552e67258f5d6b19bf0739c46cf2e314d70b102) Make the Slack bot conversational via Hermes + open DMs to allowlisted admins
+- 2026-06-20 17:41 [`0c93918`](https://github.com/krafton-playground/ops-content-hub/commit/0c939180de8546da3ccf39e793bcd98bafc959ec) Render agent replies as markdown
+- 2026-06-20 17:37 [`2e14f82`](https://github.com/krafton-playground/ops-content-hub/commit/2e14f8267696dcb8f8a4f2835e9c7961b84c128a) Surface effective dashboard role in session (fix superadmin gated as member)
+- 2026-06-20 17:31 [`c7a3d4f`](https://github.com/krafton-playground/ops-content-hub/commit/c7a3d4f71b4f3874561055d8c27674f1d1277d2f) Fix superadmin role resolution + stop Hermes opening a 2nd Slack connection
+- 2026-06-20 17:02 [`e2dc641`](https://github.com/krafton-playground/ops-content-hub/commit/e2dc64161d3511736026881683c61ef9d9734566) Fix live rollout: conform to port 3000, repair Slack worker + Hermes auth
+- 2026-06-20 16:13 [`150d713`](https://github.com/krafton-playground/ops-content-hub/commit/150d7133121b4c12960b1ab133e67568a3da82a5) Migrate krafton-ops-bot onto ops-content-hub (EKS, core-api SSO + embedded Hermes)
+
+## ops-ax-101
+
+213 commits. Newest first.
+
+- 2026-09-04 15:02 [`db04efe`](https://github.com/krafton-playground/ops-ax-101/commit/db04efe1fc5b98f6fa69d6e38821f05c4100560c) docs: clarify search question placeholder
+- 2026-09-04 14:54 [`88b3e14`](https://github.com/krafton-playground/ops-ax-101/commit/88b3e14428f6852e7929e1d7f1626122f67350d5) docs: clarify evergreen rule wording
+- 2026-09-04 13:09 [`e9eedb7`](https://github.com/krafton-playground/ops-ax-101/commit/e9eedb744dfbb5afcdcafba71be4f6c16140ef7e) chore: redeploy latest course content
+- 2026-09-04 12:48 [`b31f590`](https://github.com/krafton-playground/ops-ax-101/commit/b31f590efe77e56f356dbff6e1de80a3cc129428) docs: remove duplicated search criteria table
+- 2026-09-04 12:47 [`2eca726`](https://github.com/krafton-playground/ops-ax-101/commit/2eca7268042380cb5b6c36cfb7d0e64c4f951793) docs(course): 2-5 "다섯 가지 규칙"을 문서함 예제보다 앞으로
+- 2026-09-04 11:35 [`9a43e9b`](https://github.com/krafton-playground/ops-ax-101/commit/9a43e9bb71d41870bf12557570dd0401f8b6b7e2) docs: add memory folder layouts to dream prompt
+- 2026-09-04 11:23 [`13af61d`](https://github.com/krafton-playground/ops-ax-101/commit/13af61d49e45e3c5e93f71da4cb3eb864f3d60a1) Clarify memory consolidation explanation
+- 2026-09-04 11:17 [`8211083`](https://github.com/krafton-playground/ops-ax-101/commit/8211083f0518ea40a121247b604e0127618d9c0b) Clarify memory search condition labels
+- 2026-09-04 11:03 [`7246479`](https://github.com/krafton-playground/ops-ax-101/commit/7246479c1ec3c667b191754dd27bf43b2d5e695c) Update memory search criteria table
+- 2026-09-04 10:45 [`0e81124`](https://github.com/krafton-playground/ops-ax-101/commit/0e811248693374fb23ca934e6f134f6f6c46cd28) content: 2-5 '다섯 가지 장치' → '다섯 가지 규칙' 용어 변경
+- 2026-09-04 00:52 [`1ac5b00`](https://github.com/krafton-playground/ops-ax-101/commit/1ac5b00ab277dc084ca106bb334e1ea7a6b7eb3f) Swap 2-1 and 2-2 prompt examples
+- 2026-09-03 22:32 [`276797d`](https://github.com/krafton-playground/ops-ax-101/commit/276797ddb1be4b42ba5071424d31421200aa6838) content: 2-5 de-slop 재작성 + "마지막엔 몇 개만 남는다" 섹션 삭제
+- 2026-09-03 22:23 [`774d37d`](https://github.com/krafton-playground/ops-ax-101/commit/774d37d7188e3c854dcf1b79d370c799c592db67) content: 2-1 운영기조 맥락 재anchor (섹션 제거 없음)
+- 2026-09-03 22:23 [`fb58a3b`](https://github.com/krafton-playground/ops-ax-101/commit/fb58a3b3f9783f45f3de9583dcad6afd8a9c7749) content: 2-2 운영기조 맥락 재anchor (프롬프트 블록 무손상)
+- 2026-09-03 22:11 [`69b1038`](https://github.com/krafton-playground/ops-ax-101/commit/69b10381205b99888bf582b613704553d8f3e814) content: 2-5에 "찾아 온다" 실제 동작(JIT 회수 4걸음) 절 추가
+- 2026-09-03 22:10 [`f1ea189`](https://github.com/krafton-playground/ops-ax-101/commit/f1ea1895a34a6a30b5165d5a8aff3e0c8ecde200) docs(course): 2-4 "문" 표현을 기준/관문으로, 약한 요청 예시 삭제
+- 2026-09-03 22:07 [`64e66fb`](https://github.com/krafton-playground/ops-ax-101/commit/64e66fb94c21a2726502d1aecb17a868fdac73c5) content: 2-3 에이전트가 읽는 문서 쓰는 법 — 운영기조 맥락으로 재작성
+- 2026-09-03 22:07 [`859a821`](https://github.com/krafton-playground/ops-ax-101/commit/859a821b34e785fb38974320c85775d12e2f5a54) docs(course): 2-1 "지난달 회의록" 절 삭제, 2-4 표 표현 정리
+- 2026-09-03 22:01 [`cbde310`](https://github.com/krafton-playground/ops-ax-101/commit/cbde3108708fdc4995b83893f78f360584c2079e) docs(course): 2-1에 Codex의 /memories 안내 추가
+- 2026-09-03 21:56 [`33fa9ed`](https://github.com/krafton-playground/ops-ax-101/commit/33fa9ed7ff09dadaaab0c4fbf4e4555d46c8792a) docs(course): 2-1 "2부 전체" 목차 표를 흐름도 + 바로 가기로 정리
+- 2026-09-03 21:55 [`c6bf6d1`](https://github.com/krafton-playground/ops-ax-101/commit/c6bf6d1b556b7543b6574c5cc7f5da04bc51d575) content: 2-5 기억을 잘 찾아오는 법 — 운영기조 맥락으로 재작성
+- 2026-09-03 21:50 [`5c05703`](https://github.com/krafton-playground/ops-ax-101/commit/5c057035094ee89d13670f713a7034bde1d0d3e0) content: 2-4 세 걸음 직관화 + Codex 폴더 구조/메모리 켜기 + /memory 안내
+- 2026-09-03 21:42 [`e2244a6`](https://github.com/krafton-playground/ops-ax-101/commit/e2244a6977455c2c01bc33d7ac0ebf627a9b2f20) content: 2-4 무엇을 남기고 무엇을 버릴까 전면 재작성 (비전문가용)
+- 2026-09-03 14:19 [`952f32c`](https://github.com/krafton-playground/ops-ax-101/commit/952f32c9cb14840805bbaf10874af77396dc48ca) docs: 50분판 2-1에 /init 절 추가
+- 2026-09-03 12:59 [`a3cac3e`](https://github.com/krafton-playground/ops-ax-101/commit/a3cac3e568a848196fede21d6ff96591aab2f845) docs: 2부 코칭 스크립트를 60분 기준으로 전환, 요약본 용어 정리
+- 2026-09-03 12:45 [`791fb63`](https://github.com/krafton-playground/ops-ax-101/commit/791fb631213e2e77db8b8394731fc26717ca75cf) docs(course): 3-1에 outline.md 설명과 CLAUDE.md와의 차이 추가
+- 2026-09-03 12:33 [`57b3d37`](https://github.com/krafton-playground/ops-ax-101/commit/57b3d376e3ddccd9c62b0961435d2ad213d61aa7) docs(course): 2-1 핵심 원칙 인용구를 결론부터 쓰도록 수정
+- 2026-09-03 12:21 [`08f547a`](https://github.com/krafton-playground/ops-ax-101/commit/08f547aad3f3c43f27bf6ff063a2d214cdf32d67) docs(course): 2-1 "그러모아" → "긁어모아"
+- 2026-09-03 10:02 [`548d7bb`](https://github.com/krafton-playground/ops-ax-101/commit/548d7bbffbbc3531cf738f61206e3e2db0d3cb7f) docs: /init 안내를 "현재 최상위 폴더"로
+- 2026-09-03 09:47 [`d99d1bb`](https://github.com/krafton-playground/ops-ax-101/commit/d99d1bb8b2d90eb8a239b8f21232df538c460a2c) docs: 90분판 코칭 스크립트를 현재 코스에 맞춰 갱신
+- 2026-09-03 09:33 [`85ba62e`](https://github.com/krafton-playground/ops-ax-101/commit/85ba62e5e6beb5dbb47e67305d6a0d8026aa165c) docs(course): 2-1에 /init 설명 추가
+- 2026-09-02 23:43 [`de68af7`](https://github.com/krafton-playground/ops-ax-101/commit/de68af78fb03e67a3c7d4af47c307bdd4b2a0285) docs(course): 2-6 "무엇을 들일지" → "무엇을 저장하고 남길지"
+- 2026-09-02 23:42 [`75e194e`](https://github.com/krafton-playground/ops-ax-101/commit/75e194e5f992e78a46bb7a397494df2c86882df5) docs(course): 2-6 근거 없는 단정 예시를 운영팀으로
+- 2026-09-02 23:40 [`144c96a`](https://github.com/krafton-playground/ops-ax-101/commit/144c96ae9abbad2ab49ce3c03a2926b7494be5e8) docs(course): 2-5 제목을 "기억을 잘 찾아오는 법"으로 변경
+- 2026-09-02 23:37 [`f5b4f5c`](https://github.com/krafton-playground/ops-ax-101/commit/f5b4f5c086318299e8330e03cfd9e231c6ae3032) docs(course): 2-5 "언제 켜면 좋은가" → "언제 쓰면 좋은가"
+- 2026-09-02 23:35 [`c4ee820`](https://github.com/krafton-playground/ops-ax-101/commit/c4ee8209b8893d32858193972a188a34bed8ddfd) docs(course): 2-5 중복 발생 이유 문장을 유사도 표기로 통일
+- 2026-09-02 23:34 [`57e60ec`](https://github.com/krafton-playground/ops-ax-101/commit/57e60ecb9c0bc8dbdac475a66a8d1f28a9a1c4c1) docs(course): 2-5 중복이 생기는 이유 문장 수정
+- 2026-09-02 23:34 [`b89a058`](https://github.com/krafton-playground/ops-ax-101/commit/b89a0584ae396ee9efb598844ac632f000384a6c) docs(course): 2-5 같은 말 걸러내기 도입부 문장 두 곳 다듬기
+- 2026-09-02 23:30 [`1249344`](https://github.com/krafton-playground/ops-ax-101/commit/124934478163458d476e2e269d1204f133c9e3a5) docs(course): 2-5 뜻으로 찾기 예시에 보상=리워드 설명 추가
+- 2026-09-02 23:26 [`affe952`](https://github.com/krafton-playground/ops-ax-101/commit/affe9529b541329c813799d0a9229a0d73f79e7a) docs(course): 2-4 자동 드리밍에 실행 전제 명시
+- 2026-09-02 23:25 [`ab66c93`](https://github.com/krafton-playground/ops-ax-101/commit/ab66c93c5ef0ef9fb601cb0721f02cf7579b6055) docs(course): 2-4 "사고를 막는 두 장치" 제목을 구체적으로
+- 2026-09-02 23:24 [`50df5f5`](https://github.com/krafton-playground/ops-ax-101/commit/50df5f5835f5987307503c32fba9315dbb8c098d) docs(course): 2-4 light 재료 문장과 승격 기준 제목 다듬기
+- 2026-09-02 23:13 [`3df9179`](https://github.com/krafton-playground/ops-ax-101/commit/3df9179b844b2d6c8e62219e9193f1a294d3efe0) feat(course): 2-2 PARA 실습 터미널 추가, 2-3 예시에 제목/본문 표시
+- 2026-09-02 23:01 [`54263ec`](https://github.com/krafton-playground/ops-ax-101/commit/54263ec9f541a376685f05d4883458b2a864cd11) docs(course): 2-2에 "안건은 어느 폴더인가" 절 추가
+- 2026-09-02 22:52 [`5e902c8`](https://github.com/krafton-playground/ops-ax-101/commit/5e902c8db6d4bef146344633757f8cda50c8a202) docs: 코스 전체의 CS 예시를 안건으로 교체
+- 2026-09-02 19:59 [`8ca18c6`](https://github.com/krafton-playground/ops-ax-101/commit/8ca18c6ba8164453cfd32a990c654144c3d23705) docs: 2부 50분판을 원문 흐름(LLM Wiki → 2-1~2-6)으로 재구성
+- 2026-09-01 19:59 [`dce0fb0`](https://github.com/krafton-playground/ops-ax-101/commit/dce0fb04b60ec5c38227ffd35550a55121ab245e) docs: 2부 50분판 코칭 세션 스크립트 추가
+- 2026-09-01 14:16 [`03345df`](https://github.com/krafton-playground/ops-ax-101/commit/03345dfa9aaab6bafbb49012e444fc4a2c52608d) docs(course): 2-4 원래 용어 블록 줄바꿈 + 왼쪽 용어 굵게
+- 2026-09-01 13:55 [`61f062c`](https://github.com/krafton-playground/ops-ax-101/commit/61f062cc7a2c69d9d9b4d632e549d21b097f1120) docs(course): 1-2 문장 중복 해소, 플레이북에 남은 옛 표현 정리
+- 2026-09-01 13:48 [`7258b9c`](https://github.com/krafton-playground/ops-ax-101/commit/7258b9c9e27773913a27533ea50d5cfdbd7bbab8) docs(course): 2-1에 팀 위키 사례 추가, "그 값을 냅니다" 표현 정리
+- 2026-08-31 23:28 [`735c93f`](https://github.com/krafton-playground/ops-ax-101/commit/735c93fd9e7e8f441ac98b20999a6514a53a0479) docs: 3-1에 기획서 목록(MOC) 배치와 outline.md와의 차이 추가
+- 2026-08-31 23:20 [`6b359e1`](https://github.com/krafton-playground/ops-ax-101/commit/6b359e1c1e01f0d0cd1b5c0e2472f67abf7493b2) docs: 2-6 원래 용어 블록 줄바꿈 + 왼쪽 용어 굵게
+- 2026-08-31 23:18 [`ebd6b6d`](https://github.com/krafton-playground/ops-ax-101/commit/ebd6b6daf497d39ac0a710373244d0c534e67dfa) docs: 2-6 2부 마무리 문장을 쉬운 말로
+- 2026-08-31 23:17 [`297faf8`](https://github.com/krafton-playground/ops-ax-101/commit/297faf84efbf8a522fa843666f20b8f2b382394b) docs: 2-4/2-6 심사 표현 완화, 2-6 한 겹 → 한 층의 레이어
+- 2026-08-31 23:14 [`a0a6a02`](https://github.com/krafton-playground/ops-ax-101/commit/a0a6a0231b2dd30fc8111f86eb7723c656d555a3) docs: 2-6 상충 문서 예시에 방침 변경 맥락 추가
+- 2026-08-31 23:12 [`453871c`](https://github.com/krafton-playground/ops-ax-101/commit/453871cd08b469bdf653d6ff01f8571efa9251ec) docs: 2-5 원래 용어 블록 용어 쌍을 한 줄씩 분리, 왼쪽 용어 굵게
+- 2026-08-31 23:09 [`534437b`](https://github.com/krafton-playground/ops-ax-101/commit/534437bffb468fbf5cfd0423518556c0920b624e) docs: 2-5 질문 표에 '쉽게 말하면' 열 추가, 상록 영문 병기 확대
+- 2026-08-31 23:06 [`57ab699`](https://github.com/krafton-playground/ops-ax-101/commit/57ab6998a84027bf99acb05470a3c4f3dd36479a) docs: 2-5 원래 용어 블록 문단 분리, MMR 수식을 독립 줄로
+- 2026-08-31 23:04 [`9f61cf5`](https://github.com/krafton-playground/ops-ax-101/commit/9f61cf5223242d0ef8bf40fd9972f55e1d08c5b2) docs: 2-5 뜻으로 찾기·단어로 찾기에 영문 병기
+- 2026-08-31 23:02 [`61cba12`](https://github.com/krafton-playground/ops-ax-101/commit/61cba125d739cdb5792ba07d27b0d4fb312c1079) docs: 2-5에 1-1 턴 누적 그림 되짚기 추가
+- 2026-08-31 22:59 [`017aa96`](https://github.com/krafton-playground/ops-ax-101/commit/017aa964709ac468e753da8af3b1d9cffca9f0bf) docs: 2-5 소제목에 대상 명시, 조절 문구 단순화
+- 2026-08-31 22:58 [`92261d6`](https://github.com/krafton-playground/ops-ax-101/commit/92261d6d5a6e3c3bf967241e7dcbfb2832a85937) docs: 2-5 중복 검색의 비용을 프롬프트 기준으로 표현
+- 2026-08-31 22:53 [`d3bbc0d`](https://github.com/krafton-playground/ops-ax-101/commit/d3bbc0d7a1898fd81a93bc8db7efd38216de882c) docs: 2-5 상록 처리 첫 등장에 영문 병기
+- 2026-08-31 22:37 [`e6da35a`](https://github.com/krafton-playground/ops-ax-101/commit/e6da35a51572dc451d000aab150a545516b592f0) docs: 2-4에 기억 파일 배치도와 CLAUDE.md 규칙 블록 추가
+- 2026-08-31 22:31 [`e418e2a`](https://github.com/krafton-playground/ops-ax-101/commit/e418e2a82dcb1ea84b68044a3fc74f473b6c160c) docs: 2-4 도입부에 2-2/2-3이 다룬 대상 명시
+- 2026-08-31 21:56 [`3d12436`](https://github.com/krafton-playground/ops-ax-101/commit/3d12436f4312058d5b024b0d853abcea670d3a8e) style: .ax-prompt를 코드 블록과 같은 어두운 배경으로
+- 2026-08-31 21:40 [`39659f6`](https://github.com/krafton-playground/ops-ax-101/commit/39659f6b19bd0ffaff550198e6caae240f01633b) feat: 코드 펜스에 render 플래그 추가 — 템플릿을 문서 모양으로 표시
+- 2026-08-31 20:56 [`c4ecd85`](https://github.com/krafton-playground/ops-ax-101/commit/c4ecd858a9d952bf4cc68cbdcb3919c1d79b961e) docs: 2-2 통합 프롬프트 블록 가독성 개선
+- 2026-08-31 20:52 [`48874b3`](https://github.com/krafton-playground/ops-ax-101/commit/48874b37e3afc0c6f95e3b0312fd1541d2f3ff6a) docs: 2-3 4번 규칙 설명에 주어 명시
+- 2026-08-31 20:51 [`b98bb90`](https://github.com/krafton-playground/ops-ax-101/commit/b98bb9047c42dfa50a058939e3916e32e19b6963) docs: 2-3 중복 도입 문장 제거
+- 2026-08-31 20:47 [`9317992`](https://github.com/krafton-playground/ops-ax-101/commit/93179929f1220df0b75d74f043b6064e104846cd) docs: 2-3 잘린 정보 예시를 프롬프트 작성 상황으로 구체화
+- 2026-08-31 20:33 [`865f110`](https://github.com/krafton-playground/ops-ax-101/commit/865f1107bdebb41fa4538d7b23c578a3c5155926) docs: 2-1 Codex(AGENTS.md) 대응 추가, 2-3 예시 문구·원래 용어 줄바꿈
+- 2026-08-31 20:26 [`7998d0f`](https://github.com/krafton-playground/ops-ax-101/commit/7998d0f6eb82db79d69793e45a8faefee1fb2753) docs: 2-1 플레이북에 CLAUDE.md와 MEMORY.md의 차이 설명 추가
+- 2026-08-31 20:24 [`1ffe11e`](https://github.com/krafton-playground/ops-ax-101/commit/1ffe11e14856026f3af9ddebfdbd0f528a72986b) docs: 2-1 플레이북의 늘 읽히는 층 표기를 본문과 맞춤
+- 2026-08-31 20:20 [`58e19e9`](https://github.com/krafton-playground/ops-ax-101/commit/58e19e9ec8336ec864aac12e005cdadffc7de23e) docs: 2-3 체크리스트를 사례집 README의 일곱 가지 자가 점검으로
+- 2026-08-31 20:16 [`317ff5d`](https://github.com/krafton-playground/ops-ax-101/commit/317ff5d8b547975aa7c2e30d5aa98e4dff2a5f9f) docs: 2-2 프롬프트 교체 + 2-3 문장 다듬기
+- 2026-08-29 19:22 [`6dc47be`](https://github.com/krafton-playground/ops-ax-101/commit/6dc47bedd1a27eef19a0782ab0b4e8047dbb83c4) docs: 조각 → 정보로 통일, chunk는 영문 그대로
+- 2026-08-29 19:19 [`3e09cdb`](https://github.com/krafton-playground/ops-ax-101/commit/3e09cdb1a8dfd3c17f7b03bee1eec56ec1693719) fix: 사이트에서 깨지던 docs/ 링크 18건을 GitHub URL로
+- 2026-08-29 19:16 [`73cefb6`](https://github.com/krafton-playground/ops-ax-101/commit/73cefb622edfe412e3f3f86ce730bede5900adad) docs: 2-3 문구 다듬기
+- 2026-08-29 17:58 [`d0aadf6`](https://github.com/krafton-playground/ops-ax-101/commit/d0aadf6c8d7163f0579d081de836940f72ea8925) docs: 2-2 프롬프트 3번에 대상을 명시 (기존 문서의 내용)
+- 2026-08-29 17:57 [`6e18d07`](https://github.com/krafton-playground/ops-ax-101/commit/6e18d0748b7896a7991630c4b2a3a12b44e2c00a) docs: 2-1 용어 각주 줄 분리, 2-2 문구 다듬기
+- 2026-08-29 17:54 [`ec737ba`](https://github.com/krafton-playground/ops-ax-101/commit/ec737ba3d4712de7ce93543004c35c59b3c3d006) docs: 2-2 소제목을 PARA 중심으로
+- 2026-08-29 17:53 [`61cdef3`](https://github.com/krafton-playground/ops-ax-101/commit/61cdef3428084657b304945202df14bd577ab8d1) docs: 2-1 원래 용어 각주의 용어 3개를 볼드로
+- 2026-08-29 17:25 [`ec33ccc`](https://github.com/krafton-playground/ops-ax-101/commit/ec33ccc41403af115ec6a8be105d0961562e2c59) docs: 회의록 코퍼스의 위험관리 팀을 법무팀으로
+- 2026-08-29 17:22 [`00f072e`](https://github.com/krafton-playground/ops-ax-101/commit/00f072e2de84a97faae12bc7b7212036d16a4371) docs: 2-1 분류 설명을 실제 소제목으로 가리키게
+- 2026-08-29 17:19 [`ba8ea42`](https://github.com/krafton-playground/ops-ax-101/commit/ba8ea423a343563d53ad9bfeb2a09f6706449827) docs: 2-1 예시 회의록의 팀명 정리
+- 2026-08-29 17:18 [`34dc73e`](https://github.com/krafton-playground/ops-ax-101/commit/34dc73e326b2aa82945ca5e9960eb4f6ebaf4de4) docs: 2-1 표 머리에 어느 파일 규칙인지 명시
+- 2026-08-29 17:17 [`9abe2cd`](https://github.com/krafton-playground/ops-ax-101/commit/9abe2cd2d13cbd2d92d94eb816218e9499ccb807) docs: 2-1 늘 읽히는 층에 AGENTS.md 추가
+- 2026-08-29 17:15 [`68e1998`](https://github.com/krafton-playground/ops-ax-101/commit/68e1998e2743829905bcbd08574f3dfc0ca71683) docs: 2-1 두 층 설명에 주체와 대상을 명시
+- 2026-08-29 17:14 [`0188606`](https://github.com/krafton-playground/ops-ax-101/commit/018860632ea61bc61879e7422216135d016b7356) docs: multi-hop 표현을 '흩어진 정보'로, 2-1 군더더기 한 문장 삭제
+- 2026-08-29 17:12 [`8e536d7`](https://github.com/krafton-playground/ops-ax-101/commit/8e536d7fce2df24e01f6c61fde7135b3006d80c0) docs: 2-1 소제목을 '에이전트의 기억은 파일이다'로
+- 2026-08-29 17:08 [`6f5d11a`](https://github.com/krafton-playground/ops-ax-101/commit/6f5d11a2825de1d714d98c5bbde67b9b31c05aca) docs: 2-1 '그 답을' → '그 규칙(룰)을'
+- 2026-08-29 17:07 [`52944b6`](https://github.com/krafton-playground/ops-ax-101/commit/52944b6dc901f917f4bf0e9fcda80066fe4263b8) docs: '흩어진 조각' → '흩어진 정보' (2-1과 표현 통일)
+- 2026-08-29 16:27 [`2250541`](https://github.com/krafton-playground/ops-ax-101/commit/22505413f996c377d708db679d6d47d4104464ea) docs: 2-1 '흩어진 조각' → '흩어진 정보'
+- 2026-08-28 17:58 [`9fe9903`](https://github.com/krafton-playground/ops-ax-101/commit/9fe9903af3d71af26698d1973f5698e455e4e3fe) Merge pull request #21 from krafton-playground/feat/longer-cli-input
+- 2026-08-28 11:08 [`9660325`](https://github.com/krafton-playground/ops-ax-101/commit/966032534e27f20e678f8b7c2a98647bdb8f9499) feat: 실습 터미널 입력 상한 4천 → 4만 자
+- 2026-08-28 10:47 [`d367850`](https://github.com/krafton-playground/ops-ax-101/commit/d3678505091c9f2a7b65e4a88705b266b88f5b2e) Merge pull request #20 from krafton-playground/codex/update-2-1-memory-guide
+- 2026-08-27 23:07 [`6db5444`](https://github.com/krafton-playground/ops-ax-101/commit/6db54443ef8b38035790d694a849a91b4cdf6c71) docs: add 2-1 memory hands-on example
+- 2026-08-27 19:25 [`6b8bad6`](https://github.com/krafton-playground/ops-ax-101/commit/6b8bad6f4d230698b301ecbbba03c35144fbf193) Merge pull request #19 from krafton-playground/fix/api-401-not-redirect
+- 2026-08-27 19:22 [`213204d`](https://github.com/krafton-playground/ops-ax-101/commit/213204d75fa2a2791d6a8325c0b92c2f732c7f1f) fix: 세션 만료 시 실습 터미널이 아무 말 없이 죽던 것
+- 2026-08-27 17:43 [`bb2c6af`](https://github.com/krafton-playground/ops-ax-101/commit/bb2c6af8d6e09b076d80f0235d3b176f0a14e2bf) Merge pull request #18 from krafton-playground/fix/cli-error-visibility
+- 2026-08-27 17:16 [`e7dfa15`](https://github.com/krafton-playground/ops-ax-101/commit/e7dfa15ea39fa9a6fdf83f93f34db9f94d5086c9) fix: 실습 터미널 오류가 이유 없이 사라지던 것 + 시연 단계 어긋남
+- 2026-08-27 11:26 [`d13c089`](https://github.com/krafton-playground/ops-ax-101/commit/d13c0894f16ff40c866c85eb26dee09e23b3b008) feat: 4-1 실습 플레이북 — 일을 맡긴다는 것
+- 2026-08-27 11:05 [`cb21703`](https://github.com/krafton-playground/ops-ax-101/commit/cb21703db0e266d20cfc2c2e4263899ea08c1e67) feat: add 4-3 playground replay
+- 2026-08-27 11:05 [`c0441a6`](https://github.com/krafton-playground/ops-ax-101/commit/c0441a6fc214f0de34993f700ee4b76727479d79) docs: improve markdown template portability
+- 2026-08-27 10:53 [`576a9e5`](https://github.com/krafton-playground/ops-ax-101/commit/576a9e5473d0a66bc0d2f5c4186db307bf660def) docs: focus R7 on business operations tasks
+- 2026-08-27 10:41 [`308314c`](https://github.com/krafton-playground/ops-ax-101/commit/308314cf1f8da9eaacef3525f67aa0bf99dcc555) docs: mark evidence prompt as markdown
+- 2026-08-27 10:39 [`fd308cf`](https://github.com/krafton-playground/ops-ax-101/commit/fd308cfc1a7eab3170eda7aab9820552aa99d432) docs: add evidence report sections R1 through R9
+- 2026-08-27 09:38 [`bb2069a`](https://github.com/krafton-playground/ops-ax-101/commit/bb2069a425067719a47b242c0d46cb1bcdb8237d) docs: expand ops evidence collection prompt
+- 2026-08-26 22:47 [`34b34b1`](https://github.com/krafton-playground/ops-ax-101/commit/34b34b14102b55b8d653044c7ef3dff235dcfcdb) Merge pull request #17 from krafton-playground/feat/lens-full-coverage
+- 2026-08-26 22:45 [`e39f5b9`](https://github.com/krafton-playground/ops-ax-101/commit/e39f5b9f20bf70d2f3768eaf19d6f404cf9086fa) docs: 1-3 소제목을 PM에서 기획/운영으로
+- 2026-08-26 21:04 [`cd88451`](https://github.com/krafton-playground/ops-ax-101/commit/cd8845161764f56f27b3572624ffa4aa7c69877c) feat: 4부 재편 — 4-2 보고 포인트 리뷰 / 4-3 리포트 자동화 집필
+- 2026-08-26 20:59 [`47c38d3`](https://github.com/krafton-playground/ops-ax-101/commit/47c38d3e6ff24099778a5aab64f96a66333f2ac0) feat: 복사 페이로드를 원본 5% → 100%로
+- 2026-08-26 20:21 [`a5e6ddd`](https://github.com/krafton-playground/ops-ax-101/commit/a5e6ddd00173d8f7e004948e2112a80bac6de81a) Merge pull request #16 from krafton-playground/feat/4-2-lens-report
+- 2026-08-26 20:15 [`237a86f`](https://github.com/krafton-playground/ops-ax-101/commit/237a86fef06fd2db9c8b218d283aa536889a9d2e) feat: 4-2 관점 카드로 리포트 검토 + 복사 전용 확장 블록
+- 2026-08-26 16:12 [`cd52e01`](https://github.com/krafton-playground/ops-ax-101/commit/cd52e012915437a56f6c98f04debe0a6f6574d3c) Merge pull request #15 from krafton-playground/fix/live-answer-hijack
+- 2026-08-26 16:10 [`a083e35`](https://github.com/krafton-playground/ops-ax-101/commit/a083e35108d42c0fda6faf049beea0e74e95b4d5) fix: 학습자 질문이 녹화 답변에 가로채여 실제 모델에 닿지 못하던 문제
+- 2026-08-26 13:14 [`105c648`](https://github.com/krafton-playground/ops-ax-101/commit/105c6486a3b63fddb2abdb27f027bc00c9ba78bf) Merge pull request #14 from krafton-playground/feat/4-4-playbook
+- 2026-08-26 09:55 [`2915657`](https://github.com/krafton-playground/ops-ax-101/commit/2915657cc649766c1ca5c4018057028a8089773f) feat: 4-4 실습 플레이북 — 배포가 성공해도 끝이 아니다
+- 2026-08-26 09:39 [`68b79da`](https://github.com/krafton-playground/ops-ax-101/commit/68b79da82b5c31ab9a8bcb2365181cd5717bd56c) Merge pull request #13 from krafton-playground/feat/4-4-deploy-playground
+- 2026-08-26 09:37 [`3dd04e0`](https://github.com/krafton-playground/ops-ax-101/commit/3dd04e009b1303f8fc5dd082db785ec7a07091c2) feat: 4-4 Playground 배포 유닛 작성 + 2-1에 LLM Wiki 원문 링크
+- 2026-08-26 09:27 [`17bf276`](https://github.com/krafton-playground/ops-ax-101/commit/17bf27605471f28eb419ac294c68cee577c8778a) fix: 어드민 표가 컨테이너 밖으로 삐져나오던 것 정렬
+- 2026-08-26 08:48 [`75b5e45`](https://github.com/krafton-playground/ops-ax-101/commit/75b5e457ceff94cc9dcdd148bb69f79268201e89) Merge pull request #11 from krafton-playground/fix/admin-gate-diagnostics
+- 2026-08-25 20:28 [`5c94c24`](https://github.com/krafton-playground/ops-ax-101/commit/5c94c24130e22b9c8af42a1233c40e70c06ac3f8) fix: /admin 거부 사유를 로그로 남겨 404 원인을 구별 가능하게
+- 2026-08-25 20:13 [`2df52f2`](https://github.com/krafton-playground/ops-ax-101/commit/2df52f2dd389a55d65456058ee41359c34be7422) Merge pull request #10 from krafton-playground/feat/terminal-tables
+- 2026-08-25 20:08 [`724898d`](https://github.com/krafton-playground/ops-ax-101/commit/724898dfcd7525b2dc95efeddb2a3d8f17748d56) feat: 터미널에서 마크다운 표 렌더링
+- 2026-08-25 14:13 [`c5ef121`](https://github.com/krafton-playground/ops-ax-101/commit/c5ef121d5cbedab9fba06e2a958bb06a4dcaa657) Merge pull request #9 from krafton-playground/feat/2-3-agent-ready-docs
+- 2026-08-25 13:18 [`b4ba932`](https://github.com/krafton-playground/ops-ax-101/commit/b4ba9320f1172a0400031313d8c36fe193ea47ad) feat: 2-3 문서 고치기 전/후 사례 4건 + 실습 플레이북
+- 2026-08-25 12:59 [`6f07544`](https://github.com/krafton-playground/ops-ax-101/commit/6f07544bbf35b4d58d7acf8982659712959598ec) Merge pull request #8 from krafton-playground/feat/3부-playbooks
+- 2026-08-25 12:14 [`5d08875`](https://github.com/krafton-playground/ops-ax-101/commit/5d08875d7c9edbbff5625d4ad86fb187651f02af) feat: 3부 실습 플레이북 4개 + 3-3 문구 수정
+- 2026-08-25 11:35 [`cac2e6f`](https://github.com/krafton-playground/ops-ax-101/commit/cac2e6f4da018be7fa63e8f2a404e0c9b0e7faf8) Merge pull request #7 from krafton-playground/feat/meeting-notes-corpus
+- 2026-08-25 11:26 [`8abfc38`](https://github.com/krafton-playground/ops-ax-101/commit/8abfc386f440d724bf9c9f948cd56f4000ca2b03) Merge remote-tracking branch 'origin/main' into feat/meeting-notes-corpus
+- 2026-08-25 11:25 [`3cd4a0c`](https://github.com/krafton-playground/ops-ax-101/commit/3cd4a0c0cd430783d0e2c2c2afb3eb091edfe1e1) feat: 회의록 작업 예시 4건 + 터미널 볼드 렌더링
+- 2026-08-25 11:13 [`11efba6`](https://github.com/krafton-playground/ops-ax-101/commit/11efba670e1268b06f9085ea418600dd1f03c458) Merge pull request #6 from krafton-playground/fix/3부-render-and-mcp-command
+- 2026-08-25 11:05 [`96e5aad`](https://github.com/krafton-playground/ops-ax-101/commit/96e5aadb8f9b474b9d5346689154cca9692e590a) fix: 3-2 템플릿 렌더 깨짐 + 존재하지 않는 claude mcp login 명령
+- 2026-08-25 10:43 [`c2d8d0b`](https://github.com/krafton-playground/ops-ax-101/commit/c2d8d0b3fbcd88ec6af1303de04ad75f98789e21) Merge pull request #5 from krafton-playground/feat/chapter-cli-terminal
+- 2026-08-25 10:37 [`70a75bb`](https://github.com/krafton-playground/ops-ax-101/commit/70a75bb28a106b7cf1bc97926570872a931c1c7c) Merge remote-tracking branch 'origin/main' into feat/chapter-cli-terminal
+- 2026-08-25 09:51 [`cdc85ca`](https://github.com/krafton-playground/ops-ax-101/commit/cdc85ca9eae187b6b3665894a2091bd5704c8eff) feat: 0부·1부 플레이북 8개 + 플레이북 자가 점검 스크립트
+- 2026-08-25 07:29 [`7b2a3a6`](https://github.com/krafton-playground/ops-ax-101/commit/7b2a3a62e4c99cc18e6ab259ccd717ce92d34ff0) Merge pull request #4 from krafton-playground/feat/chapter-cli-terminal
+- 2026-08-25 07:26 [`3be277b`](https://github.com/krafton-playground/ops-ax-101/commit/3be277b62e4332ed8606866186afa843eacbe77e) feat: 터미널 전체 화면으로 확장, 헤더 정리, e2e 하네스 추가
+- 2026-08-25 07:15 [`316bc1e`](https://github.com/krafton-playground/ops-ax-101/commit/316bc1ee2a0f99209892d26e0b4daa4ba8c78ca8) Merge remote-tracking branch 'origin/main' into feat/chapter-cli-terminal
+- 2026-08-25 07:15 [`4f348cf`](https://github.com/krafton-playground/ops-ax-101/commit/4f348cf7ca2ca082c5b8d4b7441a0195c93fc840) chore: migration_lock.toml 개행 복원 (prisma CLI가 지운 것)
+- 2026-08-25 00:39 [`f437257`](https://github.com/krafton-playground/ops-ax-101/commit/f4372578328f55e0c9e993956cfde9cf10c9f299) feat: 열람 기록 + 참여 현황, 시연은 선택지로
+- 2026-08-25 00:23 [`2b16873`](https://github.com/krafton-playground/ops-ax-101/commit/2b16873ff1945c8c04526bb0a13bfb14b60b97b8) Merge pull request #3 from krafton-playground/feat/chapter-cli-terminal
+- 2026-08-25 00:15 [`ad01e6e`](https://github.com/krafton-playground/ops-ax-101/commit/ad01e6e044318d24d8ee9d4f85d707c7b891ca17) feat: 챕터 실습 터미널 + 관리자 분석
+- 2026-08-24 17:47 [`a56786c`](https://github.com/krafton-playground/ops-ax-101/commit/a56786c247d012f925b88dc8ab36b5517cf633b7) docs(course): 3-3 '직접 뽑는다' 섹션을 혜택 프레이밍 제목으로 변경
+- 2026-08-24 17:43 [`b31bb69`](https://github.com/krafton-playground/ops-ax-101/commit/b31bb69c7d08d01d3acc44b6971f01f16eebe57d) docs(course): 3-2 정형 회의록 템플릿(Confluence 복사-붙여넣기용) 추가
+- 2026-08-24 17:28 [`955a3ac`](https://github.com/krafton-playground/ops-ax-101/commit/955a3ac21ae0bd8e75da62ec5f9b897b45b29135) docs(course): 3-1 도입 문장 삭제 (공감 안 되는 리드 제거)
+- 2026-08-24 17:24 [`51bcb4c`](https://github.com/krafton-playground/ops-ax-101/commit/51bcb4ceda446a940eb689de49c572b7685316d9) docs(course): 4-1 표준 파일(CLAUDE.md/AGENTS.md) 안내 + 용어집 정리
+- 2026-08-24 17:24 [`5cc77e2`](https://github.com/krafton-playground/ops-ax-101/commit/5cc77e259bca3cece1976d4ef086fbfc7deee503) docs(course): 3-1 도입부 공감 톤 보강, 3-3 '직접 뽑는다' 정의 명확화
+- 2026-08-24 17:07 [`0291bb9`](https://github.com/krafton-playground/ops-ax-101/commit/0291bb965dd82589845bc6f067bae205267dd948) docs(course): 용어집 RAID 로그 항목 보강 — 네 항목 풀이 + 예시 표
+- 2026-08-24 17:03 [`11c89d7`](https://github.com/krafton-playground/ops-ax-101/commit/11c89d7e6c25cc7ddb5244c47f34219d2c253e5a) docs(course): align PM examples with operations workflows
+- 2026-08-24 16:58 [`20485f6`](https://github.com/krafton-playground/ops-ax-101/commit/20485f608a42d135813d326568a17e0db1710059) docs(course): 4-1 대상 호칭 '운영·기획 담당자'로 통일, 1-1 문구 다듬기
+- 2026-08-24 16:52 [`13864e9`](https://github.com/krafton-playground/ops-ax-101/commit/13864e96da3c8cb650bd9a449008b014b324ee0f) docs(course): 4-1 난이도 조정 — 용어집 5항목 추가, 카테고리 불릿 축약
+- 2026-08-24 16:41 [`120d22e`](https://github.com/krafton-playground/ops-ax-101/commit/120d22e99086b90d6c7109f48e07ca6af14c9af0) docs(course): add PM agent workflow introduction
+- 2026-08-23 20:52 [`cec93ea`](https://github.com/krafton-playground/ops-ax-101/commit/cec93eab8fce9495ae005026b8d1d1e9204023ab) docs(course): 용어집 전면 보강, 2-4 제목 불일치 수정
+- 2026-08-23 20:44 [`44717a9`](https://github.com/krafton-playground/ops-ax-101/commit/44717a9e5fc45c9c896fb208759fd5938cc6dd22) docs(course): 3-3 데이터 직접 뽑아보기 작성, 3-4 완성
+- 2026-08-23 20:24 [`bdab18e`](https://github.com/krafton-playground/ops-ax-101/commit/bdab18e8d167b9dec283c1964dbfcc4e7b1efc1a) Merge pull request #2 from krafton-playground/feat/landing-redesign
+- 2026-08-23 20:22 [`2c5c5eb`](https://github.com/krafton-playground/ops-ax-101/commit/2c5c5ebe6d0d9761da8c65a733b20e900fcceea9) fix(ui): drop the per-unit OPEN badge from the 목차
+- 2026-08-23 20:20 [`aa7b904`](https://github.com/krafton-playground/ops-ax-101/commit/aa7b90491911cac4889c4334dd1cac760a3cbb1d) Merge pull request #1 from krafton-playground/feat/landing-redesign
+- 2026-08-23 19:35 [`d52f6af`](https://github.com/krafton-playground/ops-ax-101/commit/d52f6af0613a12c57b01390d5f4ce45d628767be) fix(ui): strip the trailing parenthetical in the 읽는 법 link too
+- 2026-08-23 19:33 [`c6e948f`](https://github.com/krafton-playground/ops-ax-101/commit/c6e948f6c7736d3a3cc4581223a7bb2b0d697ccf) feat(ui): redesign landing + restyle chapter page to the approved design system
+- 2026-08-23 18:52 [`ba60b3d`](https://github.com/krafton-playground/ops-ax-101/commit/ba60b3d341b32ee49b61923bff008c627e2fd8c1) docs(course): One-MCP 등록 가이드 추가, 용어집·참고 섹션 정비
+- 2026-08-23 18:23 [`9307956`](https://github.com/krafton-playground/ops-ax-101/commit/930795670f287aae9d81f0028d0c02a37017dcfa) docs(course): 0·1부 난이도 조정, 0-3 작성, 2부 순서 재배치
+- 2026-08-23 17:40 [`ff80313`](https://github.com/krafton-playground/ops-ax-101/commit/ff80313dfb017f52fcb9f9c75ab6e82b2e02670c) docs(course): 2부 난이도를 비개발 독자 기준으로 재조정
+- 2026-08-23 17:11 [`88397b0`](https://github.com/krafton-playground/ops-ax-101/commit/88397b0d8a3e513893e441c2dd3427da251d80bd) docs(course): swap 2부 ↔ 3부 — LLM WIKI now precedes 기획 업무 실전
+- 2026-08-23 15:40 [`049ade9`](https://github.com/krafton-playground/ops-ax-101/commit/049ade93445d131b578394e33ecfbe5d21630ad8) docs(course): write 2-1, 부록 B; extend 2-4 scenarios; restore MS365 toggle in 2-2
+- 2026-08-23 13:17 [`ab0b5f4`](https://github.com/krafton-playground/ops-ax-101/commit/ab0b5f4ea129fd48cdcd091027b15bb990382344) docs(course): 0-2 step 5 — collapse the standalone Confluence MCP setup
+- 2026-08-23 13:12 [`6fe8e57`](https://github.com/krafton-playground/ops-ax-101/commit/6fe8e579686bf52a5e75c01ca6fb55360f6b7796) docs(course): route mcp-hub usage to 2-4
+- 2026-08-23 13:12 [`69acf6c`](https://github.com/krafton-playground/ops-ax-101/commit/69acf6c0235191fd066dc7b597bf4f063fd0f5c7) docs(course): 0-1 — add Clova Note and mcp-hub connections; de-dupe 2-2
+- 2026-08-23 13:06 [`2b7c38b`](https://github.com/krafton-playground/ops-ax-101/commit/2b7c38b963fa25e389aa89c3149b6cc905afc916) docs(course): 0-1 — merge the duplicated KP 플랫폼 step
+- 2026-08-23 13:02 [`44986f7`](https://github.com/krafton-playground/ops-ax-101/commit/44986f768e08f4c1c6e5720771aafaab2b259e9d) docs(course): 0-1 — add Claude Code install commands
+- 2026-08-23 12:53 [`d2c31e0`](https://github.com/krafton-playground/ops-ax-101/commit/d2c31e009204363895744b9c774ccabc26c7ddb3) docs(course): write 0-1 계정과 접근 권한
+- 2026-08-23 11:01 [`3d80d34`](https://github.com/krafton-playground/ops-ax-101/commit/3d80d347b71a3fb7421a978463e99ffb6411ae79) docs(course): 2-2 — add Clova Note MCP setup
+- 2026-08-23 10:58 [`4ecb52a`](https://github.com/krafton-playground/ops-ax-101/commit/4ecb52a86657ec4a6495a6a50732ef05b2309793) docs(course): 2-2 — add MS365 MCP setup for the calendar lookup
+- 2026-08-23 10:45 [`cf4ceef`](https://github.com/krafton-playground/ops-ax-101/commit/cf4ceefaec7ec9a740dc33b575b1691a2f29d028) docs(course): 1-1 example 품의 → 회의록, and write 2-2 회의록 자동화
+- 2026-08-23 10:40 [`74d0dba`](https://github.com/krafton-playground/ops-ax-101/commit/74d0dbae9b35c44a768d5dbe60d9f03bec822c16) docs(course): explain "LLM WIKI" in 3-1
+- 2026-08-23 10:34 [`bf10e06`](https://github.com/krafton-playground/ops-ax-101/commit/bf10e06858aa6b4508dac56097decafe8219c976) docs(course): revert 부록 A title to 잘 안될 때 프롬프트 팁
+- 2026-08-23 10:31 [`25249cc`](https://github.com/krafton-playground/ops-ax-101/commit/25249cc9adf599fd7d6546b40ae7bfbc89e870ff) docs(course): write 3-3 PARA body and 부록 A 막혔을 때 복구 프로토콜
+- 2026-08-23 10:06 [`6d93f6a`](https://github.com/krafton-playground/ops-ax-101/commit/6d93f6a1fa5b3d4f51ea4753926eb436dff4a3aa) docs(course): 3-3 — add the PARA vault prompt (Korean) and an Obsidian link
+- 2026-08-23 09:37 [`a7ce256`](https://github.com/krafton-playground/ops-ax-101/commit/a7ce2566b2f4d9a94ebf46ce58449e8ac31f5c48) docs(course): move the secrets guide into 부록 E, verify every link
+- 2026-08-23 09:34 [`94d50a7`](https://github.com/krafton-playground/ops-ax-101/commit/94d50a75ab1979ab632a5af6b86004005ad2837b) fix(course): repair 5 dead source links, route .md cross-links, simplify secrets guide
+- 2026-08-23 09:26 [`cae4fe9`](https://github.com/krafton-playground/ops-ax-101/commit/cae4fe97398e624c996d665ffbd1d14e2c742e33) docs(course): 0-4 item 1 — point at the API 담당자 wiki for key issuance
+- 2026-08-23 09:24 [`e68892b`](https://github.com/krafton-playground/ops-ax-101/commit/e68892b8ca046aef3d67c2df4b4c642fed31dd29) feat(course): make checklists clickable and remember their state
+- 2026-08-23 09:17 [`3d2c671`](https://github.com/krafton-playground/ops-ax-101/commit/3d2c671a67799f09cc969def15754a33ed1ac40e) docs(course): write 0-4 세팅 완료 체크리스트 for this course's setup
+- 2026-08-23 09:15 [`5d9b36f`](https://github.com/krafton-playground/ops-ax-101/commit/5d9b36fc2c204c380b4add53fa3c0f056b815170) docs(course): 0-2 — add a collapsible guide on handing secrets to an agent
+- 2026-08-23 08:55 [`1dba4bc`](https://github.com/krafton-playground/ops-ax-101/commit/1dba4bc0e176093a8c5b066293d3db1af923317c) docs(course): 0-2 step 1 — shorten Warp, break out the command, mark it red
+- 2026-08-23 08:53 [`989d5e8`](https://github.com/krafton-playground/ops-ax-101/commit/989d5e8f9ab5e7ef13af30d0931d1904c4adafea) docs(course): 라이브옵스 → 기획조정실/운영팀, and soften a heading
+- 2026-08-23 08:51 [`7356982`](https://github.com/krafton-playground/ops-ax-101/commit/7356982896742315c3bc6d1c9df783f3bb8d63f8) fix(course): size loop diagrams to the actual content column
+- 2026-08-23 08:47 [`c1e4c8e`](https://github.com/krafton-playground/ops-ax-101/commit/c1e4c8ead85a370ba7272bcbcabdf789df2b0242) docs(course): 0-2 step 1 — add Warp Terminal and the skip-permissions flag
+- 2026-08-23 08:46 [`4cdfe74`](https://github.com/krafton-playground/ops-ax-101/commit/4cdfe74fd92cf195957cf57a211a3f47de098c99) docs(course): define 하네스 up front in 부록 C
+- 2026-08-23 08:45 [`8f5ef05`](https://github.com/krafton-playground/ops-ax-101/commit/8f5ef05554201702595d8d8885fd48ecc5ded022) feat(course): add loop diagrams, image support, and mark 12 units complete
+- 2026-08-23 08:36 [`dbf066b`](https://github.com/krafton-playground/ops-ax-101/commit/dbf066b274813cb69f36a9bd1def0286e25e5bf8) Merge origin/main: fold memory chapters into the published course
+- 2026-08-23 08:28 [`3f88d15`](https://github.com/krafton-playground/ops-ax-101/commit/3f88d1566322011a6f8b4f33e1a3aacae098fb83) docs(course): write agent-memory chapters and rebuild 0-2 around Confluence
+- 2026-08-19 15:48 [`cd4879b`](https://github.com/krafton-playground/ops-ax-101/commit/cd4879bf124f2a50000f2fb3b43e85b45ae96993) feat: add prev/next chapter navigation to unit pages
+- 2026-08-19 13:51 [`ca5bfa1`](https://github.com/krafton-playground/ops-ax-101/commit/ca5bfa1f2ff97326bbb8a2eff0d22d6895c48642) content: 1-1 서브에이전트 + 퀴즈 토글, 1-2 에이전트 루프 배경
+- 2026-08-19 11:21 [`fb34604`](https://github.com/krafton-playground/ops-ax-101/commit/fb346041acba692e6670c5b73807be22fdcae213) content: publish 1-1 에이전트란 무엇인가 (상태 🟢)
+- 2026-08-19 11:10 [`e96e712`](https://github.com/krafton-playground/ops-ax-101/commit/e96e712653cc35b4a8da8bf891f074d6738ad566) content: draft 1-1 에이전트란 무엇인가 (식당 비유·품의 검토, staged)
+- 2026-08-19 10:49 [`c244817`](https://github.com/krafton-playground/ops-ax-101/commit/c244817940a61ee55dd0dc3f093f7df57233f991) content: fill & publish 부록 D 용어집 (상태 🟢)
+- 2026-08-19 10:43 [`b4d1451`](https://github.com/krafton-playground/ops-ax-101/commit/b4d1451bcd97cf6ec9ee2dcc17af04ab50930dda) content: 부록 C 근거 → 출처
+- 2026-08-19 10:42 [`4d44c77`](https://github.com/krafton-playground/ops-ax-101/commit/4d44c775c755fff6748729eee363a52cc757174b) content: restore 부록 C 체크리스트 (mapped to the 7 techniques)
+- 2026-08-19 10:33 [`10378e3`](https://github.com/krafton-playground/ops-ax-101/commit/10378e32e42717c376981fea982463735e7b213c) content: trim 부록 C (rename headings, drop 검증 메모·체크리스트)
+- 2026-08-19 10:08 [`08d7982`](https://github.com/krafton-playground/ops-ax-101/commit/08d7982ce696e07a0f2bde678370923436fd6dd0) content: publish 부록 C 토큰 절감 팁 (상태 🟢)
+- 2026-08-19 09:42 [`a0a0b19`](https://github.com/krafton-playground/ops-ax-101/commit/a0a0b199bc23fd601556f92c5a8b52c0e2dd5cba) content: expand 부록 C 토큰 절감 팁 with harness deep-dive (KO, staged)
+- 2026-08-19 09:38 [`aa73bbd`](https://github.com/krafton-playground/ops-ax-101/commit/aa73bbd8e82185e6e177826264c71c73583fc060) content: add 권장 하네스 body to 부록 C 토큰 절감 팁 (staged, 준비 중)
+- 2026-08-19 09:23 [`4cd1438`](https://github.com/krafton-playground/ops-ax-101/commit/4cd1438c92ca8d9a1b170521c0dac0a5a79f4e7e) content: save TechCrunch token-cost article as reference in 부록 C
+- 2026-08-19 09:20 [`f202d18`](https://github.com/krafton-playground/ops-ax-101/commit/f202d18f8fa846dba1194ae4d924f9e7f350e36e) content: rename 부록 C 만능 요청 템플릿 → 토큰 절감 팁
+- 2026-08-19 08:56 [`cebbd95`](https://github.com/krafton-playground/ops-ax-101/commit/cebbd954d4e790c6a37d38c2b314ea0173514998) content: revise 부록 units (rename A, drop B, glossary as last)
+- 2026-08-18 17:11 [`1b83592`](https://github.com/krafton-playground/ops-ax-101/commit/1b83592e396011f3016474b1d772f02c0a78a566) content: add 5부 · 부록 with A–E placeholder units
+- 2026-08-18 17:02 [`8e6c496`](https://github.com/krafton-playground/ops-ax-101/commit/8e6c4965abaaaa314143a8b609b99d210467bf57) content: rename ChatGPT → Codex across landing and curriculum
+- 2026-08-18 16:56 [`4c1191e`](https://github.com/krafton-playground/ops-ax-101/commit/4c1191e49a689e9ef2c397e422f9a504cbe38b1f) feat: reframe landing to 운영기조 코칭세션 theme
+- 2026-08-18 09:09 [`c0af744`](https://github.com/krafton-playground/ops-ax-101/commit/c0af744b54295d26a2dd3986d68a862a98f162f1) feat: implement AX Course handbook page from course/ curriculum
+- 2026-08-11 15:40 [`496a220`](https://github.com/krafton-playground/ops-ax-101/commit/496a220adc4f37aadc4e78b28573bdc06c75d466) docs: scaffold AX Course curriculum and commit PARA memory store
+
+## vibecoding-01
+
+81 commits. Newest first.
+
+- 2026-08-07 11:43 [`a487f42`](https://github.com/krafton-playground/vibecoding-01/commit/a487f427adfcd8e2967601102960979be93a7f44) docs: add the 중급 실습 run book
+- 2026-08-07 10:25 [`99407ac`](https://github.com/krafton-playground/vibecoding-01/commit/99407ac3962480b5451298928cfc6add456cb4d8) feat: add the OPENAI token step between 버그 고치기 and PR
+- 2026-08-07 10:20 [`e1b61ac`](https://github.com/krafton-playground/vibecoding-01/commit/e1b61acfb52259281b19facb9a4fbc057fe3c149) feat: offer the starter as a ZIP alongside the clone
+- 2026-08-07 10:02 [`dca521d`](https://github.com/krafton-playground/vibecoding-01/commit/dca521d9387b9b56268c28682c62b45db49096c3) feat: open 중급 실습 with the clone, and number the steps
+- 2026-08-07 09:46 [`0a27387`](https://github.com/krafton-playground/vibecoding-01/commit/0a27387fce1c30b5fa40e33909d61a02aecb95fb) feat: give the fast finishers a next step — ship it as a skill
+- 2026-08-07 09:39 [`3d1d7ad`](https://github.com/krafton-playground/vibecoding-01/commit/3d1d7ad2e127222f849788fd5f6e7f0cf711e33f) feat: say who reads a PR and why
+- 2026-08-07 09:35 [`d1721ef`](https://github.com/krafton-playground/vibecoding-01/commit/d1721efbd929bcc130801919e11559edc9faa94b) feat: put the 6요소 version of the bug prompt behind a toggle
+- 2026-08-07 09:28 [`dbdb78d`](https://github.com/krafton-playground/vibecoding-01/commit/dbdb78d74710eb311b8e0c86bdc91fad49f04b67) feat: close 중급 실습 with the PR race, and what a PR is
+- 2026-08-07 09:19 [`929ba0d`](https://github.com/krafton-playground/vibecoding-01/commit/929ba0dbbbd5d1b1177fffe36fde2161728f1f6d) feat: hand 중급 실습 its first prompt — find the bugs
+- 2026-08-06 15:00 [`036bd8f`](https://github.com/krafton-playground/vibecoding-01/commit/036bd8f26951491b613c9d942d85a24701a30dd3) feat: rename the first rule to 시장 조사 먼저하기 (리서치)
+- 2026-08-06 14:54 [`6f9bf58`](https://github.com/krafton-playground/vibecoding-01/commit/6f9bf58493534251453c2203ba7929adb35f2b34) feat: name section 1 for the habit, not the anecdote
+- 2026-08-06 14:50 [`1de4fc9`](https://github.com/krafton-playground/vibecoding-01/commit/1de4fc9516db4dbb5b6f8baa5fa743a22d16742a) feat: retitle 부록편 around the reader's own work
+- 2026-08-06 14:36 [`7356e66`](https://github.com/krafton-playground/vibecoding-01/commit/7356e66b21c8470513a0b06ffc2427f482b7f228) feat: retitle 부록편 to name what the reader is building
+- 2026-08-06 14:29 [`8661d5a`](https://github.com/krafton-playground/vibecoding-01/commit/8661d5af2ada6fc94da2f8d143d1df399bdc960e) feat: add 부록편 — the context-file 8 lines
+- 2026-08-06 14:07 [`9b51469`](https://github.com/krafton-playground/vibecoding-01/commit/9b51469177c07c2ad165e8f5952ed0d836e35b77) feat: open 중급 실습 with the finished app
+- 2026-08-06 13:22 [`33534ae`](https://github.com/krafton-playground/vibecoding-01/commit/33534ae9656bc0558314976896ac7fb20d85e205) feat: add the 중급 실습 tab and its route
+- 2026-08-05 13:45 [`28fefcc`](https://github.com/krafton-playground/vibecoding-01/commit/28fefcc6907cb07cc3534012981c07cfcd7295a2) docs: add the 실습편 run book
+- 2026-08-05 12:55 [`b447367`](https://github.com/krafton-playground/vibecoding-01/commit/b447367f029fb5dd32741f9d86e19db1d8abded1) feat: keep Claude Code reference close to the hands-on flow
+- 2026-08-05 11:43 [`45a940c`](https://github.com/krafton-playground/vibecoding-01/commit/45a940c288cb29b64fbe93ed9bb136d4ea1d5a88) feat: link the 실습 첨부자료 above step 1
+- 2026-08-05 09:29 [`ba4c67c`](https://github.com/krafton-playground/vibecoding-01/commit/ba4c67c47185003c3ab0db7bfc870d18a67bce09) style: the sample screenshot fills the reading column
+- 2026-08-05 08:10 [`0398e1b`](https://github.com/krafton-playground/vibecoding-01/commit/0398e1b509d280223282986bdee09a89cd83d741) style: give the example toggle room, and match the deck's other pills
+- 2026-08-05 00:33 [`e421a35`](https://github.com/krafton-playground/vibecoding-01/commit/e421a352e9e7bcd0aa1880d1ec7426281d7ab4a8) feat: add KP MCP as a fourth install tab
+- 2026-08-04 21:38 [`1d2ad70`](https://github.com/krafton-playground/vibecoding-01/commit/1d2ad70d558960c6258fbdd6d252afad26efd992) feat: add the 실습편 sample screenshot
+- 2026-08-04 21:30 [`dba3d15`](https://github.com/krafton-playground/vibecoding-01/commit/dba3d1546a7f8a20849c73422918825db46b78b7) feat: 실습편 gains steps 5 메일 초안 and 6 바이브 코딩 시간
+- 2026-08-04 21:22 [`4ba41ae`](https://github.com/krafton-playground/vibecoding-01/commit/4ba41aeff92e729f77b4af26593dd1deac37afd6) feat: step 2 gets 예시 프롬프트 보기 with a real Confluence search
+- 2026-08-04 21:14 [`8c6640d`](https://github.com/krafton-playground/vibecoding-01/commit/8c6640d65b6ef83f53cdb496c895362fc9cbd9d6) feat: 실습편 gains steps 3 요약하기 and 4 인터넷 리서치
+- 2026-08-04 21:03 [`ca2a04c`](https://github.com/krafton-playground/vibecoding-01/commit/ca2a04ced8a96043e6c7ddc083bedf041fd1dc7b) copy: step 2 asks for the 5 most recent wiki docs
+- 2026-08-04 20:51 [`238af78`](https://github.com/krafton-playground/vibecoding-01/commit/238af78f3f641785bc095d0b37124db11991edbd) feat: MCP install dialog, and align 실습편's top bar with 기초편's
+- 2026-08-04 20:39 [`cd52d68`](https://github.com/krafton-playground/vibecoding-01/commit/cd52d68d19fff82542fb6b8452878561ab8284e2) feat: 실습편 becomes a scrolling document, adds step 2 and an example toggle
+- 2026-08-04 20:27 [`1c4c259`](https://github.com/krafton-playground/vibecoding-01/commit/1c4c25935c8c0d430978d9a11466e0fba0c73e3c) feat: 실습편 lists the 개인화 항목 to add to the rules
+- 2026-08-04 20:22 [`d8c29df`](https://github.com/krafton-playground/vibecoding-01/commit/d8c29df3099f41c1decca365449fa4d9bd1472b3) feat: 실습편 cover carries the CLAUDE.md people start from
+- 2026-08-04 19:55 [`c14219d`](https://github.com/krafton-playground/vibecoding-01/commit/c14219d7b868f0c4d45d2cab82a5e21b4d0b494e) fix: rebuild the 기초편/실습편 switcher from the Claude Design source
+- 2026-08-04 19:29 [`958bddc`](https://github.com/krafton-playground/vibecoding-01/commit/958bddcc8a6f515dcb786ec6ef11d95c4049cd59) feat: add a 기초편/실습편 switcher and a /hands-on route
+- 2026-08-03 12:47 [`371f42b`](https://github.com/krafton-playground/vibecoding-01/commit/371f42b6a029460754c70e32ed7e938f748b8706) copy: the recap uses the deck's own terms, not the metaphors
+- 2026-08-03 11:33 [`8d956da`](https://github.com/krafton-playground/vibecoding-01/commit/8d956da15c88854d7745d61f5aa2577c973ade8d) feat: mark which 부 each screen belongs to
+- 2026-08-03 11:23 [`99b6dbc`](https://github.com/krafton-playground/vibecoding-01/commit/99b6dbcca3dad01fac2a55a54041879fb6eb2012) copy: the 복구 프로토콜 closer ends on knowing when to stop
+- 2026-08-03 00:03 [`92b4995`](https://github.com/krafton-playground/vibecoding-01/commit/92b4995edc7e5b08b745fd7a3d68baea4761d57b) copy: the closing banner is 2회차 실습을 위한 미니 숙제
+- 2026-08-02 23:48 [`c164bb7`](https://github.com/krafton-playground/vibecoding-01/commit/c164bb780880234a1453cc38d130c00fc13e7e63) copy: DEMO 01 is 회의록 자동화
+- 2026-08-02 18:10 [`f2c89ec`](https://github.com/krafton-playground/vibecoding-01/commit/f2c89ec0e28a323743ad172c99dbbe9f4fb890b2) copy: the recap's first line states what 바이브 코딩 is
+- 2026-08-02 17:58 [`36095e7`](https://github.com/krafton-playground/vibecoding-01/commit/36095e7b87a43518df79a6bab89591102f13f361) copy: 내 업무 적용 drops to three demos
+- 2026-08-02 17:43 [`bf80fe9`](https://github.com/krafton-playground/vibecoding-01/commit/bf80fe9b4c2d0c93a006a0f9582b01854e4762f0) copy: the 저장점 closer asks people to remember the difference
+- 2026-08-02 17:42 [`b7ca918`](https://github.com/krafton-playground/vibecoding-01/commit/b7ca91851ad7511fb2f93308370a76105d691339) copy: 파일 저장 says where the change shows up
+- 2026-08-02 17:38 [`efe47c7`](https://github.com/krafton-playground/vibecoding-01/commit/efe47c70c6bc4c0c621135f6a8f44687c613a692) copy: screen 17's lede scopes the claim to first-time Claude Code use
+- 2026-08-02 17:04 [`35beb42`](https://github.com/krafton-playground/vibecoding-01/commit/35beb42b020bdb177db7f4ddd8102ccdb75ca6be) copy: screen 09's lede names 클로드 채팅 UI and states the consequence
+- 2026-08-02 16:59 [`15c6ec2`](https://github.com/krafton-playground/vibecoding-01/commit/15c6ec20601c8dd08200d6ff0e7c59c8e1a41022) copy: the IDE gloss ends on IDE 또는 터미널
+- 2026-08-02 16:51 [`438eb0b`](https://github.com/krafton-playground/vibecoding-01/commit/438eb0b62181e0c95a80658b42c67cf9e7f02a96) copy: Claude Chat is labelled 채팅 UI, and 07 answers the Cowork question
+- 2026-08-02 16:39 [`e101a1c`](https://github.com/krafton-playground/vibecoding-01/commit/e101a1c8e48da8aba6e5dfb53be2e13c73af0663) copy: 2부 is 툴 소개 및 기본 개발지식, 웹 서비스 기초
+- 2026-08-02 16:15 [`1bc34bf`](https://github.com/krafton-playground/vibecoding-01/commit/1bc34bff3c23e4b39d1f6f49d0a59458525ef913) copy: 그래서 중요한 이유 says 폴더 instead of 칸
+- 2026-08-02 15:57 [`2179188`](https://github.com/krafton-playground/vibecoding-01/commit/2179188409f551046c2f0abeac486dd002c7a726) fix: the three pattern blocks share one height
+- 2026-08-02 15:36 [`bc621a8`](https://github.com/krafton-playground/vibecoding-01/commit/bc621a8b1b34ed24aad2a80478b75a8dd71968d6) feat: add 요청 패턴 3종 as screen 24
+- 2026-08-02 15:07 [`b589f29`](https://github.com/krafton-playground/vibecoding-01/commit/b589f294d78de28d24265bf5c9e41190529a3fe2) copy: screen 18's 예방법 switches from VS Code to Warp
+- 2026-08-02 12:08 [`cecade4`](https://github.com/krafton-playground/vibecoding-01/commit/cecade4d65be69f3e776325488e5f76875582d4c) copy: screen 04 heading becomes 오늘 세션 구성
+- 2026-08-02 11:58 [`68ee5f0`](https://github.com/krafton-playground/vibecoding-01/commit/68ee5f08b246479fd3375ae972f046bde31291c1) copy: retitle screen 07, sharpen screen 09's lede
+- 2026-08-02 10:57 [`4ea266c`](https://github.com/krafton-playground/vibecoding-01/commit/4ea266cadd594259aaf85ff4afcc54ce95a8c75e) docs: add the Korean presentation script
+- 2026-08-02 10:41 [`5c4491e`](https://github.com/krafton-playground/vibecoding-01/commit/5c4491ee4b79f47ae33010017d08152f369ce111) feat: add 만능 요청 템플릿 as screen 24
+- 2026-08-02 10:29 [`6f5505d`](https://github.com/krafton-playground/vibecoding-01/commit/6f5505d52cdc3649bfaa2486e6c0f0e918b7b782) feat: add 개발의 루프, 복구 프로토콜, and a 용어집 appendix
+- 2026-08-02 10:12 [`9f4658f`](https://github.com/krafton-playground/vibecoding-01/commit/9f4658f82ba626b91e81a7e4955b2e3e686853a2) feat: group the agenda into 3 parts, add 세 조각 and 좋은 요청의 6요소
+- 2026-07-31 13:54 [`d135937`](https://github.com/krafton-playground/vibecoding-01/commit/d1359371157913e5289e22271f59be7244756052) copy: localhost → localhost:3000 everywhere it appears
+- 2026-07-31 13:51 [`0f4f8f9`](https://github.com/krafton-playground/vibecoding-01/commit/0f4f8f916f500d0900e08697bcabb85efeb37f29) copy: address chips read &lt;내-앱-이름>.krafton.run
+- 2026-07-31 11:43 [`3708ca4`](https://github.com/krafton-playground/vibecoding-01/commit/3708ca4e590a2f085b105d304e6ad78dee420a63) refactor: 좋은 부탁 comes before 내 업무 적용
+- 2026-07-31 11:38 [`3328999`](https://github.com/krafton-playground/vibecoding-01/commit/3328999000442f7a323c205432cea61810c9b82e) copy: 가장 중요한 절 → 점, and 로컬 = 내 노트북/내 PC
+- 2026-07-31 11:33 [`9bc8fc9`](https://github.com/krafton-playground/vibecoding-01/commit/9bc8fc9c037b8757e64184a413ea9d67ca64494b) feat: add 질문 2 · 화면 and 질문 3 · 저장점 as screens 17-18
+- 2026-07-31 10:53 [`3709e69`](https://github.com/krafton-playground/vibecoding-01/commit/3709e690deffa7eaa40ccc196ad1193cd4ca216f) copy: name Codex on screen 08 as the same kind of tool
+- 2026-07-31 10:50 [`fc2033d`](https://github.com/krafton-playground/vibecoding-01/commit/fc2033d1fbc9e90b684d8aa4b642835ae7317652) feat: add 질문 1 · 폴더 as screen 16
+- 2026-07-31 10:04 [`bbb49ea`](https://github.com/krafton-playground/vibecoding-01/commit/bbb49ea4d1f12a5016c6da3bd2c8abec28f767d4) refactor: reorder chapter 03 so nothing asks before it teaches
+- 2026-07-31 09:50 [`ffd3b1c`](https://github.com/krafton-playground/vibecoding-01/commit/ffd3b1c22333ffeeb2f22a521833502028f1dc1d) feat: add 위치 점검 as screen 11, expand the IDE acronym on 07
+- 2026-07-31 09:39 [`0d130b1`](https://github.com/krafton-playground/vibecoding-01/commit/0d130b129cb173dbf01a07b96623213c3238235b) copy: recolour screen 08 to brand, add an IDE gloss to screen 07
+- 2026-07-31 09:15 [`b461f97`](https://github.com/krafton-playground/vibecoding-01/commit/b461f973156a04281e40427a99b4b68108173f06) feat: export the deck as one self-contained HTML file
+- 2026-07-30 18:11 [`8c88966`](https://github.com/krafton-playground/vibecoding-01/commit/8c88966a3101682916b614f3c1340d18f5a2873f) feat: add 헷갈리는 이름 screen, redraw 09 as a 배포 diagram, link the installs
+- 2026-07-30 17:53 [`820b349`](https://github.com/krafton-playground/vibecoding-01/commit/820b349717d00186bb10c9c98953874cd1a463ec) feat: show each side's address on screen 08
+- 2026-07-30 17:46 [`1a54f77`](https://github.com/krafton-playground/vibecoding-01/commit/1a54f7771386d804624cd91aa8c6dff1b9f48fab) copy: rename 서버 to 리모트 across the deck
+- 2026-07-30 17:38 [`4d14937`](https://github.com/krafton-playground/vibecoding-01/commit/4d14937b288871fff75117109185719dff3dc9fd) feat: add 설치 as screen 03, before 오늘의 목표
+- 2026-07-30 10:29 [`b45f848`](https://github.com/krafton-playground/vibecoding-01/commit/b45f8487be837445ee476bdd48da7f7fd9f8fff5) fix: recap now lists four commands, matching screen 09
+- 2026-07-30 10:27 [`d413e1a`](https://github.com/krafton-playground/vibecoding-01/commit/d413e1ab06351bf2954f3be33f08d7f0a2108112) fix: align eyebrow chapter numbers with the agenda
+- 2026-07-30 10:19 [`16204f4`](https://github.com/krafton-playground/vibecoding-01/commit/16204f45cf240a1a5caa47195ac48687d928e6ed) feat: add Confluence MCP install as a disclosure on screen 14
+- 2026-07-30 10:06 [`3b839d9`](https://github.com/krafton-playground/vibecoding-01/commit/3b839d9885a4b336c992c66f7d68cc87e9d7a10b) copy: gloss 로컬/서버 in the screen 07 heading
+- 2026-07-30 09:58 [`d85d79d`](https://github.com/krafton-playground/vibecoding-01/commit/d85d79de474e108b20f6c15113db9a9a57ad7bc3) copy: 신입사원 → 인턴, rename the 부탁하는 법 section
+- 2026-07-30 09:52 [`6516e5e`](https://github.com/krafton-playground/vibecoding-01/commit/6516e5e4498b15dca4142a45c1f51dab0f4cb338) feat: add 20th screen, reorder 04, revise 09 and 20
+- 2026-07-30 09:45 [`c1bd9a2`](https://github.com/krafton-playground/vibecoding-01/commit/c1bd9a2770197201dae070451977b8f3a2d42786) copy: revise 08/10/11/12 headings, add 조직도 MCP install block
+- 2026-07-30 09:35 [`e29029d`](https://github.com/krafton-playground/vibecoding-01/commit/e29029d2eba05e611661e1ccc611c3ef9e4326ec) feat: add screen-06 screenshots
+- 2026-07-30 09:24 [`9aa8024`](https://github.com/krafton-playground/vibecoding-01/commit/9aa8024adbad7821ed269cff79afa6f1900945d6) feat: implement 바이브코딩 기초편 web deck
+
+## ops-meeting-notes
+
+60 commits. Newest first.
+
+- 2026-08-10 13:16 [`5a24c52`](https://github.com/krafton-playground/ops-meeting-notes/commit/5a24c5299347e83d3afb32a3fa187684d0448380) 운영본부(Operations Div.) 구성원에게만 자동 Slack 알림 — proactive DM에 조직 allowlist 게이트 (#31)
+- 2026-07-16 09:35 [`47f4367`](https://github.com/krafton-playground/ops-meeting-notes/commit/47f4367aadaf1914c2f1fc08ea208c49cacdfac9) 스크립트 내보내기 버튼 — 보고 있는 뷰(원본/다듬은 글)를 화자 이름 적용해 .txt 다운로드
+- 2026-07-11 21:43 [`0b7e905`](https://github.com/krafton-playground/ops-meeting-notes/commit/0b7e9051ec6b13e2b01a18c4f6327c9d65a16ff9) 모바일 SSO 콜백에서 웹 세션 쿠키도 설정 — 앱 내 브라우저 연결 플로우(Graph/Slack) 재로그인 제거
+- 2026-07-11 16:55 [`1872eb2`](https://github.com/krafton-playground/ops-meeting-notes/commit/1872eb2090e6b12b8224c69c57236018d1d2e488) Confluence 재배포 = 기존 페이지 갱신 (제목 중복 400 → 새 버전 PUT)
+- 2026-07-11 16:13 [`1d44d6f`](https://github.com/krafton-playground/ops-meeting-notes/commit/1d44d6f527e6b56e23e44148893e706697b7df00) SSO 콜백 도메인을 요청 기준으로 유도 — 스테일 APP_URL(meetee 오배송) 사고 근본 수정
+- 2026-07-11 16:03 [`f706284`](https://github.com/krafton-playground/ops-meeting-notes/commit/f706284e9c2e3ea02dbfceb9738cdbeaeae308c2) chore: APP_URL env 반영 재기동 (stale gpd2ai-v2 → ops-meeting-notes — SSO 콜백 도메인 수정)
+- 2026-07-11 15:50 [`11ff718`](https://github.com/krafton-playground/ops-meeting-notes/commit/11ff71854fa7af073efe6d7dc3f9f5affacdf1a5) 모바일 SSO: 세션 JWT Bearer 수용 + /auth/mobile-start + /api/me
+- 2026-07-10 22:50 [`2c0bdae`](https://github.com/krafton-playground/ops-meeting-notes/commit/2c0bdaecf766b42547a9104cc8c5bce9103e3714) 화자 인라인 편집: 턴 뷰에서 클릭으로 이름 지정 + '이 발언만' 재지정
+- 2026-07-08 23:44 [`ebef7aa`](https://github.com/krafton-playground/ops-meeting-notes/commit/ebef7aaa9dd381f6752b9e7ec30191bdfbf06ead) 상태 라벨 '수집됨' → '요약 전' (고객 혼동 피드백 반영)
+- 2026-07-07 06:44 [`b58dac2`](https://github.com/krafton-playground/ops-meeting-notes/commit/b58dac228b97cc73541f2957b30bcb3ae4e6b7d3) Remove STT processing close-page copy
+- 2026-07-06 21:27 [`17eafb7`](https://github.com/krafton-playground/ops-meeting-notes/commit/17eafb7c563bc90f82d8b452278f49e5fcc05868) 모바일 UI 폴리시 패키지: 실기기 iPhone 검수 4라운드 (#30)
+- 2026-07-06 20:06 [`0aad6f0`](https://github.com/krafton-playground/ops-meeting-notes/commit/0aad6f0fc1c66394665d140d66c5b732f1016d42) Add stt-pipeline skill (STT + speaker diarization runbook) (#27)
+- 2026-07-06 20:03 [`f257889`](https://github.com/krafton-playground/ops-meeting-notes/commit/f2578896954c4fe18206da4bca47370ae1ccc42c) 모바일 Phase 0: iPhone Safari 녹음 기반 다지기 (5-role 검증 must 4건 + 카피 수정) (#28)
+- 2026-07-06 20:03 [`bb4f4fc`](https://github.com/krafton-playground/ops-meeting-notes/commit/bb4f4fc3a14f4b5516c6f3c80621cfc667db8bdd) 모바일 화면 최적화: 로그인 카드 잘림 + 홈 탑바 붕괴 수정 (실기기 스크린샷 기반) (#29)
+- 2026-07-06 18:04 [`2d56f42`](https://github.com/krafton-playground/ops-meeting-notes/commit/2d56f42f7fae48e3676dc62b4409436cc81aa62f) 로그인 화면 'Ops팀에 문의하기' 링크 활성화 (#26)
+- 2026-07-06 18:04 [`30bce56`](https://github.com/krafton-playground/ops-meeting-notes/commit/30bce56e41619d8e741a7310d8b34d9fcb335aa3) 장시간 녹음 finalize/다운로드 OOM 수정 + 제출 중단 잡 자동 회수 (#25)
+- 2026-07-06 13:35 [`776b9d3`](https://github.com/krafton-playground/ops-meeting-notes/commit/776b9d3bf989ca72fec0b5af0687e0691d0709df) 이메일 꼴 SSO name 클레임 → 로컬파트 표시 (안녕하세요, dami.kang님) (#24)
+- 2026-07-06 12:05 [`bc4f85e`](https://github.com/krafton-playground/ops-meeting-notes/commit/bc4f85edd7a7088ede93d7df08750eca6a260aa2) 진단 커넥터 상태 본인 계정 연결 반영 + Soniox 일시 404 내성 (#23)
+- 2026-07-06 10:52 [`9202f9c`](https://github.com/krafton-playground/ops-meeting-notes/commit/9202f9c82f5be4dd4a0bef3d62613b8e1d56dc8b) PoC 배치: 고아 커밋 복원(보존 스위퍼+S3 보관+UX 4건) + 문의 접수함 수정/분리 + 감사 필수수정 4건 (#22)
+- 2026-07-05 19:22 [`becc0a1`](https://github.com/krafton-playground/ops-meeting-notes/commit/becc0a14ed925512bce98bcbf7c9d579983eef52) FAQ·문의 page + topbar help link (#20)
+- 2026-07-05 18:55 [`08d5b17`](https://github.com/krafton-playground/ops-meeting-notes/commit/08d5b1770382a9fac94d24840a2e239a8771773e) 녹음 페이지에도 오디오 파일 올리기 카드 추가 (#18)
+- 2026-07-05 18:23 [`fddaff0`](https://github.com/krafton-playground/ops-meeting-notes/commit/fddaff09d41789fc0167b50122e25d627e16c0d9) 오디오 파일 업로드: raw audio (m4a/mp4/mp3/wav/…) STT + 화자 분리 (#17)
+- 2026-07-05 15:56 [`7eb57c9`](https://github.com/krafton-playground/ops-meeting-notes/commit/7eb57c9ca2febb82b8ada4d60e2d56f2e928f879) 배포/회의목록 fixes batch 2: recipients, Confluence publish, 회의 아님, schedule UX (#16)
+- 2026-07-05 14:05 [`51877fc`](https://github.com/krafton-playground/ops-meeting-notes/commit/51877fcd5291d5075de76c1fe4752650d590c444) Add 단어 다듬기 tab to meeting detail; fix email token status in 배포 tab (#15)
+- 2026-07-04 19:48 [`b3b794f`](https://github.com/krafton-playground/ops-meeting-notes/commit/b3b794f1bb169a78ae2bba4ab9a7e5e57126ca94) Auto-collect glossary candidates from finished meetings (#14)
+- 2026-07-03 20:16 [`4fc57c3`](https://github.com/krafton-playground/ops-meeting-notes/commit/4fc57c38f934e4860bf5bd6ff7e77809c10c92a8) Remove RTZR from re-transcribe engine dropdown (#13)
+- 2026-07-03 20:10 [`e63405f`](https://github.com/krafton-playground/ops-meeting-notes/commit/e63405ff6b0da5658f03859d201cf8491fac9c67) Add meeting metadata to Confluence pages; drop "office" from region labels (#12)
+- 2026-07-03 20:01 [`251b0a8`](https://github.com/krafton-playground/ops-meeting-notes/commit/251b0a8398c02867062612141c72b707b9aed4d0) Fix stale Confluence connect status + clearer 회의 삭제 label (#11)
+- 2026-07-03 19:57 [`c067000`](https://github.com/krafton-playground/ops-meeting-notes/commit/c067000a975d1e46e82a6cde35c72155ba911bd2) Show "본인 계정 연결" hint on wiki card when no Atlassian token (#10)
+- 2026-07-03 19:51 [`e9fe42d`](https://github.com/krafton-playground/ops-meeting-notes/commit/e9fe42d4e3b2731556d09f963bad71fab0cd019a) Add connect shortcuts to "토큰 없음" connector-status rows (#9)
+- 2026-07-03 19:47 [`ff04662`](https://github.com/krafton-playground/ops-meeting-notes/commit/ff046621892a19c2ea35f635b08f67f79a5b2bbc) Persist overseas-send prefs + show region timezone (#8)
+- 2026-07-03 19:40 [`0d36633`](https://github.com/krafton-playground/ops-meeting-notes/commit/0d36633946f3cd58a2ad381bd93819ec5f25264e) Hide Confluence connect banner on home when already connected (#7)
+- 2026-07-03 18:20 [`f01c066`](https://github.com/krafton-playground/ops-meeting-notes/commit/f01c066c47e53e5f87cc7c8d6ba4eb60618e2efd) Merge pull request #6 from krafton-playground/redesign-blue-settings
+- 2026-07-03 18:16 [`5ffff3e`](https://github.com/krafton-playground/ops-meeting-notes/commit/5ffff3e4c6c5e509f5a3061181d53882b6a15d0a) Atlassian connect: auto-try both email domains (krafton.com + bluehole.net)
+- 2026-07-03 18:12 [`6788441`](https://github.com/krafton-playground/ops-meeting-notes/commit/678844182c31948659c3567fef9f0f09310d4712) Atlassian connect: prefill @krafton.com email + friendly 401/403 hint
+- 2026-07-03 17:53 [`b901135`](https://github.com/krafton-playground/ops-meeting-notes/commit/b9011352f12a9d8ecc23148226139d950f2d7795) Merge pull request #5 from krafton-playground/redesign-blue-settings
+- 2026-07-03 17:42 [`de1682b`](https://github.com/krafton-playground/ops-meeting-notes/commit/de1682bfc21195af9941c3032979a83c6eef7409) Standalone (no sidebar) for all /meetings routes
+- 2026-07-03 17:15 [`edb1b48`](https://github.com/krafton-playground/ops-meeting-notes/commit/edb1b48cc5676d4e41883b8cdabf3fd6d761595e) 로그인 redesign — blue brand panel (Claude design 로그인 매칭)
+- 2026-07-03 17:13 [`b3c238b`](https://github.com/krafton-playground/ops-meeting-notes/commit/b3c238b7c016e089ee8c2c10b7996cd50188f44c) 회의 상세 redesign — blue standalone (스크립트/회의 상세/배포 designs)
+- 2026-07-03 17:02 [`0b85efa`](https://github.com/krafton-playground/ops-meeting-notes/commit/0b85efa1b9e983dbac4134950856d6d342a164f7) 요약 받는 곳 redesign — per-channel masters, 4 notify toggles, auto-save, SSO 소속
+- 2026-07-03 14:42 [`133768f`](https://github.com/krafton-playground/ops-meeting-notes/commit/133768f9701490f19912f092ba6fc1987d3975b8) Fix: recording stuck at "armed" in local dev (disable StrictMode double-mount)
+- 2026-07-03 14:10 [`d890804`](https://github.com/krafton-playground/ops-meeting-notes/commit/d89080464a2861f855851919797fe9ec5eb8525f) run-local.sh: trust corporate proxy CA for external APIs (Node TLS)
+- 2026-07-03 13:49 [`6edab6c`](https://github.com/krafton-playground/ops-meeting-notes/commit/6edab6c1d2b59d2f6db32ffbb4f1d3b0d4706a3e) Redesign 녹음 시작 (recording session) — blue standalone
+- 2026-07-03 13:17 [`9f8b334`](https://github.com/krafton-playground/ops-meeting-notes/commit/9f8b3344477dbfe68ff509b80e15e1282497a8a7) 회의 홈: make 지난 회의 section collapsible
+- 2026-07-03 13:14 [`96c37ca`](https://github.com/krafton-playground/ops-meeting-notes/commit/96c37caf6e6e22427129e5e6468627ec4977e290) 회의 홈: fix 요약 만드는 중 scope + add 지난 회의 table
+- 2026-07-03 13:09 [`c50dbad`](https://github.com/krafton-playground/ops-meeting-notes/commit/c50dbad953565324bd2eb2ab61d2a085e16dda78) Rename Slack message prefix "[GP]" → "[Ops]"
+- 2026-07-03 13:05 [`ffe9266`](https://github.com/krafton-playground/ops-meeting-notes/commit/ffe9266e0d49c51fa550d15a6d3153d96c742033) Rename product label "GP EP03" → "Ops div."
+- 2026-07-03 13:02 [`6c65e29`](https://github.com/krafton-playground/ops-meeting-notes/commit/6c65e2990facc79722d263551ab6bafa8e1cfefe) Fix: standalone pages couldn't scroll (no scroll container)
+- 2026-07-03 12:17 [`aec2337`](https://github.com/krafton-playground/ops-meeting-notes/commit/aec23378acc716e55bb5743ced76c4fdb5223523) Redesign 회의 홈 — blue standalone (matches Claude design)
+- 2026-07-03 11:48 [`26a2ab4`](https://github.com/krafton-playground/ops-meeting-notes/commit/26a2ab428d45b2e43f89e2bba1b4398425e7e4b1) Merge pull request #4 from krafton-playground/redesign-blue-settings
+- 2026-07-03 11:44 [`89be3fb`](https://github.com/krafton-playground/ops-meeting-notes/commit/89be3fbcddd6352a189ccf9377e10a6341fe7c69) Settings standalone (no app sidebar) + fix residual purple
+- 2026-07-03 11:26 [`71d3829`](https://github.com/krafton-playground/ops-meeting-notes/commit/71d3829d7b8c7b84d50bfbb83d6fe1ef833e03ae) Redesign 설정 (회의 비서) — blue design language
+- 2026-07-02 15:12 [`0a1899d`](https://github.com/krafton-playground/ops-meeting-notes/commit/0a1899d64491492ca0bbda2016a0f10bfefc25af) Merge pull request #3 from krafton-playground/feat-per-user-prompts
+- 2026-07-02 15:03 [`d58d0c3`](https://github.com/krafton-playground/ops-meeting-notes/commit/d58d0c3276d95b9782f4dbad360582b1c9bfa52d) Per-user 지침/용어집/피드백 (personal overrides global)
+- 2026-07-02 14:55 [`c1b7fd0`](https://github.com/krafton-playground/ops-meeting-notes/commit/c1b7fd0e1e280c5473e5f15fff9349689f740cce) Merge pull request #2 from krafton-playground/operator-emails-no-hardcode
+- 2026-07-02 14:46 [`53bac0b`](https://github.com/krafton-playground/ops-meeting-notes/commit/53bac0b606dff7bf086709870b511694fb5223cc) Make operator allowlist fully env-driven (no hard-coded email)
+- 2026-07-02 14:27 [`4c03be6`](https://github.com/krafton-playground/ops-meeting-notes/commit/4c03be640337661163434b4151dcdad7b4b2ede6) Merge pull request #1 from krafton-playground/atlassian-email-placeholder
+- 2026-07-02 14:25 [`dec40fa`](https://github.com/krafton-playground/ops-meeting-notes/commit/dec40faac324fccf6fcfaa9f0d3efe9fe1e3f08a) Show @krafton.com hint in Atlassian email placeholder
+- 2026-07-02 11:42 [`7df66c2`](https://github.com/krafton-playground/ops-meeting-notes/commit/7df66c26a101d9a189c5fd320f0878ee5c95ea08) Remove Jira integration across the codebase
+- 2026-07-02 09:20 [`a22048f`](https://github.com/krafton-playground/ops-meeting-notes/commit/a22048f97b0cf56b2959e2826dcd906a1e96bad9) Port gpd2ai v2 (AI Meeting Intelligence Platform) into this repo
+
+## kimpo-hackathon
+
+55 commits. Newest first.
+
+- 2026-09-28 13:18 [`c415031`](https://github.com/krafton-playground/kimpo-hackathon/commit/c4150319eb93f98371a4ff1a829a6169c136e8c7) docs: ReportSync 현재 상태와 남은 작업 정리 (#23)
+- 2026-09-24 18:09 [`392df9d`](https://github.com/krafton-playground/kimpo-hackathon/commit/392df9d0723d40a1e7c9dbb2c94444b69987ed8b) 메일 검색 카드에 안건 추가 버튼 제공 (#22)
+- 2026-09-24 16:04 [`0b0cb3a`](https://github.com/krafton-playground/kimpo-hackathon/commit/0b0cb3a461ed9e69b4a1416483175b09174f7050) fix: 참고 자료 기반 메일 초안 생성과 작성 기준 적용 (#21)
+- 2026-09-24 14:55 [`b942552`](https://github.com/krafton-playground/kimpo-hackathon/commit/b94255244a6cd74f8fe44232972cb15bd453403f) Outlook 메일 HTML 본문 표시와 스레드 오류 처리 개선 (#20)
+- 2026-09-24 11:25 [`d94d202`](https://github.com/krafton-playground/kimpo-hackathon/commit/d94d20257f659c9b57f16c443dc6b82c14be4a64) 예시 안건 삭제와 빈 상태 UX 개선 (#19)
+- 2026-09-24 11:24 [`389774a`](https://github.com/krafton-playground/kimpo-hackathon/commit/389774ae3c4bb502b822db7a86f998a82618166d) 예시 안건 삭제 흐름 개선
+- 2026-09-24 10:58 [`c043229`](https://github.com/krafton-playground/kimpo-hackathon/commit/c0432291813d5f8b8b985366a90b9fb694d0b674) 메일 재생성 시 참고 자료가 제목에 섞이는 문제 수정 (#18)
+- 2026-09-24 09:40 [`e8f76e1`](https://github.com/krafton-playground/kimpo-hackathon/commit/e8f76e1801b7a098e857296c3a3b6a4a8c7752b5) 상단 연결 버튼 통합 및 크기 정렬
+- 2026-09-24 09:40 [`1efe3a9`](https://github.com/krafton-playground/kimpo-hackathon/commit/1efe3a901dc98682533355a1d631c14b2dc2920b) 상단 연결 버튼을 드롭다운으로 통합
+- 2026-09-23 21:12 [`a7b316c`](https://github.com/krafton-playground/kimpo-hackathon/commit/a7b316ca2850170bfbd678604a2b537ddb3a2bba) Merge pull request #15 from krafton-playground/codex/email-reference-adaptation
+- 2026-09-23 21:06 [`7beeda5`](https://github.com/krafton-playground/kimpo-hackathon/commit/7beeda5218184ea7111dea1f191dd987832db806) docs: record retest against merged suggestion and sender-name changes
+- 2026-09-23 21:05 [`97941a2`](https://github.com/krafton-playground/kimpo-hackathon/commit/97941a23fe8b7d36d4bdcbbab349b9ccf6fc39d8) Merge remote-tracking branch 'origin/main' into codex/email-reference-adaptation
+- 2026-09-23 21:05 [`b53a728`](https://github.com/krafton-playground/kimpo-hackathon/commit/b53a728b43372f5147f4c65769f43069824a8ab3) fix: preserve suggested Outlook sources through email drafts
+- 2026-09-23 21:02 [`ef6abf3`](https://github.com/krafton-playground/kimpo-hackathon/commit/ef6abf3f6d8cdd05fe4627cc9737a491384b57ac) Merge pull request #16 from krafton-playground/codex/korean-email-name
+- 2026-09-23 21:02 [`7749e5b`](https://github.com/krafton-playground/kimpo-hackathon/commit/7749e5b1b9c2e8a1b3b91c624954c85587e53dc6) fix: use Korean sender names in email drafts
+- 2026-09-23 20:56 [`b0d6b01`](https://github.com/krafton-playground/kimpo-hackathon/commit/b0d6b01d0bdddc669555c659d23429be52244e58) Merge remote-tracking branch 'origin/main' into codex/email-reference-adaptation
+- 2026-09-23 20:54 [`8b6ee1c`](https://github.com/krafton-playground/kimpo-hackathon/commit/8b6ee1c9c6c9ef21c27ad2e8345e5cb81b173782) Merge pull request #13 from krafton-playground/codex/agenda-material-selector
+- 2026-09-23 20:53 [`2731ac7`](https://github.com/krafton-playground/kimpo-hackathon/commit/2731ac707f87b163b0978fded2e413efd0672ec3) feat: adapt email drafts to reference guidance and preserve document links
+- 2026-09-23 20:40 [`9f8b927`](https://github.com/krafton-playground/kimpo-hackathon/commit/9f8b927bb564314970d18d6bf1a1b534ddc39754) Merge remote-tracking branch 'origin/main' into codex/agenda-material-selector
+- 2026-09-23 20:32 [`5af2025`](https://github.com/krafton-playground/kimpo-hackathon/commit/5af20255c8d0153a4cc9a18f68741097dcb0640e) Merge pull request #14 from krafton-playground/codex/account-name-in-email-drafts
+- 2026-09-23 20:28 [`c3d326d`](https://github.com/krafton-playground/kimpo-hackathon/commit/c3d326d65342a9dc1283b8dfa1034c7dfb182896) fix: use account display name in email drafts
+- 2026-09-23 20:04 [`d654f0a`](https://github.com/krafton-playground/kimpo-hackathon/commit/d654f0a9dcf83d462e021b5c9c213a1d8e875595) Merge pull request #12 from krafton-playground/codex/remove-editor-border
+- 2026-09-23 20:00 [`445c92d`](https://github.com/krafton-playground/kimpo-hackathon/commit/445c92d7b1ce33e698c9e7b51d257de3ebe82f48) feat: recommend Outlook and Confluence sources for selected agenda
+- 2026-09-23 19:56 [`f80e342`](https://github.com/krafton-playground/kimpo-hackathon/commit/f80e342984be5adb5ed1ac85c25c7438739b81f8) fix: remove rich text editor border and focus outline
+- 2026-09-23 19:17 [`b34072e`](https://github.com/krafton-playground/kimpo-hackathon/commit/b34072e1fa0b4b451a41a156f4fb57686b2d7223) Merge pull request #11 from krafton-playground/codex/outlook-search-button
+- 2026-09-23 19:16 [`b891368`](https://github.com/krafton-playground/kimpo-hackathon/commit/b891368d215e48f1c3e1d390c0adeb61636630a1) fix: enable Outlook search without selecting an agenda
+- 2026-09-23 17:04 [`3888eb8`](https://github.com/krafton-playground/kimpo-hackathon/commit/3888eb87c8e6d75a135a8b6c9a629134282b5c9c) chore: rerun deployment after environment configuration
+- 2026-09-23 17:00 [`d2eb71a`](https://github.com/krafton-playground/kimpo-hackathon/commit/d2eb71a1c1fafd725528454b6de214e26c2fb7f8) Merge pull request #10 from krafton-playground/codex/history-agenda-navigation
+- 2026-09-23 16:56 [`ccca08c`](https://github.com/krafton-playground/kimpo-hackathon/commit/ccca08cb2d4cecb15b4c0f357f8b1ca62f1f718e) fix: preserve selected agenda for Outlook lookup
+- 2026-09-23 16:53 [`796d826`](https://github.com/krafton-playground/kimpo-hackathon/commit/796d826c9826509873ebe0aa5d9f50146dece16d) fix: make agenda actions and history navigation easier to access
+- 2026-09-23 16:15 [`7e766c5`](https://github.com/krafton-playground/kimpo-hackathon/commit/7e766c5a1518c35368d14baa124a98f31146e302) Merge pull request #9 from krafton-playground/feat/redesign
+- 2026-09-23 15:56 [`a7db553`](https://github.com/krafton-playground/kimpo-hackathon/commit/a7db553de63068f83da57624988bdb42ed279b39) feat: ReportSync 1b redesign with Markdown drafts and scoped AI rewrite
+- 2026-09-23 15:53 [`b5aece0`](https://github.com/krafton-playground/kimpo-hackathon/commit/b5aece085b632afad69d51e3ced25dfd0ef2aab3) Merge pull request #8 from krafton-playground/codex/outlook-nullable-mail
+- 2026-09-23 15:47 [`bc9a45f`](https://github.com/krafton-playground/kimpo-hackathon/commit/bc9a45ff066e44f8eb5bc56b9fcdde7038db16d8) fix: handle nullable Outlook mail metadata and clarify load failures
+- 2026-09-23 15:23 [`42d2cb3`](https://github.com/krafton-playground/kimpo-hackathon/commit/42d2cb3aeb9ca72e2b000be85745a79b0e419c80) Merge pull request #7 from krafton-playground/codex/saved-work-history
+- 2026-09-23 15:03 [`06dcb13`](https://github.com/krafton-playground/kimpo-hackathon/commit/06dcb1308ffe57a87fa0e65fe7ffbb74f4ee7707) Merge pull request #5 from krafton-playground/codex/outlook-email-browser-pr
+- 2026-09-23 14:52 [`e5bd65d`](https://github.com/krafton-playground/kimpo-hackathon/commit/e5bd65db5f5c9229aaef559064b47ec716621f53) feat: preserve saved work snapshots and add history views
+- 2026-09-23 14:23 [`3c70896`](https://github.com/krafton-playground/kimpo-hackathon/commit/3c708962412f0cf606e49660cf609c4376643922) feat: browse Outlook email threads with grounded LLM suggestions
+- 2026-09-23 12:50 [`cdec4a8`](https://github.com/krafton-playground/kimpo-hackathon/commit/cdec4a8a69d0fb058a672ff55344b0455ec32daf) fix: keep Microsoft OAuth in a single browser flow
+- 2026-09-23 11:53 [`80c8b86`](https://github.com/krafton-playground/kimpo-hackathon/commit/80c8b86a527f934883b3b057d0353fb6b01b6fce) fix: provide OAuth login link when browser popup is hidden
+- 2026-09-23 11:45 [`f5ce799`](https://github.com/krafton-playground/kimpo-hackathon/commit/f5ce79984ff00fee3ba94f0ae90269dd6f59be02) fix: clarify server-only database configuration check
+- 2026-09-23 11:44 [`7208f15`](https://github.com/krafton-playground/kimpo-hackathon/commit/7208f15d4731b94c1ae0bbd76c569e92f1267e91) Merge remote-tracking branch 'origin/main' into codex/integration-connections
+- 2026-09-23 11:43 [`169e94f`](https://github.com/krafton-playground/kimpo-hackathon/commit/169e94f6b1a92cabc5a6dd37422b1fbda572d630) feat: connect Confluence and Microsoft accounts with secure OAuth
+- 2026-09-22 13:54 [`33f0b7d`](https://github.com/krafton-playground/kimpo-hackathon/commit/33f0b7df2855757cc6a55fea9757d9c1a716f627) Merge pull request #4 from krafton-playground/codex/integration-connections
+- 2026-09-22 13:43 [`7267538`](https://github.com/krafton-playground/kimpo-hackathon/commit/72675380489e3f44e7e14f4fbaf966b10d38c33d) feat: prepare Confluence and Microsoft 365 connection controls
+- 2026-09-22 13:22 [`2ceca5f`](https://github.com/krafton-playground/kimpo-hackathon/commit/2ceca5f1621a6509da21fed2c76040f7450fd28a) Merge pull request #3 from krafton-playground/codex/green-workspace
+- 2026-09-22 13:14 [`cc58c2b`](https://github.com/krafton-playground/kimpo-hackathon/commit/cc58c2b775c22fe81d6f29cf7f84007fbff7d87c) feat: apply green workspace redesign with light and dark themes
+- 2026-09-22 12:07 [`284f828`](https://github.com/krafton-playground/kimpo-hackathon/commit/284f82824dd93154539b259f33841cb68c649d3f) Merge pull request #2 from krafton-playground/codex/msgraph-preparation
+- 2026-09-22 11:31 [`8db817c`](https://github.com/krafton-playground/kimpo-hackathon/commit/8db817c9fdc31e7f9827a3ff4c640cc3daffd368) feat: prepare Microsoft Graph mail payload and SSO verification
+- 2026-09-22 11:21 [`8509e27`](https://github.com/krafton-playground/kimpo-hackathon/commit/8509e27b89c404246ac51354a95b9eca9db84265) Merge pull request #1 from krafton-playground/codex/reportsync-workspace
+- 2026-09-22 10:55 [`31f0803`](https://github.com/krafton-playground/kimpo-hackathon/commit/31f0803a5e83e4b7bf195d1040df0f08be842596) fix: use public app URL for SSO login redirects
+- 2026-09-22 10:53 [`339b46d`](https://github.com/krafton-playground/kimpo-hackathon/commit/339b46dcea647eb4836b8f69b3fa48e7e22e2554) feat: add Outlook HTML preview and export to email drafts
+- 2026-09-21 20:34 [`576a75f`](https://github.com/krafton-playground/kimpo-hackathon/commit/576a75f5b7acb350a3322e18ca1f6e3d13a93640) chore: keep Confluence integration as an explicit placeholder
+- 2026-09-21 20:33 [`8bad4a9`](https://github.com/krafton-playground/kimpo-hackathon/commit/8bad4a91ee5ffe393e4c7ac94a634e2ddd6f0d97) feat: add structured draft editing, revisions and owner-scoped saves
+- 2026-09-21 19:28 [`1cef1e3`](https://github.com/krafton-playground/kimpo-hackathon/commit/1cef1e31b679e71678412badc90ed5296c6e00f6) feat: implement ReportSync demo workspace from HTML reference
+
+## ops-meeting-notes-mobile
+
+48 commits. Newest first.
+
+- 2026-07-16 10:10 [`a26c8d7`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/a26c8d725051c2c713bd180fb8e6c0d3733d0b8e) 크래시 수정: expo-sharing 정적 import 제거 — 네이티브 모듈 없는 빌드에서 회의 열면 앱 사망
+- 2026-07-16 09:36 [`379b404`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/379b40454e8e5b16c2f08ab0d5ac771a9c9bb1a8) app.json: expo-sharing 플러그인 등록 (스크립트 내보내기 공유 시트)
+- 2026-07-16 09:36 [`52d9fba`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/52d9fbac119a18ca973321c009364e0b22105326) 모바일 스크립트 내보내기 — 공유 시트로 .txt (웹 다운로드 대응)
+- 2026-07-12 21:33 [`4ebe9b8`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/4ebe9b840aeaaec6fd68cd1c775dc0dca3b790c2) 녹음 유실 복구(하드QA #5 부분집합): 업로드 전 종료된 녹음 재업로드 제안 + 캐시 정리
+- 2026-07-12 21:30 [`2f56e9e`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/2f56e9e1be6f7750d1722e9dd41cd74d6cb117d4) 로드 실패 UX 개선: 비개발자용 ErrorState(원인별 문구·다시 시도·접힌 기술 정보) + 제목 편집 아이콘 file-edit
+- 2026-07-12 21:27 [`742768b`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/742768b68ffb8affedc7207f180e40b4ec3b3227) Android 하드 QA 수정 8건: 녹음 재진입 가드·알림권한 폴백·외부중단 감지·제목 편집 견고화
+- 2026-07-12 21:07 [`d86d7a7`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/d86d7a7b0557cfd6292e23a74cf53c39d54ec8e5) 회의 제목 인라인 편집 — 자동 생성 제목('모바일 녹음 …')을 자유롭게 변경 (마지막 목표)
+- 2026-07-12 14:46 [`5afebd7`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/5afebd730133b1dc0db6d0a33fa6e2d9bcbd8915) Android 백그라운드 녹음을 expo-audio 내장으로 일원화 (notifee 레이어 제거)
+- 2026-07-12 14:38 [`19cd388`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/19cd3881c5d68ed93d9e628997c0e0e0479f8331) iOS 백그라운드 녹음 진짜 수정: allowsBackgroundRecording=true (라이브러리 소스 추적)
+- 2026-07-12 14:31 [`c0587c2`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/c0587c21769d76f5b81c1db9fb7bb16e5e010829) 화자 편집 발견성 개선: 이름을 소프트 블루 칩(+연필)으로 + 안내 힌트 한 줄 (사용자 피드백)
+- 2026-07-12 14:24 [`2ef74e8`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/2ef74e8df35090e9de3135962b5f91336f017392) iOS 백그라운드 녹음 수정: 오디오 세션 백그라운드 유지 선언 + 죽은 세션 복구 UI (실기기 QA)
+- 2026-07-12 14:04 [`1f445c7`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/1f445c7dc7921cc3821c23470e3f78adf392fe0d) 인증 게이트를 토큰-로컬-우선으로 — 미로그인 콜드 스타트는 네트워크 무관 즉시 웰컴
+- 2026-07-11 23:04 [`f772ef9`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/f772ef96e4ee2a200a218f84629a7e63547e0333) EAS 프로젝트 연결(projectId) — eas init 산출물, 이후 빌드는 npx eas-cli build 한 줄
+- 2026-07-11 22:29 [`bd3220d`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/bd3220dc332eda0f6e4011228d50145ecdcd2bbd) Android 백그라운드 녹음: 포그라운드 서비스 + '녹음 중…' 알림 (Notifee)
+- 2026-07-11 22:25 [`45ff04a`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/45ff04ac92f24900efd50c82c6136a34180267e8) eas.json — Android 내부 배포용 APK 빌드 프로필(preview/production, 자동 버전 증가)
+- 2026-07-11 21:46 [`5b7e5c5`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/5b7e5c5fdc36a01956166c91ea6490d2f693f81d) 설정에 계정 연결 카드: Outlook(Graph)·Confluence 연결/해제 (웹 커넥터 동일 백엔드)
+- 2026-07-11 21:38 [`34f04d0`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/34f04d0d429d3c1a4df61c43ea986dd7f652b352) 헤더 폰트 크기 통일: 브랜드 타이틀=화면명=15px (사용자 피드백)
+- 2026-07-11 21:37 [`6e64fac`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/6e64fac1fb074ed30d113741643b5282562d6cf9) 탭 헤더 부제(KRAFTON 사내 도구) 제거 — 좁은 행간 가독성(사용자 피드백), 타이틀 한 줄 16px
+- 2026-07-11 21:36 [`411512c`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/411512ceb9ac127dc413c934cef40b7b10514166) 탭 헤더 통일: 좌 브랜드 블록 + 우 현재 화면명 (회의/녹음/설정 공통)
+- 2026-07-11 21:35 [`bbd9772`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/bbd9772e891f7e7a91a87bd977546bf49294ca5f) 브랜드 앱 아이콘 + 홈 탭바 브랜드 헤더
+- 2026-07-11 21:31 [`19b65ba`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/19b65ba908fff47cde563ace9be73f5be0c5777f) 웰컴 배경 애니메이션: 장식 원 3개 드리프트 (native driver, 사인 이징 왕복 + 미세 스케일)
+- 2026-07-11 21:29 [`95ca4dd`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/95ca4ddb4ebeeafcca7013449eff523aeddaef92) 미로그인 웰컴 화면: 브랜드 온보딩 + 단일 기업 SSO (Microsoft만)
+- 2026-07-11 21:25 [`e79949e`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/e79949ef673dd88b44dddc22a48689a43d1a5611) '나머지 N건 모두 보기' 프리뷰: 섹션당 3행 + 확장/접기 푸터 (웹 홈 패턴 포팅)
+- 2026-07-11 21:23 [`070ff6f`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/070ff6f1f6096d9fb8d5230a204ad11a30073e4c) 목록 구조 단순화 + 토글 버그 수정 (사용자 피드백)
+- 2026-07-11 21:18 [`42f0dc7`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/42f0dc73494eac495bf35d0f6ba0024e6291d4f4) 목록 정리: 셋째 날 이후는 '이후 회의' 단일 토글로 (지난 회의와 동일 패턴, 사용자 피드백)
+- 2026-07-11 21:12 [`138a786`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/138a786737708423b3e7c7e6732ab9f1dc47e9fb) start:corp 스크립트 — corp TLS MITM 환경에서 NODE_EXTRA_CA_CERTS로 Metro 구동
+- 2026-07-11 21:11 [`a1106aa`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/a1106aab7956a6e3f6cb64972c308b4a4d2ab1a0) 회의 목록 모바일 가독성: 날짜별 아코디언 + 지난 회의 토글 (사용자 피드백)
+- 2026-07-11 17:51 [`5ff50a5`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/5ff50a563a9445b28f45a00fe57a94af6751e78b) 네이티브 빌드 준비: iOS/Android 식별자 + run:ios 스크립트 (Expo Go SDK 한계 → dev build 전환)
+- 2026-07-11 17:33 [`2b4c8a5`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/2b4c8a543fef2c76a8b6e91c606d4f3e3367109f) devDep @expo/ngrok — expo start --tunnel (공용 WiFi 클라이언트 격리 우회)
+- 2026-07-11 17:19 [`8d6b54e`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/8d6b54e478c8a28d50e65fd16cb025230f4b2973) 녹음 중 이탈 가드: 탭 이동 확인 모달 + 스택 뒤로가기 파괴 경고 (사용자 피드백)
+- 2026-07-11 17:13 [`ccba2a3`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/ccba2a3ca74817009abde899249e6a1fed84772a) 녹음 탭 포커스 안전망: 'done' 잔상이면 자동으로 새 녹음 대기로 복구
+- 2026-07-11 17:12 [`5464c18`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/5464c1870c6de593b398e3ecccce082172c28d1b) 즉시 녹음 완료 후 패널 초기화 — 뒤로 왔을 때 '업로드 완료' 잔상(진행 중 오인) 제거
+- 2026-07-11 16:58 [`048be69`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/048be692ffc70c745cc54c6a72d2bd84fd874df9) 실기기 녹음 하드닝: 시작/정지 실패 원인 화면 노출 + 권한 재확인 + 401 로그인 안내
+- 2026-07-11 16:30 [`11deb64`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/11deb6434c340ef4f856b1cd36460b9761def9c4) 설정 로그인 표시: 이메일 꼴 name 클레임 → 로컬파트 (웹 PR #24 동일 규칙)
+- 2026-07-11 15:54 [`ad59474`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/ad59474e77d5a3a58bda389ea534a183cf897aa6) SSO 로그인: 설정 탭에서 Microsoft 계정 로그인/로그아웃 (Bearer 세션)
+- 2026-07-11 15:34 [`6b050b2`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/6b050b24e75786a82726e28a792de27e593f8aa3) 목록에 캘린더 동기화(Outlook/Teams) 회의 표시 — Graph 연동 대비 UI
+- 2026-07-11 15:29 [`51e7ef4`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/51e7ef4aeb51d482c0ae616a7f754daf208770a7) 화자 인라인 편집 포팅: 아바타/이름 탭 → 전체 rename / '이 발언만' 재지정
+- 2026-07-11 15:22 [`58948eb`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/58948eb4af08d7265a6110e0633aeb7064ab72cc) API URL 설정 체계 + 녹음하기 노출 규칙(요약 전 회의만)
+- 2026-07-11 15:18 [`246a284`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/246a284cd1ffdc028f06119718cb553a58dba158) 요약 탭 웹 파리티: 요약 만들기(AI 생성) + 결정한 것/주제별 정리/태그 표시
+- 2026-07-11 15:13 [`9c28b58`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/9c28b58394231ec31ffde13294a084e78c865e2f) 할 일 탭 편집 지원: 추가/수정/삭제/우선순위 + 저장 (웹 계약 동일)
+- 2026-07-11 15:10 [`c2dc477`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/c2dc4771b5657c89e37f3710a48e90454b983d6b) 회의 상세 상단 탭 분리: 스크립트 · 요약 · 할 일 · 배포 (웹 rd-tab 필 스타일)
+- 2026-07-11 15:07 [`2a35569`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/2a355692b387e3ce19d95d0721f3f3a4626ab82a) 회의 상세에 배포 카드 추가 (웹 배포 탭 모바일 v1)
+- 2026-07-11 15:01 [`8141faf`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/8141fafa18fe5a13ee04601c91eefd4de5417797) 하단 탭 내비게이션: 회의 · 녹음(즉시 녹음) · 설정
+- 2026-07-11 14:57 [`a58d059`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/a58d0592c72a328697fda5174ab50f5855e24813) 내비 고립 수정: 스택 루트 진입 시 헤더 폴백 버튼(‹ 회의 목록 / ‹ 상세)
+- 2026-07-11 14:55 [`b62b769`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/b62b769ab7ff961004c130db05b044296823c1c3) 녹음 화면 수정: GO_BACK 폴백 + 자체 경과 타이머(durationMillis 0 우회)
+- 2026-07-11 14:48 [`f709a3d`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/f709a3d72b7be189bb1c1fd470e8339e5dfdab43) 실시간 녹음 → STT 파이프라인 연결 (expo-audio + import-audio 계약)
+- 2026-07-11 14:34 [`f757e05`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/f757e05d907e9a6c79d828561296a06924bf5cef) UI/UX 웹앱 디자인 시스템 정합: rd-* 토큰 포팅 + 목록/상세 리디자인
+- 2026-07-11 14:14 [`5985613`](https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/59856139279e3c6315d172fd18aef74b8dc7eb7e) Expo 앱 스캐폴드: 회의 목록 + 상세(스크립트 턴 뷰) — 웹 프론트 로직 포팅
+
+## ops-daily-report
+
+35 commits. Newest first.
+
+- 2026-07-07 18:05 [`8f84a3c`](https://github.com/krafton-playground/ops-daily-report/commit/8f84a3cf05ae0c16dbb86136e87298317ac4954a) feat(bot): ground the weekly report in the '주간 업무 현황 상세' table
+- 2026-07-01 09:44 [`6d620e9`](https://github.com/krafton-playground/ops-daily-report/commit/6d620e9398c8f329cfce65e6ddc84ac7df6e68af) docs: AGENTS.md — main is the 4-person collab branch; point to TEAM_GUIDE + P1/P2 roadmap
+- 2026-06-30 21:26 [`07332ac`](https://github.com/krafton-playground/ops-daily-report/commit/07332ac1a37417e2e56cc9f6daea858adc3f0cec) Merge pull request #7 from krafton-playground/feat/weekly-schedule
+- 2026-06-30 21:22 [`bf63731`](https://github.com/krafton-playground/ops-daily-report/commit/bf63731ea8d548e6e2c5ca16b28c6f9c41dd1564) feat: manual 'send now' for the weekly report (bypasses the schedule guard)
+- 2026-06-30 18:34 [`e80fa9c`](https://github.com/krafton-playground/ops-daily-report/commit/e80fa9ce185e3e53fb1f66c5af26ed7a91cb41c9) feat: remove daily report; per-user weekly report with custom day + time (KST)
+- 2026-06-30 18:20 [`cbafb72`](https://github.com/krafton-playground/ops-daily-report/commit/cbafb7268f677b2b4c578053992a9870bce0e059) Merge pull request #6 from krafton-playground/fix/confluence-template-qa
+- 2026-06-30 18:18 [`5c43854`](https://github.com/krafton-playground/ops-daily-report/commit/5c43854679d46f0a319d8c33c4b855e5d9ab6dfb) fix: also flatten block macros/task-lists inside table cells (QA follow-up)
+- 2026-06-30 18:13 [`b8d8bd8`](https://github.com/krafton-playground/ops-daily-report/commit/b8d8bd82043f89e35fe2318c828bc777fe7f6436) fix: Confluence template fidelity — headings in table cells + full entity decode
+- 2026-06-30 18:10 [`aaccb15`](https://github.com/krafton-playground/ops-daily-report/commit/aaccb15a3cbb48edfb222061a1c48a9c0be19f95) Merge pull request #5 from krafton-playground/feat/timeline-workplan-table
+- 2026-06-30 18:00 [`3c6a6a4`](https://github.com/krafton-playground/ops-daily-report/commit/3c6a6a4021aa0249b9f60b6cb36e2cba673a29d0) feat: scope 위키 타임라인 to a Confluence workplan page's table (TIMELINE_PAGE_ID)
+- 2026-06-30 14:30 [`327e01c`](https://github.com/krafton-playground/ops-daily-report/commit/327e01cab94e6f60e6c2733898045eee5aafd218) ui: polish /vault filter chips — labeled rows + hover/focus, no click ring
+- 2026-06-30 14:25 [`d764ae4`](https://github.com/krafton-playground/ops-daily-report/commit/d764ae46317e0cf0508b254f847a9032f199c703) feat: dynamic team filter chips in /vault (data-driven, not hardcoded)
+- 2026-06-30 14:12 [`f330f4b`](https://github.com/krafton-playground/ops-daily-report/commit/f330f4bb3feabfc6c78c3c65f653bd64ffd36fbe) chore: make lint functional (eslint 8 + eslint-config-next 14.2) + clean findings
+- 2026-06-30 14:03 [`8a9565d`](https://github.com/krafton-playground/ops-daily-report/commit/8a9565dc154d3084b5e456011745b583b9b978eb) ui: give reports their own 보고 folder in /vault (out of 기타)
+- 2026-06-30 13:59 [`29a0037`](https://github.com/krafton-playground/ops-daily-report/commit/29a0037d676de02f19173c95060638c7562f9058) ui: remove native button border/focus ring on /vault folder headers
+- 2026-06-30 13:52 [`f7f44a1`](https://github.com/krafton-playground/ops-daily-report/commit/f7f44a1009893bc004f6a9ca3168d51aa0cdd3de) ui: group /vault list into collapsible team folders (GSMT / SPT1 / 기타)
+- 2026-06-30 13:33 [`1e1c212`](https://github.com/krafton-playground/ops-daily-report/commit/1e1c21220d8a64784fbc898068a9f8f3b5a191cf) Merge pull request #4 from krafton-playground/test/vitest-unit-suite
+- 2026-06-30 13:23 [`f663a1c`](https://github.com/krafton-playground/ops-daily-report/commit/f663a1cb25fdf576797224206a1188cbfc5ac2f6) test: add vitest unit suite (email-mapping regression guard + S3 key parity + md)
+- 2026-06-30 13:18 [`f40c457`](https://github.com/krafton-playground/ops-daily-report/commit/f40c457b1c1a7659e697813195fffaebd93fce27) ui: widen the /vault preview pane (760 -> 1120) to match the detail page
+- 2026-06-30 13:12 [`010f54f`](https://github.com/krafton-playground/ops-daily-report/commit/010f54fce25c0e2ea48add214af7c65338bc97ca) ui: unify all collect buttons on shared CollectButton + widen vault page
+- 2026-06-30 11:15 [`c51194a`](https://github.com/krafton-playground/ops-daily-report/commit/c51194a81247bae708256d21e27ae947efc2b542) fix: push collected vault files to S3 immediately from the collect route
+- 2026-06-30 10:58 [`48f33c9`](https://github.com/krafton-playground/ops-daily-report/commit/48f33c9975e924a0ab774424f25279bfac70094a) feat: durable vault storage (S3 master + daily GitHub snapshot) + confluence fixes
+- 2026-06-30 10:21 [`cd6548d`](https://github.com/krafton-playground/ops-daily-report/commit/cd6548de369c08268496a9facf7749641d02addf) Merge pull request #3 from krafton-playground/codex/collect-progress-feedback
+- 2026-06-30 09:50 [`0ee2158`](https://github.com/krafton-playground/ops-daily-report/commit/0ee21583c1b0ec478692234a4cb8f9b562b1a689) Add collect progress feedback
+- 2026-06-30 09:46 [`6d225f3`](https://github.com/krafton-playground/ops-daily-report/commit/6d225f328b6d97dc740c7b36b42b16687f115093) Merge pull request #2 from krafton-playground/codex/collect-inline-index
+- 2026-06-30 09:41 [`5df7895`](https://github.com/krafton-playground/ops-daily-report/commit/5df7895b8d8c4c37283fa2e9a4f17a67940fc9c3) Fix collect button immediate indexing
+- 2026-06-30 09:25 [`4abf2fc`](https://github.com/krafton-playground/ops-daily-report/commit/4abf2fce52a4dc22477afc436517ed771231c691) Merge pull request #1 from krafton-playground/codex/confluence-email-alias
+- 2026-06-30 09:14 [`864010b`](https://github.com/krafton-playground/ops-daily-report/commit/864010b2abcf5918271e0905992d3c7bba6a1ecc) Scope home Confluence list to settings
+- 2026-06-30 08:59 [`aa0bad7`](https://github.com/krafton-playground/ops-daily-report/commit/aa0bad7b80272c979e3b5eb1426fc1c4fcc3f464) Add automatic Confluence email alias
+- 2026-06-29 18:53 [`be45acc`](https://github.com/krafton-playground/ops-daily-report/commit/be45acceb70853088063e50d2e682fd5730f1884) Fix Confluence email mapping
+- 2026-06-26 17:52 [`a2eb462`](https://github.com/krafton-playground/ops-daily-report/commit/a2eb462fc25875527256d02fe71908307ae1b63e) feat: home Confluence collect card + cross-system email mapping & verification
+- 2026-06-26 16:28 [`e38157d`](https://github.com/krafton-playground/ops-daily-report/commit/e38157d4dd0373c0dbb2d879664d71ec0ee6ecd6) feat(reports): date-grounded retrieval for daily/weekly reports
+- 2026-06-26 16:13 [`81d4c38`](https://github.com/krafton-playground/ops-daily-report/commit/81d4c381de1af798a1c7e4733fb8aae4cd6c74e2) fix(confluence): collect subtree even if hub page is 403; stop syncing team READMEs
+- 2026-06-26 15:52 [`021d27d`](https://github.com/krafton-playground/ops-daily-report/commit/021d27deffe32e33ec44b048bf56a32f168a8950) feat: per-user encrypted Confluence token + team (GSMT/SPT1) categorization
+- 2026-06-26 11:14 [`385d326`](https://github.com/krafton-playground/ops-daily-report/commit/385d3261434955869e5a97374f7efb8694730b65) feat: daily/weekly report bot (Confluence ingest + Slack + dashboard)
+
+## ops-mrso-console-dev
+
+17 commits. Newest first.
+
+- 2026-11-10 11:24 [`2162b35`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/2162b35b2b4f1b90e93ab07561b4380d6c77d77c) Merge pull request #10 from krafton-playground/claude/dev-wiki-data-export
+- 2026-11-10 11:22 [`fb79aa1`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/fb79aa1c1c9372f8626ca93fc1b2f942d589d956) Merge PROD main (ad0207da) and wiki data export P1+P2 (PR #227) into DEV
+- 2026-11-07 10:35 [`8c9306a`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/8c9306a81ac0637e0e1960eae7b41ed85d01c02f) feat: deterministic Storybook catalogue and shared design contract (#9)
+- 2026-11-06 17:43 [`366385e`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/366385e52fdb43fb51fbc75ab55b80de1976dc11) Merge pull request #8 from krafton-playground/codex/dev-storage-browser
+- 2026-11-06 17:43 [`ba0b741`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/ba0b741c9acd578066f01addeb18b15f6d0dc31f) fix: 저장 파일 cursor 전용 secret 분리
+- 2026-11-06 17:26 [`ce1f1b4`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/ce1f1b46fe9115daccad0b9afe54100a99fa9fb3) Merge pull request #7 from krafton-playground/codex/dev-storage-browser
+- 2026-11-06 17:25 [`14a3553`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/14a35535a1b6b3c15b7462a56fe79fffcc625d55) feat: DEV PostgreSQL S3 저장 파일 탐색기 추가
+- 2026-11-06 17:24 [`001c6ad`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/001c6ad4d6fb70bd68ca215fe73fdf95a110cc4f) Merge remote-tracking branch 'origin/main' into codex/dev-storage-browser
+- 2026-11-06 17:19 [`aa7fd45`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/aa7fd4512f8d0f1e1f450838e811704c0d3a81e5) Merge remote-tracking branch 'origin/main' into codex/dev-storage-browser
+- 2026-11-06 17:03 [`8a154ff`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/8a154ffce6534b9153e71a0018076bd7c7ae84ab) Merge remote-tracking branch 'origin/main' into codex/dev-storage-browser
+- 2026-11-06 09:52 [`c6c5e67`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/c6c5e671a4a347afa949bc7e361242e55a148418) Keep source unassignment saveable for single-entity watches
+- 2026-11-06 09:48 [`3df9942`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/3df994238ee0fd1eb12361525427dcbafa56d243) Clear explicit destination selection after saving
+- 2026-11-06 09:47 [`5c4aa7c`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/5c4aa7c3429ef7eda3872bc8d2191b80e8d23b5e) Merge remote-tracking branch 'devrepo/main' into codex/dev-source-edit-studio-dropdown
+- 2026-11-06 09:47 [`9ab1fd7`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/9ab1fd70909031fb1d9e3775a043a637fc34d9ac) Use optional Studio and Project dropdowns when editing sources
+- 2026-11-06 08:05 [`4442e4c`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/4442e4cb394bbf386a97fae37cc347b366bf3c7e) Merge pull request #5 from krafton-playground/codex/studio-parent-foreign-key
+- 2026-11-06 07:49 [`352575a`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/352575a082c770817912884657c9dba38578012e) Merge pull request #4 from krafton-playground/codex/studio-parent-foreign-key
+- 2026-11-05 16:05 [`f5bdf8d`](https://github.com/krafton-playground/ops-mrso-console-dev/commit/f5bdf8d289b5de1a11c205a75b760b7da715b89f) Merge pull request #3 from krafton-playground/codex/legacy-studio-assignment-editing
+
+## wiki-fact-checker
+
+16 commits. Newest first.
+
+- 2026-08-07 07:11 [`1f15400`](https://github.com/krafton-playground/wiki-fact-checker/commit/1f15400d372fe021b3854217e0133edd24b18a7a) chore: ignore .omc/ operational state directory
+- 2026-08-06 13:32 [`c8653b6`](https://github.com/krafton-playground/wiki-fact-checker/commit/c8653b65d66371a4164042a530815d1269df79e0) Bound verification to the useful evidence floor
+- 2026-08-06 13:23 [`9b53e93`](https://github.com/krafton-playground/wiki-fact-checker/commit/9b53e93241b68feb2b0db09b7ac7c6024de9b473) Keep verification inside the interactive latency budget
+- 2026-08-06 13:14 [`40523e9`](https://github.com/krafton-playground/wiki-fact-checker/commit/40523e9108519b4358602a1fb9b651c5e19d46f2) Bound verification work for interactive latency
+- 2026-08-06 12:05 [`ed9c252`](https://github.com/krafton-playground/wiki-fact-checker/commit/ed9c2527ba84d813389b3cba3f6a4595e176783b) Preserve running jobs across transient gateway polls
+- 2026-08-06 11:58 [`9f3c254`](https://github.com/krafton-playground/wiki-fact-checker/commit/9f3c254f964aaafa1d80f772f4f5ab8697f1f9ef) Keep token refresh outside the gateway request
+- 2026-08-06 11:51 [`82ce214`](https://github.com/krafton-playground/wiki-fact-checker/commit/82ce214aa2746d77505a17c15b24fa8dac77958f) Keep live verification state truthful after demo review
+- 2026-08-06 11:34 [`ecdee4b`](https://github.com/krafton-playground/wiki-fact-checker/commit/ecdee4b85fcb675b71bf0ee788e7a69932460976) Prevent gateway timeouts during evidence verification
+- 2026-08-06 11:10 [`2723dbb`](https://github.com/krafton-playground/wiki-fact-checker/commit/2723dbbe66345c78104acd14c874d48924964a95) Honor KP's exact SSO callback allowlist
+- 2026-08-06 09:43 [`e3b6474`](https://github.com/krafton-playground/wiki-fact-checker/commit/e3b64747cd106e34d69c5de92f541633547447a1) Keep KP health probes outside user authentication
+- 2026-08-06 09:33 [`577ab41`](https://github.com/krafton-playground/wiki-fact-checker/commit/577ab41078acaf83eab5583a8b99566893af2db7) Run the Confluence verifier behind KP SSO
+- 2026-08-06 09:06 [`a37b4ed`](https://github.com/krafton-playground/wiki-fact-checker/commit/a37b4ed9ced25de38cb6c752bc07ada91a148b04) Keep verification output on the requested source
+- 2026-08-06 09:02 [`b1e940a`](https://github.com/krafton-playground/wiki-fact-checker/commit/b1e940a9207469db538185dc737a037a737ba12a) Bind verification evidence to the requested page
+- 2026-08-06 08:56 [`91af38d`](https://github.com/krafton-playground/wiki-fact-checker/commit/91af38de8dc578006c675b2705c38c046e4683c0) Close deployment trust-boundary gaps
+- 2026-08-06 08:44 [`d539926`](https://github.com/krafton-playground/wiki-fact-checker/commit/d5399264a37ba32ec2c9cdf20b0090a9207958e2) Make the verifier runnable behind KP SSO
+- 2026-08-06 06:31 [`63cc2de`](https://github.com/krafton-playground/wiki-fact-checker/commit/63cc2de9d465e229e33fbb5734f0ff9604a9d545) Make evidence-backed Confluence research reusable as an internal KP prototype
+
+## clovanote-mcp
+
+13 commits. Newest first.
+
+- 2026-09-01 10:02 [`d8df2fa`](https://github.com/krafton-playground/clovanote-mcp/commit/d8df2faf335649ec0e3af74b5483aee3e85e6ff8) Merge pull request #4 from krafton-playground/chore/remove-init-entrypoint
+- 2026-09-01 10:02 [`e8672a1`](https://github.com/krafton-playground/clovanote-mcp/commit/e8672a14b4cd8eea0e9d49e29fcc84d6b065025c) Remove the one-shot storage initialization entrypoint
+- 2026-09-01 09:56 [`48133e0`](https://github.com/krafton-playground/clovanote-mcp/commit/48133e03faf0f3719b8fcb85a672d8771a4799ed) Merge pull request #3 from krafton-playground/fix/s3-store-initialization
+- 2026-08-31 16:06 [`c213a05`](https://github.com/krafton-playground/clovanote-mcp/commit/c213a05e9c1a55dcab4a3ac87930a73ae9432eec) Add opt-in one-shot S3 storage initialization to the container entrypoint
+- 2026-08-31 15:50 [`f5f7605`](https://github.com/krafton-playground/clovanote-mcp/commit/f5f7605053f9329cc4d880a690a6416848092cbe) Merge pull request #2 from krafton-playground/docs/remote-onboarding-recovery
+- 2026-08-31 14:51 [`7b2e63d`](https://github.com/krafton-playground/clovanote-mcp/commit/7b2e63dcbff4a852a6efd08cdeb3112e01ac2ac1) docs: clarify remote setup and connection recovery
+- 2026-08-31 14:44 [`74aac9d`](https://github.com/krafton-playground/clovanote-mcp/commit/74aac9db4b4d6d90cfd5d28639bb67fbf388b3ba) Merge pull request #1 from krafton-playground/fix/s3-auth-persistence
+- 2026-08-31 14:37 [`bc0c744`](https://github.com/krafton-playground/clovanote-mcp/commit/bc0c7442f4affed881561a28c07ade5688a0a8b7) Persist hosted authentication in S3
+- 2026-08-31 13:25 [`75b5c47`](https://github.com/krafton-playground/clovanote-mcp/commit/75b5c473d46e984331706fa7a0765148ab05e0e3) docs: clarify remote MCP connection recovery and token persistence
+- 2026-07-23 15:55 [`8dd29e9`](https://github.com/krafton-playground/clovanote-mcp/commit/8dd29e90ca3cbe5e926bb8720e5b340d5798ab09) Sanitize tool errors so pydantic internals never reach MCP clients
+- 2026-07-23 15:55 [`f9e984e`](https://github.com/krafton-playground/clovanote-mcp/commit/f9e984e839151f289fec0dc5a3ae0cc249fde1a2) Sync uv.lock with the cryptography dependency in pyproject
+- 2026-07-15 05:44 [`3038035`](https://github.com/krafton-playground/clovanote-mcp/commit/303803538f53dad44de9b7678bb1dc033a070223) Document hosted server usage (login, personal key, MCP config)
+- 2026-07-15 00:14 [`082e125`](https://github.com/krafton-playground/clovanote-mcp/commit/082e125e3a38b0f49356b94c345923c136860711) Replace template with Clova Note MCP server (streamable-http, multi-user OAuth)
+
+## vibecode-landing
+
+12 commits. Newest first.
+
+- 2026-06-28 20:23 [`de9aad2`](https://github.com/krafton-playground/vibecode-landing/commit/de9aad25f12629fa5581a543fade1a7eeb84a51b) Merge pull request #2 from krafton-playground/add-stage-tabs-and-links
+- 2026-06-28 20:21 [`75894fa`](https://github.com/krafton-playground/vibecode-landing/commit/75894fa729c49c44894d7e4613d0408775fa15ee) Add stage tabs, terminal command subtitle, and Claude Design / wiki links
+- 2026-06-28 15:58 [`2fd8795`](https://github.com/krafton-playground/vibecode-landing/commit/2fd87951ee000fc82e61f1728f25bf97ca8122f1) Merge pull request #1 from krafton-playground/codex/add-2nd-stage-prep-page
+- 2026-06-28 15:57 [`befdb8f`](https://github.com/krafton-playground/vibecode-landing/commit/befdb8ff6a2877a1ebf278e442173a2b4fa8ce36) Add a second-stage report bot prep page
+- 2026-06-28 13:35 [`5aef3bc`](https://github.com/krafton-playground/vibecode-landing/commit/5aef3bc76aad75f0661999ae566155e04d98be3f) Revert "Prepare hackathon landing for deployment"
+- 2026-06-28 13:09 [`aca43dd`](https://github.com/krafton-playground/vibecode-landing/commit/aca43dd78a722b98f6b1370e11726c45318f43d1) Prepare hackathon landing for deployment
+- 2026-06-21 14:40 [`094acb5`](https://github.com/krafton-playground/vibecode-landing/commit/094acb58803ba8867dd8fd216b231558bb2df170) chore: reword idea-section blurb (회사 생활 업무관련, 웃음/공감)
+- 2026-06-21 14:37 [`0c9176b`](https://github.com/krafton-playground/vibecode-landing/commit/0c9176bc18f1913b43d3bd0bd6e7eb3807d112c4) chore: drop "(A 구도 기준)" from the role-assignment to-do
+- 2026-06-21 14:36 [`cb48128`](https://github.com/krafton-playground/vibecode-landing/commit/cb481288810338c43d487943c632fa76518cb2fb) feat: default the OS toggle to Windows
+- 2026-06-21 14:35 [`215eda7`](https://github.com/krafton-playground/vibecode-landing/commit/215eda7caa04b9bb768f41d448c950bb133a8045) feat: reference the repo in the agent install prompt
+- 2026-06-21 14:30 [`5b18200`](https://github.com/krafton-playground/vibecode-landing/commit/5b182009f64eea57350bad7874f2122899d11e62) docs: rewrite AGENTS.md as vibe-coding env install runbook
+- 2026-06-21 14:00 [`5dfd38e`](https://github.com/krafton-playground/vibecode-landing/commit/5dfd38ecc7c72247fb3a28a2c456ca13bd1e8372) feat: hackathon vibe-coding landing page + rewrite README
+
+## clovanote-mcp-mini
+
+9 commits. Newest first.
+
+- 2026-06-14 18:18 [`cdef74d`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/cdef74dc8409e19070acfce4cc7d5fe66781f414) did a hard QA.
+- 2026-06-14 16:36 [`4da7e33`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/4da7e33b02864a8ee17be5d7f5687a8170f7611d) auth QA.
+- 2026-06-14 16:14 [`4534826`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/453482629a132481bc2b792437eeeacb465ca1bd) auth debug.
+- 2026-06-14 15:57 [`7205182`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/72051821fdbcfff864110b8d75469156ce857e3c) clova note login issue - auth.py tweaking.
+- 2026-06-14 15:08 [`e317097`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/e317097c9d05983452bf1d3a6f8dd7ef21409983) READMD.md updated - MCP installation
+- 2026-06-14 14:46 [`e5dc9fb`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/e5dc9fbf74f078aec0810c04589abe77fbf07db9) initial commit
+- 2026-06-14 14:01 [`b32ec2e`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/b32ec2e3ed6226c4242323c218531cdbd0b7fcf6) initial commit
+- 2026-06-04 12:44 [`3099247`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/3099247c54c4fd22a4a7736eb8d361652f4804cd) Make Clova Note safe to share as a stdio MCP server
+- 2026-06-04 12:31 [`1bcfb74`](https://github.com/krafton-playground/clovanote-mcp-mini/commit/1bcfb74c5c95a1564f95964958cb813cbe6177fc) Preserve a safe baseline for teammate MCP work
+
+## ops-hands-session
+
+5 commits. Newest first.
+
+- 2026-08-04 21:31 [`9e6f66d`](https://github.com/krafton-playground/ops-hands-session/commit/9e6f66d1f8f2a25c8b10292f9ada6a53a262d007) Make the mobile email draft readable
+- 2026-08-04 21:21 [`92459b2`](https://github.com/krafton-playground/ops-hands-session/commit/92459b2f5edb2153be4fd1c0bdce098b24602e10) Keep Wiki imports inside the approved Space
+- 2026-08-04 21:16 [`cee016b`](https://github.com/krafton-playground/ops-hands-session/commit/cee016b5848a738b5e66ef46433ce38412610eb5) Remove avoidable dependency risk from the workshop
+- 2026-08-04 21:14 [`876443e`](https://github.com/krafton-playground/ops-hands-session/commit/876443ebafbce8eab9d873de3903f63de1c7307e) Keep the workshop current and safe with five Wiki inputs
+- 2026-08-04 21:07 [`238a55e`](https://github.com/krafton-playground/ops-hands-session/commit/238a55eb960874a3f52e323b71cbd321c82f791f) Make the beginner Ops workshop safe to run on KP
+
+## ops-echo
+
+4 commits. Newest first.
+
+- 2026-06-17 09:23 [`8f1c9ae`](https://github.com/krafton-playground/ops-echo/commit/8f1c9aef7ed514fcaf143ee85d9b3c851728dc60) logs
+- 2026-06-09 17:21 [`3dbf6c6`](https://github.com/krafton-playground/ops-echo/commit/3dbf6c69eed93e6e63e64b999c3638446754db3b) #1 assessment - disposed.
+- 2026-06-06 09:32 [`58d0516`](https://github.com/krafton-playground/ops-echo/commit/58d0516d1baabe462e76f65b39c1a0bf895574bd) build error
+- 2026-06-06 03:28 [`72a3011`](https://github.com/krafton-playground/ops-echo/commit/72a301122c497913e6b9d7f619eeaf1792d0a910) Initial commit
+
+## ops-firecrawl
+
+3 commits. Newest first.
+
+- 2026-10-21 12:28 [`066800f`](https://github.com/krafton-playground/ops-firecrawl/commit/066800f3dc6caae61eecf34de7b0fae96bb63807) README를 실제 내용으로 다시 쓴다 — 템플릿 원문 교체 [skip ci]
+- 2026-07-25 20:32 [`58749ab`](https://github.com/krafton-playground/ops-firecrawl/commit/58749ab2237bd285c395e1c4bb72c12b63bf612f) 빌드 수정: pg_cron 1.4는 '15 seconds' 스케줄을 거부한다
+- 2026-07-25 20:25 [`6e919e6`](https://github.com/krafton-playground/ops-firecrawl/commit/6e919e65299100e77eb2f4c78628059308025dba) Firecrawl 단일 파드 이미지로 교체 (템플릿 Next.js → Firecrawl 2.10.30)
+
+## hackathon-prep
+
+3 commits. Newest first.
+
+- 2026-06-28 13:45 [`ff01d66`](https://github.com/krafton-playground/hackathon-prep/commit/ff01d66060d27978017eb9db10afea8eebb8b92c) Serve landing page from the root route
+- 2026-06-28 13:39 [`3098441`](https://github.com/krafton-playground/hackathon-prep/commit/309844184d0335f414071d6850d35dc7f9aafd56) Point setup prompt at hackathon-prep
+- 2026-06-28 13:38 [`895f0e7`](https://github.com/krafton-playground/hackathon-prep/commit/895f0e77b53df4ee40a402d3c4df09def8d85368) Prepare hackathon landing for deployment
+
+## ppt-deep-analyze
+
+2 commits. Newest first.
+
+- 2026-09-17 13:47 [`112dc70`](https://github.com/krafton-playground/ppt-deep-analyze/commit/112dc709cd588d09396c24696a0f19fca03935d7) feat: installation section, viewer preview, footer and copy updates
+- 2026-09-17 11:05 [`3120238`](https://github.com/krafton-playground/ppt-deep-analyze/commit/312023850b5009678f6ac48cadaea25ef30cb015) feat: serve the PPT Deep Analyze static site from public/
+
+## sp-workspace
+
+2 commits. Newest first.
+
+- 2026-07-29 14:53 [`414848f`](https://github.com/krafton-playground/sp-workspace/commit/414848f756d0c400b84bb34c41a37170da824e96) docs(residents): dami.kang 입주민 카드 추가
+- 2026-07-29 14:53 [`142d32e`](https://github.com/krafton-playground/sp-workspace/commit/142d32e89624acb19ccf1ec6a818bf2503204e59) chore(onboarding): dami.kang 작업 폴더 생성 (PARA 스켈레톤)
+
+## hackathon-kimpo
+
+2 commits. Newest first.
+
+- 2026-09-21 13:52 [`28c1a8d`](https://github.com/krafton-playground/hackathon-kimpo/commit/28c1a8dc705b9db028a49c88eaab96107793adb0) Update collaboration planning and presentation wording
+- 2026-09-21 13:37 [`a7ef680`](https://github.com/krafton-playground/hackathon-kimpo/commit/a7ef680ad9f469a584cdd3c26b187e7d3aba769d) Build October hackathon kickoff page and container services
+
+## ops-whisper-worker
+
+2 commits. Newest first.
+
+- 2026-07-05 16:50 [`7f95c3a`](https://github.com/krafton-playground/ops-whisper-worker/commit/7f95c3aa703c37572b788d97748a57e41ae6b277) Add /health endpoint for platform readiness probe
+- 2026-07-05 16:45 [`5604169`](https://github.com/krafton-playground/ops-whisper-worker/commit/56041697cb351fb3414230b2e47c97a3576f82c2) Replace Next.js template with faster-whisper STT worker
+
+## test-vibecoding-01
+
+2 commits. Newest first.
+
+- 2026-06-23 09:35 [`9a4451b`](https://github.com/krafton-playground/test-vibecoding-01/commit/9a4451b0fdd49aa922a551e7d00f785442bada7b) Switch AI recommendation proxy from Anthropic to OpenAI
+- 2026-06-23 09:32 [`92246f1`](https://github.com/krafton-playground/test-vibecoding-01/commit/92246f151fd5dd62337edfb73c3562961c003751) Add saju menu-recommender frontend + Kakao scraper backend
+
+## Trends-hub-agent
+
+2 commits. Newest first.
+
+- 2026-06-03 12:37 [`b972516`](https://github.com/krafton-playground/Trends-hub-agent/commit/b9725169be17adfb4f2a1486112bf5b8c16cdbba) Keep crawler lint-clean for CI
+- 2026-06-03 12:26 [`c877cdd`](https://github.com/krafton-playground/Trends-hub-agent/commit/c877cdd56c60b28b24da688af69645d834b3c126) Enable a deployable Hermes trend agent MVP
+
+## onboarding-test-02
+
+1 commits. Newest first.
+
+- 2026-08-05 10:36 [`2491435`](https://github.com/krafton-playground/onboarding-test-02/commit/249143507359956d62034ccdefba5c0b9f5be519) feat: Wiki 요약 대시보드와 메일 초안 화면 구현
+
+## test-mini-ops-app
+
+1 commits. Newest first.
+
+- 2026-08-04 18:24 [`36f2597`](https://github.com/krafton-playground/test-mini-ops-app/commit/36f2597f0a28bc536dedad71c5d07d80f7e4dee5) Establish a verified blank canvas for the Mini Ops prototype
+
+## test-vibecoding-02
+
+1 commits. Newest first.
+
+- 2026-06-30 09:21 [`8cf66f0`](https://github.com/krafton-playground/test-vibecoding-02/commit/8cf66f02dc73a4e0c3c1e9363b2150e0905e965b) feat: implement Krafton Cafe Kiosk (full-stack Next.js)

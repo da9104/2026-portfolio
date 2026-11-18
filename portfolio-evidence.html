@@ -1,0 +1,764 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Evidence &amp; methodology — Dami Kang</title><link rel="stylesheet" href="reader.css"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=Inter:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;600&display=swap" rel="stylesheet"></head><body><a class="skip" href="#document">Skip to document</a><header><a class="brand" href="index.html">Dami Kang</a><a class="back" href="index.html#activity">← Back to portfolio</a></header><div class="reader-layout"><aside><p class="eyebrow">PORTFOLIO / DOCUMENTS</p><nav aria-label="Documents"><a href="portfolio-evidence.html" aria-current="page">Evidence &amp; methodology</a><a href="commit-log.html" >Commit log</a></nav><details open><summary>On this page</summary><nav class="toc" aria-label="Document sections"><a href="#how-the-data-was-collected">How the data was collected</a><a href="#limits-of-this-evidence">Limits of this evidence</a><a href="#headline-figures">Headline figures</a><a href="#commits-per-month">Commits per month</a><a href="#commits-by-type">Commits by type</a><a href="#repositories">Repositories</a><a href="#evidence-for-each-portfolio-project">Evidence for each portfolio project</a></nav></details><a class="download" href="portfolio-evidence.md" download>Download Markdown ↓</a></aside><main id="document"><div class="document-meta">SOURCE NOTES <span>14 NOVEMBER 2026</span></div><article><h1 id="portfolio-evidence-github-activity-of-dami-krafton-in-krafton-playground">Portfolio evidence: GitHub activity of <code>dami-krafton</code> in Krafton-Playground</h1>
+<p>This file records the data behind the portfolio page. Every figure below is computed from the commit list in <a href="commit-log.html">commit-log.md</a>, and every commit there links to GitHub.</p>
+<h2 id="how-the-data-was-collected">How the data was collected</h2>
+<ul>
+<li><strong>Source:</strong> GitHub commit search API, query <code>author:dami-krafton org:Krafton-Playground</code>.</li>
+<li><strong>Collected:</strong> 14 November 2026 (KST). Commits after that date are not included.</li>
+<li><strong>Method:</strong> the search was run in date windows (half-months, then single days for 16 Oct to 14 Nov) because GitHub returns at most 1,000 results per query. No single-day window exceeded that limit.</li>
+<li><strong>Deduplication:</strong> GitHub reported 4,233 results. Some commits exist in more than one repository (for example <code>ops-mrso-console</code> and <code>ops-mrso-console-dev</code>). Each commit SHA is counted once here, which gives 2,824 unique commits.</li>
+<li><strong>Fields captured:</strong> repository, full SHA, author date, and the first line of the commit message. No file contents or diffs were read.</li>
+</ul>
+<h2 id="limits-of-this-evidence">Limits of this evidence</h2>
+<ul>
+<li>Only commits that GitHub attributes to the <code>dami-krafton</code> account are included. Commits made under another email or account are missing.</li>
+<li>GitHub commit search covers default branches. Work that only exists on unmerged branches may be missing.</li>
+<li>A repository appears only if it has at least one such commit. Repositories you own but never committed to are not listed.</li>
+<li>A commit shared by two repositories is attributed to one of them, so per-repository counts for mirrored repositories are lower bounds.</li>
+<li>Project descriptions in the portfolio are inferred from commit subject lines, not from reading the code.</li>
+<li>The repositories are internal. Links work only for people with access to the organisation.</li>
+</ul>
+<h2 id="headline-figures">Headline figures</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Figure</th>
+<th align="right">Value</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Unique commits authored</td>
+<td align="right">2,824</td>
+</tr>
+<tr>
+<td>Of which merge commits</td>
+<td align="right">635</td>
+</tr>
+<tr>
+<td>Commits excluding merges</td>
+<td align="right">2,189</td>
+</tr>
+<tr>
+<td>Repositories with commits</td>
+<td align="right">27</td>
+</tr>
+<tr>
+<td>First commit</td>
+<td align="right">2026-06-03</td>
+</tr>
+<tr>
+<td>Last commit collected</td>
+<td align="right">2026-11-14</td>
+</tr>
+<tr>
+<td>Days with at least one commit</td>
+<td align="right">129</td>
+</tr>
+<tr>
+<td>Busiest day</td>
+<td align="right">2026-11-12 (152 commits)</td>
+</tr>
+</tbody></table></div>
+<h2 id="commits-per-month">Commits per month</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Month</th>
+<th align="right">Commits</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>2026-06</td>
+<td align="right">131</td>
+</tr>
+<tr>
+<td>2026-07</td>
+<td align="right">311</td>
+</tr>
+<tr>
+<td>2026-08</td>
+<td align="right">561</td>
+</tr>
+<tr>
+<td>2026-09</td>
+<td align="right">423</td>
+</tr>
+<tr>
+<td>2026-10</td>
+<td align="right">500</td>
+</tr>
+<tr>
+<td>2026-11</td>
+<td align="right">898</td>
+</tr>
+</tbody></table></div>
+<h2 id="commits-by-type">Commits by type</h2>
+<p>Grouped by the conventional-commit prefix on the subject line. The <code>merge</code> row is the 635 Git merge commits plus 13 commits whose subject starts with <code>merge:</code>.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Type</th>
+<th align="right">Commits</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>no prefix</td>
+<td align="right">893</td>
+</tr>
+<tr>
+<td>merge</td>
+<td align="right">648</td>
+</tr>
+<tr>
+<td>fix</td>
+<td align="right">399</td>
+</tr>
+<tr>
+<td>feat</td>
+<td align="right">391</td>
+</tr>
+<tr>
+<td>docs</td>
+<td align="right">274</td>
+</tr>
+<tr>
+<td>test</td>
+<td align="right">83</td>
+</tr>
+<tr>
+<td>copy</td>
+<td align="right">35</td>
+</tr>
+<tr>
+<td>chore</td>
+<td align="right">31</td>
+</tr>
+<tr>
+<td>content</td>
+<td align="right">24</td>
+</tr>
+<tr>
+<td>perf</td>
+<td align="right">16</td>
+</tr>
+<tr>
+<td>ui</td>
+<td align="right">6</td>
+</tr>
+<tr>
+<td>style</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>refactor</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>wip</td>
+<td align="right">5</td>
+</tr>
+<tr>
+<td>build</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>qa</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>revert</td>
+<td align="right">2</td>
+</tr>
+<tr>
+<td>start</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>migration</td>
+<td align="right">1</td>
+</tr>
+<tr>
+<td>workspace</td>
+<td align="right">1</td>
+</tr>
+</tbody></table></div>
+<h2 id="repositories">Repositories</h2>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Repository</th>
+<th align="right">Commits</th>
+<th align="right">Merges</th>
+<th>First commit</th>
+<th>Last commit</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console">ops-mrso-console</a></td>
+<td align="right">1,329</td>
+<td align="right">390</td>
+<td>2026-10-24</td>
+<td>2026-11-14</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/notetaker-landing">notetaker-landing</a></td>
+<td align="right">619</td>
+<td align="right">163</td>
+<td>2026-06-18</td>
+<td>2026-10-29</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-content-hub">ops-content-hub</a></td>
+<td align="right">287</td>
+<td align="right">9</td>
+<td>2026-06-20</td>
+<td>2026-11-13</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-ax-101">ops-ax-101</a></td>
+<td align="right">213</td>
+<td align="right">24</td>
+<td>2026-08-11</td>
+<td>2026-09-04</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/vibecoding-01">vibecoding-01</a></td>
+<td align="right">81</td>
+<td align="right">0</td>
+<td>2026-07-30</td>
+<td>2026-08-07</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes">ops-meeting-notes</a></td>
+<td align="right">60</td>
+<td align="right">6</td>
+<td>2026-07-02</td>
+<td>2026-08-10</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/kimpo-hackathon">kimpo-hackathon</a></td>
+<td align="right">55</td>
+<td align="right">19</td>
+<td>2026-09-21</td>
+<td>2026-09-28</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes-mobile">ops-meeting-notes-mobile</a></td>
+<td align="right">48</td>
+<td align="right">0</td>
+<td>2026-07-11</td>
+<td>2026-07-16</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-daily-report">ops-daily-report</a></td>
+<td align="right">35</td>
+<td align="right">7</td>
+<td>2026-06-26</td>
+<td>2026-07-07</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console-dev">ops-mrso-console-dev</a></td>
+<td align="right">17</td>
+<td align="right">11</td>
+<td>2026-11-05</td>
+<td>2026-11-10</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/wiki-fact-checker">wiki-fact-checker</a></td>
+<td align="right">16</td>
+<td align="right">0</td>
+<td>2026-08-06</td>
+<td>2026-08-07</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/clovanote-mcp">clovanote-mcp</a></td>
+<td align="right">13</td>
+<td align="right">4</td>
+<td>2026-07-15</td>
+<td>2026-09-01</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/vibecode-landing">vibecode-landing</a></td>
+<td align="right">12</td>
+<td align="right">2</td>
+<td>2026-06-21</td>
+<td>2026-06-28</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/clovanote-mcp-mini">clovanote-mcp-mini</a></td>
+<td align="right">9</td>
+<td align="right">0</td>
+<td>2026-06-04</td>
+<td>2026-06-14</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-hands-session">ops-hands-session</a></td>
+<td align="right">5</td>
+<td align="right">0</td>
+<td>2026-08-04</td>
+<td>2026-08-04</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-echo">ops-echo</a></td>
+<td align="right">4</td>
+<td align="right">0</td>
+<td>2026-06-06</td>
+<td>2026-06-17</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-firecrawl">ops-firecrawl</a></td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td>2026-07-25</td>
+<td>2026-10-21</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/hackathon-prep">hackathon-prep</a></td>
+<td align="right">3</td>
+<td align="right">0</td>
+<td>2026-06-28</td>
+<td>2026-06-28</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ppt-deep-analyze">ppt-deep-analyze</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td>2026-09-17</td>
+<td>2026-09-17</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/sp-workspace">sp-workspace</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td>2026-07-29</td>
+<td>2026-07-29</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/hackathon-kimpo">hackathon-kimpo</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td>2026-09-21</td>
+<td>2026-09-21</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-whisper-worker">ops-whisper-worker</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td>2026-07-05</td>
+<td>2026-07-05</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/test-vibecoding-01">test-vibecoding-01</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td>2026-06-23</td>
+<td>2026-06-23</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/Trends-hub-agent">Trends-hub-agent</a></td>
+<td align="right">2</td>
+<td align="right">0</td>
+<td>2026-06-03</td>
+<td>2026-06-03</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/onboarding-test-02">onboarding-test-02</a></td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td>2026-08-05</td>
+<td>2026-08-05</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/test-mini-ops-app">test-mini-ops-app</a></td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td>2026-08-04</td>
+<td>2026-08-04</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/test-vibecoding-02">test-vibecoding-02</a></td>
+<td align="right">1</td>
+<td align="right">0</td>
+<td>2026-06-30</td>
+<td>2026-06-30</td>
+</tr>
+</tbody></table></div>
+<h2 id="evidence-for-each-portfolio-project">Evidence for each portfolio project</h2>
+<p>Each commit quoted on the portfolio page is listed here with its SHA, plus the first and last commit of the repository.</p>
+<h3 id="trends-hub-agent">Trends-hub-agent</h3>
+<p>2 commits, 2026-06-03 to 2026-06-03.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/Trends-hub-agent/commit/c877cdd56c60b28b24da688af69645d834b3c126"><code>c877cdd</code></a></td>
+<td>2026-06-03</td>
+<td>Enable a deployable Hermes trend agent MVP <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/Trends-hub-agent/commit/c877cdd56c60b28b24da688af69645d834b3c126"><code>c877cdd</code></a></td>
+<td>2026-06-03</td>
+<td>Enable a deployable Hermes trend agent MVP</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/Trends-hub-agent/commit/b9725169be17adfb4f2a1486112bf5b8c16cdbba"><code>b972516</code></a></td>
+<td>2026-06-03</td>
+<td>Keep crawler lint-clean for CI <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="clovanote-mcp">clovanote-mcp</h3>
+<p>13 commits, 2026-07-15 to 2026-09-01.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/clovanote-mcp/commit/082e125e3a38b0f49356b94c345923c136860711"><code>082e125</code></a></td>
+<td>2026-07-15</td>
+<td>Replace template with Clova Note MCP server (streamable-http, multi-user OAuth) <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/clovanote-mcp/commit/082e125e3a38b0f49356b94c345923c136860711"><code>082e125</code></a></td>
+<td>2026-07-15</td>
+<td>Replace template with Clova Note MCP server (streamable-http, multi-user OAuth)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/clovanote-mcp/commit/8dd29e90ca3cbe5e926bb8720e5b340d5798ab09"><code>8dd29e9</code></a></td>
+<td>2026-07-23</td>
+<td>Sanitize tool errors so pydantic internals never reach MCP clients</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/clovanote-mcp/commit/d8df2faf335649ec0e3af74b5483aee3e85e6ff8"><code>d8df2fa</code></a></td>
+<td>2026-09-01</td>
+<td>Merge pull request #4 from krafton-playground/chore/remove-init-entrypoint <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="notetaker-landing">notetaker-landing</h3>
+<p>619 commits, 2026-06-18 to 2026-10-29.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/notetaker-landing/commit/4c145813a139ac56eacc5472949634321b9bb709"><code>4c14581</code></a></td>
+<td>2026-06-18</td>
+<td>Add OS/tool environment selector with dynamic prompt + skill path <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/notetaker-landing/commit/4c145813a139ac56eacc5472949634321b9bb709"><code>4c14581</code></a></td>
+<td>2026-06-18</td>
+<td>Add OS/tool environment selector with dynamic prompt + skill path</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/notetaker-landing/commit/cf4d364786af713d2ba57b1188d609cedeb46d7e"><code>cf4d364</code></a></td>
+<td>2026-09-01</td>
+<td>Fill the roster from Outlook, and let people connect MS365</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/notetaker-landing/commit/95fbab0e721bbec97909eeb770d00ce03ab6ea30"><code>95fbab0</code></a></td>
+<td>2026-10-27</td>
+<td>fix: recover quarantined exports, contain per-row DB errors, and pin list SQL to the JS classifier (#276)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/notetaker-landing/commit/6323a434e5ae8220446b68091ec77d89ef28e810"><code>6323a43</code></a></td>
+<td>2026-10-29</td>
+<td>docs: 인수인계·제품 명세·파이프라인 그림·FullScript 제안 트레이드오프 문서 추가 (#277) <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="ops-content-hub">ops-content-hub</h3>
+<p>287 commits, 2026-06-20 to 2026-11-13.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-content-hub/commit/150d7133121b4c12960b1ab133e67568a3da82a5"><code>150d713</code></a></td>
+<td>2026-06-20</td>
+<td>Migrate krafton-ops-bot onto ops-content-hub (EKS, core-api SSO + embedded Hermes) <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-content-hub/commit/150d7133121b4c12960b1ab133e67568a3da82a5"><code>150d713</code></a></td>
+<td>2026-06-20</td>
+<td>Migrate krafton-ops-bot onto ops-content-hub (EKS, core-api SSO + embedded Hermes)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-content-hub/commit/6df9a667caab758b60a16b58f6314c0b03abebfd"><code>6df9a66</code></a></td>
+<td>2026-08-12</td>
+<td>Hermes가 내 Outlook을 본다 — 공용 사서함 대신 내 연결로, 그리고 실패 이유를 말해준다 (#101)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-content-hub/commit/16ab58d132932a02c1e36c6614ebc3ec4109bdcf"><code>16ab58d</code></a></td>
+<td>2026-08-12</td>
+<td>연결 테스트를 공식 Atlassian API로 (유효한 토큰이 '거부됨'으로 뜨던 원인) (#104)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-content-hub/commit/e1e8d4ea4c0dda6a7f6e2816d085b1c8e97d2daf"><code>e1e8d4e</code></a></td>
+<td>2026-11-13</td>
+<td>fix: 로그인 만료 시 저장 오류 안내와 소스 미리보기 지연 해소 <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="ops-daily-report">ops-daily-report</h3>
+<p>35 commits, 2026-06-26 to 2026-07-07.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-daily-report/commit/385d3261434955869e5a97374f7efb8694730b65"><code>385d326</code></a></td>
+<td>2026-06-26</td>
+<td>feat: daily/weekly report bot (Confluence ingest + Slack + dashboard) <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-daily-report/commit/385d3261434955869e5a97374f7efb8694730b65"><code>385d326</code></a></td>
+<td>2026-06-26</td>
+<td>feat: daily/weekly report bot (Confluence ingest + Slack + dashboard)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-daily-report/commit/021d27deffe32e33ec44b048bf56a32f168a8950"><code>021d27d</code></a></td>
+<td>2026-06-26</td>
+<td>feat: per-user encrypted Confluence token + team (GSMT/SPT1) categorization</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-daily-report/commit/8f84a3cf05ae0c16dbb86136e87298317ac4954a"><code>8f84a3c</code></a></td>
+<td>2026-07-07</td>
+<td>feat(bot): ground the weekly report in the '주간 업무 현황 상세' table</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-daily-report/commit/8f84a3cf05ae0c16dbb86136e87298317ac4954a"><code>8f84a3c</code></a></td>
+<td>2026-07-07</td>
+<td>feat(bot): ground the weekly report in the '주간 업무 현황 상세' table <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="ops-meeting-notes">ops-meeting-notes</h3>
+<p>60 commits, 2026-07-02 to 2026-08-10.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes/commit/a22048f97b0cf56b2959e2826dcd906a1e96bad9"><code>a22048f</code></a></td>
+<td>2026-07-02</td>
+<td>Port gpd2ai v2 (AI Meeting Intelligence Platform) into this repo <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes/commit/b3b794f1bb169a78ae2bba4ab9a7e5e57126ca94"><code>b3b794f</code></a></td>
+<td>2026-07-04</td>
+<td>Auto-collect glossary candidates from finished meetings (#14)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes/commit/5a24c5299347e83d3afb32a3fa187684d0448380"><code>5a24c52</code></a></td>
+<td>2026-08-10</td>
+<td>운영본부(Operations Div.) 구성원에게만 자동 Slack 알림 — proactive DM에 조직 allowlist 게이트 (#31) <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="ops-meeting-notes-mobile">ops-meeting-notes-mobile</h3>
+<p>48 commits, 2026-07-11 to 2026-07-16.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/59856139279e3c6315d172fd18aef74b8dc7eb7e"><code>5985613</code></a></td>
+<td>2026-07-11</td>
+<td>Expo 앱 스캐폴드: 회의 목록 + 상세(스크립트 턴 뷰) — 웹 프론트 로직 포팅 <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/f709a3d72b7be189bb1c1fd470e8339e5dfdab43"><code>f709a3d</code></a></td>
+<td>2026-07-11</td>
+<td>실시간 녹음 → STT 파이프라인 연결 (expo-audio + import-audio 계약)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/4ebe9b840aeaaec6fd68cd1c775dc0dca3b790c2"><code>4ebe9b8</code></a></td>
+<td>2026-07-12</td>
+<td>녹음 유실 복구(하드QA #5 부분집합): 업로드 전 종료된 녹음 재업로드 제안 + 캐시 정리</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-meeting-notes-mobile/commit/a26c8d725051c2c713bd180fb8e6c0d3733d0b8e"><code>a26c8d7</code></a></td>
+<td>2026-07-16</td>
+<td>크래시 수정: expo-sharing 정적 import 제거 — 네이티브 모듈 없는 빌드에서 회의 열면 앱 사망 <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="vibecoding-01">vibecoding-01</h3>
+<p>81 commits, 2026-07-30 to 2026-08-07.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/vibecoding-01/commit/9aa8024adbad7821ed269cff79afa6f1900945d6"><code>9aa8024</code></a></td>
+<td>2026-07-30</td>
+<td>feat: implement 바이브코딩 기초편 web deck <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/vibecoding-01/commit/9aa8024adbad7821ed269cff79afa6f1900945d6"><code>9aa8024</code></a></td>
+<td>2026-07-30</td>
+<td>feat: implement 바이브코딩 기초편 web deck</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/vibecoding-01/commit/a487f427adfcd8e2967601102960979be93a7f44"><code>a487f42</code></a></td>
+<td>2026-08-07</td>
+<td>docs: add the 중급 실습 run book</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/vibecoding-01/commit/a487f427adfcd8e2967601102960979be93a7f44"><code>a487f42</code></a></td>
+<td>2026-08-07</td>
+<td>docs: add the 중급 실습 run book <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="ops-ax-101">ops-ax-101</h3>
+<p>213 commits, 2026-08-11 to 2026-09-04.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-ax-101/commit/496a220adc4f37aadc4e78b28573bdc06c75d466"><code>496a220</code></a></td>
+<td>2026-08-11</td>
+<td>docs: scaffold AX Course curriculum and commit PARA memory store <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-ax-101/commit/c0af744b54295d26a2dd3986d68a862a98f162f1"><code>c0af744</code></a></td>
+<td>2026-08-18</td>
+<td>feat: implement AX Course handbook page from course/ curriculum</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-ax-101/commit/db04efe1fc5b98f6fa69d6e38821f05c4100560c"><code>db04efe</code></a></td>
+<td>2026-09-04</td>
+<td>docs: clarify search question placeholder <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="wiki-fact-checker">wiki-fact-checker</h3>
+<p>16 commits, 2026-08-06 to 2026-08-07.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/wiki-fact-checker/commit/63cc2de9d465e229e33fbb5734f0ff9604a9d545"><code>63cc2de</code></a></td>
+<td>2026-08-06</td>
+<td>Make evidence-backed Confluence research reusable as an internal KP prototype <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/wiki-fact-checker/commit/b1e940a9207469db538185dc737a037a737ba12a"><code>b1e940a</code></a></td>
+<td>2026-08-06</td>
+<td>Bind verification evidence to the requested page</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/wiki-fact-checker/commit/9b53e93241b68feb2b0db09b7ac7c6024de9b473"><code>9b53e93</code></a></td>
+<td>2026-08-06</td>
+<td>Keep verification inside the interactive latency budget</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/wiki-fact-checker/commit/1f15400d372fe021b3854217e0133edd24b18a7a"><code>1f15400</code></a></td>
+<td>2026-08-07</td>
+<td>chore: ignore .omc/ operational state directory <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="kimpo-hackathon">kimpo-hackathon</h3>
+<p>55 commits, 2026-09-21 to 2026-09-28.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/kimpo-hackathon/commit/1cef1e31b679e71678412badc90ed5296c6e00f6"><code>1cef1e3</code></a></td>
+<td>2026-09-21</td>
+<td>feat: implement ReportSync demo workspace from HTML reference <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/kimpo-hackathon/commit/445c92d7b1ce33e698c9e7b51d257de3ebe82f48"><code>445c92d</code></a></td>
+<td>2026-09-23</td>
+<td>feat: recommend Outlook and Confluence sources for selected agenda</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/kimpo-hackathon/commit/c4150319eb93f98371a4ff1a829a6169c136e8c7"><code>c415031</code></a></td>
+<td>2026-09-28</td>
+<td>docs: ReportSync 현재 상태와 남은 작업 정리 (#23) <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+<h3 id="ops-mrso-console">ops-mrso-console</h3>
+<p>1,329 commits, 2026-10-24 to 2026-11-14.</p>
+<div class="table-scroll" tabindex="0" role="region" aria-label="Scrollable data table"><table>
+<thead>
+<tr>
+<th>Commit</th>
+<th>Date</th>
+<th>Subject</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console/commit/560a5a205e1f52e215b2cca8f6bfe0bf3f5821a3"><code>560a5a2</code></a></td>
+<td>2026-10-24</td>
+<td>docs: KP 마이그레이션 계획과 M0–M7 TODO 추가 [skip ci] <em>(first)</em></td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console/commit/dc3a993745ad8ee60e952f4bff5326d83e3778eb"><code>dc3a993</code></a></td>
+<td>2026-11-13</td>
+<td>feat(projects): unattended-operation setup wizard, no ID/key entry, auto runner registration and readiness alert at Project creation</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console/commit/1ec1819fbeefedaed354ddefdfedcb3448b9e9c5"><code>1ec1819</code></a></td>
+<td>2026-11-13</td>
+<td>feat(mcp): let a Project ADMIN queue and start a collection run</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console/commit/cefc5f21319b6041bc655a68793bb75ed4d143a4"><code>cefc5f2</code></a></td>
+<td>2026-11-13</td>
+<td>fix(publication): confirm Confluence-normalized writes and link citations</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console/commit/e42babd8f7a6e1edb5d08799c86f5736abe517e3"><code>e42babd</code></a></td>
+<td>2026-11-13</td>
+<td>test(mcp): isolated end-to-end run of the collection-run tools (33/33)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/krafton-playground/ops-mrso-console/commit/65b508b05d3e7679ac4af3f9918cecacf2459fde"><code>65b508b</code></a></td>
+<td>2026-11-14</td>
+<td>Merge pull request #338 from krafton-playground/fix/operator-overview-v2-prod-e2e <em>(last)</em></td>
+</tr>
+</tbody></table></div>
+</article><footer><a href="index.html#activity">← Back to portfolio</a><a href="#document">Back to top ↑</a></footer></main></div></body></html>
