@@ -73,6 +73,7 @@
    reveal(integration.querySelector(':scope > div'),integration,{x:70,y:65},'top 25%');
    reveal(integration.querySelectorAll('.integration-logos span'),integration,{y:55,scale:.8},'top 5%');
   }
+  gsap.fromTo('.mrso-bubble',{opacity:0,y:100,scale:.72,filter:'blur(8px)'},{opacity:1,y:0,scale:1,filter:'blur(0px)',stagger:.14,duration:.85,ease:'back.out(1.25)',scrollTrigger:{trigger:'.mrso-showcase',start:'top 60%',toggleActions:'play none none reverse'}});
   reveal('.original-summary .lede','.original-summary',{y:55},'top 52%');
   reveal('.original-summary .facts li','.original-summary .facts',{y:70,scale:.9},'top 48%');
   reveal('.daily-activity .sec-head','.daily-activity',{y:55},'top 52%');

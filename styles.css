@@ -68,3 +68,12 @@ html[lang=ko] :is(h1,h2,h3,h4,.logo,.partners strong,.metric strong,.metric-note
 /* Video overlays the always-available poster only after playback starts. */
 .hero-images .hero-video{position:absolute;top:0;height:100%;object-fit:cover;opacity:0;pointer-events:none}.hero-images .hero-video.is-playing{opacity:1}
 @media(prefers-reduced-motion:reduce){.hero-images .hero-video{display:none}}
+
+/* Full-height MRSO showcase with floating capability cards. */
+#knowledge .mrso-showcase{position:relative;display:flex;align-items:center;justify-content:center;width:calc(100vw - 32px);margin-left:calc(50% - 50vw + 16px);min-height:100svh;max-height:none;padding:100px 8vw;background:linear-gradient(140deg,#e5ebf5,#f8faff 55%,#dce6f9);overflow:hidden;border-radius:32px}
+.mrso-showcase>.project-image{width:100%;height:auto;border-radius:16px;box-shadow:0 24px 80px #15284d24;border:1px solid #ffffffb3}
+.mrso-bubbles{position:absolute;inset:0;list-style:none;margin:0;padding:0;pointer-events:none}
+.mrso-bubble{position:absolute;display:flex;align-items:center;gap:16px;max-width:290px;padding:18px 24px 18px 18px;border:1px solid #e9ecf1;border-radius:24px;background:#fff;color:var(--ink);box-shadow:0 16px 36px #15284d1c,0 3px 8px #15284d08;font-family:'Bricolage Grotesque',Inter,sans-serif;font-size:clamp(18px,2.1vw,30px);font-weight:500;line-height:1.1}
+.mrso-bubble-icon{display:grid;place-items:center;flex:0 0 54px;width:54px;height:54px;border-radius:15px;background:#edf1f7;color:#365170}.mrso-bubble-icon svg{width:27px;height:27px}
+.mrso-bubble:nth-child(1){left:3%;top:9%}.mrso-bubble:nth-child(2){right:5%;top:15%}.mrso-bubble:nth-child(3){left:1.5%;top:48%}.mrso-bubble:nth-child(4){right:1.5%;top:53%}.mrso-bubble:nth-child(5){left:19%;bottom:7%}.mrso-bubble:nth-child(6){right:16%;bottom:4%}
+@media(max-width:700px){#knowledge .mrso-showcase{width:calc(100vw - 20px);margin-left:calc(50% - 50vw + 10px);min-height:90svh;padding:150px 12px;border-radius:24px}.mrso-showcase>.project-image{border-radius:8px}.mrso-bubble{font-size:16px;padding:12px;gap:10px;border-radius:18px;max-width:190px}.mrso-bubble-icon{flex-basis:36px;width:36px;height:36px;border-radius:10px}.mrso-bubble-icon svg{width:21px;height:21px}.mrso-bubble:nth-child(1){left:4%;top:5%}.mrso-bubble:nth-child(2){right:4%;top:18%}.mrso-bubble:nth-child(3){left:2%;top:37%}.mrso-bubble:nth-child(4){right:2%;top:62%}.mrso-bubble:nth-child(5){left:4%;bottom:11%}.mrso-bubble:nth-child(6){right:4%;bottom:2%}}
