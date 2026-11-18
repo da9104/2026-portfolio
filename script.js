@@ -19,7 +19,7 @@ function activate(tab){
  tabs.forEach(button=>{const active=button===tab;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;});
  const key=tab.dataset.stage,p=projects[key],panel=document.querySelector('#stage-preview'),img=panel.querySelector('img');
  panel.setAttribute('aria-labelledby',tab.id);img.src=`${document.body.dataset.assetBase || "assets/"}${projectImages[key]}`;img.alt=i18n.alt(`${p.title} product screenshot`);
- document.querySelector('#project-period').textContent=i18n.t(p.period);document.querySelector('#project-count').textContent=i18n.t(p.count);document.querySelector('#project-description').textContent=i18n.t(p.description);document.querySelector('#project-link').href=`https://github.com/krafton-playground/${p.repo}`;
+ document.querySelector('#project-period').textContent=i18n.t(p.period);document.querySelector('#project-count').textContent=i18n.t(p.count);document.querySelector('#project-description').textContent=i18n.t(p.description);document.querySelector('#project-link').href=`${document.body.dataset.assetBase ? "saru-landing/dist/" : ""}commit-log.html#${p.repo}`;
  if(changed&&window.gsap&&!matchMedia('(prefers-reduced-motion: reduce)').matches)gsap.fromTo(img,{opacity:.3,y:16},{opacity:1,y:0,duration:.45,overwrite:true,ease:'power2.out'});
 }
 document.addEventListener('portfolio:language',()=>activate(tabs.find(t=>t.getAttribute('aria-selected')==='true')||tabs[0]));
