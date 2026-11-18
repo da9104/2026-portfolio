@@ -73,7 +73,8 @@
    reveal(integration.querySelector(':scope > div'),integration,{x:70,y:65},'top 25%');
    reveal(integration.querySelectorAll('.integration-logos span'),integration,{y:55,scale:.8},'top 5%');
   }
-  gsap.fromTo('.mrso-bubble',{opacity:0,y:100,scale:.72,filter:'blur(8px)'},{opacity:1,y:0,scale:1,filter:'blur(0px)',stagger:.14,duration:.85,ease:'back.out(1.25)',scrollTrigger:{trigger:'.mrso-showcase',start:'top 60%',toggleActions:'play none none reverse'}});
+  gsap.fromTo('.mrso-bubble',{opacity:0,x:i=>i%2?90:-90,y:130,scale:.65,filter:'blur(8px)'},{opacity:1,x:0,y:0,scale:1,filter:'blur(0px)',stagger:.18,duration:1.1,ease:'back.out(1.35)',scrollTrigger:{trigger:'.mrso-showcase',start:'top 75%',toggleActions:'restart none none reverse'}});
+  ScrollTrigger.create({trigger:'.mrso-showcase',start:'top bottom',end:'bottom top',toggleClass:'bubbles-in-view'});
   reveal('.original-summary .lede','.original-summary',{y:55},'top 52%');
   reveal('.original-summary .facts li','.original-summary .facts',{y:70,scale:.9},'top 48%');
   reveal('.daily-activity .sec-head','.daily-activity',{y:55},'top 52%');
