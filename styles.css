@@ -80,3 +80,5 @@ html[lang=ko] :is(h1,h2,h3,h4,.logo,.partners strong,.metric strong,.metric-note
 
 @keyframes mrso-float{0%,100%{translate:0 0;rotate:-.7deg}50%{translate:0 -22px;rotate:.7deg}}
 @media(prefers-reduced-motion:no-preference){.mrso-bubble{animation:mrso-float 4.8s ease-in-out infinite;animation-play-state:paused;will-change:translate}.bubbles-in-view .mrso-bubble{animation-play-state:running}.mrso-bubble:nth-child(2){animation-duration:5.6s;animation-delay:-1.2s}.mrso-bubble:nth-child(3){animation-duration:4.4s;animation-delay:-2.4s}.mrso-bubble:nth-child(4){animation-duration:6.2s;animation-delay:-.8s}.mrso-bubble:nth-child(5){animation-duration:5.1s;animation-delay:-3.2s}.mrso-bubble:nth-child(6){animation-duration:5.8s;animation-delay:-1.8s}}
+/* Keep all three selected-project screenshots in one stable frame. */
+#stage-preview>.project-image{display:block;width:100%;height:auto;aspect-ratio:5/4;object-fit:contain;object-position:center;background:#e2e8f4}
