@@ -8,4 +8,4 @@ The site is built with HTML, CSS, and JavaScript. It uses GSAP for animation and
 
 The static site is in `dist/`. Its build log reflects a snapshot through 14 November 2026; project descriptions are based on commit history.
 
-To check the JavaScript syntax, run `npm run check`. GitHub Pages serves the `gh-pages` branch; changes to `dist/` on `main` need to be published to that branch as well.
+To check the JavaScript syntax, run `npm run check`. GitHub Pages serves `main` from the repository root. After editing `dist/`, run `npm run prepare:pages` to update the root site files, then commit and push to `main`.

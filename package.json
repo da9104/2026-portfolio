@@ -6,7 +6,8 @@
   "scripts": {
     "check": "node --check dist/script.js && node --check dist/i18n.js && node --check dist/animations.js && node --check dist/activity-chart.js && node --check dist/footer-physics.js",
     "dev": "python3 -m http.server 4173 --directory dist --bind 127.0.0.1",
-    "build:readers": "node scripts/build-readers.mjs"
+    "build:readers": "node scripts/build-readers.mjs",
+    "prepare:pages": "node scripts/prepare-pages.mjs"
   },
   "keywords": [],
   "author": "",
