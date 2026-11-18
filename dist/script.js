@@ -12,7 +12,7 @@ const projects={
  notetaker:{title:'Notetaker',period:'JUN — OCT 2026',count:'619 commits',repo:'notetaker-landing',description:'A setup page that grew into a meeting-notes drafting pipeline: Outlook rosters, MS365 connections, checklist-scored meeting detection, and recovery for quarantined exports.'},
  hub:{title:'Ops Content Hub',period:'JUN — NOV 2026',count:'287 commits',repo:'ops-content-hub',description:'An operations workspace running on EKS with company SSO and an embedded Hermes agent. Personal Outlook connections and clearer connection status followed.'}
 };
-const projectImages={console:'product-mrso-console.jpg',notetaker:'product-notetakter.jpg',hub:'product-content-hub.jpg'};
+const projectImages={console:'mrso-console-screenshot.png',notetaker:'product-notetakter.jpg',hub:'product-content-hub.jpg'};
 const tabs=[...document.querySelectorAll('[data-stage]')];
 function activate(tab){
  const changed=tab.getAttribute('aria-selected')!=='true';
