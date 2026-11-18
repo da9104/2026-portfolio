@@ -5,6 +5,7 @@
  video.muted=true;
  video.addEventListener('playing',()=>video.classList.add('is-playing'));
  video.addEventListener('error',()=>video.classList.remove('is-playing'));
+ if(!video.paused && video.readyState >= 2) video.classList.add('is-playing');
  const update=()=>{
   if(reduced.matches){video.pause();video.classList.remove('is-playing');}
   else if(document.hidden){video.pause();}
